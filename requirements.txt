@@ -1,0 +1,5 @@
+groq>=0.18.0
+requests>=2.32.3
+schedule>=1.2.2
+python-dotenv>=1.0.1
+pydantic>=2.9.2

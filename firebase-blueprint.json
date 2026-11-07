@@ -1,0 +1,466 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Public/non-PII operator profile for the Global Developer Pulse automation pipeline.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Firebase Auth UID of the operator.",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Display name of the operator.",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "role": {
+          "type": "string",
+          "description": "Operator role, immutable by non-admins.",
+          "enum": ["owner", "admin"],
+          "minLength": 4,
+          "maxLength": 16
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server update timestamp."
+        }
+      },
+      "required": ["uid", "displayName", "role", "createdAt", "updatedAt"]
+    },
+    "TelegramVault": {
+      "title": "TelegramVault",
+      "description": "Zero-plaintext secret vault storing AES-256-GCM encrypted Telegram Bot token ciphertext, masked token preview, and multi-subscriber broadcast metadata.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "description": "UID of the vault owner.",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "encryptedBotToken": {
+          "type": "string",
+          "description": "AES-256-GCM server-encrypted Telegram Bot token envelope (never plaintext).",
+          "minLength": 0,
+          "maxLength": 1024
+        },
+        "botTokenMasked": {
+          "type": "string",
+          "description": "Redacted preview of the bot token (e.g. 123456••••••••xyz).",
+          "minLength": 0,
+          "maxLength": 64
+        },
+        "chatId": {
+          "type": "string",
+          "description": "Primary or channel chat ID.",
+          "minLength": 0,
+          "maxLength": 128
+        },
+        "botUsername": {
+          "type": "string",
+          "description": "Verified Telegram bot username.",
+          "minLength": 0,
+          "maxLength": 128
+        },
+        "botName": {
+          "type": "string",
+          "description": "Verified Telegram bot display name.",
+          "minLength": 0,
+          "maxLength": 128
+        },
+        "chatTitle": {
+          "type": "string",
+          "description": "Primary chat or broadcast summary title.",
+          "minLength": 0,
+          "maxLength": 200
+        },
+        "subscribersCount": {
+          "type": "number",
+          "description": "Total number of /start bot subscribers receiving 6h broadcasts."
+        },
+        "geminiSecretConfigured": {
+          "type": "boolean",
+          "description": "Whether server-side GEMINI_API_KEY secret is active."
+        },
+        "autoSendEvery6h": {
+          "type": "boolean",
+          "description": "Whether digests are automatically broadcast to all subscribers every 6 hours."
+        },
+        "verified": {
+          "type": "boolean",
+          "description": "Whether Telegram Bot token passed getMe verification."
+        },
+        "lastSyncedIso": {
+          "type": "string",
+          "description": "ISO timestamp of last credential verification.",
+          "minLength": 0,
+          "maxLength": 64
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server update timestamp."
+        }
+      },
+      "required": [
+        "ownerId",
+        "encryptedBotToken",
+        "botTokenMasked",
+        "chatId",
+        "botUsername",
+        "botName",
+        "chatTitle",
+        "subscribersCount",
+        "geminiSecretConfigured",
+        "autoSendEvery6h",
+        "verified",
+        "lastSyncedIso",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "TelegramSubscriber": {
+      "title": "TelegramSubscriber",
+      "description": "Registered Telegram bot subscriber (any user or chat that sent /start to the bot) who receives every 6-hour digest broadcast.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "description": "UID of the bot operator.",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "chatId": {
+          "type": "string",
+          "description": "Telegram chat_id of the subscriber.",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "title": {
+          "type": "string",
+          "description": "Subscriber name or group/channel title.",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "chatType": {
+          "type": "string",
+          "description": "Telegram chat type (private, group, supergroup, channel).",
+          "minLength": 1,
+          "maxLength": 32
+        },
+        "username": {
+          "type": "string",
+          "description": "Optional @username of the subscriber.",
+          "minLength": 0,
+          "maxLength": 128
+        },
+        "subscribedAtIso": {
+          "type": "string",
+          "description": "ISO timestamp when the user sent /start or subscribed.",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server update timestamp."
+        }
+      },
+      "required": [
+        "ownerId",
+        "chatId",
+        "title",
+        "chatType",
+        "username",
+        "subscribedAtIso",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "AutomationConfig": {
+      "title": "AutomationConfig",
+      "description": "6-hour automation scheduler configuration, language preferences, and next run schedule.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "description": "UID of the configuration owner.",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "intervalHours": {
+          "type": "number",
+          "description": "Recurring schedule interval in hours (default 6)."
+        },
+        "dailyRunTime": {
+          "type": "string",
+          "description": "Optional fixed daily UTC time (HH:MM).",
+          "minLength": 0,
+          "maxLength": 32
+        },
+        "outputLanguage": {
+          "type": "string",
+          "description": "Summary output language.",
+          "enum": ["English", "Bengali"],
+          "minLength": 2,
+          "maxLength": 32
+        },
+        "hnTopLimit": {
+          "type": "number",
+          "description": "Number of Hacker News stories per batch."
+        },
+        "devtoTopLimit": {
+          "type": "number",
+          "description": "Number of DEV.to articles per batch."
+        },
+        "autoSendTelegram": {
+          "type": "boolean",
+          "description": "Whether to automatically broadcast each 6-hour run to all Telegram subscribers."
+        },
+        "lastRunIso": {
+          "type": "string",
+          "description": "ISO timestamp of last completed pipeline run.",
+          "minLength": 0,
+          "maxLength": 64
+        },
+        "nextRunIso": {
+          "type": "string",
+          "description": "ISO timestamp of next scheduled 6-hour pipeline run.",
+          "minLength": 0,
+          "maxLength": 64
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server update timestamp."
+        }
+      },
+      "required": [
+        "ownerId",
+        "intervalHours",
+        "dailyRunTime",
+        "outputLanguage",
+        "hnTopLimit",
+        "devtoTopLimit",
+        "autoSendTelegram",
+        "lastRunIso",
+        "nextRunIso",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "DigestRun": {
+      "title": "DigestRun",
+      "description": "Archived 6-hour developer pulse digest run and multi-subscriber Telegram broadcast record.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "description": "UID of the operator who owns this digest archive.",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "generatedAtIso": {
+          "type": "string",
+          "description": "ISO timestamp when the digest was synthesized.",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "outputLanguage": {
+          "type": "string",
+          "description": "Output language of the digest.",
+          "enum": ["English", "Bengali"],
+          "minLength": 2,
+          "maxLength": 32
+        },
+        "editorialHeadline": {
+          "type": "string",
+          "description": "Executive editorial headline for the batch.",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "itemsCount": {
+          "type": "number",
+          "description": "Number of stories included in the digest."
+        },
+        "delivered": {
+          "type": "boolean",
+          "description": "Whether the digest was broadcast to Telegram subscribers."
+        },
+        "chunksSent": {
+          "type": "number",
+          "description": "Total HTML message chunks delivered across all subscribers."
+        },
+        "targetChatId": {
+          "type": "string",
+          "description": "Summary of target chat IDs or subscriber count.",
+          "minLength": 0,
+          "maxLength": 128
+        },
+        "deliveryReason": {
+          "type": "string",
+          "description": "Delivery telemetry note or failure reason.",
+          "minLength": 0,
+          "maxLength": 500
+        },
+        "primaryMessageHtml": {
+          "type": "string",
+          "description": "Formatted Telegram HTML digest message (without model tag).",
+          "minLength": 1,
+          "maxLength": 12000
+        },
+        "storiesSummaryText": {
+          "type": "string",
+          "description": "Structured text summary of stories and takeaways in the batch.",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server update timestamp."
+        }
+      },
+      "required": [
+        "ownerId",
+        "generatedAtIso",
+        "outputLanguage",
+        "editorialHeadline",
+        "itemsCount",
+        "delivered",
+        "chunksSent",
+        "targetChatId",
+        "deliveryReason",
+        "primaryMessageHtml",
+        "storiesSummaryText",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "ProcessedItem": {
+      "title": "ProcessedItem",
+      "description": "Deduplicated Hacker News or DEV.to story UID stored in Firestore.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "description": "UID of the operator.",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "itemUid": {
+          "type": "string",
+          "description": "Unique story identifier (e.g. hn_12345 or devto_67890).",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "source": {
+          "type": "string",
+          "description": "Origin platform of the story.",
+          "enum": ["Hacker News", "DEV.to"],
+          "minLength": 2,
+          "maxLength": 32
+        },
+        "processedAtIso": {
+          "type": "string",
+          "description": "ISO timestamp when the story was deduplicated.",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server update timestamp."
+        }
+      },
+      "required": [
+        "ownerId",
+        "itemUid",
+        "source",
+        "processedAtIso",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/UserProfile"
+      },
+      "description": "Operator profiles keyed by Firebase Auth UID."
+    },
+    "/telegram_vaults/{vaultId}": {
+      "schema": {
+        "$ref": "#/entities/TelegramVault"
+      },
+      "description": "Zero-plaintext secret vaults holding AES-256-GCM encrypted bot tokens and broadcast settings."
+    },
+    "/telegram_subscribers/{subscriberId}": {
+      "schema": {
+        "$ref": "#/entities/TelegramSubscriber"
+      },
+      "description": "All Telegram users, groups, and channels that sent /start to receive 6h digest broadcasts."
+    },
+    "/automation_configs/{configId}": {
+      "schema": {
+        "$ref": "#/entities/AutomationConfig"
+      },
+      "description": "6-hour automation scheduler configuration documents."
+    },
+    "/digest_runs/{runId}": {
+      "schema": {
+        "$ref": "#/entities/DigestRun"
+      },
+      "description": "Archived 6-hour developer pulse digest runs and multi-subscriber broadcast telemetry."
+    },
+    "/processed_items/{itemId}": {
+      "schema": {
+        "$ref": "#/entities/ProcessedItem"
+      },
+      "description": "Deduplicated Hacker News and DEV.to story records."
+    }
+  }
+}

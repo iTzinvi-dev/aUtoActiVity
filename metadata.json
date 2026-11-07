@@ -1,0 +1,8 @@
+{
+  "name": "Global Developer Pulse & Tech Digest Pipeline",
+  "description": "Automated developer news scraper, Groq LPU AI digest processor, and Telegram Bot delivery pipeline with live control center and Python 3.11+ source modules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

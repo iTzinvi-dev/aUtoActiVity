@@ -1,0 +1,1131 @@
+<div class="min-h-screen bg-[#141415] text-[#ededed] flex flex-col">
+  <!-- Strict 3-Zone Top Bar Contract (60px height, quiet navigation, 1 off-white primary action) -->
+  <header class="h-[60px] flex items-center justify-between gap-8 px-6 border-b border-[rgba(237,237,237,0.08)] bg-[#141415]/95 sticky top-0 z-30">
+    <!-- Zone 1: Single text element wordmark in Fraunces -->
+    <a
+      href="#top"
+      (click)="$event.preventDefault(); setSection('digest')"
+      class="text-[17px] font-normal tracking-tight text-[#ededed] whitespace-nowrap shrink-0 font-serif-display"
+    >
+      Global Developer Pulse
+    </a>
+
+    <!-- Zone 2: 4 quiet single-line navigation links -->
+    <nav class="hidden md:flex items-center gap-7 text-[14px] text-[#85858b]">
+      <button
+        type="button"
+        (click)="setSection('digest')"
+        class="hover:text-[#ededed] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+        [class.text-[#ededed]]="activeSection() === 'digest'"
+        [class.font-medium]="activeSection() === 'digest'"
+      >
+        Digest
+      </button>
+      <button
+        type="button"
+        (click)="setSection('telegram')"
+        class="hover:text-[#ededed] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+        [class.text-[#ededed]]="activeSection() === 'telegram'"
+        [class.font-medium]="activeSection() === 'telegram'"
+      >
+        Telegram
+      </button>
+      <button
+        type="button"
+        (click)="setSection('codebase')"
+        class="hover:text-[#ededed] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+        [class.text-[#ededed]]="activeSection() === 'codebase'"
+        [class.font-medium]="activeSection() === 'codebase'"
+      >
+        Python modules
+      </button>
+      <button
+        type="button"
+        (click)="setSection('logs')"
+        class="hover:text-[#ededed] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+        [class.text-[#ededed]]="activeSection() === 'logs'"
+        [class.font-medium]="activeSection() === 'logs'"
+      >
+        Schedule &amp; logs
+      </button>
+    </nav>
+
+    <!-- Zone 3: 1 Primary Action (off-white button on dark ramp) -->
+    <div class="flex items-center gap-3 shrink-0">
+      <button
+        type="button"
+        (click)="triggerPipelineRun(false, true)"
+        [disabled]="isRunningPipeline()"
+        class="unslop-btn-primary h-9 inline-flex items-center gap-2 px-4 text-[13px] disabled:opacity-50 whitespace-nowrap shrink-0 cursor-pointer"
+      >
+        <mat-icon class="!text-[16px] !w-4 !h-4 leading-none">
+          {{ isRunningPipeline() ? 'sync' : 'play_arrow' }}
+        </mat-icon>
+        <span>{{ isRunningPipeline() ? 'Running cycle' : 'Run pipeline' }}</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Strip -->
+  <div class="flex md:hidden items-center gap-2 px-4 py-2 border-b border-[rgba(237,237,237,0.08)] overflow-x-auto bg-[#0f0f10]">
+    <button
+      type="button"
+      (click)="setSection('digest')"
+      class="h-8 px-3 text-[13px] rounded-lg whitespace-nowrap shrink-0"
+      [class.bg-[#232325]]="activeSection() === 'digest'"
+      [class.text-[#ededed]]="activeSection() === 'digest'"
+      [class.text-[#85858b]]="activeSection() !== 'digest'"
+    >
+      Digest
+    </button>
+    <button
+      type="button"
+      (click)="setSection('telegram')"
+      class="h-8 px-3 text-[13px] rounded-lg whitespace-nowrap shrink-0"
+      [class.bg-[#232325]]="activeSection() === 'telegram'"
+      [class.text-[#ededed]]="activeSection() === 'telegram'"
+      [class.text-[#85858b]]="activeSection() !== 'telegram'"
+    >
+      Telegram
+    </button>
+    <button
+      type="button"
+      (click)="setSection('codebase')"
+      class="h-8 px-3 text-[13px] rounded-lg whitespace-nowrap shrink-0"
+      [class.bg-[#232325]]="activeSection() === 'codebase'"
+      [class.text-[#ededed]]="activeSection() === 'codebase'"
+      [class.text-[#85858b]]="activeSection() !== 'codebase'"
+    >
+      Python modules
+    </button>
+    <button
+      type="button"
+      (click)="setSection('logs')"
+      class="h-8 px-3 text-[13px] rounded-lg whitespace-nowrap shrink-0"
+      [class.bg-[#232325]]="activeSection() === 'logs'"
+      [class.text-[#ededed]]="activeSection() === 'logs'"
+      [class.text-[#85858b]]="activeSection() !== 'logs'"
+    >
+      Schedule &amp; logs
+    </button>
+  </div>
+
+  <!-- Main Fluid Desktop Workspace (capped at 1440px, 24px/32px padding) -->
+  <main class="flex-1 max-w-[1440px] w-full mx-auto px-6 md:px-8 py-8 space-y-8">
+    <!-- Page Context Header & Language Controls -->
+    <section class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6 border-b border-[rgba(237,237,237,0.08)]">
+      <div class="space-y-2 max-w-2xl">
+        <div class="text-[12px] leading-4 text-[#85858b] font-mono tabular-nums">
+          <span>Hacker News &amp; DEV.to</span>
+          <span class="mx-2" aria-hidden="true">·</span>
+          <span class="text-[#ededed]">Groq LPU (llama-3.3-70b-versatile)</span>
+          <span class="mx-2" aria-hidden="true">·</span>
+          <span class="text-[#4cc38a]">Firestore ({{ firebaseProjectId() }})</span>
+          <span class="mx-2" aria-hidden="true">·</span>
+          <span>Next 6h auto-send in {{ nextCycleCountdown() }}</span>
+        </div>
+        <h1 class="text-[28px] sm:text-[34px] leading-[1.15] text-[#ededed] font-serif-display" style="text-wrap: balance;">
+          Daily developer digest and Telegram dispatch
+        </h1>
+        <p class="text-[14px] leading-[22px] text-[#a1a1a6]">
+          Collects the highest-voted engineering stories every six hours, synthesizes technical takeaways with Groq LPU (<code class="font-mono text-[#ededed]">llama-3.3-70b-versatile</code>), syncs vaults and archives to Firebase Firestore, and broadcasts clean HTML summaries to all Telegram bot subscribers.
+        </p>
+      </div>
+
+      <!-- Quiet Segmented Language & Deduplication Controls -->
+      <form [formGroup]="pipelineForm" class="flex flex-wrap items-center gap-3 shrink-0">
+        <div class="flex items-center gap-1 p-1 bg-[#19191b] border border-[rgba(237,237,237,0.08)] rounded-[10px]">
+          <button
+            type="button"
+            (click)="setOutputLanguage('English')"
+            class="h-8 px-3 text-[13px] rounded-[6px] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+            [class.bg-[#232325]]="pipelineForm.controls.outputLanguage.value === 'English'"
+            [class.text-[#ededed]]="pipelineForm.controls.outputLanguage.value === 'English'"
+            [class.text-[#85858b]]="pipelineForm.controls.outputLanguage.value !== 'English'"
+          >
+            English
+          </button>
+          <button
+            type="button"
+            (click)="setOutputLanguage('Bengali')"
+            class="h-8 px-3 text-[13px] rounded-[6px] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+            [class.bg-[#232325]]="pipelineForm.controls.outputLanguage.value === 'Bengali'"
+            [class.text-[#ededed]]="pipelineForm.controls.outputLanguage.value === 'Bengali'"
+            [class.text-[#85858b]]="pipelineForm.controls.outputLanguage.value !== 'Bengali'"
+          >
+            Bengali (বাংলা)
+          </button>
+        </div>
+
+        <label class="h-10 inline-flex items-center gap-2 px-3.5 bg-[#19191b] border border-[rgba(237,237,237,0.08)] rounded-[10px] text-[13px] text-[#a1a1a6] cursor-pointer select-none whitespace-nowrap shrink-0">
+          <input
+            type="checkbox"
+            formControlName="ignoreDedup"
+            class="rounded border-[#3f3f44] bg-[#141415] text-[#ededed] focus:ring-0"
+          />
+          <span>Bypass deduplication</span>
+        </label>
+      </form>
+    </section>
+
+    <!-- Status Notice -->
+    @if (statusBanner(); as banner) {
+      <div class="flex items-center justify-between gap-4 px-4 py-3 rounded-[10px] bg-[#19191b] border border-[rgba(237,237,237,0.12)] text-[13px]">
+        <div class="flex items-center gap-2.5">
+          <mat-icon
+            class="!text-[16px] !w-4 !h-4 leading-none shrink-0"
+            [class.text-[#4cc38a]]="banner.type === 'success'"
+            [class.text-[#e5484d]]="banner.type === 'error'"
+            [class.text-[#a1a1a6]]="banner.type === 'info'"
+          >
+            {{ banner.type === 'error' ? 'error_outline' : banner.type === 'success' ? 'check_circle' : 'info' }}
+          </mat-icon>
+          <span class="text-[#ededed]">{{ banner.message }}</span>
+        </div>
+        <button
+          type="button"
+          (click)="statusBanner.set(null)"
+          class="text-[12px] text-[#85858b] hover:text-[#ededed] whitespace-nowrap shrink-0 cursor-pointer"
+        >
+          Dismiss
+        </button>
+      </div>
+    }
+
+    <!-- Firebase Firestore Cloud Vault Bar (Hidden from frontend unless server-side FIREBASE_API_KEY is active) -->
+    @if (firestoreConnected() || currentUser()) {
+      <div class="unslop-card px-5 py-3.5 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+        <div class="flex flex-wrap items-center gap-3 text-[12px] font-mono tabular-nums">
+          <span class="inline-flex items-center gap-1.5 text-[#ededed]">
+            <mat-icon
+              class="!text-[15px] !w-4 !h-4 leading-none"
+              [class.text-[#4cc38a]]="firestoreConnected()"
+              [class.text-[#f5a524]]="!firestoreConnected()"
+            >
+              cloud_done
+            </mat-icon>
+            <span>Cloud Vault</span>
+          </span>
+          <span class="text-[#85858b]" aria-hidden="true">·</span>
+          <span class="text-[#4cc38a]">AES-256-GCM zero-plaintext credentials</span>
+          @if (firestoreLastSyncedAt()) {
+            <span class="text-[#85858b]" aria-hidden="true">·</span>
+            <span class="text-[#4cc38a]">
+              {{ firestoreSyncedDocsCount() }} docs synced ({{ formatTimestamp(firestoreLastSyncedAt()) }})
+            </span>
+          }
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+          @if (currentUser(); as user) {
+            <span class="text-[12px] text-[#85858b] font-mono">
+              {{ user.email || user.displayName }}
+            </span>
+            <button
+              type="button"
+              (click)="syncAllToFirestore(true)"
+              [disabled]="isSyncingFirestore()"
+              class="unslop-btn-primary h-8 px-3 text-[12px] inline-flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
+            >
+              <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none">cloud_upload</mat-icon>
+              <span>{{ isSyncingFirestore() ? 'Syncing Vault' : 'Sync vault & data' }}</span>
+            </button>
+            <button
+              type="button"
+              (click)="signOutFromFirestoreVault()"
+              class="unslop-btn-secondary h-8 px-2.5 text-[12px] inline-flex items-center gap-1 whitespace-nowrap cursor-pointer"
+            >
+              <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none text-[#85858b]">logout</mat-icon>
+              <span>Sign out</span>
+            </button>
+          }
+        </div>
+      </div>
+    }
+
+    <!-- GitHub & Vercel 24/7 Automated Deployment Bar (Uses GITHUB_PAT from Secrets) -->
+    <div class="unslop-card px-5 py-3.5 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+      <div class="flex flex-wrap items-center gap-3 text-[12px] font-mono tabular-nums">
+        <span class="inline-flex items-center gap-1.5 text-[#ededed]">
+          <mat-icon
+            class="!text-[15px] !w-4 !h-4 leading-none"
+            [class.text-[#4cc38a]]="githubPatActive()"
+            [class.text-[#f5a524]]="!githubPatActive()"
+          >
+            deployed_code
+          </mat-icon>
+          <span>GitHub &amp; Vercel 24/7 Sync</span>
+        </span>
+        <span class="text-[#85858b]" aria-hidden="true">·</span>
+        <span [class.text-[#4cc38a]]="githubPatActive()" [class.text-[#a1a1a6]]="!githubPatActive()">
+          {{ githubPatActive() ? 'GITHUB_PAT active in Secrets' : 'Set GITHUB_PAT in Settings > Secrets' }}
+        </span>
+        <span class="text-[#85858b]" aria-hidden="true">·</span>
+        <span class="text-[#a1a1a6]">
+          Includes <code class="text-[#ededed]">.github/workflows/cron.yml</code> (06/12/18h UTC), <code class="text-[#ededed]">digest_pipeline.yml</code> &amp; <code class="text-[#ededed]">vercel.json</code> (00h UTC)
+        </span>
+        @if (pushedGitHubUrl(); as repoUrl) {
+          <span class="text-[#85858b]" aria-hidden="true">·</span>
+          <a
+            [href]="repoUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-[#4cc38a] hover:underline inline-flex items-center gap-1"
+          >
+            <span>{{ repoUrl }}</span>
+            <mat-icon class="!text-[13px] !w-3.5 !h-3.5 leading-none">open_in_new</mat-icon>
+          </a>
+        }
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+        <input
+          type="text"
+          [formControl]="githubRepoControl"
+          placeholder="username/global-developer-pulse"
+          aria-label="Target GitHub repository name"
+          class="unslop-input h-8 w-56 px-2.5 text-[12px] font-mono placeholder-[#85858b]"
+        />
+        <button
+          type="button"
+          (click)="pushCodebaseToGitHub()"
+          [disabled]="isPushingGitHub()"
+          class="unslop-btn-primary h-8 px-3.5 text-[12px] inline-flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
+        >
+          <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none">publish</mat-icon>
+          <span>{{ isPushingGitHub() ? 'Pushing to GitHub...' : 'Push codebase to GitHub' }}</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 1: DIGEST TAB                                                     -->
+    <!-- ========================================================================= -->
+    @if (activeSection() === 'digest') {
+      <section class="space-y-8">
+        <!-- Row 1: 4 Compact Stat Cards (Numbers only: label, 30px tabular figure, comparison/context) -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="unslop-card p-5 flex flex-col justify-between gap-3">
+            <div class="text-[12px] leading-4 text-[#85858b]">Articles processed (7d)</div>
+            <div class="text-[30px] leading-none font-medium text-[#ededed] font-mono tabular-nums">
+              {{ weeklyTotalArticles() }}
+            </div>
+            <div class="text-[12px] leading-4 text-[#a1a1a6] font-mono tabular-nums">
+              {{ weeklyDailyAverage() }} per day average
+            </div>
+          </div>
+
+          <div class="unslop-card p-5 flex flex-col justify-between gap-3">
+            <div class="text-[12px] leading-4 text-[#85858b]">Deduplicated IDs</div>
+            <div class="text-[30px] leading-none font-medium text-[#ededed] font-mono tabular-nums">
+              {{ processedStore().total_count }}
+            </div>
+            <div class="text-[12px] leading-4 text-[#a1a1a6] font-mono tabular-nums">
+              Updated {{ formatTimestamp(processedStore().updated_at) }}
+            </div>
+          </div>
+
+          <div class="unslop-card p-5 flex flex-col justify-between gap-3">
+            <div class="text-[12px] leading-4 text-[#85858b]">Archived digest runs</div>
+            <div class="text-[30px] leading-none font-medium text-[#ededed] font-mono tabular-nums">
+              {{ digests().length }}
+            </div>
+            <div class="text-[12px] leading-4 text-[#a1a1a6] font-mono tabular-nums">
+              {{ activeDigest()?.items?.length || 0 }} stories in current batch
+            </div>
+          </div>
+
+          <div class="unslop-card p-5 flex flex-col justify-between gap-3">
+            <div class="text-[12px] leading-4 text-[#85858b]">Next 6h cycle</div>
+            <div class="text-[30px] leading-none font-medium text-[#ededed] font-mono tabular-nums">
+              {{ nextCycleCountdown() }}
+            </div>
+            <div class="text-[12px] leading-4 font-mono tabular-nums" [class.text-[#4cc38a]]="telegramSync().verified && telegramSync().chatId" [class.text-[#a1a1a6]]="!telegramSync().verified || !telegramSync().chatId">
+              {{ telegramSync().verified && telegramSync().chatId ? 'Auto-sending to @' + telegramSync().botUsername : 'Telegram bot not synced' }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: Asymmetric 2/3 Main Chart + 1/3 Run History & Telegram Sync Panel -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+          <!-- Left 2/3: Main D3.js 7-Day Volume Chart -->
+          <div class="lg:col-span-8 unslop-card p-6 flex flex-col justify-between gap-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div class="space-y-1">
+                <div class="text-[12px] leading-4 text-[#85858b]">Daily volume over the last 7 days</div>
+                <h2 class="text-[20px] leading-6 text-[#ededed] font-serif-display">
+                  Processed articles by source
+                </h2>
+              </div>
+
+              <div class="flex items-center gap-4 text-[12px] text-[#a1a1a6] font-mono tabular-nums shrink-0">
+                <span class="inline-flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-[2px] bg-[#4cc38a] inline-block"></span>
+                  <span>Hacker News</span>
+                </span>
+                <span class="inline-flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-[2px] bg-[#52525b] inline-block"></span>
+                  <span>DEV.to</span>
+                </span>
+                <span class="inline-flex items-center gap-1.5">
+                  <span class="w-3 h-[1.5px] bg-[#ededed] inline-block"></span>
+                  <span>Total</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="w-full overflow-x-auto">
+              <svg
+                #trendsChartSvg
+                class="w-full h-[272px] min-w-[540px] select-none"
+                role="img"
+                aria-label="7-day volume of developer articles processed per day"
+              ></svg>
+            </div>
+
+            <div class="pt-3 border-t border-[rgba(237,237,237,0.08)] flex flex-wrap items-center justify-between gap-2 text-[12px] text-[#85858b] font-mono tabular-nums">
+              @if (hoveredTrendPoint(); as hovered) {
+                <div class="text-[#ededed]">
+                  <span>{{ hovered.label }}</span>
+                  <span class="mx-2 text-[#85858b]" aria-hidden="true">·</span>
+                  <span>{{ hovered.totalCount }} total</span>
+                  <span class="mx-2 text-[#85858b]" aria-hidden="true">·</span>
+                  <span class="text-[#4cc38a]">{{ hovered.hackerNewsCount }} Hacker News</span>
+                  <span class="mx-2 text-[#85858b]" aria-hidden="true">·</span>
+                  <span>{{ hovered.devtoCount }} DEV.to</span>
+                  <span class="mx-2 text-[#85858b]" aria-hidden="true">·</span>
+                  <span>{{ hovered.cyclesCount }} cycle{{ hovered.cyclesCount === 1 ? '' : 's' }}</span>
+                </div>
+              } @else {
+                <div>Hover over a day to inspect Hacker News and DEV.to breakdown</div>
+              }
+              <button
+                type="button"
+                (click)="triggerPipelineRun(false, true)"
+                [disabled]="isRunningPipeline()"
+                class="text-[#ededed] hover:underline disabled:opacity-50 cursor-pointer"
+              >
+                {{ isRunningPipeline() ? 'Refreshing 6h batch...' : 'Fetch latest 6h batch' }}
+              </button>
+            </div>
+          </div>
+
+          <!-- Right 1/3: Compact Telegram Bot Sync & Digest Run History List -->
+          <div class="lg:col-span-4 unslop-card p-6 flex flex-col justify-between gap-6">
+            <!-- Telegram Bot Auto-Sync Form -->
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="text-[14px] font-medium text-[#ededed]">Telegram bot sync</div>
+                <span
+                  class="text-[12px] font-mono tabular-nums"
+                  [class.text-[#4cc38a]]="telegramSync().verified && telegramSync().chatId"
+                  [class.text-[#85858b]]="!telegramSync().verified || !telegramSync().chatId"
+                >
+                  {{ telegramSync().verified && telegramSync().chatId ? '@' + telegramSync().botUsername : 'Not connected' }}
+                </span>
+              </div>
+
+              <form [formGroup]="pipelineForm" (ngSubmit)="syncTelegramBotAndAutoSend()" class="space-y-2.5">
+                <input
+                  type="password"
+                  formControlName="telegramBotToken"
+                  placeholder="Bot token (123456:AAH...)"
+                  aria-label="Telegram Bot token"
+                  class="unslop-input w-full h-9 px-3 text-[12px] placeholder-[#85858b] font-mono"
+                />
+                <div class="flex items-center gap-2">
+                  <input
+                    type="text"
+                    formControlName="telegramChatId"
+                    placeholder="Chat ID or @channel (optional)"
+                    aria-label="Telegram Chat ID"
+                    class="unslop-input flex-1 h-9 px-3 text-[12px] placeholder-[#85858b] font-mono"
+                  />
+                  <button
+                    type="submit"
+                    [disabled]="isSyncingTelegram()"
+                    class="unslop-btn-secondary h-9 px-3.5 text-[12px] inline-flex items-center gap-1.5 whitespace-nowrap shrink-0 cursor-pointer"
+                  >
+                    <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none text-[#a1a1a6]">sync</mat-icon>
+                    <span>{{ isSyncingTelegram() ? 'Syncing' : 'Sync bot' }}</span>
+                  </button>
+                </div>
+              </form>
+
+              @if (telegramSync().discoveredChats.length > 0) {
+                <div class="flex flex-wrap items-center gap-1.5 pt-1 text-[11px] font-mono">
+                  <span class="text-[#85858b]">Detected:</span>
+                  @for (chat of telegramSync().discoveredChats; track chat.id) {
+                    <button
+                      type="button"
+                      (click)="selectDiscoveredChat(chat.id)"
+                      class="px-2 py-0.5 rounded-[4px] bg-[#232325] text-[#a1a1a6] hover:text-[#ededed] cursor-pointer"
+                    >
+                      {{ chat.title }}
+                    </button>
+                  }
+                </div>
+              }
+            </div>
+
+            <!-- Digest Run History List with Delivery Status Icons -->
+            <div class="space-y-2.5 pt-4 border-t border-[rgba(237,237,237,0.08)] flex-1 flex flex-col justify-between">
+              <div class="flex items-center justify-between">
+                <span class="text-[13px] font-medium text-[#ededed]">Digest history</span>
+                <span class="text-[12px] text-[#85858b] font-mono tabular-nums">{{ digests().length }} runs</span>
+              </div>
+
+              <div class="space-y-1 max-h-[168px] overflow-y-auto pr-1">
+                @for (run of digests(); track run.generated_at; let idx = $index) {
+                  <button
+                    type="button"
+                    (click)="selectDigestRun(idx)"
+                    [attr.title]="getTelegramStatusLabel(run)"
+                    class="w-full h-9 px-2.5 rounded-[8px] flex items-center justify-between gap-2 text-[12px] font-mono tabular-nums transition-colors cursor-pointer"
+                    [class.bg-[#232325]]="selectedDigestIndex() === idx"
+                    [class.text-[#ededed]]="selectedDigestIndex() === idx"
+                    [class.text-[#a1a1a6]]="selectedDigestIndex() !== idx"
+                    [class.hover:bg-[#1f1f22]]="selectedDigestIndex() !== idx"
+                  >
+                    <div class="flex items-center gap-2 min-w-0">
+                      <mat-icon
+                        class="!text-[15px] !w-[15px] !h-[15px] leading-none shrink-0"
+                        [class.text-[#4cc38a]]="run.telegram_delivery.delivered"
+                        [class.text-[#e5484d]]="!run.telegram_delivery.delivered"
+                      >
+                        {{ getTelegramStatusIcon(run) }}
+                      </mat-icon>
+                      <span class="truncate">#{{ digests().length - idx }} · {{ formatTimestamp(run.generated_at) }}</span>
+                    </div>
+                    <span
+                      class="shrink-0"
+                      [class.text-[#4cc38a]]="run.telegram_delivery.delivered"
+                      [class.text-[#85858b]]="!run.telegram_delivery.delivered"
+                    >
+                      {{ run.telegram_delivery.delivered ? 'Sent' : 'Unsent' }}
+                    </span>
+                  </button>
+                }
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 3: Editorial Broadsheet Digest Stories -->
+        @if (activeDigest(); as digest) {
+          <div class="space-y-5 pt-2">
+            <!-- Editorial Lead & Filter Bar -->
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4 pb-5 border-b border-[rgba(237,237,237,0.08)]">
+              <div class="space-y-1.5 max-w-3xl">
+                <div class="flex flex-wrap items-center gap-2 text-[12px] text-[#85858b] font-mono tabular-nums">
+                  <span>{{ formatTimestamp(digest.generated_at) }}</span>
+                  <span aria-hidden="true">·</span>
+                  <span>{{ digest.output_language }}</span>
+                  <span aria-hidden="true">·</span>
+                  <span>{{ digest.items.length }} stories</span>
+                  <span aria-hidden="true">·</span>
+                  <span
+                    class="inline-flex items-center gap-1"
+                    [class.text-[#4cc38a]]="digest.telegram_delivery.delivered"
+                    [class.text-[#e5484d]]="!digest.telegram_delivery.delivered"
+                  >
+                    <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none">
+                      {{ getTelegramStatusIcon(digest) }}
+                    </mat-icon>
+                    <span>{{ getTelegramStatusLabel(digest) }}</span>
+                  </span>
+                </div>
+                <h2 class="text-[22px] sm:text-[24px] leading-[1.3] text-[#ededed] font-serif-display">
+                  {{ digest.editorial_headline }}
+                </h2>
+              </div>
+
+              <!-- Filter Controls -->
+              <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+                <div class="flex items-center gap-1 p-1 bg-[#19191b] border border-[rgba(237,237,237,0.08)] rounded-[8px]">
+                  <button
+                    type="button"
+                    (click)="setSourceFilter('all')"
+                    class="h-7 px-2.5 text-[12px] rounded-[5px] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+                    [class.bg-[#232325]]="sourceFilter() === 'all'"
+                    [class.text-[#ededed]]="sourceFilter() === 'all'"
+                    [class.text-[#85858b]]="sourceFilter() !== 'all'"
+                  >
+                    All
+                  </button>
+                  <button
+                    type="button"
+                    (click)="setSourceFilter('Hacker News')"
+                    class="h-7 px-2.5 text-[12px] rounded-[5px] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+                    [class.bg-[#232325]]="sourceFilter() === 'Hacker News'"
+                    [class.text-[#ededed]]="sourceFilter() === 'Hacker News'"
+                    [class.text-[#85858b]]="sourceFilter() !== 'Hacker News'"
+                  >
+                    Hacker News
+                  </button>
+                  <button
+                    type="button"
+                    (click)="setSourceFilter('DEV.to')"
+                    class="h-7 px-2.5 text-[12px] rounded-[5px] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+                    [class.bg-[#232325]]="sourceFilter() === 'DEV.to'"
+                    [class.text-[#ededed]]="sourceFilter() === 'DEV.to'"
+                    [class.text-[#85858b]]="sourceFilter() !== 'DEV.to'"
+                  >
+                    DEV.to
+                  </button>
+                </div>
+
+                <input
+                  type="text"
+                  [formControl]="searchControl"
+                  placeholder="Search"
+                  aria-label="Search stories"
+                  class="unslop-input h-9 w-44 px-3 text-[13px] placeholder-[#85858b]"
+                />
+
+                @if (!digest.telegram_delivery.delivered) {
+                  <button
+                    type="button"
+                    (click)="dispatchCurrentDigestToTelegram()"
+                    [disabled]="isSendingTelegram()"
+                    class="unslop-btn-secondary h-9 px-3.5 text-[12px] inline-flex items-center gap-1.5 whitespace-nowrap shrink-0 cursor-pointer"
+                  >
+                    <mat-icon class="!text-[15px] !w-4 !h-4 leading-none text-[#a1a1a6]">send</mat-icon>
+                    <span>{{ isSendingTelegram() ? 'Sending' : 'Send to Telegram' }}</span>
+                  </button>
+                }
+              </div>
+            </div>
+
+            <!-- Clickable AI Category Tag-Cloud Filter -->
+            @if (categoryTagCloud().length > 0) {
+              <div class="unslop-card px-5 py-4 space-y-3" aria-label="AI category tag cloud filter">
+                <div class="flex flex-wrap items-center justify-between gap-2 border-b border-[rgba(237,237,237,0.06)] pb-2.5">
+                  <div class="flex items-center gap-2 text-[12px] text-[#a1a1a6]">
+                    <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none text-[#85858b]">sell</mat-icon>
+                    <span class="font-medium text-[#ededed]">AI category tag cloud</span>
+                    <span class="text-[#85858b]" aria-hidden="true">·</span>
+                    <span class="text-[#85858b] font-mono tabular-nums">
+                      {{ categoryTagCloud().length }} categories · click any tag to filter stories
+                    </span>
+                  </div>
+
+                  @if (categoryFilter() !== 'all') {
+                    <button
+                      type="button"
+                      (click)="setCategoryFilter('all')"
+                      class="inline-flex items-center gap-1 text-[12px] font-mono text-[#4cc38a] hover:underline cursor-pointer"
+                    >
+                      <mat-icon class="!text-[13px] !w-3.5 !h-3.5 leading-none">close</mat-icon>
+                      <span>Clear {{ categoryFilter() }} ({{ filteredDigestItems().length }})</span>
+                    </button>
+                  }
+                </div>
+
+                <div class="flex flex-wrap items-baseline gap-2 font-mono tabular-nums">
+                  <!-- All categories reset tag -->
+                  <button
+                    type="button"
+                    (click)="setCategoryFilter('all')"
+                    [attr.aria-pressed]="categoryFilter() === 'all'"
+                    class="inline-flex items-baseline gap-1.5 px-2.5 py-1 rounded-[6px] border transition-colors cursor-pointer text-[12px]"
+                    [class.bg-[#232325]]="categoryFilter() === 'all'"
+                    [class.border-[rgba(237,237,237,0.22)]]="categoryFilter() === 'all'"
+                    [class.text-[#ededed]]="categoryFilter() === 'all'"
+                    [class.bg-[#141415]]="categoryFilter() !== 'all'"
+                    [class.border-[rgba(237,237,237,0.08)]]="categoryFilter() !== 'all'"
+                    [class.text-[#85858b]]="categoryFilter() !== 'all'"
+                  >
+                    <span>All categories</span>
+                    <span class="text-[11px] text-[#85858b]">{{ activeSourceItemsCount() }}</span>
+                  </button>
+
+                  <!-- Weighted AI-assigned category tags -->
+                  @for (cloudItem of categoryTagCloud(); track cloudItem.tag) {
+                    <button
+                      type="button"
+                      (click)="toggleCategoryFilter(cloudItem.tag)"
+                      [attr.aria-pressed]="categoryFilter() === cloudItem.tag"
+                      [attr.title]="cloudItem.tag + ': ' + cloudItem.count + ' stories in current digest (' + cloudItem.sharePercent + '% share)'"
+                      class="inline-flex items-baseline gap-1.5 px-2.5 py-1 rounded-[6px] border transition-colors cursor-pointer hover:border-[rgba(237,237,237,0.22)] hover:text-[#ededed]"
+                      [class.text-[14px]]="cloudItem.tier === 'lg'"
+                      [class.font-medium]="cloudItem.tier === 'lg' || categoryFilter() === cloudItem.tag"
+                      [class.text-[13px]]="cloudItem.tier === 'md'"
+                      [class.text-[12px]]="cloudItem.tier === 'sm'"
+                      [class.bg-[#232325]]="categoryFilter() === cloudItem.tag"
+                      [class.border-[#4cc38a]]="categoryFilter() === cloudItem.tag"
+                      [class.text-[#4cc38a]]="categoryFilter() === cloudItem.tag"
+                      [class.bg-[#141415]]="categoryFilter() !== cloudItem.tag"
+                      [class.border-[rgba(237,237,237,0.08)]]="categoryFilter() !== cloudItem.tag"
+                      [class.text-[#ededed]]="categoryFilter() !== cloudItem.tag && cloudItem.tier === 'lg'"
+                      [class.text-[#a1a1a6]]="categoryFilter() !== cloudItem.tag && cloudItem.tier !== 'lg'"
+                    >
+                      <span>{{ cloudItem.tag }}</span>
+                      <span
+                        class="text-[11px]"
+                        [class.text-[#4cc38a]]="categoryFilter() === cloudItem.tag"
+                        [class.text-[#85858b]]="categoryFilter() !== cloudItem.tag"
+                      >
+                        {{ cloudItem.count }}
+                      </span>
+                    </button>
+                  }
+                </div>
+              </div>
+            }
+
+            <!-- Classic Editorial Story Rows (Divided by Hairlines, Zero Pill Clutter) -->
+            @if (filteredDigestItems().length > 0) {
+              <div class="unslop-card divide-y divide-[rgba(237,237,237,0.08)]">
+                @for (item of filteredDigestItems(); track item.uid; let i = $index) {
+                  <article class="p-6 flex flex-col lg:flex-row lg:items-baseline justify-between gap-6 hover:bg-[#1c1c1f] transition-colors">
+                    <div class="space-y-2.5 max-w-3xl">
+                      <!-- Quiet unboxed metadata line -->
+                      <div class="flex flex-wrap items-center gap-2 text-[12px] leading-4 text-[#85858b] font-mono tabular-nums">
+                        <span class="text-[#ededed]">{{ (i + 1).toString().padStart(2, '0') }}</span>
+                        <span aria-hidden="true">·</span>
+                        <button
+                          type="button"
+                          (click)="toggleCategoryFilter(item.category_tag)"
+                          [attr.title]="'Filter by ' + item.category_tag"
+                          class="text-[#4cc38a] hover:underline cursor-pointer"
+                        >
+                          {{ item.category_tag }}
+                        </button>
+                        <span aria-hidden="true">·</span>
+                        <span>{{ item.source }}</span>
+                        <span aria-hidden="true">·</span>
+                        <span>{{ item.score }} pts</span>
+                        <span aria-hidden="true">·</span>
+                        <span>{{ item.comments_count }} comments</span>
+                        <span aria-hidden="true">·</span>
+                        <span>@{{ item.author }}</span>
+                      </div>
+
+                      <!-- Editorial Story Title -->
+                      <h3 class="text-[19px] leading-[1.35] text-[#ededed] font-serif-display">
+                        <a
+                          [href]="item.url"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:underline"
+                        >
+                          {{ item.title }}
+                        </a>
+                      </h3>
+
+                      <!-- 2-Sentence Technical Takeaway -->
+                      <p class="text-[14px] leading-[22px] text-[#a1a1a6]">
+                        {{ item.takeaway }}
+                      </p>
+                    </div>
+
+                    <!-- Right-Aligned Source Actions -->
+                    <div class="flex lg:flex-col items-center lg:items-end justify-between gap-3 shrink-0 text-[12px] font-mono tabular-nums">
+                      <a
+                        [href]="item.url"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-1.5 text-[#ededed] hover:underline whitespace-nowrap"
+                      >
+                        <span>Source</span>
+                        <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none text-[#85858b]">open_in_new</mat-icon>
+                      </a>
+                      @if (item.discussion_url && item.discussion_url !== item.url) {
+                        <a
+                          [href]="item.discussion_url"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="inline-flex items-center gap-1.5 text-[#85858b] hover:text-[#ededed] whitespace-nowrap"
+                        >
+                          <span>HN thread</span>
+                          <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none">forum</mat-icon>
+                        </a>
+                      }
+                    </div>
+                  </article>
+                }
+              </div>
+            } @else {
+              <div class="unslop-card p-10 text-center space-y-3">
+                <div class="text-[15px] font-medium text-[#ededed]">No matching stories</div>
+                <p class="text-[13px] text-[#85858b]">Clear the search filter or select all sources</p>
+                <button
+                  type="button"
+                  (click)="setSourceFilter('all'); setCategoryFilter('all'); searchControl.setValue('')"
+                  class="unslop-btn-secondary h-8 px-3 text-[12px] inline-flex items-center gap-1.5 cursor-pointer"
+                >
+                  <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none">filter_alt_off</mat-icon>
+                  <span>Reset filters</span>
+                </button>
+              </div>
+            }
+          </div>
+        }
+      </section>
+    }
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 2: TELEGRAM DISPATCHER & CHUNK INSPECTOR                          -->
+    <!-- ========================================================================= -->
+    @if (activeSection() === 'telegram') {
+      <section class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        <div class="lg:col-span-5 unslop-card p-6 space-y-5">
+          <div class="space-y-1">
+            <h2 class="text-[20px] leading-6 text-[#ededed] font-serif-display">
+              Telegram bot dispatcher &amp; subscriber broadcast
+            </h2>
+            <p class="text-[13px] leading-5 text-[#a1a1a6]">
+              Encrypts your bot token at rest with AES-256-GCM, discovers every user who sends <code class="font-mono text-[#ededed]">/start</code> via <code class="font-mono text-[#ededed]">getUpdates</code>, and broadcasts each 6-hour digest to all subscribers simultaneously.
+            </p>
+          </div>
+
+          <form [formGroup]="pipelineForm" (ngSubmit)="syncTelegramBotAndAutoSend()" class="space-y-4">
+            <div class="space-y-1.5">
+              <div class="flex items-center justify-between gap-2">
+                <label for="tgToken" class="block text-[12px] text-[#a1a1a6]">
+                  Bot token (<code class="font-mono">TELEGRAM_BOT_TOKEN</code>)
+                </label>
+                @if (telegramSync().hasBotToken) {
+                  <span class="text-[11px] font-mono text-[#4cc38a]">
+                    Encrypted: {{ telegramSync().botTokenMasked }}
+                  </span>
+                }
+              </div>
+              <input
+                id="tgToken"
+                type="password"
+                autocomplete="off"
+                formControlName="telegramBotToken"
+                [placeholder]="telegramSync().hasBotToken ? 'Stored in AES-256-GCM vault (' + telegramSync().botTokenMasked + ') — enter new token only to rotate' : '1234567890:AAHxyz...'"
+                class="unslop-input w-full h-9 px-3 text-[12px] placeholder-[#85858b] font-mono"
+              />
+              <p class="text-[11px] text-[#85858b]">
+                Plaintext credentials are never returned by the API, logged to disk, or stored unencrypted in Firestore.
+              </p>
+            </div>
+
+            <div class="space-y-1.5">
+              <label for="tgChatId" class="block text-[12px] text-[#a1a1a6]">
+                Primary channel or chat ID (<code class="font-mono">TELEGRAM_CHAT_ID</code>, optional)
+              </label>
+              <input
+                id="tgChatId"
+                type="text"
+                formControlName="telegramChatId"
+                placeholder="@channel or -1001234567890 (all /start users also receive updates)"
+                class="unslop-input w-full h-9 px-3 text-[12px] placeholder-[#85858b] font-mono"
+              />
+            </div>
+
+            <label class="inline-flex items-center gap-2 text-[13px] text-[#a1a1a6] cursor-pointer select-none">
+              <input
+                type="checkbox"
+                formControlName="autoSendTelegram"
+                class="rounded border-[#3f3f44] bg-[#141415] text-[#ededed]"
+              />
+              <span>Auto-broadcast every 6h digest to all <code class="font-mono text-[#ededed]">/start</code> subscribers</span>
+            </label>
+
+            <div class="pt-2 flex flex-wrap items-center gap-2.5">
+              <button
+                type="submit"
+                [disabled]="isSyncingTelegram()"
+                class="unslop-btn-primary h-9 px-4 text-[13px] inline-flex items-center gap-2 whitespace-nowrap shrink-0 cursor-pointer"
+              >
+                <mat-icon class="!text-[15px] !w-4 !h-4 leading-none">sync</mat-icon>
+                <span>{{ isSyncingTelegram() ? 'Syncing' : 'Sync & broadcast to all' }}</span>
+              </button>
+
+              <button
+                type="button"
+                (click)="dispatchCurrentDigestToTelegram()"
+                [disabled]="isSendingTelegram() || !activeDigest()"
+                class="unslop-btn-secondary h-9 px-3.5 text-[13px] inline-flex items-center gap-2 whitespace-nowrap shrink-0 cursor-pointer"
+              >
+                <mat-icon class="!text-[15px] !w-4 !h-4 leading-none text-[#a1a1a6]">send</mat-icon>
+                <span>{{ isSendingTelegram() ? 'Broadcasting' : 'Broadcast current digest' }}</span>
+              </button>
+            </div>
+          </form>
+
+          @if (telegramSync().verified || telegramSync().hasBotToken) {
+            <div class="p-3.5 bg-[#141415] border border-[rgba(237,237,237,0.08)] rounded-[8px] space-y-2 text-[12px] font-mono tabular-nums">
+              <div class="flex items-center justify-between gap-2">
+                <span class="text-[#4cc38a]">
+                  Connected: {{ telegramSync().botUsername ? '@' + telegramSync().botUsername : 'Encrypted token active' }}
+                </span>
+                <span class="text-[#85858b]">AES-256-GCM</span>
+              </div>
+              <div class="text-[#a1a1a6]">
+                Broadcast recipients: {{ telegramSync().discoveredChats.length }} active <code class="text-[#ededed]">/start</code> subscriber(s)
+              </div>
+              <div class="text-[#85858b]">
+                Last synced: {{ formatTimestamp(telegramSync().lastSyncedAt) }}
+              </div>
+
+              @if (telegramSync().discoveredChats.length > 0) {
+                <div class="pt-2 mt-2 border-t border-[rgba(237,237,237,0.08)] space-y-1.5">
+                  <div class="text-[11px] text-[#85858b]">
+                    Active subscribers receiving every 6h update:
+                  </div>
+                  <div class="max-h-36 overflow-y-auto divide-y divide-[rgba(237,237,237,0.06)]">
+                    @for (sub of telegramSync().discoveredChats; track sub.id) {
+                      <div class="py-1.5 flex items-center justify-between gap-2 text-[11px]">
+                        <span class="text-[#ededed] truncate">{{ sub.title }}</span>
+                        <span class="text-[#85858b] shrink-0">{{ sub.type }} · {{ sub.id }}</span>
+                      </div>
+                    }
+                  </div>
+                </div>
+              }
+            </div>
+          }
+        </div>
+
+        <div class="lg:col-span-7 space-y-4">
+          <div class="flex items-center justify-between">
+            <h2 class="text-[20px] leading-6 text-[#ededed] font-serif-display">
+              Formatted HTML chunks
+            </h2>
+            @if (activeDigest(); as digest) {
+              <span class="text-[12px] text-[#85858b] font-mono tabular-nums">
+                {{ digest.formatted_messages.length }} chunk(s) · 4096 char limit
+              </span>
+            }
+          </div>
+
+          @if (activeDigest(); as digest) {
+            @for (chunk of digest.formatted_messages; track $index; let cIdx = $index) {
+              <div class="unslop-card overflow-hidden">
+                <div class="flex items-center justify-between px-4 py-3 border-b border-[rgba(237,237,237,0.08)] bg-[#141415]">
+                  <div class="text-[12px] text-[#85858b] font-mono tabular-nums">
+                    <span>Chunk {{ cIdx + 1 }} of {{ digest.formatted_messages.length }}</span>
+                    <span class="mx-2" aria-hidden="true">·</span>
+                    <span>{{ chunk.length }} / 4096 chars</span>
+                  </div>
+                  <button
+                    type="button"
+                    (click)="copyText(chunk, 'chunk_' + cIdx)"
+                    class="unslop-btn-secondary h-7 px-2.5 text-[12px] inline-flex items-center gap-1.5 cursor-pointer"
+                  >
+                    <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none text-[#a1a1a6]">content_copy</mat-icon>
+                    <span>{{ copiedLabel() === 'chunk_' + cIdx ? 'Copied' : 'Copy' }}</span>
+                  </button>
+                </div>
+                <pre class="p-4 text-[12px] text-[#a1a1a6] font-mono whitespace-pre-wrap break-words leading-relaxed max-h-[520px] overflow-y-auto">{{ chunk }}</pre>
+              </div>
+            }
+          }
+        </div>
+      </section>
+    }
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 3: PYTHON 3.11+ MODULES                                           -->
+    <!-- ========================================================================= -->
+    @if (activeSection() === 'codebase') {
+      <section class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        <div class="lg:col-span-3 unslop-card p-2.5 space-y-1">
+          @for (file of pythonFiles(); track file.filename) {
+            <button
+              type="button"
+              (click)="selectPythonFile(file.filename)"
+              class="w-full h-9 flex items-center justify-between px-3 rounded-[8px] text-left text-[12px] font-mono tabular-nums transition-colors cursor-pointer"
+              [class.bg-[#232325]]="selectedFileName() === file.filename"
+              [class.text-[#ededed]]="selectedFileName() === file.filename"
+              [class.text-[#a1a1a6]]="selectedFileName() !== file.filename"
+              [class.hover:bg-[#1f1f22]]="selectedFileName() !== file.filename"
+            >
+              <span class="truncate">{{ file.filename }}</span>
+              <span class="text-[#85858b] shrink-0">{{ file.linesCount }}L</span>
+            </button>
+          }
+        </div>
+
+        <div class="lg:col-span-9 unslop-card overflow-hidden">
+          @if (selectedPythonFile(); as pyFile) {
+            <div class="flex flex-wrap items-center justify-between gap-3 px-4 py-3 border-b border-[rgba(237,237,237,0.08)] bg-[#141415]">
+              <div class="text-[12px] text-[#85858b] font-mono tabular-nums">
+                <span class="text-[#ededed]">{{ pyFile.filename }}</span>
+                <span class="mx-2" aria-hidden="true">·</span>
+                <span>{{ pyFile.linesCount }} lines</span>
+                <span class="mx-2" aria-hidden="true">·</span>
+                <span>{{ pyFile.sizeBytes }} B</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <button
+                  type="button"
+                  (click)="copyText(pyFile.content, pyFile.filename)"
+                  class="unslop-btn-secondary h-8 px-3 text-[12px] inline-flex items-center gap-1.5 cursor-pointer"
+                >
+                  <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none text-[#a1a1a6]">content_copy</mat-icon>
+                  <span>{{ copiedLabel() === pyFile.filename ? 'Copied' : 'Copy' }}</span>
+                </button>
+                <button
+                  type="button"
+                  (click)="downloadFile(pyFile.filename, pyFile.content)"
+                  class="unslop-btn-primary h-8 px-3 text-[12px] inline-flex items-center gap-1.5 cursor-pointer"
+                >
+                  <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none">download</mat-icon>
+                  <span>Download</span>
+                </button>
+              </div>
+            </div>
+            <pre class="p-5 text-[12px] text-[#ededed] font-mono overflow-x-auto leading-relaxed max-h-[640px] overflow-y-auto">{{ pyFile.content }}</pre>
+          }
+        </div>
+      </section>
+    }
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 4: SCHEDULE, DEDUPLICATION STORE & PIPELINE.LOG                   -->
+    <!-- ========================================================================= -->
+    @if (activeSection() === 'logs') {
+      <section class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        <div class="lg:col-span-5 space-y-6">
+          <div class="unslop-card p-6 space-y-4">
+            <h2 class="text-[20px] leading-6 text-[#ededed] font-serif-display">
+              Schedule &amp; batch limits
+            </h2>
+            <form [formGroup]="pipelineForm" class="space-y-4">
+              <div class="grid grid-cols-2 gap-3">
+                <div class="space-y-1.5">
+                  <label for="intervalHours" class="block text-[12px] text-[#a1a1a6]">Interval (hours)</label>
+                  <input
+                    id="intervalHours"
+                    type="number"
+                    min="1"
+                    max="24"
+                    formControlName="intervalHours"
+                    class="unslop-input w-full h-9 px-3 text-[12px] font-mono tabular-nums"
+                  />
+                </div>
+                <div class="space-y-1.5">
+                  <label for="dailyRunTime" class="block text-[12px] text-[#a1a1a6]">Fixed time (optional)</label>
+                  <input
+                    id="dailyRunTime"
+                    type="text"
+                    placeholder="08:00"
+                    formControlName="dailyRunTime"
+                    class="unslop-input w-full h-9 px-3 text-[12px] font-mono tabular-nums"
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-3">
+                <div class="space-y-1.5">
+                  <label for="hnLimit" class="block text-[12px] text-[#a1a1a6]">Hacker News limit</label>
+                  <input
+                    id="hnLimit"
+                    type="number"
+                    min="1"
+                    max="15"
+                    formControlName="hnLimit"
+                    class="unslop-input w-full h-9 px-3 text-[12px] font-mono tabular-nums"
+                  />
+                </div>
+                <div class="space-y-1.5">
+                  <label for="devtoLimit" class="block text-[12px] text-[#a1a1a6]">DEV.to limit</label>
+                  <input
+                    id="devtoLimit"
+                    type="number"
+                    min="1"
+                    max="15"
+                    formControlName="devtoLimit"
+                    class="unslop-input w-full h-9 px-3 text-[12px] font-mono tabular-nums"
+                  />
+                </div>
+              </div>
+
+              <button
+                type="button"
+                (click)="saveScheduleConfig()"
+                class="unslop-btn-primary h-9 px-4 text-[13px] inline-flex items-center gap-2 cursor-pointer"
+              >
+                <mat-icon class="!text-[15px] !w-4 !h-4 leading-none">save</mat-icon>
+                <span>Save schedule</span>
+              </button>
+            </form>
+          </div>
+
+          <div class="unslop-card p-6 space-y-4">
+            <div class="flex items-center justify-between gap-2">
+              <div>
+                <h2 class="text-[20px] leading-6 text-[#ededed] font-serif-display">
+                  Deduplication store
+                </h2>
+                <p class="text-[12px] text-[#85858b] font-mono tabular-nums mt-0.5">
+                  {{ processedStore().total_count }} IDs in processed_ids.json
+                </p>
+              </div>
+              <button
+                type="button"
+                (click)="resetDeduplicationCache()"
+                class="unslop-btn-secondary h-8 px-3 text-[12px] inline-flex items-center gap-1.5 text-[#e5484d] cursor-pointer"
+              >
+                <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none">delete_sweep</mat-icon>
+                <span>Clear cache</span>
+              </button>
+            </div>
+
+            <div class="max-h-64 overflow-y-auto border border-[rgba(237,237,237,0.08)] rounded-[8px] divide-y divide-[rgba(237,237,237,0.06)] bg-[#141415]">
+              @if (processedEntriesList().length > 0) {
+                @for (entry of processedEntriesList(); track entry.uid) {
+                  <div class="h-8 px-3 flex items-center justify-between text-[12px] font-mono tabular-nums">
+                    <span class="text-[#ededed]">{{ entry.uid }}</span>
+                    <span class="text-[#85858b]">{{ formatTimestamp(entry.timestamp) }}</span>
+                  </div>
+                }
+              } @else {
+                <div class="p-4 text-[12px] text-[#85858b] text-center">
+                  No recorded story IDs
+                </div>
+              }
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 unslop-card overflow-hidden">
+          <div class="flex items-center justify-between px-5 py-3.5 border-b border-[rgba(237,237,237,0.08)] bg-[#141415]">
+            <div class="text-[14px] font-medium text-[#ededed]">
+              Execution log (<code class="text-[12px] font-mono text-[#85858b]">pipeline.log</code>)
+            </div>
+            <button
+              type="button"
+              (click)="loadPipelineState(false)"
+              class="unslop-btn-secondary h-7 px-2.5 text-[12px] inline-flex items-center gap-1.5 cursor-pointer"
+            >
+              <mat-icon class="!text-[14px] !w-3.5 !h-3.5 leading-none text-[#a1a1a6]">refresh</mat-icon>
+              <span>Refresh</span>
+            </button>
+          </div>
+
+          <div class="p-4 bg-[#141415] font-mono text-[12px] space-y-1 max-h-[560px] overflow-y-auto tabular-nums">
+            @for (line of logs(); track $index) {
+              <div class="py-1 border-b border-[rgba(237,237,237,0.04)] text-[#a1a1a6] break-words leading-relaxed">
+                {{ line }}
+              </div>
+            }
+          </div>
+        </div>
+      </section>
+    }
+  </main>
+
+  <!-- Quiet Minimal Footer -->
+  <footer class="border-t border-[rgba(237,237,237,0.08)] py-5 px-6 md:px-8 text-[12px] text-[#85858b]">
+    <div class="max-w-[1440px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div>Global Developer Pulse · Python 3.11+ &amp; Groq LPU (llama-3.3-70b-versatile)</div>
+      <div class="flex items-center gap-4">
+        <button type="button" (click)="setSection('codebase')" class="hover:text-[#ededed] cursor-pointer">
+          Python modules
+        </button>
+        <span aria-hidden="true">·</span>
+        <button type="button" (click)="setSection('logs')" class="hover:text-[#ededed] cursor-pointer">
+          Schedule &amp; logs
+        </button>
+      </div>
+    </div>
+  </footer>
+</div>

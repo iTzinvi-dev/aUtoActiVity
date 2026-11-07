@@ -1,0 +1,44 @@
+name: 6-Hour Developer Pulse & Telegram Broadcast
+
+on:
+  schedule:
+    # Runs automatically every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows manual 1-click trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  run-digest-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Execute single 6-hour Groq LPU + Telegram Broadcast cycle
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: 'llama-3.3-70b-versatile'
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OUTPUT_LANGUAGE: ${{ vars.OUTPUT_LANGUAGE || 'English' }}
+          RUN_ONCE: 'true'
+        run: python main.py --once
+
+      - name: Persist deduplicated IDs, subscribers & digest archive back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add processed_ids.json daily_digests.json subscribers.json || true
+          git diff --staged --quiet || git commit -m "chore(pulse): update 6h processed_ids, subscribers, and digest archive [skip ci]"
+          git push

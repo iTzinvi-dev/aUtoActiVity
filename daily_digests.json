@@ -1,0 +1,428 @@
+[
+  {
+    "generated_at": "2026-11-07T10:19:55.153Z",
+    "output_language": "English",
+    "model_used": "gemini-3.8-flash",
+    "editorial_headline": "Engineering updates span terminal core libraries, LLM cascade optimizations, critical infrastructure migrations, and low-level OS hooks.",
+    "items": [
+      {
+        "uid": "hn_50391456",
+        "source": "Hacker News",
+        "title": "Tesla to wind down Cybertruck production",
+        "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+        "discussion_url": "https://news.ycombinator.com/item?id=50391456",
+        "author": "PLenz",
+        "score": 1011,
+        "comments_count": 1865,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 1011 points and 1865 developer comments.",
+        "published_at": "2026-11-06T12:13:51.000Z",
+        "category_tag": "[Industry/Hardware]",
+        "takeaway": "This article discusses market demand realities, production overheads, and design compromises associated with the Cybertruck platform. It highlights how ambitious hardware and manufacturing tooling decisions can struggle against real-world consumer adoption and unit economics."
+      },
+      {
+        "uid": "hn_50399933",
+        "source": "Hacker News",
+        "title": "Libghostty 1.0",
+        "url": "https://mitchellh.com/writing/libghostty-1-0",
+        "discussion_url": "https://news.ycombinator.com/item?id=50399933",
+        "author": "mfiguiere",
+        "score": 647,
+        "comments_count": 100,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 647 points and 100 developer comments.",
+        "published_at": "2026-11-06T23:30:52.000Z",
+        "category_tag": "[Open Source]",
+        "takeaway": "Libghostty exposes the core rendering and terminal emulation capabilities of Mitchell Hashimoto's Ghostty as a standalone, embeddable C library. This allows systems programmers to integrate a performant, modern, GPU-accelerated terminal engine into custom native applications."
+      },
+      {
+        "uid": "hn_50397429",
+        "source": "Hacker News",
+        "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+        "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+        "discussion_url": "https://news.ycombinator.com/item?id=50397429",
+        "author": "theanomaly",
+        "score": 480,
+        "comments_count": 110,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 480 points and 110 developer comments.",
+        "published_at": "2026-11-06T19:48:51.000Z",
+        "category_tag": "[AI/ML]",
+        "takeaway": "This case study outlines an LLM cascade architecture where a cheaper, smaller model routes ambiguous or high-uncertainty tasks to Claude Opus. The resulting system demonstrates how targeted model routing slashes production inference costs while preserving frontier-model accuracy."
+      },
+      {
+        "uid": "hn_50397994",
+        "source": "Hacker News",
+        "title": "AI is dramatically accelerating AI research",
+        "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+        "discussion_url": "https://news.ycombinator.com/item?id=50397994",
+        "author": "yurivish",
+        "score": 306,
+        "comments_count": 259,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 306 points and 259 developer comments.",
+        "published_at": "2026-11-06T20:27:23.000Z",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The essay examines how automated experiment formulation, code generation, and paper synthesis are speeding up iterative machine learning research. It signals a shift where developer tooling and agentic workflows increasingly compress fundamental research-and-development cycles."
+      },
+      {
+        "uid": "hn_50388001",
+        "source": "Hacker News",
+        "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+        "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50388001",
+        "author": "ChrisArchitect",
+        "score": 339,
+        "comments_count": 274,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 339 points and 274 developer comments.",
+        "published_at": "2026-11-06T04:00:28.000Z",
+        "category_tag": "[System Design]",
+        "takeaway": "The FAA plans to decommission legacy 3.5-inch and 8-inch floppy disks used across national airspace radar and communication controllers over the next several years. It underscores the immense verification hurdles and risk management required when modernizing mission-critical legacy systems."
+      },
+      {
+        "uid": "devto_4943084",
+        "source": "DEV.to",
+        "title": "What was your win this week?",
+        "url": "https://dev.to/devteam/what-was-your-win-this-week-28dh",
+        "discussion_url": "https://dev.to/devteam/what-was-your-win-this-week-28dh",
+        "author": "jess",
+        "score": 80,
+        "comments_count": 45,
+        "tags": [
+          "weeklyretro"
+        ],
+        "excerpt": "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...",
+        "published_at": "2026-11-06T14:00:00Z",
+        "category_tag": "[Career/DevLife]",
+        "takeaway": "This community retro post prompts developers to reflect on key engineering breakthroughs, resolved bugs, and shipped features. Engaging in deliberate retrospectives helps teams surface incremental technical achievements and combat burnout."
+      },
+      {
+        "uid": "devto_4990855",
+        "source": "DEV.to",
+        "title": "An Update on the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine Winners",
+        "url": "https://dev.to/devteam/an-update-on-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-winners-44bp",
+        "discussion_url": "https://dev.to/devteam/an-update-on-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-winners-44bp",
+        "author": "heyitsjem",
+        "score": 49,
+        "comments_count": 10,
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "hacktoberfest",
+          "ai"
+        ],
+        "excerpt": "Hey all, we have a quick update for everyone who participated in the Hacktoberfest Open-Source AI...",
+        "published_at": "2026-11-06T22:28:31Z",
+        "category_tag": "[Open Source]",
+        "takeaway": "The post spotlights winning implementations from an open-source AI hackathon targeting community-driven machine learning tooling. It demonstrates emerging patterns in how developers build practical workflows on top of open weights and accessible LLM APIs."
+      },
+      {
+        "uid": "devto_4989291",
+        "source": "DEV.to",
+        "title": "[Part 3] Your first steps in Computer Vision on AWS: deploying models for an ASL recognition app",
+        "url": "https://dev.to/aws-builders/part-3-your-first-steps-in-computer-vision-on-aws-deploying-models-for-an-asl-recognition-app-14hf",
+        "discussion_url": "https://dev.to/aws-builders/part-3-your-first-steps-in-computer-vision-on-aws-deploying-models-for-an-asl-recognition-app-14hf",
+        "author": "dashapetr",
+        "score": 21,
+        "comments_count": 1,
+        "tags": [
+          "ai",
+          "computervision",
+          "asl",
+          "machinelearning"
+        ],
+        "excerpt": "This is the third and final part of the series \"Your first steps in Computer Vision on AWS\". If you...",
+        "published_at": "2026-11-06T15:54:57Z",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "This tutorial walks through deploying computer vision inference pipelines on AWS infrastructure for real-time American Sign Language detection. It provides hands-on patterns for packaging vision weights, configuring managed endpoints, and handling latency-sensitive media payloads."
+      },
+      {
+        "uid": "devto_4989630",
+        "source": "DEV.to",
+        "title": "Windows won't let you own Win+Shift+S. So I hooked the keyboard in Python.",
+        "url": "https://dev.to/akhourianmolkumar/windows-wont-let-you-own-winshifts-so-i-hooked-the-keyboard-in-python-248c",
+        "discussion_url": "https://dev.to/akhourianmolkumar/windows-wont-let-you-own-winshifts-so-i-hooked-the-keyboard-in-python-248c",
+        "author": "akhourianmolkumar",
+        "score": 35,
+        "comments_count": 22,
+        "tags": [
+          "python",
+          "pyqt",
+          "opensource",
+          "windows"
+        ],
+        "excerpt": "I wanted one small thing: press Win+Shift+S and get my own screenshot tool instead of Snipping...",
+        "published_at": "2026-11-07T04:51:12Z",
+        "category_tag": "[System Design]",
+        "takeaway": "The author demonstrates how to intercept OS-reserved keyboard combinations on Windows by establishing low-level Win32 keyboard hooks in Python. It provides practical insights into bypassing desktop environment keybind capture mechanisms for custom tooling."
+      },
+      {
+        "uid": "devto_4987022",
+        "source": "DEV.to",
+        "title": "Retro :: Spider-Paint",
+        "url": "https://dev.to/pengeszikra/retro-spider-paint-6lf",
+        "discussion_url": "https://dev.to/pengeszikra/retro-spider-paint-6lf",
+        "author": "pengeszikra",
+        "score": 19,
+        "comments_count": 1,
+        "tags": [
+          "showdev",
+          "tooling",
+          "weeklyretro",
+          "opensource"
+        ],
+        "excerpt": "The weeklyretro tag doesn’t come close to covering it. This is really another trip through time into...",
+        "published_at": "2026-11-06T10:41:08Z",
+        "category_tag": "[Web Dev]",
+        "takeaway": "This project showcases a nostalgic, browser-based recreation of classic retro graphic design and digital painting tools. It serves as an exploration of canvas manipulation techniques and minimalist creative interfaces on the modern web stack."
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        41,
+        42,
+        80,
+        81,
+        82,
+        83
+      ],
+      "chat_id": "2 subscribers",
+      "bot_username": "Kavyao_Bot",
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Engineering updates span terminal core libraries, LLM cascade optimizations, critical infrastructure migrations, and low-level OS hooks.\n────────────────────────\n\n<b>1. [Industry/Hardware] Tesla to wind down Cybertruck production</b>\nThis article discusses market demand realities, production overheads, and design compromises associated with the Cybertruck platform. It highlights how ambitious hardware and manufacturing tooling decisions can struggle against real-world consumer adoption and unit economics.\n<i>Hacker News · ▲ 1011 · @PLenz</i>\n🔗 <a href=\"https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50391456\">HN Discussion (1865)</a>\n\n<b>2. [Open Source] Libghostty 1.0</b>\nLibghostty exposes the core rendering and terminal emulation capabilities of Mitchell Hashimoto's Ghostty as a standalone, embeddable C library. This allows systems programmers to integrate a performant, modern, GPU-accelerated terminal engine into custom native applications.\n<i>Hacker News · ▲ 647 · @mfiguiere</i>\n🔗 <a href=\"https://mitchellh.com/writing/libghostty-1-0\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50399933\">HN Discussion (100)</a>\n\n<b>3. [AI/ML] A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</b>\nThis case study outlines an LLM cascade architecture where a cheaper, smaller model routes ambiguous or high-uncertainty tasks to Claude Opus. The resulting system demonstrates how targeted model routing slashes production inference costs while preserving frontier-model accuracy.\n<i>Hacker News · ▲ 480 · @theanomaly</i>\n🔗 <a href=\"https://hightouch.com/blog/llm-judges-identity-resolution\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50397429\">HN Discussion (110)</a>\n\n<b>4. [AI/ML] AI is dramatically accelerating AI research</b>\nThe essay examines how automated experiment formulation, code generation, and paper synthesis are speeding up iterative machine learning research. It signals a shift where developer tooling and agentic workflows increasingly compress fundamental research-and-development cycles.\n<i>Hacker News · ▲ 306 · @yurivish</i>\n🔗 <a href=\"https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50397994\">HN Discussion (259)</a>\n\n<b>5. [System Design] US FAA says it will phase out floppy disks from air traffic control by 2028</b>\nThe FAA plans to decommission legacy 3.5-inch and 8-inch floppy disks used across national airspace radar and communication controllers over the next several years. It underscores the immense verification hurdles and risk management required when modernizing mission-critical legacy systems.\n<i>Hacker News · ▲ 339 · @ChrisArchitect</i>\n🔗 <a href=\"https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50388001\">HN Discussion (274)</a>\n\n<b>6. [Career/DevLife] What was your win this week?</b>\nThis community retro post prompts developers to reflect on key engineering breakthroughs, resolved bugs, and shipped features. Engaging in deliberate retrospectives helps teams surface incremental technical achievements and combat burnout.\n<i>DEV.to · ▲ 80 · @jess</i>\n🔗 <a href=\"https://dev.to/devteam/what-was-your-win-this-week-28dh\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>7. [Open Source] An Update on the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine Winners</b>\nThe post spotlights winning implementations from an open-source AI hackathon targeting community-driven machine learning tooling. It demonstrates emerging patterns in how developers build practical workflows on top of open weights and accessible LLM APIs.\n<i>DEV.to · ▲ 49 · @heyitsjem</i>\n🔗 <a href=\"https://dev.to/devteam/an-update-on-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-winners-44bp\">Read Source</a>\n\n<b>8. [Cloud/DevOps] [Part 3] Your first steps in Computer Vision on AWS: deploying models for an ASL recognition app</b>\nThis tutorial walks through deploying computer vision inference pipelines on AWS infrastructure for real-time American Sign Language detection. It provides hands-on patterns for packaging vision weights, configuring managed endpoints, and handling latency-sensitive media payloads.\n<i>DEV.to · ▲ 21 · @dashapetr</i>\n🔗 <a href=\"https://dev.to/aws-builders/part-3-your-first-steps-in-computer-vision-on-aws-deploying-models-for-an-asl-recognition-app-14hf\">Read Source</a>\n\n<b>9. [System Design] Windows won't let you own Win+Shift+S. So I hooked the keyboard in Python.</b>\nThe author demonstrates how to intercept OS-reserved keyboard combinations on Windows by establishing low-level Win32 keyboard hooks in Python. It provides practical insights into bypassing desktop environment keybind capture mechanisms for custom tooling.\n<i>DEV.to · ▲ 35 · @akhourianmolkumar</i>\n🔗 <a href=\"https://dev.to/akhourianmolkumar/windows-wont-let-you-own-winshifts-so-i-hooked-the-keyboard-in-python-248c\">Read Source</a>\n\n<b>10. [Web Dev] Retro :: Spider-Paint</b>\nThis project showcases a nostalgic, browser-based recreation of classic retro graphic design and digital painting tools. It serves as an exploration of canvas manipulation techniques and minimalist creative interfaces on the modern web stack.\n<i>DEV.to · ▲ 19 · @pengeszikra</i>\n🔗 <a href=\"https://dev.to/pengeszikra/retro-spider-paint-6lf\">Read Source</a>"
+    ]
+  },
+  {
+    "generated_at": "2026-11-07T09:21:18.027Z",
+    "output_language": "English",
+    "model_used": "gemini-3.8-flash",
+    "editorial_headline": "Today's developer pulse spotlights cost-efficient LLM routing, cross-GPU non-determinism, the modular release of Libghostty, and legacy infrastructure phase-outs.",
+    "items": [
+      {
+        "uid": "hn_50391456",
+        "source": "Hacker News",
+        "title": "Tesla to wind down Cybertruck production",
+        "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+        "discussion_url": "https://news.ycombinator.com/item?id=50391456",
+        "author": "PLenz",
+        "score": 996,
+        "comments_count": 1852,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 996 points and 1852 developer comments.",
+        "published_at": "2026-11-06T12:13:51.000Z",
+        "category_tag": "[Industry News]",
+        "takeaway": "Tesla is winding down Cybertruck manufacturing after persistent manufacturing bottlenecks and weaker-than-anticipated real-world consumer demand. For hardware and systems engineers, it highlights the extreme operational risk of prioritizing aggressive bespoke industrial design over manufacturability and unit economics."
+      },
+      {
+        "uid": "hn_50399933",
+        "source": "Hacker News",
+        "title": "Libghostty 1.0",
+        "url": "https://mitchellh.com/writing/libghostty-1-0",
+        "discussion_url": "https://news.ycombinator.com/item?id=50399933",
+        "author": "mfiguiere",
+        "score": 599,
+        "comments_count": 96,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 599 points and 96 developer comments.",
+        "published_at": "2026-11-06T23:30:52.000Z",
+        "category_tag": "[Open Source]",
+        "takeaway": "Mitchell Hashimoto announced Libghostty 1.0, decoupling Ghostty's high-performance terminal emulation engine into a standalone, embeddable C library. This allows systems programmers and GUI developers to integrate a fast, standards-compliant virtual terminal emulator directly into custom cross-platform applications."
+      },
+      {
+        "uid": "hn_50397429",
+        "source": "Hacker News",
+        "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+        "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+        "discussion_url": "https://news.ycombinator.com/item?id=50397429",
+        "author": "theanomaly",
+        "score": 463,
+        "comments_count": 106,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 463 points and 106 developer comments.",
+        "published_at": "2026-11-06T19:48:51.000Z",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hightouch details a cascade routing architecture where smaller, fast models handle routine identity resolution classifications and selectively escalate ambiguous edge cases to Claude Opus. This tiered fallback strategy demonstrates how production systems can achieve frontier-model quality while cutting inference spend by 75%."
+      },
+      {
+        "uid": "hn_50388001",
+        "source": "Hacker News",
+        "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+        "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50388001",
+        "author": "ChrisArchitect",
+        "score": 335,
+        "comments_count": 273,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 335 points and 273 developer comments.",
+        "published_at": "2026-11-06T04:00:28.000Z",
+        "category_tag": "[System Design]",
+        "takeaway": "The FAA has outlined a multi-year road map to replace physical floppy disk media in legacy air traffic control equipment with modernized digital subsystems. The effort underscores the architectural challenges, rigorous validation, and migration safety margins required when updating mission-critical, decades-old embedded infrastructure."
+      },
+      {
+        "uid": "hn_50397994",
+        "source": "Hacker News",
+        "title": "AI is dramatically accelerating AI research",
+        "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+        "discussion_url": "https://news.ycombinator.com/item?id=50397994",
+        "author": "yurivish",
+        "score": 297,
+        "comments_count": 232,
+        "tags": [
+          "hacker-news",
+          "engineering"
+        ],
+        "excerpt": "Hacker News top story with 297 points and 232 developer comments.",
+        "published_at": "2026-11-06T20:27:23.000Z",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The essay examines how automated literature synthesis, synthetic experiment generation, and coding assistants are compounding research velocity across ML labs. As the feedback loop between discovery and implementation tightens, software teams must adapt to rapidly shifting foundation model benchmarks and operational tooling."
+      },
+      {
+        "uid": "devto_4943084",
+        "source": "DEV.to",
+        "title": "What was your win this week?",
+        "url": "https://dev.to/devteam/what-was-your-win-this-week-28dh",
+        "discussion_url": "https://dev.to/devteam/what-was-your-win-this-week-28dh",
+        "author": "jess",
+        "score": 79,
+        "comments_count": 45,
+        "tags": [
+          "weeklyretro"
+        ],
+        "excerpt": "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...",
+        "published_at": "2026-11-06T14:00:00Z",
+        "category_tag": "[Career]",
+        "takeaway": "A community retro encouraging developers to log small technical milestones and reflect on iterative shipping wins. Consistent retrospectives help engineering teams maintain momentum and counter burnout across prolonged sprint cycles."
+      },
+      {
+        "uid": "devto_4990855",
+        "source": "DEV.to",
+        "title": "An Update on the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine Winners",
+        "url": "https://dev.to/devteam/an-update-on-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-winners-44bp",
+        "discussion_url": "https://dev.to/devteam/an-update-on-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-winners-44bp",
+        "author": "heyitsjem",
+        "score": 47,
+        "comments_count": 10,
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "hacktoberfest",
+          "ai"
+        ],
+        "excerpt": "Hey all, we have a quick update for everyone who participated in the Hacktoberfest Open-Source AI...",
+        "published_at": "2026-11-06T22:28:31Z",
+        "category_tag": "[Open Source]",
+        "takeaway": "DEV recaps project winners from the Hacktoberfest AI challenge who built accessible open-source generative tooling and agentic workflows. It offers developers practical reference architectures for shipping functional, community-driven AI prototypes."
+      },
+      {
+        "uid": "devto_4977952",
+        "source": "DEV.to",
+        "title": "One Word, Two GPUs: Why Gemma 4 Answers the Same Question Differently on a Laptop and a Tesla T4",
+        "url": "https://dev.to/gde/one-word-two-gpus-why-gemma-4-answers-the-same-question-differently-on-a-laptop-and-a-tesla-t4-1dj2",
+        "discussion_url": "https://dev.to/gde/one-word-two-gpus-why-gemma-4-answers-the-same-question-differently-on-a-laptop-and-a-tesla-t4-1dj2",
+        "author": "xbill",
+        "score": 17,
+        "comments_count": 1,
+        "tags": [
+          "gemma",
+          "llamacpp",
+          "cuda",
+          "nvidia"
+        ],
+        "excerpt": "Same GGUF file, same llama.cpp build, greedy decoding, and a GTX 1650 Ti answers $20 where a Tesla T4 answers 2000. One GSM8K question followed down to the word where the two cards part, the order in which each card adds its numbers, and the one stock setting that makes them agree.",
+        "published_at": "2026-11-06T16:31:06Z",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The post breaks down floating-point non-determinism in llama.cpp, showing how microarchitecture differences between GTX and Tesla GPUs trigger divergent greedy decoding outputs due to summation ordering. Engineers working on reproducible LLM pipelines will benefit from the specific compile flags and runtime switches that enforce cross-hardware consistency."
+      },
+      {
+        "uid": "devto_4990849",
+        "source": "DEV.to",
+        "title": "Ad Pulse Lab",
+        "url": "https://dev.to/gracelee087/ad-pulse-lab-4867",
+        "discussion_url": "https://dev.to/gracelee087/ad-pulse-lab-4867",
+        "author": "gracelee087",
+        "score": 9,
+        "comments_count": 0,
+        "tags": [
+          "devchallenge",
+          "presagechallenge",
+          "electron"
+        ],
+        "excerpt": "title: Ad Pulse Lab: Webcam Pulse and Breathing Next to What Viewers Say   This is a...",
+        "published_at": "2026-11-06T22:26:35Z",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Ad Pulse Lab is an Electron-based application that pairs computer vision webcam photoplethysmography (PPG) with sentiment analysis to capture real-time physiological response. It serves as a compelling proof-of-concept for integrating edge computer vision pipelines with desktop-centric analytics dashboards."
+      },
+      {
+        "uid": "devto_4992435",
+        "source": "DEV.to",
+        "title": "Building RailPulse AI: Deploying an Open-Source Railway Dispatch Agent with Gemma and Google Cloud Run",
+        "url": "https://dev.to/gde/building-railpulse-ai-deploying-an-open-source-railway-dispatch-agent-with-gemma-and-google-cloud-2b9g",
+        "discussion_url": "https://dev.to/gde/building-railpulse-ai-deploying-an-open-source-railway-dispatch-agent-with-gemma-and-google-cloud-2b9g",
+        "author": "robinamirbahar",
+        "score": 14,
+        "comments_count": 2,
+        "tags": [
+          "ai",
+          "googlecloud",
+          "opensource",
+          "python"
+        ],
+        "excerpt": "Author: Robina Mirbahar AI/ML Google Developer Expert (GDE) | Google Cloud Champion Innovator GitHub...",
+        "published_at": "2026-11-07T07:35:33Z",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "This tutorial walks through building and deploying a domain-specific railway dispatching agent powered by Gemma on Google Cloud Run. It highlights how serverless container runtimes with hardware acceleration make deploying self-hosted, domain-specific SLMs cost-effective and low-maintenance."
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 2,
+      "message_ids": [
+        39,
+        40
+      ],
+      "chat_id": "6921365227",
+      "bot_username": "Kavyao_Bot"
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Today's developer pulse spotlights cost-efficient LLM routing, cross-GPU non-determinism, the modular release of Libghostty, and legacy infrastructure phase-outs.\n────────────────────────\n\n<b>1. [Industry News] Tesla to wind down Cybertruck production</b>\nTesla is winding down Cybertruck manufacturing after persistent manufacturing bottlenecks and weaker-than-anticipated real-world consumer demand. For hardware and systems engineers, it highlights the extreme operational risk of prioritizing aggressive bespoke industrial design over manufacturability and unit economics.\n<i>Hacker News · ▲ 996 · @PLenz</i>\n🔗 <a href=\"https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50391456\">HN Discussion (1852)</a>\n\n<b>2. [Open Source] Libghostty 1.0</b>\nMitchell Hashimoto announced Libghostty 1.0, decoupling Ghostty's high-performance terminal emulation engine into a standalone, embeddable C library. This allows systems programmers and GUI developers to integrate a fast, standards-compliant virtual terminal emulator directly into custom cross-platform applications.\n<i>Hacker News · ▲ 599 · @mfiguiere</i>\n🔗 <a href=\"https://mitchellh.com/writing/libghostty-1-0\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50399933\">HN Discussion (96)</a>\n\n<b>3. [AI/ML] A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</b>\nHightouch details a cascade routing architecture where smaller, fast models handle routine identity resolution classifications and selectively escalate ambiguous edge cases to Claude Opus. This tiered fallback strategy demonstrates how production systems can achieve frontier-model quality while cutting inference spend by 75%.\n<i>Hacker News · ▲ 463 · @theanomaly</i>\n🔗 <a href=\"https://hightouch.com/blog/llm-judges-identity-resolution\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50397429\">HN Discussion (106)</a>\n\n<b>4. [System Design] US FAA says it will phase out floppy disks from air traffic control by 2028</b>\nThe FAA has outlined a multi-year road map to replace physical floppy disk media in legacy air traffic control equipment with modernized digital subsystems. The effort underscores the architectural challenges, rigorous validation, and migration safety margins required when updating mission-critical, decades-old embedded infrastructure.\n<i>Hacker News · ▲ 335 · @ChrisArchitect</i>\n🔗 <a href=\"https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50388001\">HN Discussion (273)</a>\n\n<b>5. [AI/ML] AI is dramatically accelerating AI research</b>\nThe essay examines how automated literature synthesis, synthetic experiment generation, and coding assistants are compounding research velocity across ML labs. As the feedback loop between discovery and implementation tightens, software teams must adapt to rapidly shifting foundation model benchmarks and operational tooling.\n<i>Hacker News · ▲ 297 · @yurivish</i>\n🔗 <a href=\"https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50397994\">HN Discussion (232)</a>\n\n<b>6. [Career] What was your win this week?</b>\nA community retro encouraging developers to log small technical milestones and reflect on iterative shipping wins. Consistent retrospectives help engineering teams maintain momentum and counter burnout across prolonged sprint cycles.\n<i>DEV.to · ▲ 79 · @jess</i>\n🔗 <a href=\"https://dev.to/devteam/what-was-your-win-this-week-28dh\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>7. [Open Source] An Update on the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine Winners</b>\nDEV recaps project winners from the Hacktoberfest AI challenge who built accessible open-source generative tooling and agentic workflows. It offers developers practical reference architectures for shipping functional, community-driven AI prototypes.\n<i>DEV.to · ▲ 47 · @heyitsjem</i>\n🔗 <a href=\"https://dev.to/devteam/an-update-on-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-winners-44bp\">Read Source</a>\n\n<b>8. [AI/ML] One Word, Two GPUs: Why Gemma 4 Answers the Same Question Differently on a Laptop and a Tesla T4</b>\nThe post breaks down floating-point non-determinism in llama.cpp, showing how microarchitecture differences between GTX and Tesla GPUs trigger divergent greedy decoding outputs due to summation ordering. Engineers working on reproducible LLM pipelines will benefit from the specific compile flags and runtime switches that enforce cross-hardware consistency.\n<i>DEV.to · ▲ 17 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/one-word-two-gpus-why-gemma-4-answers-the-same-question-differently-on-a-laptop-and-a-tesla-t4-1dj2\">Read Source</a>\n\n<b>9. [Web Dev] Ad Pulse Lab</b>\nAd Pulse Lab is an Electron-based application that pairs computer vision webcam photoplethysmography (PPG) with sentiment analysis to capture real-time physiological response. It serves as a compelling proof-of-concept for integrating edge computer vision pipelines with desktop-centric analytics dashboards.\n<i>DEV.to · ▲ 9 · @gracelee087</i>\n🔗 <a href=\"https://dev.to/gracelee087/ad-pulse-lab-4867\">Read Source</a>\n\n<b>10. [Cloud/DevOps] Building RailPulse AI: Deploying an Open-Source Railway Dispatch Agent with Gemma and Google Cloud Run</b>\nThis tutorial walks through building and deploying a domain-specific railway dispatching agent powered by Gemma on Google Cloud Run. It highlights how serverless container runtimes with hardware acceleration make deploying self-hosted, domain-specific SLMs cost-effective and low-maintenance.\n<i>DEV.to · ▲ 14 · @robinamirbahar</i>\n🔗 <a href=\"https://dev.to/gde/building-railpulse-ai-deploying-an-open-source-railway-dispatch-agent-with-gemma-and-google-cloud-2b9g\">Read Source</a>"
+    ]
+  }
+]

@@ -1,0 +1,462 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Pillar 1: Global Default-Deny Safety Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Core Primitives
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isVerifiedUser() {
+      return isSignedIn() && request.auth.token.email_verified == true;
+    }
+
+    function isAdmin() {
+      return isVerifiedUser() && (
+        request.auth.token.email == 'gndmain@gmail.com' ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    function userExists(uid) {
+      return exists(/databases/$(database)/documents/users/$(uid));
+    }
+
+    // Validation Blueprint: UserProfile (/users/{userId})
+    function isValidUserProfile(data) {
+      return data.keys().hasAll(['uid', 'displayName', 'role', 'createdAt', 'updatedAt']) &&
+        data.keys().hasOnly(['uid', 'displayName', 'role', 'createdAt', 'updatedAt']) &&
+        data.uid is string && data.uid.size() >= 1 && data.uid.size() <= 128 && data.uid.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.uid == request.auth.uid &&
+        data.displayName is string && data.displayName.size() >= 1 && data.displayName.size() <= 120 &&
+        data.role is string && data.role.size() >= 4 && data.role.size() <= 16 &&
+        (data.role == 'owner' || (data.role == 'admin' && isAdmin())) &&
+        data.createdAt is timestamp &&
+        data.updatedAt is timestamp;
+    }
+
+    // Validation Blueprint: Zero-Plaintext TelegramVault (/telegram_vaults/{vaultId})
+    function isValidTelegramVault(data) {
+      return data.keys().hasAll([
+          'ownerId',
+          'encryptedBotToken',
+          'botTokenMasked',
+          'chatId',
+          'botUsername',
+          'botName',
+          'chatTitle',
+          'subscribersCount',
+          'geminiSecretConfigured',
+          'autoSendEvery6h',
+          'verified',
+          'lastSyncedIso',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerId',
+          'encryptedBotToken',
+          'botTokenMasked',
+          'chatId',
+          'botUsername',
+          'botName',
+          'chatTitle',
+          'subscribersCount',
+          'geminiSecretConfigured',
+          'autoSendEvery6h',
+          'verified',
+          'lastSyncedIso',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.ownerId is string && data.ownerId.size() >= 1 && data.ownerId.size() <= 128 && data.ownerId.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.ownerId == request.auth.uid &&
+        data.encryptedBotToken is string && data.encryptedBotToken.size() <= 1024 &&
+        data.botTokenMasked is string && data.botTokenMasked.size() <= 64 &&
+        data.chatId is string && data.chatId.size() <= 128 &&
+        data.botUsername is string && data.botUsername.size() <= 128 &&
+        data.botName is string && data.botName.size() <= 128 &&
+        data.chatTitle is string && data.chatTitle.size() <= 200 &&
+        data.subscribersCount is number && data.subscribersCount >= 0 && data.subscribersCount <= 100000 &&
+        data.geminiSecretConfigured is bool &&
+        data.autoSendEvery6h is bool &&
+        data.verified is bool &&
+        data.lastSyncedIso is string && data.lastSyncedIso.size() <= 64 &&
+        data.createdAt is timestamp &&
+        data.updatedAt is timestamp;
+    }
+
+    // Validation Blueprint: TelegramSubscriber (/telegram_subscribers/{subscriberId})
+    function isValidTelegramSubscriber(data) {
+      return data.keys().hasAll([
+          'ownerId',
+          'chatId',
+          'title',
+          'chatType',
+          'username',
+          'subscribedAtIso',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerId',
+          'chatId',
+          'title',
+          'chatType',
+          'username',
+          'subscribedAtIso',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.ownerId is string && data.ownerId.size() >= 1 && data.ownerId.size() <= 128 && data.ownerId.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.ownerId == request.auth.uid &&
+        data.chatId is string && data.chatId.size() >= 1 && data.chatId.size() <= 128 &&
+        data.title is string && data.title.size() >= 1 && data.title.size() <= 200 &&
+        data.chatType is string && data.chatType.size() >= 1 && data.chatType.size() <= 32 &&
+        data.username is string && data.username.size() <= 128 &&
+        data.subscribedAtIso is string && data.subscribedAtIso.size() >= 1 && data.subscribedAtIso.size() <= 64 &&
+        data.createdAt is timestamp &&
+        data.updatedAt is timestamp;
+    }
+
+    // Validation Blueprint: AutomationConfig (/automation_configs/{configId})
+    function isValidAutomationConfig(data) {
+      return data.keys().hasAll([
+          'ownerId',
+          'intervalHours',
+          'dailyRunTime',
+          'outputLanguage',
+          'hnTopLimit',
+          'devtoTopLimit',
+          'autoSendTelegram',
+          'lastRunIso',
+          'nextRunIso',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerId',
+          'intervalHours',
+          'dailyRunTime',
+          'outputLanguage',
+          'hnTopLimit',
+          'devtoTopLimit',
+          'autoSendTelegram',
+          'lastRunIso',
+          'nextRunIso',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.ownerId is string && data.ownerId.size() >= 1 && data.ownerId.size() <= 128 && data.ownerId.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.ownerId == request.auth.uid &&
+        data.intervalHours is number && data.intervalHours >= 1 && data.intervalHours <= 24 &&
+        data.dailyRunTime is string && data.dailyRunTime.size() <= 32 &&
+        data.outputLanguage is string && data.outputLanguage.size() >= 2 && data.outputLanguage.size() <= 32 &&
+        (data.outputLanguage == 'English' || data.outputLanguage == 'Bengali') &&
+        data.hnTopLimit is number && data.hnTopLimit >= 1 && data.hnTopLimit <= 15 &&
+        data.devtoTopLimit is number && data.devtoTopLimit >= 1 && data.devtoTopLimit <= 15 &&
+        data.autoSendTelegram is bool &&
+        data.lastRunIso is string && data.lastRunIso.size() <= 64 &&
+        data.nextRunIso is string && data.nextRunIso.size() <= 64 &&
+        data.createdAt is timestamp &&
+        data.updatedAt is timestamp;
+    }
+
+    // Validation Blueprint: DigestRun (/digest_runs/{runId})
+    function isValidDigestRun(data) {
+      return data.keys().hasAll([
+          'ownerId',
+          'generatedAtIso',
+          'outputLanguage',
+          'editorialHeadline',
+          'itemsCount',
+          'delivered',
+          'chunksSent',
+          'targetChatId',
+          'deliveryReason',
+          'primaryMessageHtml',
+          'storiesSummaryText',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerId',
+          'generatedAtIso',
+          'outputLanguage',
+          'editorialHeadline',
+          'itemsCount',
+          'delivered',
+          'chunksSent',
+          'targetChatId',
+          'deliveryReason',
+          'primaryMessageHtml',
+          'storiesSummaryText',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.ownerId is string && data.ownerId.size() >= 1 && data.ownerId.size() <= 128 && data.ownerId.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.ownerId == request.auth.uid &&
+        data.generatedAtIso is string && data.generatedAtIso.size() >= 1 && data.generatedAtIso.size() <= 64 &&
+        data.outputLanguage is string && data.outputLanguage.size() >= 2 && data.outputLanguage.size() <= 32 &&
+        (data.outputLanguage == 'English' || data.outputLanguage == 'Bengali') &&
+        data.editorialHeadline is string && data.editorialHeadline.size() >= 1 && data.editorialHeadline.size() <= 1000 &&
+        data.itemsCount is number && data.itemsCount >= 0 && data.itemsCount <= 50 &&
+        data.delivered is bool &&
+        data.chunksSent is number && data.chunksSent >= 0 && data.chunksSent <= 500 &&
+        data.targetChatId is string && data.targetChatId.size() <= 128 &&
+        data.deliveryReason is string && data.deliveryReason.size() <= 500 &&
+        data.primaryMessageHtml is string && data.primaryMessageHtml.size() >= 1 && data.primaryMessageHtml.size() <= 12000 &&
+        data.storiesSummaryText is string && data.storiesSummaryText.size() >= 1 && data.storiesSummaryText.size() <= 20000 &&
+        data.createdAt is timestamp &&
+        data.updatedAt is timestamp;
+    }
+
+    // Validation Blueprint: ProcessedItem (/processed_items/{itemId})
+    function isValidProcessedItem(data) {
+      return data.keys().hasAll([
+          'ownerId',
+          'itemUid',
+          'source',
+          'processedAtIso',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerId',
+          'itemUid',
+          'source',
+          'processedAtIso',
+          'createdAt',
+          'updatedAt'
+        ]) &&
+        data.ownerId is string && data.ownerId.size() >= 1 && data.ownerId.size() <= 128 && data.ownerId.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.ownerId == request.auth.uid &&
+        data.itemUid is string && data.itemUid.size() >= 1 && data.itemUid.size() <= 128 && data.itemUid.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.source is string && data.source.size() >= 2 && data.source.size() <= 32 &&
+        (data.source == 'Hacker News' || data.source == 'DEV.to') &&
+        data.processedAtIso is string && data.processedAtIso.size() >= 1 && data.processedAtIso.size() <= 64 &&
+        data.createdAt is timestamp &&
+        data.updatedAt is timestamp;
+    }
+
+    // Collection 0: Trusted Admin Registry (/admins/{adminId})
+    match /admins/{adminId} {
+      allow get: if isSignedIn() && isValidId(adminId) && (request.auth.uid == adminId || isAdmin());
+      allow list, create, update, delete: if false;
+    }
+
+    // Collection 1: Operator Profiles (/users/{userId})
+    match /users/{userId} {
+      allow get: if isSignedIn() && isValidId(userId) && (request.auth.uid == userId || isAdmin());
+      allow list: if isSignedIn() && resource.data.uid == request.auth.uid;
+      allow create: if isVerifiedUser() &&
+        isValidId(userId) &&
+        request.auth.uid == userId &&
+        isValidUserProfile(incoming()) &&
+        incoming().createdAt == request.time &&
+        incoming().updatedAt == request.time;
+      allow update: if isVerifiedUser() &&
+        isValidId(userId) &&
+        isValidUserProfile(incoming()) &&
+        incoming().uid == existing().uid &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().updatedAt == request.time && (
+          isAdmin() ||
+          (
+            request.auth.uid == userId &&
+            incoming().role == existing().role &&
+            incoming().diff(existing()).affectedKeys().hasOnly(['displayName', 'updatedAt'])
+          )
+        );
+      allow delete: if isVerifiedUser() && isValidId(userId) && (request.auth.uid == userId || isAdmin());
+    }
+
+    // Collection 2: Isolated Zero-Plaintext Secret Telegram Vaults (/telegram_vaults/{vaultId})
+    match /telegram_vaults/{vaultId} {
+      allow get: if isSignedIn() && isValidId(vaultId) && (existing().ownerId == request.auth.uid || isAdmin());
+      allow list: if isSignedIn() && resource.data.ownerId == request.auth.uid;
+      allow create: if isVerifiedUser() &&
+        isValidId(vaultId) &&
+        vaultId == request.auth.uid &&
+        isValidTelegramVault(incoming()) &&
+        incoming().createdAt == request.time &&
+        incoming().updatedAt == request.time &&
+        userExists(incoming().ownerId);
+      allow update: if isVerifiedUser() &&
+        isValidId(vaultId) &&
+        isValidTelegramVault(incoming()) &&
+        incoming().ownerId == existing().ownerId &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().updatedAt == request.time && (
+          isAdmin() ||
+          (
+            existing().ownerId == request.auth.uid &&
+            incoming().diff(existing()).affectedKeys().hasOnly([
+              'encryptedBotToken',
+              'botTokenMasked',
+              'chatId',
+              'botUsername',
+              'botName',
+              'chatTitle',
+              'subscribersCount',
+              'geminiSecretConfigured',
+              'autoSendEvery6h',
+              'verified',
+              'lastSyncedIso',
+              'updatedAt'
+            ])
+          )
+        );
+      allow delete: if isVerifiedUser() && isValidId(vaultId) && (existing().ownerId == request.auth.uid || isAdmin());
+    }
+
+    // Collection 3: Telegram Bot Subscribers (/telegram_subscribers/{subscriberId})
+    match /telegram_subscribers/{subscriberId} {
+      allow get: if isSignedIn() && isValidId(subscriberId) && (existing().ownerId == request.auth.uid || isAdmin());
+      allow list: if isSignedIn() && resource.data.ownerId == request.auth.uid;
+      allow create: if isVerifiedUser() &&
+        isValidId(subscriberId) &&
+        isValidTelegramSubscriber(incoming()) &&
+        incoming().createdAt == request.time &&
+        incoming().updatedAt == request.time &&
+        userExists(incoming().ownerId);
+      allow update: if isVerifiedUser() &&
+        isValidId(subscriberId) &&
+        isValidTelegramSubscriber(incoming()) &&
+        incoming().ownerId == existing().ownerId &&
+        incoming().chatId == existing().chatId &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().updatedAt == request.time && (
+          isAdmin() ||
+          (
+            existing().ownerId == request.auth.uid &&
+            incoming().diff(existing()).affectedKeys().hasOnly([
+              'title',
+              'chatType',
+              'username',
+              'subscribedAtIso',
+              'updatedAt'
+            ])
+          )
+        );
+      allow delete: if isVerifiedUser() && isValidId(subscriberId) && (existing().ownerId == request.auth.uid || isAdmin());
+    }
+
+    // Collection 4: 6-Hour Automation Configs (/automation_configs/{configId})
+    match /automation_configs/{configId} {
+      allow get: if isSignedIn() && isValidId(configId) && (existing().ownerId == request.auth.uid || isAdmin());
+      allow list: if isSignedIn() && resource.data.ownerId == request.auth.uid;
+      allow create: if isVerifiedUser() &&
+        isValidId(configId) &&
+        configId == request.auth.uid &&
+        isValidAutomationConfig(incoming()) &&
+        incoming().createdAt == request.time &&
+        incoming().updatedAt == request.time &&
+        userExists(incoming().ownerId);
+      allow update: if isVerifiedUser() &&
+        isValidId(configId) &&
+        isValidAutomationConfig(incoming()) &&
+        incoming().ownerId == existing().ownerId &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().updatedAt == request.time && (
+          isAdmin() ||
+          (
+            existing().ownerId == request.auth.uid &&
+            incoming().diff(existing()).affectedKeys().hasOnly([
+              'intervalHours',
+              'dailyRunTime',
+              'outputLanguage',
+              'hnTopLimit',
+              'devtoTopLimit',
+              'autoSendTelegram',
+              'lastRunIso',
+              'nextRunIso',
+              'updatedAt'
+            ])
+          )
+        );
+      allow delete: if isVerifiedUser() && isValidId(configId) && (existing().ownerId == request.auth.uid || isAdmin());
+    }
+
+    // Collection 5: Archived 6-Hour Digest Runs (/digest_runs/{runId})
+    match /digest_runs/{runId} {
+      allow get: if isSignedIn() && isValidId(runId) && (existing().ownerId == request.auth.uid || isAdmin());
+      allow list: if isSignedIn() && resource.data.ownerId == request.auth.uid;
+      allow create: if isVerifiedUser() &&
+        isValidId(runId) &&
+        isValidDigestRun(incoming()) &&
+        incoming().createdAt == request.time &&
+        incoming().updatedAt == request.time &&
+        userExists(incoming().ownerId);
+      allow update: if isVerifiedUser() &&
+        isValidId(runId) &&
+        isValidDigestRun(incoming()) &&
+        incoming().ownerId == existing().ownerId &&
+        incoming().generatedAtIso == existing().generatedAtIso &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().updatedAt == request.time && (
+          isAdmin() ||
+          (
+            existing().ownerId == request.auth.uid &&
+            incoming().diff(existing()).affectedKeys().hasOnly([
+              'delivered',
+              'chunksSent',
+              'targetChatId',
+              'deliveryReason',
+              'primaryMessageHtml',
+              'storiesSummaryText',
+              'updatedAt'
+            ])
+          )
+        );
+      allow delete: if isVerifiedUser() && isValidId(runId) && (existing().ownerId == request.auth.uid || isAdmin());
+    }
+
+    // Collection 6: Deduplicated Story Items (/processed_items/{itemId})
+    match /processed_items/{itemId} {
+      allow get: if isSignedIn() && isValidId(itemId) && (existing().ownerId == request.auth.uid || isAdmin());
+      allow list: if isSignedIn() && resource.data.ownerId == request.auth.uid;
+      allow create: if isVerifiedUser() &&
+        isValidId(itemId) &&
+        isValidProcessedItem(incoming()) &&
+        incoming().createdAt == request.time &&
+        incoming().updatedAt == request.time &&
+        userExists(incoming().ownerId);
+      allow update: if isVerifiedUser() &&
+        isValidId(itemId) &&
+        isValidProcessedItem(incoming()) &&
+        incoming().ownerId == existing().ownerId &&
+        incoming().itemUid == existing().itemUid &&
+        incoming().source == existing().source &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().updatedAt == request.time && (
+          isAdmin() ||
+          (
+            existing().ownerId == request.auth.uid &&
+            incoming().diff(existing()).affectedKeys().hasOnly([
+              'processedAtIso',
+              'updatedAt'
+            ])
+          )
+        );
+      allow delete: if isVerifiedUser() && isValidId(itemId) && (existing().ownerId == request.auth.uid || isAdmin());
+    }
+  }
+}
