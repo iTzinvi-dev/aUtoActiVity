@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-07T21:34:44.896277+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50403052",
+        "source": "Hacker News",
+        "title": "Need for Speed Underground 2 online in the browser",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (688 points, 199 comments). Currently trending on Hacker News with 688 developer upvotes and 199 technical comments.",
+        "url": "https://nfsu2.xyz/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50403052",
+        "author": "fluxusars",
+        "score": 688,
+        "comments_count": 199,
+        "published_at": "2026-11-07T09:36:36+00:00"
+      },
+      {
+        "uid": "hn_50403097",
+        "source": "Hacker News",
+        "title": "Every Mac comes with an (undocumented) family member classifier",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (513 points, 301 comments). Currently trending on Hacker News with 513 developer upvotes and 301 technical comments.",
+        "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+        "discussion_url": "https://news.ycombinator.com/item?id=50403097",
+        "author": "infwhispers",
+        "score": 513,
+        "comments_count": 301,
+        "published_at": "2026-11-07T09:46:03+00:00"
+      },
+      {
+        "uid": "hn_50406563",
+        "source": "Hacker News",
+        "title": "The end of Microsoft Research's AI Frontiers group",
+        "category_tag": "[AI/ML]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;AaY5O\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;AaY5O</a><p><a href=\"https:&#x2F;&#x2F;businessexaminer.ca&#x2F;victoria-articles&#x2F;item&#x2F;microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared&#x2F;\" rel=\"nofollow\">https:&. Currently trending on Hacker News with 237 developer upvotes and 136 technical comments.",
+        "url": "https://hunch.net/?p=13764006",
+        "discussion_url": "https://news.ycombinator.com/item?id=50406563",
+        "author": "srean",
+        "score": 237,
+        "comments_count": 136,
+        "published_at": "2026-11-07T18:02:17+00:00"
+      },
+      {
+        "uid": "hn_50406111",
+        "source": "Hacker News",
+        "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (220 points, 139 comments). Currently trending on Hacker News with 220 developer upvotes and 139 technical comments.",
+        "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+        "discussion_url": "https://news.ycombinator.com/item?id=50406111",
+        "author": "user_7832",
+        "score": 220,
+        "comments_count": 139,
+        "published_at": "2026-11-07T17:06:36+00:00"
+      },
+      {
+        "uid": "hn_50404599",
+        "source": "Hacker News",
+        "title": "The $8 Linux Computer (2022)",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (174 points, 79 comments). Currently trending on Hacker News with 174 developer upvotes and 79 technical comments.",
+        "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50404599",
+        "author": "zenincognito",
+        "score": 174,
+        "comments_count": 79,
+        "published_at": "2026-11-07T14:00:20+00:00"
+      },
+      {
+        "uid": "devto_4991005",
+        "source": "DEV.to",
+        "title": "Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Why does standard AI code generation try to jump straight to 'Have' without the proper 'Be'? How ladder rungs, the 'Null-State' couch flash, and stand-up comedy explain what separates senior engineers from junior token streamers. Currently trending on DEV.to with 13 developer upvotes and 12 technical comments.",
+        "url": "https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl",
+        "discussion_url": "https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl",
+        "author": "randalschwartz",
+        "score": 13,
+        "comments_count": 12,
+        "published_at": "2026-11-06T23:51:03Z"
+      },
+      {
+        "uid": "devto_4990893",
+        "source": "DEV.to",
+        "title": "I ran 3 Claude Code architecture diagram tools on my repo. Here's what each one got right",
+        "category_tag": "[AI/ML]",
+        "takeaway": "My project, worklore, is a small app that grew in all directions: a Python backend on AWS Lambda, a. Currently trending on DEV.to with 6 developer upvotes and 8 technical comments.",
+        "url": "https://dev.to/yahhi/i-ran-3-claude-code-architecture-diagram-tools-on-my-repo-heres-what-each-one-got-right-110n",
+        "discussion_url": "https://dev.to/yahhi/i-ran-3-claude-code-architecture-diagram-tools-on-my-repo-heres-what-each-one-got-right-110n",
+        "author": "yahhi",
+        "score": 6,
+        "comments_count": 8,
+        "published_at": "2026-11-06T22:49:50Z"
+      },
+      {
+        "uid": "devto_4989630",
+        "source": "DEV.to",
+        "title": "Windows won't let you own Win+Shift+S. So I hooked the keyboard in Python.",
+        "category_tag": "[System Design]",
+        "takeaway": "I wanted one small thing: press Win+Shift+S and get my own screenshot tool instead of Snipping. Currently trending on DEV.to with 43 developer upvotes and 64 technical comments.",
+        "url": "https://dev.to/akhourianmolkumar/windows-wont-let-you-own-winshifts-so-i-hooked-the-keyboard-in-python-248c",
+        "discussion_url": "https://dev.to/akhourianmolkumar/windows-wont-let-you-own-winshifts-so-i-hooked-the-keyboard-in-python-248c",
+        "author": "akhourianmolkumar",
+        "score": 43,
+        "comments_count": 64,
+        "published_at": "2026-11-07T04:51:12Z"
+      },
+      {
+        "uid": "devto_4992387",
+        "source": "DEV.to",
+        "title": "You tried git-lrc. Meet LiveReview 👀",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for. Currently trending on DEV.to with 46 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/lovestaco/you-tried-git-lrc-meet-livereview-7od",
+        "discussion_url": "https://dev.to/lovestaco/you-tried-git-lrc-meet-livereview-7od",
+        "author": "lovestaco",
+        "score": 46,
+        "comments_count": 5,
+        "published_at": "2026-11-07T10:51:12Z"
+      },
+      {
+        "uid": "devto_4992018",
+        "source": "DEV.to",
+        "title": "There's a Pattern Hidden in Qwen3.5-0.8B's Neurons That Training Can't Explain",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Qwen3.5-0.8B's Neurons Are Secretly Ranked TL;DR. The MLP neurons of Qwen3.5-0.8B appear. Currently trending on DEV.to with 43 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/advikdivekar/theres-a-pattern-hidden-in-qwen35-08bs-neurons-that-training-cant-explain-58od",
+        "discussion_url": "https://dev.to/advikdivekar/theres-a-pattern-hidden-in-qwen35-08bs-neurons-that-training-cant-explain-58od",
+        "author": "advikdivekar",
+        "score": 43,
+        "comments_count": 0,
+        "published_at": "2026-11-07T05:35:51Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Need for Speed Underground 2 online in the browser</b>\nHacker News discussion (688 points, 199 comments). Currently trending on Hacker News with 688 developer upvotes and 199 technical comments.\n<i>Hacker News · ▲ 688 · @fluxusars</i>\n🔗 <a href=\"https://nfsu2.xyz/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50403052\">HN Discussion (199)</a>\n\n<b>2. [System Design] Every Mac comes with an (undocumented) family member classifier</b>\nHacker News discussion (513 points, 301 comments). Currently trending on Hacker News with 513 developer upvotes and 301 technical comments.\n<i>Hacker News · ▲ 513 · @infwhispers</i>\n🔗 <a href=\"https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50403097\">HN Discussion (301)</a>\n\n<b>3. [AI/ML] The end of Microsoft Research&#x27;s AI Frontiers group</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;archive.is&amp;#x2F;AaY5O&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;archive.is&amp;#x2F;AaY5O&lt;/a&gt;&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;businessexaminer.ca&amp;#x2F;victoria-articles&amp;#x2F;item&amp;#x2F;microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;. Currently trending on Hacker News with 237 developer upvotes and 136 technical comments.\n<i>Hacker News · ▲ 237 · @srean</i>\n🔗 <a href=\"https://hunch.net/?p=13764006\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50406563\">HN Discussion (136)</a>\n\n<b>4. [System Design] Apple’s grey list: Words and phrases your iPhone won’t help you spell</b>\nHacker News discussion (220 points, 139 comments). Currently trending on Hacker News with 220 developer upvotes and 139 technical comments.\n<i>Hacker News · ▲ 220 · @user_7832</i>\n🔗 <a href=\"https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50406111\">HN Discussion (139)</a>\n\n<b>5. [Systems] The $8 Linux Computer (2022)</b>\nHacker News discussion (174 points, 79 comments). Currently trending on Hacker News with 174 developer upvotes and 79 technical comments.\n<i>Hacker News · ▲ 174 · @zenincognito</i>\n🔗 <a href=\"http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50404599\">HN Discussion (79)</a>\n\n<b>6. [AI/ML] Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code</b>\nWhy does standard AI code generation try to jump straight to &#x27;Have&#x27; without the proper &#x27;Be&#x27;? How ladder rungs, the &#x27;Null-State&#x27; couch flash, and stand-up comedy explain what separates senior engineers from junior token streamers. Currently trending on DEV.to with 13 developer upvotes and 12 technical comments.\n<i>DEV.to · ▲ 13 · @randalschwartz</i>\n🔗 <a href=\"https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl\">Read Source</a>\n\n<b>7. [AI/ML] I ran 3 Claude Code architecture diagram tools on my repo. Here&#x27;s what each one got right</b>\nMy project, worklore, is a small app that grew in all directions: a Python backend on AWS Lambda, a. Currently trending on DEV.to with 6 developer upvotes and 8 technical comments.\n<i>DEV.to · ▲ 6 · @yahhi</i>\n🔗 <a href=\"https://dev.to/yahhi/i-ran-3-claude-code-architecture-diagram-tools-on-my-repo-heres-what-each-one-got-right-110n\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [System Design] Windows won&#x27;t let you own Win+Shift+S. So I hooked the keyboard in Python.</b>\nI wanted one small thing: press Win+Shift+S and get my own screenshot tool instead of Snipping. Currently trending on DEV.to with 43 developer upvotes and 64 technical comments.\n<i>DEV.to · ▲ 43 · @akhourianmolkumar</i>\n🔗 <a href=\"https://dev.to/akhourianmolkumar/windows-wont-let-you-own-winshifts-so-i-hooked-the-keyboard-in-python-248c\">Read Source</a>\n\n<b>9. [AI/ML] You tried git-lrc. Meet LiveReview 👀</b>\nHello, I&#x27;m Maneshwar, and I&#x27;m building LiveReview — a blast-radius aware AI code review built for. Currently trending on DEV.to with 46 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 46 · @lovestaco</i>\n🔗 <a href=\"https://dev.to/lovestaco/you-tried-git-lrc-meet-livereview-7od\">Read Source</a>\n\n<b>10. [AI/ML] There&#x27;s a Pattern Hidden in Qwen3.5-0.8B&#x27;s Neurons That Training Can&#x27;t Explain</b>\nQwen3.5-0.8B&#x27;s Neurons Are Secretly Ranked TL;DR. The MLP neurons of Qwen3.5-0.8B appear. Currently trending on DEV.to with 43 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 43 · @advikdivekar</i>\n🔗 <a href=\"https://dev.to/advikdivekar/theres-a-pattern-hidden-in-qwen35-08bs-neurons-that-training-cant-explain-58od\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-07T10:19:55.153Z",
     "output_language": "English",
     "model_used": "gemini-3.8-flash",
