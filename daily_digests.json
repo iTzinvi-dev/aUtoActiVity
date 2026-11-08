@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-08T04:59:46.362667+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50406670",
+        "source": "Hacker News",
+        "title": "What I run on my $10 USD OpenStick homelab",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (450 points, 96 comments). Currently trending on Hacker News with 450 developer upvotes and 96 technical comments.",
+        "url": "https://blog.bosscher.ch/posts/openstick/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50406670",
+        "author": "LaurensBER",
+        "score": 450,
+        "comments_count": 96,
+        "published_at": "2026-11-07T18:12:12+00:00"
+      },
+      {
+        "uid": "hn_50407882",
+        "source": "Hacker News",
+        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+        "category_tag": "[Open Source]",
+        "takeaway": "Hacker News discussion (268 points, 177 comments). Currently trending on Hacker News with 268 developer upvotes and 177 technical comments.",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+        "discussion_url": "https://news.ycombinator.com/item?id=50407882",
+        "author": "shmulc",
+        "score": 268,
+        "comments_count": 177,
+        "published_at": "2026-11-07T20:45:32+00:00"
+      },
+      {
+        "uid": "hn_50406222",
+        "source": "Hacker News",
+        "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (241 points, 67 comments). Currently trending on Hacker News with 241 developer upvotes and 67 technical comments.",
+        "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50406222",
+        "author": "antiuniverse",
+        "score": 241,
+        "comments_count": 67,
+        "published_at": "2026-11-07T17:19:00+00:00"
+      },
+      {
+        "uid": "hn_50406292",
+        "source": "Hacker News",
+        "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+        "category_tag": "[System Design]",
+        "takeaway": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake.<p>To learn more about this I built a honeypot that resembled perfect. Currently trending on Hacker News with 207 developer upvotes and 44 technical comments.",
+        "url": "https://github.com/hedgerow-dev/coldframe",
+        "discussion_url": "https://news.ycombinator.com/item?id=50406292",
+        "author": "hedgerow-dev",
+        "score": 207,
+        "comments_count": 44,
+        "published_at": "2026-11-07T17:27:30+00:00"
+      },
+      {
+        "uid": "hn_50408931",
+        "source": "Hacker News",
+        "title": "GitHub New pull request overview page in public preview",
+        "category_tag": "[Open Source]",
+        "takeaway": "Hacker News discussion (100 points, 68 comments). Currently trending on Hacker News with 100 developer upvotes and 68 technical comments.",
+        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50408931",
+        "author": "xiaoyu2006",
+        "score": 100,
+        "comments_count": 68,
+        "published_at": "2026-11-07T23:09:40+00:00"
+      },
+      {
+        "uid": "devto_4993971",
+        "source": "DEV.to",
+        "title": "Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I can't believe I'm saying this, but Ubuntu might be about to change for good. Not a new wallpaper. Currently trending on DEV.to with 18 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1",
+        "discussion_url": "https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1",
+        "author": "taqui",
+        "score": 18,
+        "comments_count": 0,
+        "published_at": "2026-11-07T15:18:14Z"
+      },
+      {
+        "uid": "devto_4944139",
+        "source": "DEV.to",
+        "title": "I Never Thought I'd Be a Programmer. Yet Here I Am.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Here I am sitting at home on a rainy Saturday, so I thought I'd share my story. It's nothing special,. Currently trending on DEV.to with 15 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/sizzlebop/i-never-thought-id-be-a-programmer-yet-here-i-am-21in",
+        "discussion_url": "https://dev.to/sizzlebop/i-never-thought-id-be-a-programmer-yet-here-i-am-21in",
+        "author": "sizzlebop",
+        "score": 15,
+        "comments_count": 5,
+        "published_at": "2026-11-07T20:41:58Z"
+      },
+      {
+        "uid": "devto_4993366",
+        "source": "DEV.to",
+        "title": "How to Master AWS for AI?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Ciao Amici 👋 Every hiking trail in the Alps has a map at the trailhead. A good one shows you the. Currently trending on DEV.to with 17 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/aws-builders/how-to-master-aws-for-ai-3la4",
+        "discussion_url": "https://dev.to/aws-builders/how-to-master-aws-for-ai-3la4",
+        "author": "mursalfk",
+        "score": 17,
+        "comments_count": 3,
+        "published_at": "2026-11-07T11:48:28Z"
+      },
+      {
+        "uid": "devto_4995789",
+        "source": "DEV.to",
+        "title": "Stop Asking LLMs to Do Math: Client-Side Functions in Flutter GenUI with bloc_signals",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Why Andrew 'Red' Brogdon's insight on client-side functions is critical for Generative UI—and how bloc_signals_genui turns catalog functions into 0ms synchronous reactive signals. Currently trending on DEV.to with 6 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/stop-asking-llms-to-do-math-client-side-functions-in-flutter-genui-with-blocsignals-23bh",
+        "discussion_url": "https://dev.to/gde/stop-asking-llms-to-do-math-client-side-functions-in-flutter-genui-with-blocsignals-23bh",
+        "author": "randalschwartz",
+        "score": 6,
+        "comments_count": 0,
+        "published_at": "2026-11-07T21:34:26Z"
+      },
+      {
+        "uid": "devto_4991977",
+        "source": "DEV.to",
+        "title": "Containerd 2.4's switch to klauspost's gzip decoder speeds up real image layers by 18%",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "I benchmarked containerd 2.4's swap from Go's stdlib gzip to klauspost/compress on real container layers: 18% faster decompression against the 40-50% the upstream PR reported, but allocations dropped by over 300x. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/containerd-24s-switch-to-klausposts-gzip-decoder-speeds-up-real-image-layers-by-18-2jne",
+        "discussion_url": "https://dev.to/alexgeorgiev17/containerd-24s-switch-to-klausposts-gzip-decoder-speeds-up-real-image-layers-by-18-2jne",
+        "author": "alexgeorgiev17",
+        "score": 7,
+        "comments_count": 0,
+        "published_at": "2026-11-07T11:00:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        88,
+        89,
+        90,
+        91
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] What I run on my $10 USD OpenStick homelab</b>\nHacker News discussion (450 points, 96 comments). Currently trending on Hacker News with 450 developer upvotes and 96 technical comments.\n<i>Hacker News · ▲ 450 · @LaurensBER</i>\n🔗 <a href=\"https://blog.bosscher.ch/posts/openstick/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50406670\">HN Discussion (96)</a>\n\n<b>2. [Open Source] Claude Code&#x27;s &quot;Don&#x27;t Ask Again&quot; exposes passwords in 1,122 public GitHub files</b>\nHacker News discussion (268 points, 177 comments). Currently trending on Hacker News with 268 developer upvotes and 177 technical comments.\n<i>Hacker News · ▲ 268 · @shmulc</i>\n🔗 <a href=\"https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50407882\">HN Discussion (177)</a>\n\n<b>3. [System Design] MaxxBench – &quot;Nice DeepSWE score. But is it true?&quot;</b>\nHacker News discussion (241 points, 67 comments). Currently trending on Hacker News with 241 developer upvotes and 67 technical comments.\n<i>Hacker News · ▲ 241 · @antiuniverse</i>\n🔗 <a href=\"https://maxxbench.unlap.ai/research/why-maxxbench/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50406222\">HN Discussion (67)</a>\n\n<b>4. [System Design] Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller</b>\nI built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake.&lt;p&gt;To learn more about this I built a honeypot that resembled perfect. Currently trending on Hacker News with 207 developer upvotes and 44 technical comments.\n<i>Hacker News · ▲ 207 · @hedgerow-dev</i>\n🔗 <a href=\"https://github.com/hedgerow-dev/coldframe\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50406292\">HN Discussion (44)</a>\n\n<b>5. [Open Source] GitHub New pull request overview page in public preview</b>\nHacker News discussion (100 points, 68 comments). Currently trending on Hacker News with 100 developer upvotes and 68 technical comments.\n<i>Hacker News · ▲ 100 · @xiaoyu2006</i>\n🔗 <a href=\"https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50408931\">HN Discussion (68)</a>\n\n<b>6. [AI/ML] Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)</b>\nI can&#x27;t believe I&#x27;m saying this, but Ubuntu might be about to change for good. Not a new wallpaper. Currently trending on DEV.to with 18 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 18 · @taqui</i>\n🔗 <a href=\"https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1\">Read Source</a>\n\n<b>7. [AI/ML] I Never Thought I&#x27;d Be a Programmer. Yet Here I Am.</b>\nHere I am sitting at home on a rainy Saturday, so I thought I&#x27;d share my story. It&#x27;s nothing special,. Currently trending on DEV.to with 15 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 15 · @sizzlebop</i>\n🔗 <a href=\"https://dev.to/sizzlebop/i-never-thought-id-be-a-programmer-yet-here-i-am-21in\">Read Source</a>\n\n<b>8. [AI/ML] How to Master AWS for AI?</b>\nCiao Amici 👋 Every hiking trail in the Alps has a map at the trailhead. A good one shows you the. Currently trending on DEV.to with 17 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 17 · @mursalfk</i>\n🔗 <a href=\"https://dev.to/aws-builders/how-to-master-aws-for-ai-3la4\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Stop Asking LLMs to Do Math: Client-Side Functions in Flutter GenUI with bloc_signals</b>\nWhy Andrew &#x27;Red&#x27; Brogdon&#x27;s insight on client-side functions is critical for Generative UI—and how bloc_signals_genui turns catalog functions into 0ms synchronous reactive signals. Currently trending on DEV.to with 6 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 6 · @randalschwartz</i>\n🔗 <a href=\"https://dev.to/gde/stop-asking-llms-to-do-math-client-side-functions-in-flutter-genui-with-blocsignals-23bh\">Read Source</a>\n\n<b>10. [Cloud/DevOps] Containerd 2.4&#x27;s switch to klauspost&#x27;s gzip decoder speeds up real image layers by 18%</b>\nI benchmarked containerd 2.4&#x27;s swap from Go&#x27;s stdlib gzip to klauspost/compress on real container layers: 18% faster decompression against the 40-50% the upstream PR reported, but allocations dropped by over 300x. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 7 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/containerd-24s-switch-to-klausposts-gzip-decoder-speeds-up-real-image-layers-by-18-2jne\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-07T21:34:44.896277+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
