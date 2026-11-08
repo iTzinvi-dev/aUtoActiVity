@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-08T21:49:25.426907+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50415628",
+        "source": "Hacker News",
+        "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (429 points, 265 comments). Currently trending on Hacker News with 429 developer upvotes and 265 technical comments.",
+        "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+        "discussion_url": "https://news.ycombinator.com/item?id=50415628",
+        "author": "TheWiggles",
+        "score": 429,
+        "comments_count": 265,
+        "published_at": "2026-11-08T18:16:07+00:00"
+      },
+      {
+        "uid": "hn_50411961",
+        "source": "Hacker News",
+        "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (313 points, 118 comments). Currently trending on Hacker News with 313 developer upvotes and 118 technical comments.",
+        "url": "https://github.com/synchopate/llama-modchip",
+        "discussion_url": "https://news.ycombinator.com/item?id=50411961",
+        "author": "joshcsimmons",
+        "score": 313,
+        "comments_count": 118,
+        "published_at": "2026-11-08T10:22:04+00:00"
+      },
+      {
+        "uid": "hn_50412067",
+        "source": "Hacker News",
+        "title": "Writing as a thinking tool",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (230 points, 72 comments). Currently trending on Hacker News with 230 developer upvotes and 72 technical comments.",
+        "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50412067",
+        "author": "jruohonen",
+        "score": 230,
+        "comments_count": 72,
+        "published_at": "2026-11-08T10:41:52+00:00"
+      },
+      {
+        "uid": "hn_50368481",
+        "source": "Hacker News",
+        "title": "Declarative Dragging",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (168 points, 14 comments). Currently trending on Hacker News with 168 developer upvotes and 14 technical comments.",
+        "url": "https://declarative-dragging.github.io/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50368481",
+        "author": "smusamashah",
+        "score": 168,
+        "comments_count": 14,
+        "published_at": "2026-11-04T17:05:07+00:00"
+      },
+      {
+        "uid": "hn_50415172",
+        "source": "Hacker News",
+        "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (163 points, 56 comments). Currently trending on Hacker News with 163 developer upvotes and 56 technical comments.",
+        "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50415172",
+        "author": "randycupertino",
+        "score": 163,
+        "comments_count": 56,
+        "published_at": "2026-11-08T17:20:29+00:00"
+      },
+      {
+        "uid": "devto_4989886",
+        "source": "DEV.to",
+        "title": "Necoz Has a New Home on DEV! 🐈🎉",
+        "category_tag": "[Open Source]",
+        "takeaway": "Hoi hoi! 👋 A little update from Necoz! 😸 We've created our own organization here on DEV! . Currently trending on DEV.to with 46 developer upvotes and 33 technical comments.",
+        "url": "https://dev.to/necoz/necoz-has-a-new-home-on-dev-3454",
+        "discussion_url": "https://dev.to/necoz/necoz-has-a-new-home-on-dev-3454",
+        "author": "nyaomaru",
+        "score": 46,
+        "comments_count": 33,
+        "published_at": "2026-11-08T11:50:29Z"
+      },
+      {
+        "uid": "devto_4999747",
+        "source": "DEV.to",
+        "title": "Engine Off: My 2026 Hackathon Run Is Over",
+        "category_tag": "[Open Source]",
+        "takeaway": "There's a moment after a race when you turn the engine off and everything goes quiet. That's where I. Currently trending on DEV.to with 9 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/georgekobaidze/engines-off-my-2026-hackathon-run-is-over-2ho8",
+        "discussion_url": "https://dev.to/georgekobaidze/engines-off-my-2026-hackathon-run-is-over-2ho8",
+        "author": "georgekobaidze",
+        "score": 9,
+        "comments_count": 0,
+        "published_at": "2026-11-08T18:41:00Z"
+      },
+      {
+        "uid": "devto_4999516",
+        "source": "DEV.to",
+        "title": "🐾 DEV Pet Corner #5: Show Us Your Pets!",
+        "category_tag": "[Open Source]",
+        "takeaway": "TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break. Currently trending on DEV.to with 32 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-5-show-us-your-pets-dao",
+        "discussion_url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-5-show-us-your-pets-dao",
+        "author": "hemapriya_kanagala",
+        "score": 32,
+        "comments_count": 1,
+        "published_at": "2026-11-08T16:41:51Z"
+      },
+      {
+        "uid": "devto_4994262",
+        "source": "DEV.to",
+        "title": "I'm 13 and Built a Private, On-Device Photo Editor: APIC vs Canva, Adobe Express, Photopea & remove.bg",
+        "category_tag": "[Web Dev]",
+        "takeaway": "I'm 13, I built APIC, and I tried hard to keep this comparison honest, so you will see where APIC. Currently trending on DEV.to with 20 developer upvotes and 55 technical comments.",
+        "url": "https://dev.to/akhourianmolkumar/im-13-and-built-a-private-on-device-photo-editor-apic-vs-canva-adobe-express-photopea--5h89",
+        "discussion_url": "https://dev.to/akhourianmolkumar/im-13-and-built-a-private-on-device-photo-editor-apic-vs-canva-adobe-express-photopea--5h89",
+        "author": "akhourianmolkumar",
+        "score": 20,
+        "comments_count": 55,
+        "published_at": "2026-11-08T11:57:11Z"
+      },
+      {
+        "uid": "devto_4998870",
+        "source": "DEV.to",
+        "title": "Your Swing and JavaFX Code on iPhone, Android and the Web",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Codename One now builds a large share of Swing, SwingX and JavaFX application code for iOS, Android, the web and native desktop. It can't run everything, and this post says exactly what it can't. What you get in return is a native build 4 to 6 times. Currently trending on DEV.to with 0 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/codenameone/your-swing-and-javafx-code-on-iphone-android-and-the-web-24c8",
+        "discussion_url": "https://dev.to/codenameone/your-swing-and-javafx-code-on-iphone-android-and-the-web-24c8",
+        "author": "codenameone",
+        "score": 0,
+        "comments_count": 0,
+        "published_at": "2026-11-08T14:01:01Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        96,
+        97,
+        98,
+        99
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders</b>\nHacker News discussion (429 points, 265 comments). Currently trending on Hacker News with 429 developer upvotes and 265 technical comments.\n<i>Hacker News · ▲ 429 · @TheWiggles</i>\n🔗 <a href=\"https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50415628\">HN Discussion (265)</a>\n\n<b>2. [AI/ML] Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU</b>\nHacker News discussion (313 points, 118 comments). Currently trending on Hacker News with 313 developer upvotes and 118 technical comments.\n<i>Hacker News · ▲ 313 · @joshcsimmons</i>\n🔗 <a href=\"https://github.com/synchopate/llama-modchip\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50411961\">HN Discussion (118)</a>\n\n<b>3. [System Design] Writing as a thinking tool</b>\nHacker News discussion (230 points, 72 comments). Currently trending on Hacker News with 230 developer upvotes and 72 technical comments.\n<i>Hacker News · ▲ 230 · @jruohonen</i>\n🔗 <a href=\"http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50412067\">HN Discussion (72)</a>\n\n<b>4. [System Design] Declarative Dragging</b>\nHacker News discussion (168 points, 14 comments). Currently trending on Hacker News with 168 developer upvotes and 14 technical comments.\n<i>Hacker News · ▲ 168 · @smusamashah</i>\n🔗 <a href=\"https://declarative-dragging.github.io/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50368481\">HN Discussion (14)</a>\n\n<b>5. [Systems] RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC</b>\nHacker News discussion (163 points, 56 comments). Currently trending on Hacker News with 163 developer upvotes and 56 technical comments.\n<i>Hacker News · ▲ 163 · @randycupertino</i>\n🔗 <a href=\"https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50415172\">HN Discussion (56)</a>\n\n<b>6. [Open Source] Necoz Has a New Home on DEV! 🐈🎉</b>\nHoi hoi! 👋 A little update from Necoz! 😸 We&#x27;ve created our own organization here on DEV! . Currently trending on DEV.to with 46 developer upvotes and 33 technical comments.\n<i>DEV.to · ▲ 46 · @nyaomaru</i>\n🔗 <a href=\"https://dev.to/necoz/necoz-has-a-new-home-on-dev-3454\">Read Source</a>\n\n<b>7. [Open Source] Engine Off: My 2026 Hackathon Run Is Over</b>\nThere&#x27;s a moment after a race when you turn the engine off and everything goes quiet. That&#x27;s where I. Currently trending on DEV.to with 9 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 9 · @georgekobaidze</i>\n🔗 <a href=\"https://dev.to/georgekobaidze/engines-off-my-2026-hackathon-run-is-over-2ho8\">Read Source</a>\n\n<b>8. [Open Source] 🐾 DEV Pet Corner #5: Show Us Your Pets!</b>\nTL;DR DEV Pet Corner is back for another Sunday! It&#x27;s a weekly series where we take a little break. Currently trending on DEV.to with 32 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 32 · @hemapriya_kanagala</i>\n🔗 <a href=\"https://dev.to/hemapriya_kanagala/dev-pet-corner-5-show-us-your-pets-dao\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Web Dev] I&#x27;m 13 and Built a Private, On-Device Photo Editor: APIC vs Canva, Adobe Express, Photopea &amp; remove.bg</b>\nI&#x27;m 13, I built APIC, and I tried hard to keep this comparison honest, so you will see where APIC. Currently trending on DEV.to with 20 developer upvotes and 55 technical comments.\n<i>DEV.to · ▲ 20 · @akhourianmolkumar</i>\n🔗 <a href=\"https://dev.to/akhourianmolkumar/im-13-and-built-a-private-on-device-photo-editor-apic-vs-canva-adobe-express-photopea--5h89\">Read Source</a>\n\n<b>10. [Web Dev] Your Swing and JavaFX Code on iPhone, Android and the Web</b>\nCodename One now builds a large share of Swing, SwingX and JavaFX application code for iOS, Android, the web and native desktop. It can&#x27;t run everything, and this post says exactly what it can&#x27;t. What you get in return is a native build 4 to 6 times. Currently trending on DEV.to with 0 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 0 · @codenameone</i>\n🔗 <a href=\"https://dev.to/codenameone/your-swing-and-javafx-code-on-iphone-android-and-the-web-24c8\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-08T12:55:34.667214+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
