@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-09T15:30:51.195803+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50419215",
+        "source": "Hacker News",
+        "title": "Unlocking any car from X brand in most of the world",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (507 points, 271 comments). Currently trending on Hacker News with 507 developer upvotes and 271 technical comments.",
+        "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50419215",
+        "author": "infosecau",
+        "score": 507,
+        "comments_count": 271,
+        "published_at": "2026-11-09T00:10:50+00:00"
+      },
+      {
+        "uid": "hn_50418975",
+        "source": "Hacker News",
+        "title": "I'm not convinced the AI bubble exists",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (442 points, 765 comments). Currently trending on Hacker News with 442 developer upvotes and 765 technical comments.",
+        "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+        "discussion_url": "https://news.ycombinator.com/item?id=50418975",
+        "author": "matteoraso",
+        "score": 442,
+        "comments_count": 765,
+        "published_at": "2026-11-08T23:44:36+00:00"
+      },
+      {
+        "uid": "hn_50424581",
+        "source": "Hacker News",
+        "title": "Fold Epic Paper Airplanes",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (309 points, 60 comments). Currently trending on Hacker News with 309 developer upvotes and 60 technical comments.",
+        "url": "https://www.foldableflight.com",
+        "discussion_url": "https://news.ycombinator.com/item?id=50424581",
+        "author": "vismit2000",
+        "score": 309,
+        "comments_count": 60,
+        "published_at": "2026-11-09T12:19:22+00:00"
+      },
+      {
+        "uid": "hn_50424704",
+        "source": "Hacker News",
+        "title": "Humans will never again create a project like Wikipedia",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (306 points, 232 comments). Currently trending on Hacker News with 306 developer upvotes and 232 technical comments.",
+        "url": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+        "discussion_url": "https://news.ycombinator.com/item?id=50424704",
+        "author": "edward",
+        "score": 306,
+        "comments_count": 232,
+        "published_at": "2026-11-09T12:30:20+00:00"
+      },
+      {
+        "uid": "hn_50422168",
+        "source": "Hacker News",
+        "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (146 points, 33 comments). Currently trending on Hacker News with 146 developer upvotes and 33 technical comments.",
+        "url": "https://arxiv.org/abs/2610.14162",
+        "discussion_url": "https://news.ycombinator.com/item?id=50422168",
+        "author": "theanonymousone",
+        "score": 146,
+        "comments_count": 33,
+        "published_at": "2026-11-09T07:20:37+00:00"
+      },
+      {
+        "uid": "devto_4825978",
+        "source": "DEV.to",
+        "title": "PHP Dies After Every Request. How the Zend Engine Actually Runs Your Code.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A visual, 10-minute architectural deep dive into how PHP actually executes under the hood. From the Shared-Nothing process model and OPcache bytecode caching to 16-byte zvals, Copy-on-Write, and the Tracing JIT. Currently trending on DEV.to with 13 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/smtahosin/php-dies-after-every-request-how-the-zend-engine-actually-runs-your-code-2843",
+        "discussion_url": "https://dev.to/smtahosin/php-dies-after-every-request-how-the-zend-engine-actually-runs-your-code-2843",
+        "author": "smtahosin",
+        "score": 13,
+        "comments_count": 2,
+        "published_at": "2026-11-09T05:56:52Z"
+      },
+      {
+        "uid": "devto_4990845",
+        "source": "DEV.to",
+        "title": "How do you truly stand out in Tech?",
+        "category_tag": "[Open Source]",
+        "takeaway": "I am not going to lie to you, the market has been rough out there. There are layoffs across different. Currently trending on DEV.to with 16 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/francistrdev/how-do-you-truly-stand-out-in-tech-478a",
+        "discussion_url": "https://dev.to/francistrdev/how-do-you-truly-stand-out-in-tech-478a",
+        "author": "francistrdev",
+        "score": 16,
+        "comments_count": 2,
+        "published_at": "2026-11-09T15:11:22Z"
+      },
+      {
+        "uid": "devto_4999918",
+        "source": "DEV.to",
+        "title": "Small Contributions Matter Too 🐈",
+        "category_tag": "[Open Source]",
+        "takeaway": "I think one thing that keeps people from contributing to open source is the idea that you have to be. Currently trending on DEV.to with 65 developer upvotes and 11 technical comments.",
+        "url": "https://dev.to/necoz/small-contributions-matter-too-2j4",
+        "discussion_url": "https://dev.to/necoz/small-contributions-matter-too-2j4",
+        "author": "hanzla",
+        "score": 65,
+        "comments_count": 11,
+        "published_at": "2026-11-08T18:57:44Z"
+      },
+      {
+        "uid": "devto_5003822",
+        "source": "DEV.to",
+        "title": "We Built Opsville, a Free Pixel-Art Town Where You Fix DevOps Incidents",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Opsville is a small pixel-art town where every district is broken, and you are the one on call. 🏘️. Currently trending on DEV.to with 19 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/devopsdaily/we-built-opsville-a-free-pixel-art-town-where-you-fix-devops-incidents-5892",
+        "discussion_url": "https://dev.to/devopsdaily/we-built-opsville-a-free-pixel-art-town-where-you-fix-devops-incidents-5892",
+        "author": "devopsdaily",
+        "score": 19,
+        "comments_count": 0,
+        "published_at": "2026-11-09T10:42:36Z"
+      },
+      {
+        "uid": "devto_5000930",
+        "source": "DEV.to",
+        "title": "What unshare -n leaves behind: building a boundary for an AI recon agent",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Why the boundary has to hold My AI agent's sandbox passed all 13 of its isolation tests on. Currently trending on DEV.to with 5 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/gnomeman4201/what-unshare-n-leaves-behind-building-a-boundary-for-an-ai-recon-agent-75b",
+        "discussion_url": "https://dev.to/gnomeman4201/what-unshare-n-leaves-behind-building-a-boundary-for-an-ai-recon-agent-75b",
+        "author": "gnomeman4201",
+        "score": 5,
+        "comments_count": 10,
+        "published_at": "2026-11-09T00:45:44Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        104,
+        105,
+        106,
+        107
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Unlocking any car from X brand in most of the world</b>\nHacker News discussion (507 points, 271 comments). Currently trending on Hacker News with 507 developer upvotes and 271 technical comments.\n<i>Hacker News · ▲ 507 · @infosecau</i>\n🔗 <a href=\"https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50419215\">HN Discussion (271)</a>\n\n<b>2. [AI/ML] I&#x27;m not convinced the AI bubble exists</b>\nHacker News discussion (442 points, 765 comments). Currently trending on Hacker News with 442 developer upvotes and 765 technical comments.\n<i>Hacker News · ▲ 442 · @matteoraso</i>\n🔗 <a href=\"https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50418975\">HN Discussion (765)</a>\n\n<b>3. [System Design] Fold Epic Paper Airplanes</b>\nHacker News discussion (309 points, 60 comments). Currently trending on Hacker News with 309 developer upvotes and 60 technical comments.\n<i>Hacker News · ▲ 309 · @vismit2000</i>\n🔗 <a href=\"https://www.foldableflight.com\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50424581\">HN Discussion (60)</a>\n\n<b>4. [System Design] Humans will never again create a project like Wikipedia</b>\nHacker News discussion (306 points, 232 comments). Currently trending on Hacker News with 306 developer upvotes and 232 technical comments.\n<i>Hacker News · ▲ 306 · @edward</i>\n🔗 <a href=\"https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50424704\">HN Discussion (232)</a>\n\n<b>5. [System Design] Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation</b>\nHacker News discussion (146 points, 33 comments). Currently trending on Hacker News with 146 developer upvotes and 33 technical comments.\n<i>Hacker News · ▲ 146 · @theanonymousone</i>\n🔗 <a href=\"https://arxiv.org/abs/2610.14162\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50422168\">HN Discussion (33)</a>\n\n<b>6. [AI/ML] PHP Dies After Every Request. How the Zend Engine Actually Runs Your Code.</b>\nA visual, 10-minute architectural deep dive into how PHP actually executes under the hood. From the Shared-Nothing process model and OPcache bytecode caching to 16-byte zvals, Copy-on-Write, and the Tracing JIT. Currently trending on DEV.to with 13 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 13 · @smtahosin</i>\n🔗 <a href=\"https://dev.to/smtahosin/php-dies-after-every-request-how-the-zend-engine-actually-runs-your-code-2843\">Read Source</a>\n\n<b>7. [Open Source] How do you truly stand out in Tech?</b>\nI am not going to lie to you, the market has been rough out there. There are layoffs across different. Currently trending on DEV.to with 16 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 16 · @francistrdev</i>\n🔗 <a href=\"https://dev.to/francistrdev/how-do-you-truly-stand-out-in-tech-478a\">Read Source</a>\n\n<b>8. [Open Source] Small Contributions Matter Too 🐈</b>\nI think one thing that keeps people from contributing to open source is the idea that you have to be. Currently trending on DEV.to with 65 developer upvotes and 11 technical comments.\n<i>DEV.to · ▲ 65 · @hanzla</i>\n🔗 <a href=\"https://dev.to/necoz/small-contributions-matter-too-2j4\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Cloud/DevOps] We Built Opsville, a Free Pixel-Art Town Where You Fix DevOps Incidents</b>\nOpsville is a small pixel-art town where every district is broken, and you are the one on call. 🏘️. Currently trending on DEV.to with 19 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 19 · @devopsdaily</i>\n🔗 <a href=\"https://dev.to/devopsdaily/we-built-opsville-a-free-pixel-art-town-where-you-fix-devops-incidents-5892\">Read Source</a>\n\n<b>10. [AI/ML] What unshare -n leaves behind: building a boundary for an AI recon agent</b>\nWhy the boundary has to hold My AI agent&#x27;s sandbox passed all 13 of its isolation tests on. Currently trending on DEV.to with 5 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 5 · @gnomeman4201</i>\n🔗 <a href=\"https://dev.to/gnomeman4201/what-unshare-n-leaves-behind-building-a-boundary-for-an-ai-recon-agent-75b\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-09T05:10:24.399353+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
