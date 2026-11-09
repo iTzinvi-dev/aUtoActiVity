@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-09T05:10:24.399353+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50418016",
+        "source": "Hacker News",
+        "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+        "category_tag": "[System Design]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-affair-email-to-company\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-aff...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h\" rel=\"nofollow\">. Currently trending on Hacker News with 447 developer upvotes and 488 technical comments.",
+        "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+        "discussion_url": "https://news.ycombinator.com/item?id=50418016",
+        "author": "karimf",
+        "score": 447,
+        "comments_count": 488,
+        "published_at": "2026-11-08T22:20:09+00:00"
+      },
+      {
+        "uid": "hn_50418176",
+        "source": "Hacker News",
+        "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (329 points, 89 comments). Currently trending on Hacker News with 329 developer upvotes and 89 technical comments.",
+        "url": "https://ketchup3d.github.io/app/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50418176",
+        "author": "dcoulmbe",
+        "score": 329,
+        "comments_count": 89,
+        "published_at": "2026-11-08T22:35:35+00:00"
+      },
+      {
+        "uid": "hn_50416158",
+        "source": "Hacker News",
+        "title": "Outlook.com is rejecting email from domains without DMARC",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (317 points, 225 comments). Currently trending on Hacker News with 317 developer upvotes and 225 technical comments.",
+        "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+        "discussion_url": "https://news.ycombinator.com/item?id=50416158",
+        "author": "xmddmx",
+        "score": 317,
+        "comments_count": 225,
+        "published_at": "2026-11-08T19:20:32+00:00"
+      },
+      {
+        "uid": "hn_50416053",
+        "source": "Hacker News",
+        "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (230 points, 72 comments). Currently trending on Hacker News with 230 developer upvotes and 72 technical comments.",
+        "url": "https://duxlabs.dev/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50416053",
+        "author": "indigodaddy",
+        "score": 230,
+        "comments_count": 72,
+        "published_at": "2026-11-08T19:08:51+00:00"
+      },
+      {
+        "uid": "hn_50417407",
+        "source": "Hacker News",
+        "title": "Ask HN: What are you working on? (November 2026)",
+        "category_tag": "[System Design]",
+        "takeaway": "What are you working on? What have you been curious about lately?. Currently trending on Hacker News with 173 developer upvotes and 578 technical comments.",
+        "url": "https://news.ycombinator.com/item?id=50417407",
+        "discussion_url": "https://news.ycombinator.com/item?id=50417407",
+        "author": "david927",
+        "score": 173,
+        "comments_count": 578,
+        "published_at": "2026-11-08T21:20:20+00:00"
+      },
+      {
+        "uid": "devto_4978821",
+        "source": "DEV.to",
+        "title": "Mobile Data on Android 17 and a 4.9 Kernel: Google Fi on the Pixel 3a",
+        "category_tag": "[Systems]",
+        "takeaway": "LineageOS 24.0 on the Pixel 3a gets mobile data from a Google Fi data-only SIM after four fixes: mobile data on by default, a Fi APN, VoLTE in the carrier settings and a close_range() backport for IPv4. Each one traced from the radio log. Currently trending on DEV.to with 11 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/mobile-data-on-android-17-and-a-49-kernel-google-fi-on-the-pixel-3a-4cdc",
+        "discussion_url": "https://dev.to/gde/mobile-data-on-android-17-and-a-49-kernel-google-fi-on-the-pixel-3a-4cdc",
+        "author": "xbill",
+        "score": 11,
+        "comments_count": 0,
+        "published_at": "2026-11-08T19:52:14Z"
+      },
+      {
+        "uid": "devto_4978026",
+        "source": "DEV.to",
+        "title": "Six Serving Engines, One 8 GB GPU: Gemma 4 E2B on an RTX 3050",
+        "category_tag": "[AI/ML]",
+        "takeaway": "llama.cpp, vLLM, SGLang, mistral.rs, a plain PyTorch engine and LiteRT-LM serve the same 4-bit Gemma 4 E2B on one 8 GB RTX 3050, measured with the same prompts, the same load sweep and the same GSM8K and BFCL questions. GSM8K is level on every engine; vLLM is the fastest up to 16 requests and within 3% of SGLang beyond. Currently trending on DEV.to with 10 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/gde/six-serving-engines-one-8-gb-gpu-gemma-4-e2b-on-an-rtx-3050-ad7",
+        "discussion_url": "https://dev.to/gde/six-serving-engines-one-8-gb-gpu-gemma-4-e2b-on-an-rtx-3050-ad7",
+        "author": "xbill",
+        "score": 10,
+        "comments_count": 1,
+        "published_at": "2026-11-08T19:08:37Z"
+      },
+      {
+        "uid": "devto_4999883",
+        "source": "DEV.to",
+        "title": "How much does it cost to run a text game with LLMs",
+        "category_tag": "[AI/ML]",
+        "takeaway": "AI costs are confusing. Providers give you a lot of numbers and nothing to actually know how much you are going to pay in the long run. There is no point in these input/cached/output token prices if you have no idea how many reasoning tokens you'll spend on your tasks. How much will be cached. We are going to review the real-world usage of 27 frontier models. Currently trending on DEV.to with 7 developer upvotes and 8 technical comments.",
+        "url": "https://dev.to/hiper2d/how-much-does-it-cost-to-run-a-text-game-with-llms-57o7",
+        "discussion_url": "https://dev.to/hiper2d/how-much-does-it-cost-to-run-a-text-game-with-llms-57o7",
+        "author": "hiper2d",
+        "score": 7,
+        "comments_count": 8,
+        "published_at": "2026-11-08T18:46:19Z"
+      },
+      {
+        "uid": "devto_4998535",
+        "source": "DEV.to",
+        "title": "I'd stopped reviewing the basics, so I built a small site to practice them",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hi Devs 👋 This is my first post here! I use AI tools every day for coding (as the workplace keeps. Currently trending on DEV.to with 3 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/babylonace/id-stopped-reviewing-the-basics-so-i-built-a-small-site-to-practice-them-2kdi",
+        "discussion_url": "https://dev.to/babylonace/id-stopped-reviewing-the-basics-so-i-built-a-small-site-to-practice-them-2kdi",
+        "author": "babylonace",
+        "score": 3,
+        "comments_count": 1,
+        "published_at": "2026-11-08T12:28:39Z"
+      },
+      {
+        "uid": "devto_5001184",
+        "source": "DEV.to",
+        "title": "Microserver Updated with Mini Catbot! ✨😻 mew!",
+        "category_tag": "[Web Dev]",
+        "takeaway": "View mini Catbot Live: mew! Sunday Funday... Updated my server hub which had been snoozing for a. Currently trending on DEV.to with 2 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/annavi11arrea1/microserver-updated-with-mini-catbot-mew-3aa0",
+        "discussion_url": "https://dev.to/annavi11arrea1/microserver-updated-with-mini-catbot-mew-3aa0",
+        "author": "annavi11arrea1",
+        "score": 2,
+        "comments_count": 0,
+        "published_at": "2026-11-09T01:55:38Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Nvidia CEO Jensen Huang&#x27;s letter to staff about affair</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.axios.com&amp;#x2F;2026&amp;#x2F;11&amp;#x2F;08&amp;#x2F;nvidia-ceo-jensen-huang-affair-email-to-company&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.axios.com&amp;#x2F;2026&amp;#x2F;11&amp;#x2F;08&amp;#x2F;nvidia-ceo-jensen-huang-aff...&lt;/a&gt;, &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;archive.ph&amp;#x2F;Hxn5h&quot; rel=&quot;nofollow&quot;&gt;. Currently trending on Hacker News with 447 developer upvotes and 488 technical comments.\n<i>Hacker News · ▲ 447 · @karimf</i>\n🔗 <a href=\"https://nvidianews.nvidia.com/news/a-message-to-our-company\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50418016\">HN Discussion (488)</a>\n\n<b>2. [Systems] KetchUp – Open-source SketchUp alternative built with Rust and WebGPU</b>\nHacker News discussion (329 points, 89 comments). Currently trending on Hacker News with 329 developer upvotes and 89 technical comments.\n<i>Hacker News · ▲ 329 · @dcoulmbe</i>\n🔗 <a href=\"https://ketchup3d.github.io/app/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50418176\">HN Discussion (89)</a>\n\n<b>3. [System Design] Outlook.com is rejecting email from domains without DMARC</b>\nHacker News discussion (317 points, 225 comments). Currently trending on Hacker News with 317 developer upvotes and 225 technical comments.\n<i>Hacker News · ▲ 317 · @xmddmx</i>\n🔗 <a href=\"https://mailroute.net/blog/outlook-rejecting-email-without-dmarc\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50416158\">HN Discussion (225)</a>\n\n<b>4. [System Design] Dux: Free, open-source Wayland desktop shell with file manager and theming</b>\nHacker News discussion (230 points, 72 comments). Currently trending on Hacker News with 230 developer upvotes and 72 technical comments.\n<i>Hacker News · ▲ 230 · @indigodaddy</i>\n🔗 <a href=\"https://duxlabs.dev/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50416053\">HN Discussion (72)</a>\n\n<b>5. [System Design] Ask HN: What are you working on? (November 2026)</b>\nWhat are you working on? What have you been curious about lately?. Currently trending on Hacker News with 173 developer upvotes and 578 technical comments.\n<i>Hacker News · ▲ 173 · @david927</i>\n🔗 <a href=\"https://news.ycombinator.com/item?id=50417407\">Read Source</a>\n\n<b>6. [Systems] Mobile Data on Android 17 and a 4.9 Kernel: Google Fi on the Pixel 3a</b>\nLineageOS 24.0 on the Pixel 3a gets mobile data from a Google Fi data-only SIM after four fixes: mobile data on by default, a Fi APN, VoLTE in the carrier settings and a close_range() backport for IPv4. Each one traced from the radio log. Currently trending on DEV.to with 11 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 11 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/mobile-data-on-android-17-and-a-49-kernel-google-fi-on-the-pixel-3a-4cdc\">Read Source</a>\n\n<b>7. [AI/ML] Six Serving Engines, One 8 GB GPU: Gemma 4 E2B on an RTX 3050</b>\nllama.cpp, vLLM, SGLang, mistral.rs, a plain PyTorch engine and LiteRT-LM serve the same 4-bit Gemma 4 E2B on one 8 GB RTX 3050, measured with the same prompts, the same load sweep and the same GSM8K and BFCL questions. GSM8K is level on every engine; vLLM is the fastest up to 16 requests and within 3% of SGLang beyond. Currently trending on DEV.to with 10 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 10 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/six-serving-engines-one-8-gb-gpu-gemma-4-e2b-on-an-rtx-3050-ad7\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [AI/ML] How much does it cost to run a text game with LLMs</b>\nAI costs are confusing. Providers give you a lot of numbers and nothing to actually know how much you are going to pay in the long run. There is no point in these input/cached/output token prices if you have no idea how many reasoning tokens you&#x27;ll spend on your tasks. How much will be cached. We are going to review the real-world usage of 27 frontier models. Currently trending on DEV.to with 7 developer upvotes and 8 technical comments.\n<i>DEV.to · ▲ 7 · @hiper2d</i>\n🔗 <a href=\"https://dev.to/hiper2d/how-much-does-it-cost-to-run-a-text-game-with-llms-57o7\">Read Source</a>\n\n<b>9. [AI/ML] I&#x27;d stopped reviewing the basics, so I built a small site to practice them</b>\nHi Devs 👋 This is my first post here! I use AI tools every day for coding (as the workplace keeps. Currently trending on DEV.to with 3 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 3 · @babylonace</i>\n🔗 <a href=\"https://dev.to/babylonace/id-stopped-reviewing-the-basics-so-i-built-a-small-site-to-practice-them-2kdi\">Read Source</a>\n\n<b>10. [Web Dev] Microserver Updated with Mini Catbot! ✨😻 mew!</b>\nView mini Catbot Live: mew! Sunday Funday... Updated my server hub which had been snoozing for a. Currently trending on DEV.to with 2 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 2 · @annavi11arrea1</i>\n🔗 <a href=\"https://dev.to/annavi11arrea1/microserver-updated-with-mini-catbot-mew-3aa0\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-08T21:49:25.426907+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
