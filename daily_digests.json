@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-10T22:57:11.851167+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50441707",
+        "source": "Hacker News",
+        "title": "Smart home devices should work without the internet",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (610 points, 215 comments). Currently trending on Hacker News with 610 developer upvotes and 215 technical comments.",
+        "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50441707",
+        "author": "skittleson",
+        "score": 610,
+        "comments_count": 215,
+        "published_at": "2026-11-10T15:25:20+00:00"
+      },
+      {
+        "uid": "hn_50442736",
+        "source": "Hacker News",
+        "title": ".name Grandfathered",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (603 points, 134 comments). Currently trending on Hacker News with 603 developer upvotes and 134 technical comments.",
+        "url": "https://neil.fraser.name/news/2026/11/10/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50442736",
+        "author": "p4bl0",
+        "score": 603,
+        "comments_count": 134,
+        "published_at": "2026-11-10T16:37:44+00:00"
+      },
+      {
+        "uid": "hn_50443427",
+        "source": "Hacker News",
+        "title": "Val Town is winding down",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (260 points, 66 comments). Currently trending on Hacker News with 260 developer upvotes and 66 technical comments.",
+        "url": "https://blog.val.town/winding-down",
+        "discussion_url": "https://news.ycombinator.com/item?id=50443427",
+        "author": "tosh",
+        "score": 260,
+        "comments_count": 66,
+        "published_at": "2026-11-10T17:31:14+00:00"
+      },
+      {
+        "uid": "hn_50443824",
+        "source": "Hacker News",
+        "title": "Synaptics patent claims stop work on DisplayLink drivers",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (244 points, 105 comments). Currently trending on Hacker News with 244 developer upvotes and 105 technical comments.",
+        "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50443824",
+        "author": "speckx",
+        "score": 244,
+        "comments_count": 105,
+        "published_at": "2026-11-10T18:02:02+00:00"
+      },
+      {
+        "uid": "hn_50443812",
+        "source": "Hacker News",
+        "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without &lt;span&gt;s everywhere, `&lt;dialog&gt;` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types. Currently trending on Hacker News with 209 developer upvotes and 58 technical comments.",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance",
+        "discussion_url": "https://news.ycombinator.com/item?id=50443812",
+        "author": "paulirish",
+        "score": 209,
+        "comments_count": 58,
+        "published_at": "2026-11-10T18:01:15+00:00"
+      },
+      {
+        "uid": "devto_5011194",
+        "source": "DEV.to",
+        "title": "💎 15 Beautiful GitHub Profile READMEs You Need to See!",
+        "category_tag": "[Open Source]",
+        "takeaway": "Let's explore them! 🚀 Beautiful &amp; Creative Profiles 01. Anna Villarreal . Currently trending on DEV.to with 15 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/star123/15-beautiful-github-profile-readmes-you-need-to-see-5436",
+        "discussion_url": "https://dev.to/star123/15-beautiful-github-profile-readmes-you-need-to-see-5436",
+        "author": "star123",
+        "score": 15,
+        "comments_count": 9,
+        "published_at": "2026-11-10T15:52:44Z"
+      },
+      {
+        "uid": "devto_5009471",
+        "source": "DEV.to",
+        "title": "I built a macOS app that makes your screen feel like paper!",
+        "category_tag": "[System Design]",
+        "takeaway": "A few weeks ago I was reading \"Attention Is All You Need\" for probably the fifth time. It was. Currently trending on DEV.to with 1 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/asheeshh/i-built-a-macos-app-that-makes-your-screen-feel-like-paper-4kg7",
+        "discussion_url": "https://dev.to/asheeshh/i-built-a-macos-app-that-makes-your-screen-feel-like-paper-4kg7",
+        "author": "asheeshh",
+        "score": 1,
+        "comments_count": 0,
+        "published_at": "2026-11-10T07:45:13Z"
+      },
+      {
+        "uid": "devto_5002543",
+        "source": "DEV.to",
+        "title": "Dev Log # 28 A Quiet Week on the OSS Front",
+        "category_tag": "[System Design]",
+        "takeaway": "I attended Devcon 8 in Mumbai as an exhibitor for the Resilient Networking Hub, organized by folks. Currently trending on DEV.to with 6 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/yashksaini/attending-devcon-8-mumbai-a-quiet-week-on-the-oss-front-3kai",
+        "discussion_url": "https://dev.to/yashksaini/attending-devcon-8-mumbai-a-quiet-week-on-the-oss-front-3kai",
+        "author": "yashksaini",
+        "score": 6,
+        "comments_count": 0,
+        "published_at": "2026-11-10T06:42:33Z"
+      },
+      {
+        "uid": "devto_5011654",
+        "source": "DEV.to",
+        "title": "Behind the scenes, two months later: How we ship Google Agent Skills like products",
+        "category_tag": "[AI/ML]",
+        "takeaway": "In my previous post, I took you behind the scenes of Google Agent Skills, covering how the project. Currently trending on DEV.to with 0 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/googleai/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products-b1l",
+        "discussion_url": "https://dev.to/googleai/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products-b1l",
+        "author": "rsamborski",
+        "score": 0,
+        "comments_count": 0,
+        "published_at": "2026-11-10T15:22:39Z"
+      },
+      {
+        "uid": "devto_4976629",
+        "source": "DEV.to",
+        "title": "Cheapest AI API: 6 Options Compared for Real Workloads",
+        "category_tag": "[AI/ML]",
+        "takeaway": "When an application relies on a language model, the token bill looks straightforward at first glance. Currently trending on DEV.to with 10 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/bearerclub/cheapest-ai-api-6-options-compared-for-real-workloads-18ol",
+        "discussion_url": "https://dev.to/bearerclub/cheapest-ai-api-6-options-compared-for-real-workloads-18ol",
+        "author": "hadil",
+        "score": 10,
+        "comments_count": 2,
+        "published_at": "2026-11-10T13:20:47Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        116,
+        117,
+        118,
+        119
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Smart home devices should work without the internet</b>\nHacker News discussion (610 points, 215 comments). Currently trending on Hacker News with 610 developer upvotes and 215 technical comments.\n<i>Hacker News · ▲ 610 · @skittleson</i>\n🔗 <a href=\"https://docodethatmatters.com/home-automation-overnight-success/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50441707\">HN Discussion (215)</a>\n\n<b>2. [System Design] .name Grandfathered</b>\nHacker News discussion (603 points, 134 comments). Currently trending on Hacker News with 603 developer upvotes and 134 technical comments.\n<i>Hacker News · ▲ 603 · @p4bl0</i>\n🔗 <a href=\"https://neil.fraser.name/news/2026/11/10/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50442736\">HN Discussion (134)</a>\n\n<b>3. [System Design] Val Town is winding down</b>\nHacker News discussion (260 points, 66 comments). Currently trending on Hacker News with 260 developer upvotes and 66 technical comments.\n<i>Hacker News · ▲ 260 · @tosh</i>\n🔗 <a href=\"https://blog.val.town/winding-down\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50443427\">HN Discussion (66)</a>\n\n<b>4. [System Design] Synaptics patent claims stop work on DisplayLink drivers</b>\nHacker News discussion (244 points, 105 comments). Currently trending on Hacker News with 244 developer upvotes and 105 technical comments.\n<i>Hacker News · ▲ 244 · @speckx</i>\n🔗 <a href=\"https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50443824\">HN Discussion (105)</a>\n\n<b>5. [AI/ML] Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives</b>\nBrowsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without &amp;lt;span&amp;gt;s everywhere, `&amp;lt;dialog&amp;gt;` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types. Currently trending on Hacker News with 209 developer upvotes and 58 technical comments.\n<i>Hacker News · ▲ 209 · @paulirish</i>\n🔗 <a href=\"https://github.com/GoogleChrome/modern-web-guidance\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50443812\">HN Discussion (58)</a>\n\n<b>6. [Open Source] 💎 15 Beautiful GitHub Profile READMEs You Need to See!</b>\nLet&#x27;s explore them! 🚀 Beautiful &amp;amp; Creative Profiles 01. Anna Villarreal . Currently trending on DEV.to with 15 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 15 · @star123</i>\n🔗 <a href=\"https://dev.to/star123/15-beautiful-github-profile-readmes-you-need-to-see-5436\">Read Source</a>\n\n<b>7. [System Design] I built a macOS app that makes your screen feel like paper!</b>\nA few weeks ago I was reading &quot;Attention Is All You Need&quot; for probably the fifth time. It was. Currently trending on DEV.to with 1 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 1 · @asheeshh</i>\n🔗 <a href=\"https://dev.to/asheeshh/i-built-a-macos-app-that-makes-your-screen-feel-like-paper-4kg7\">Read Source</a>\n\n<b>8. [System Design] Dev Log # 28 A Quiet Week on the OSS Front</b>\nI attended Devcon 8 in Mumbai as an exhibitor for the Resilient Networking Hub, organized by folks. Currently trending on DEV.to with 6 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 6 · @yashksaini</i>\n🔗 <a href=\"https://dev.to/yashksaini/attending-devcon-8-mumbai-a-quiet-week-on-the-oss-front-3kai\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Behind the scenes, two months later: How we ship Google Agent Skills like products</b>\nIn my previous post, I took you behind the scenes of Google Agent Skills, covering how the project. Currently trending on DEV.to with 0 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 0 · @rsamborski</i>\n🔗 <a href=\"https://dev.to/googleai/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products-b1l\">Read Source</a>\n\n<b>10. [AI/ML] Cheapest AI API: 6 Options Compared for Real Workloads</b>\nWhen an application relies on a language model, the token bill looks straightforward at first glance. Currently trending on DEV.to with 10 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 10 · @hadil</i>\n🔗 <a href=\"https://dev.to/bearerclub/cheapest-ai-api-6-options-compared-for-real-workloads-18ol\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-10T14:30:06.216173+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
