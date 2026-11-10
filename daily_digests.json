@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-10T14:30:06.216173+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50429068",
+        "source": "Hacker News",
+        "title": "Claude Fable 5.2 and Mythos 5.2",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (719 points, 883 comments). Currently trending on Hacker News with 719 developer upvotes and 883 technical comments.",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "discussion_url": "https://news.ycombinator.com/item?id=50429068",
+        "author": "lairv",
+        "score": 719,
+        "comments_count": 883,
+        "published_at": "2026-11-09T18:01:10+00:00"
+      },
+      {
+        "uid": "hn_50436640",
+        "source": "Hacker News",
+        "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (460 points, 170 comments). Currently trending on Hacker News with 460 developer upvotes and 170 technical comments.",
+        "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50436640",
+        "author": "aloukissas",
+        "score": 460,
+        "comments_count": 170,
+        "published_at": "2026-11-10T06:01:08+00:00"
+      },
+      {
+        "uid": "hn_50439193",
+        "source": "Hacker News",
+        "title": "AlphaProof Code",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (228 points, 90 comments). Currently trending on Hacker News with 228 developer upvotes and 90 technical comments.",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50439193",
+        "author": "ilreb",
+        "score": 228,
+        "comments_count": 90,
+        "published_at": "2026-11-10T12:11:12+00:00"
+      },
+      {
+        "uid": "hn_50436410",
+        "source": "Hacker News",
+        "title": "Your TV can see through walls",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (200 points, 83 comments). Currently trending on Hacker News with 200 developer upvotes and 83 technical comments.",
+        "url": "https://maurycyz.com/projects/fading/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50436410",
+        "author": "Curiositry",
+        "score": 200,
+        "comments_count": 83,
+        "published_at": "2026-11-10T05:24:45+00:00"
+      },
+      {
+        "uid": "hn_50437790",
+        "source": "Hacker News",
+        "title": "Queens Public library under ransomware attack e-borrowing suspended",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (89 points, 66 comments). Currently trending on Hacker News with 89 developer upvotes and 66 technical comments.",
+        "url": "https://connect.queenslibrary.org/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50437790",
+        "author": "rustyhancock",
+        "score": 89,
+        "comments_count": 66,
+        "published_at": "2026-11-10T09:04:39+00:00"
+      },
+      {
+        "uid": "devto_4990015",
+        "source": "DEV.to",
+        "title": "I Gave My Startup 6 AI Employees. They Talked More Than They Worked.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "330 chat messages, 75 finished tasks, and one analyst who announced work she never did. Currently trending on DEV.to with 12 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/elliot_brenya/i-gave-my-startup-6-ai-employees-they-talked-more-than-they-worked-480p",
+        "discussion_url": "https://dev.to/elliot_brenya/i-gave-my-startup-6-ai-employees-they-talked-more-than-they-worked-480p",
+        "author": "elliot_brenya",
+        "score": 12,
+        "comments_count": 9,
+        "published_at": "2026-11-09T15:36:37Z"
+      },
+      {
+        "uid": "devto_5006147",
+        "source": "DEV.to",
+        "title": "Day 82: A Password Removed and a Copy That Stayed Put",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Day 82 of DevOps, Day 32 of Azure. Both tasks today returned a cheerful single word that meant less. Currently trending on DEV.to with 15 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/ndcodes/day-82-a-password-removed-and-a-copy-that-stayed-put-35jd",
+        "discussion_url": "https://dev.to/ndcodes/day-82-a-password-removed-and-a-copy-that-stayed-put-35jd",
+        "author": "ndcodes",
+        "score": 15,
+        "comments_count": 2,
+        "published_at": "2026-11-09T18:20:21Z"
+      },
+      {
+        "uid": "devto_5006280",
+        "source": "DEV.to",
+        "title": "Top 7 Featured DEV Posts of the Week",
+        "category_tag": "[System Design]",
+        "takeaway": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the. Currently trending on DEV.to with 5 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-432g",
+        "discussion_url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-432g",
+        "author": "heyitsjem",
+        "score": 5,
+        "comments_count": 0,
+        "published_at": "2026-11-10T14:00:00Z"
+      },
+      {
+        "uid": "devto_5006950",
+        "source": "DEV.to",
+        "title": "When to Skip Your Gem Cooldown",
+        "category_tag": "[Security]",
+        "takeaway": "On November 4, Rails shipped fixes for 21 security advisories, and both apps I work on had a 14-day Bundler cooldown telling us to skip brand-new releases. Here's how we patched the same day, where the security bypass leaks, and why Dependabot never opened a Rails PR. Currently trending on DEV.to with 8 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/cseeman/when-to-skip-your-gem-cooldown-49ph",
+        "discussion_url": "https://dev.to/cseeman/when-to-skip-your-gem-cooldown-49ph",
+        "author": "cseeman",
+        "score": 8,
+        "comments_count": 0,
+        "published_at": "2026-11-09T21:29:51Z"
+      },
+      {
+        "uid": "devto_5004421",
+        "source": "DEV.to",
+        "title": "I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features",
+        "category_tag": "[Web Dev]",
+        "takeaway": "I had already explored gp-grid's features and capabilities, and I wrote gp-grid: A Free, Open-Source. Currently trending on DEV.to with 85 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22",
+        "discussion_url": "https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22",
+        "author": "hadil",
+        "score": 85,
+        "comments_count": 10,
+        "published_at": "2026-11-10T09:04:10Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Claude Fable 5.2 and Mythos 5.2</b>\nHacker News discussion (719 points, 883 comments). Currently trending on Hacker News with 719 developer upvotes and 883 technical comments.\n<i>Hacker News · ▲ 719 · @lairv</i>\n🔗 <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50429068\">HN Discussion (883)</a>\n\n<b>2. [System Design] Amazon saves millions by replacing Sonnet 4.6 with Strands Decider</b>\nHacker News discussion (460 points, 170 comments). Currently trending on Hacker News with 460 developer upvotes and 170 technical comments.\n<i>Hacker News · ▲ 460 · @aloukissas</i>\n🔗 <a href=\"https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50436640\">HN Discussion (170)</a>\n\n<b>3. [System Design] AlphaProof Code</b>\nHacker News discussion (228 points, 90 comments). Currently trending on Hacker News with 228 developer upvotes and 90 technical comments.\n<i>Hacker News · ▲ 228 · @ilreb</i>\n🔗 <a href=\"https://deepmind.google/blog/introducing-alphaproof-code/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50439193\">HN Discussion (90)</a>\n\n<b>4. [System Design] Your TV can see through walls</b>\nHacker News discussion (200 points, 83 comments). Currently trending on Hacker News with 200 developer upvotes and 83 technical comments.\n<i>Hacker News · ▲ 200 · @Curiositry</i>\n🔗 <a href=\"https://maurycyz.com/projects/fading/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50436410\">HN Discussion (83)</a>\n\n<b>5. [System Design] Queens Public library under ransomware attack e-borrowing suspended</b>\nHacker News discussion (89 points, 66 comments). Currently trending on Hacker News with 89 developer upvotes and 66 technical comments.\n<i>Hacker News · ▲ 89 · @rustyhancock</i>\n🔗 <a href=\"https://connect.queenslibrary.org/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50437790\">HN Discussion (66)</a>\n\n<b>6. [AI/ML] I Gave My Startup 6 AI Employees. They Talked More Than They Worked.</b>\n330 chat messages, 75 finished tasks, and one analyst who announced work she never did. Currently trending on DEV.to with 12 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 12 · @elliot_brenya</i>\n🔗 <a href=\"https://dev.to/elliot_brenya/i-gave-my-startup-6-ai-employees-they-talked-more-than-they-worked-480p\">Read Source</a>\n\n<b>7. [Cloud/DevOps] Day 82: A Password Removed and a Copy That Stayed Put</b>\nDay 82 of DevOps, Day 32 of Azure. Both tasks today returned a cheerful single word that meant less. Currently trending on DEV.to with 15 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 15 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/day-82-a-password-removed-and-a-copy-that-stayed-put-35jd\">Read Source</a>\n\n<b>8. [System Design] Top 7 Featured DEV Posts of the Week</b>\nWelcome to this week&#x27;s Top 7, where the DEV editorial team handpicks their favorite posts from the. Currently trending on DEV.to with 5 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 5 · @heyitsjem</i>\n🔗 <a href=\"https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-432g\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Security] When to Skip Your Gem Cooldown</b>\nOn November 4, Rails shipped fixes for 21 security advisories, and both apps I work on had a 14-day Bundler cooldown telling us to skip brand-new releases. Here&#x27;s how we patched the same day, where the security bypass leaks, and why Dependabot never opened a Rails PR. Currently trending on DEV.to with 8 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 8 · @cseeman</i>\n🔗 <a href=\"https://dev.to/cseeman/when-to-skip-your-gem-cooldown-49ph\">Read Source</a>\n\n<b>10. [Web Dev] I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features</b>\nI had already explored gp-grid&#x27;s features and capabilities, and I wrote gp-grid: A Free, Open-Source. Currently trending on DEV.to with 85 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 85 · @hadil</i>\n🔗 <a href=\"https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-10T01:16:42.340044+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
