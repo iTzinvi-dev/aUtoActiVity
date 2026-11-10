@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-10T01:16:42.340044+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50429906",
+        "source": "Hacker News",
+        "title": "Claude Fable 5.2 and Mythos 5.2",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (929 points, 556 comments). Currently trending on Hacker News with 929 developer upvotes and 556 technical comments.",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "discussion_url": "https://news.ycombinator.com/item?id=50429906",
+        "author": "meetpateltech",
+        "score": 929,
+        "comments_count": 556,
+        "published_at": "2026-11-09T18:56:29+00:00"
+      },
+      {
+        "uid": "hn_50427362",
+        "source": "Hacker News",
+        "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (454 points, 256 comments). Currently trending on Hacker News with 454 developer upvotes and 256 technical comments.",
+        "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+        "discussion_url": "https://news.ycombinator.com/item?id=50427362",
+        "author": "ocd",
+        "score": 454,
+        "comments_count": 256,
+        "published_at": "2026-11-09T16:00:45+00:00"
+      },
+      {
+        "uid": "hn_50431058",
+        "source": "Hacker News",
+        "title": "USPS now offers official ZIP Code boundary polygons",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (448 points, 220 comments). Currently trending on Hacker News with 448 developer upvotes and 220 technical comments.",
+        "url": "https://postalpro.usps.com/zcb",
+        "discussion_url": "https://news.ycombinator.com/item?id=50431058",
+        "author": "munro",
+        "score": 448,
+        "comments_count": 220,
+        "published_at": "2026-11-09T19:58:59+00:00"
+      },
+      {
+        "uid": "hn_50429426",
+        "source": "Hacker News",
+        "title": "Google Gemini routes personal Drive files and emails to human annotators",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (380 points, 98 comments). Currently trending on Hacker News with 380 developer upvotes and 98 technical comments.",
+        "url": "https://github.com/thisisme6598/gemini_files/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50429426",
+        "author": "gf74918",
+        "score": 380,
+        "comments_count": 98,
+        "published_at": "2026-11-09T18:24:38+00:00"
+      },
+      {
+        "uid": "hn_50431144",
+        "source": "Hacker News",
+        "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (274 points, 195 comments). Currently trending on Hacker News with 274 developer upvotes and 195 technical comments.",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+        "discussion_url": "https://news.ycombinator.com/item?id=50431144",
+        "author": "theanonymousone",
+        "score": 274,
+        "comments_count": 195,
+        "published_at": "2026-11-09T20:04:55+00:00"
+      },
+      {
+        "uid": "devto_4977112",
+        "source": "DEV.to",
+        "title": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A month ago, an average web request on DEV took about 70 milliseconds inside Rails, with P99 response. Currently trending on DEV.to with 71 developer upvotes and 11 technical comments.",
+        "url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
+        "discussion_url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
+        "author": "ben",
+        "score": 71,
+        "comments_count": 11,
+        "published_at": "2026-11-09T16:12:25Z"
+      },
+      {
+        "uid": "devto_4998424",
+        "source": "DEV.to",
+        "title": "The C Trilogy: How Dennis Ritchie, Bjarne Stroustrup, and Anders Hejlsberg Built the Modern World 🏛️",
+        "category_tag": "[System Design]",
+        "takeaway": "Almost every piece of software running on Earth today traces back to three people trying to solve the. Currently trending on DEV.to with 60 developer upvotes and 19 technical comments.",
+        "url": "https://dev.to/devengers/the-c-trilogy-how-dennis-ritchie-bjarne-stroustrup-and-anders-hejlsberg-built-the-modern-world-1onp",
+        "discussion_url": "https://dev.to/devengers/the-c-trilogy-how-dennis-ritchie-bjarne-stroustrup-and-anders-hejlsberg-built-the-modern-world-1onp",
+        "author": "dj29",
+        "score": 60,
+        "comments_count": 19,
+        "published_at": "2026-11-09T15:30:54Z"
+      },
+      {
+        "uid": "devto_5007200",
+        "source": "DEV.to",
+        "title": "How did you end up in tech, and are you staying?",
+        "category_tag": "[System Design]",
+        "takeaway": "Last week you showed me where you code. This week I want to know how you ended up there in the first. Currently trending on DEV.to with 30 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/maame-codes/how-did-you-end-up-in-tech-and-are-you-staying-4l9b",
+        "discussion_url": "https://dev.to/maame-codes/how-did-you-end-up-in-tech-and-are-you-staying-4l9b",
+        "author": "maame-codes",
+        "score": 30,
+        "comments_count": 10,
+        "published_at": "2026-11-09T23:02:37Z"
+      },
+      {
+        "uid": "devto_4858461",
+        "source": "DEV.to",
+        "title": "A Day In The Life of A Random Coder: A Save Button And a Forward Slash Almost Ruined It",
+        "category_tag": "[System Design]",
+        "takeaway": "After 3 months of work, today was the day to test a brand-new invoicing module for a hardware. Currently trending on DEV.to with 14 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/canro91/a-day-in-the-life-of-a-random-coder-a-save-button-and-a-forward-slash-almost-ruined-it-22oo",
+        "discussion_url": "https://dev.to/canro91/a-day-in-the-life-of-a-random-coder-a-save-button-and-a-forward-slash-almost-ruined-it-22oo",
+        "author": "canro91",
+        "score": 14,
+        "comments_count": 2,
+        "published_at": "2026-11-09T05:00:00Z"
+      },
+      {
+        "uid": "devto_5003116",
+        "source": "DEV.to",
+        "title": "Take Claude Code Above Average: Let Antigravity Review It",
+        "category_tag": "[AI/ML]",
+        "takeaway": "In November 2026, I spent a day building a small tool with Claude Code: a bridge that lets a second. Currently trending on DEV.to with 14 developer upvotes and 8 technical comments.",
+        "url": "https://dev.to/gde/take-claude-code-above-average-let-antigravity-review-it-1f3g",
+        "discussion_url": "https://dev.to/gde/take-claude-code-above-average-let-antigravity-review-it-1f3g",
+        "author": "kulaone",
+        "score": 14,
+        "comments_count": 8,
+        "published_at": "2026-11-09T08:18:56Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        108,
+        109,
+        110,
+        111
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Claude Fable 5.2 and Mythos 5.2</b>\nHacker News discussion (929 points, 556 comments). Currently trending on Hacker News with 929 developer upvotes and 556 technical comments.\n<i>Hacker News · ▲ 929 · @meetpateltech</i>\n🔗 <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50429906\">HN Discussion (556)</a>\n\n<b>2. [System Design] Payments Canada announces launch of Canada&#x27;s Real-Time Rail (RTR) payment system</b>\nHacker News discussion (454 points, 256 comments). Currently trending on Hacker News with 454 developer upvotes and 256 technical comments.\n<i>Hacker News · ▲ 454 · @ocd</i>\n🔗 <a href=\"https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50427362\">HN Discussion (256)</a>\n\n<b>3. [System Design] USPS now offers official ZIP Code boundary polygons</b>\nHacker News discussion (448 points, 220 comments). Currently trending on Hacker News with 448 developer upvotes and 220 technical comments.\n<i>Hacker News · ▲ 448 · @munro</i>\n🔗 <a href=\"https://postalpro.usps.com/zcb\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50431058\">HN Discussion (220)</a>\n\n<b>4. [System Design] Google Gemini routes personal Drive files and emails to human annotators</b>\nHacker News discussion (380 points, 98 comments). Currently trending on Hacker News with 380 developer upvotes and 98 technical comments.\n<i>Hacker News · ▲ 380 · @gf74918</i>\n🔗 <a href=\"https://github.com/thisisme6598/gemini_files/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50429426\">HN Discussion (98)</a>\n\n<b>5. [System Design] Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far</b>\nHacker News discussion (274 points, 195 comments). Currently trending on Hacker News with 274 developer upvotes and 195 technical comments.\n<i>Hacker News · ▲ 274 · @theanonymousone</i>\n🔗 <a href=\"https://artificialanalysis.ai/models/claude-fable-5-2\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50431144\">HN Discussion (195)</a>\n\n<b>6. [AI/ML] Our Looping Factory Cut DEV Page Load Time by 75% and Counting</b>\nA month ago, an average web request on DEV took about 70 milliseconds inside Rails, with P99 response. Currently trending on DEV.to with 71 developer upvotes and 11 technical comments.\n<i>DEV.to · ▲ 71 · @ben</i>\n🔗 <a href=\"https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf\">Read Source</a>\n\n<b>7. [System Design] The C Trilogy: How Dennis Ritchie, Bjarne Stroustrup, and Anders Hejlsberg Built the Modern World 🏛️</b>\nAlmost every piece of software running on Earth today traces back to three people trying to solve the. Currently trending on DEV.to with 60 developer upvotes and 19 technical comments.\n<i>DEV.to · ▲ 60 · @dj29</i>\n🔗 <a href=\"https://dev.to/devengers/the-c-trilogy-how-dennis-ritchie-bjarne-stroustrup-and-anders-hejlsberg-built-the-modern-world-1onp\">Read Source</a>\n\n<b>8. [System Design] How did you end up in tech, and are you staying?</b>\nLast week you showed me where you code. This week I want to know how you ended up there in the first. Currently trending on DEV.to with 30 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 30 · @maame-codes</i>\n🔗 <a href=\"https://dev.to/maame-codes/how-did-you-end-up-in-tech-and-are-you-staying-4l9b\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [System Design] A Day In The Life of A Random Coder: A Save Button And a Forward Slash Almost Ruined It</b>\nAfter 3 months of work, today was the day to test a brand-new invoicing module for a hardware. Currently trending on DEV.to with 14 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 14 · @canro91</i>\n🔗 <a href=\"https://dev.to/canro91/a-day-in-the-life-of-a-random-coder-a-save-button-and-a-forward-slash-almost-ruined-it-22oo\">Read Source</a>\n\n<b>10. [AI/ML] Take Claude Code Above Average: Let Antigravity Review It</b>\nIn November 2026, I spent a day building a small tool with Claude Code: a bridge that lets a second. Currently trending on DEV.to with 14 developer upvotes and 8 technical comments.\n<i>DEV.to · ▲ 14 · @kulaone</i>\n🔗 <a href=\"https://dev.to/gde/take-claude-code-above-average-let-antigravity-review-it-1f3g\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-09T15:30:51.195803+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
