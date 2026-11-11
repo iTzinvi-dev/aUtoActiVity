@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-11T05:11:35.466159+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50445401",
+        "source": "Hacker News",
+        "title": "Scion is back and is going to sell a kei truck in America",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (399 points, 283 comments). Currently trending on Hacker News with 399 developer upvotes and 283 technical comments.",
+        "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50445401",
+        "author": "NaOH",
+        "score": 399,
+        "comments_count": 283,
+        "published_at": "2026-11-10T19:50:46+00:00"
+      },
+      {
+        "uid": "hn_50447074",
+        "source": "Hacker News",
+        "title": "Tracking Anthropic-discovered vulnerabilities",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (358 points, 164 comments). Currently trending on Hacker News with 358 developer upvotes and 164 technical comments.",
+        "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+        "discussion_url": "https://news.ycombinator.com/item?id=50447074",
+        "author": "panic",
+        "score": 358,
+        "comments_count": 164,
+        "published_at": "2026-11-10T22:17:56+00:00"
+      },
+      {
+        "uid": "hn_50444129",
+        "source": "Hacker News",
+        "title": "Starlink Mini 2",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (336 points, 340 comments). Currently trending on Hacker News with 336 developer upvotes and 340 technical comments.",
+        "url": "https://starlink.com/mini-2",
+        "discussion_url": "https://news.ycombinator.com/item?id=50444129",
+        "author": "robertjfclarke",
+        "score": 336,
+        "comments_count": 340,
+        "published_at": "2026-11-10T18:22:32+00:00"
+      },
+      {
+        "uid": "hn_50446246",
+        "source": "Hacker News",
+        "title": "Six Math Essentials",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (184 points, 32 comments). Currently trending on Hacker News with 184 developer upvotes and 32 technical comments.",
+        "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50446246",
+        "author": "digital55",
+        "score": 184,
+        "comments_count": 32,
+        "published_at": "2026-11-10T20:58:44+00:00"
+      },
+      {
+        "uid": "hn_50442225",
+        "source": "Hacker News",
+        "title": "Announcing .NET 11",
+        "category_tag": "[System Design]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;learn.microsoft.com&#x2F;en-us&#x2F;dotnet&#x2F;core&#x2F;whats-new&#x2F;dotnet-11&#x2F;runtime\" rel=\"nofollow\">https:&#x2F;&#x2F;learn.microsoft.com&#x2F;en-us&#x2F;dotnet&#x2F;core&#x2F;whats-new&#x2F;dotn...</a>. Currently trending on Hacker News with 104 developer upvotes and 191 technical comments.",
+        "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50442225",
+        "author": "runesoerensen",
+        "score": 104,
+        "comments_count": 191,
+        "published_at": "2026-11-10T16:01:27+00:00"
+      },
+      {
+        "uid": "devto_5012963",
+        "source": "DEV.to",
+        "title": "Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A few years ago (three years at most), one of the biggest challenges QA Engineers faced was: how do. Currently trending on DEV.to with 47 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/m4rri4nne/detecting-flaky-tests-and-finding-their-root-causes-with-strands-agents-and-gemini-4kan",
+        "discussion_url": "https://dev.to/m4rri4nne/detecting-flaky-tests-and-finding-their-root-causes-with-strands-agents-and-gemini-4kan",
+        "author": "m4rri4nne",
+        "score": 47,
+        "comments_count": 5,
+        "published_at": "2026-11-10T22:52:28Z"
+      },
+      {
+        "uid": "devto_4921327",
+        "source": "DEV.to",
+        "title": "Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Static scanners read npm packages without running them, so they miss the postinstall that only fires at install time. I gave my AI agent one tool that runs the install in a disposable AWS CodeBuild sandbox and catches the curl | bash from the real build log. Currently trending on DEV.to with 5 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/aws-builders/stop-trusting-npm-scans-run-untrusted-packages-in-an-isolated-aws-sandbox-cmm",
+        "discussion_url": "https://dev.to/aws-builders/stop-trusting-npm-scans-run-untrusted-packages-in-an-isolated-aws-sandbox-cmm",
+        "author": "sarvar_04",
+        "score": 5,
+        "comments_count": 1,
+        "published_at": "2026-11-10T18:45:54Z"
+      },
+      {
+        "uid": "devto_5009354",
+        "source": "DEV.to",
+        "title": "Google AI Classroom Part 4: Defeating Proxy Attendance & Lab Keyloggers with WebAuthn Passkeys, Rotating HMAC QRs & GCIP Blocking Functions",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Verifiable classroom attendance and keylogger-proof proctored exam lab sign-in with FIDO2 WebAuthn Passkeys, 15s rotating HMAC QRs, and GCIP blocking hooks. Currently trending on DEV.to with 12 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/google-ai-classroom-part-4-defeating-proxy-attendance-lab-keyloggers-with-webauthn-passkeys-2gc0",
+        "discussion_url": "https://dev.to/gde/google-ai-classroom-part-4-defeating-proxy-attendance-lab-keyloggers-with-webauthn-passkeys-2gc0",
+        "author": "cyruswong",
+        "score": 12,
+        "comments_count": 0,
+        "published_at": "2026-11-10T07:25:07Z"
+      },
+      {
+        "uid": "devto_5012357",
+        "source": "DEV.to",
+        "title": "From Attention to 3-Bit Caches: How LLMs Learned to Remember Less (MHA, GQA, MLA, MoE, Quantisation Explained)",
+        "category_tag": "[AI/ML]",
+        "takeaway": "In 2017, eight researchers published a paper with the cockiest title in computer science: Attention. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/amananandrai/from-attention-to-3-bit-caches-how-llms-learned-to-remember-less-mha-gqa-mla-moe-quantisation-3obj",
+        "discussion_url": "https://dev.to/amananandrai/from-attention-to-3-bit-caches-how-llms-learned-to-remember-less-mha-gqa-mla-moe-quantisation-3obj",
+        "author": "amananandrai",
+        "score": 7,
+        "comments_count": 0,
+        "published_at": "2026-11-10T18:42:22Z"
+      },
+      {
+        "uid": "devto_4982713",
+        "source": "DEV.to",
+        "title": "Ask More of Your UI",
+        "category_tag": "[AI/ML]",
+        "takeaway": "In my last post, I wrote about moving Forem’s performance and maintenance work into autonomous loops. Currently trending on DEV.to with 10 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/dailycontext/ask-more-of-your-ui-2nf7",
+        "discussion_url": "https://dev.to/dailycontext/ask-more-of-your-ui-2nf7",
+        "author": "ben",
+        "score": 10,
+        "comments_count": 0,
+        "published_at": "2026-11-11T01:39:15Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        120,
+        121,
+        122,
+        123
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Scion is back and is going to sell a kei truck in America</b>\nHacker News discussion (399 points, 283 comments). Currently trending on Hacker News with 399 developer upvotes and 283 technical comments.\n<i>Hacker News · ▲ 399 · @NaOH</i>\n🔗 <a href=\"https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50445401\">HN Discussion (283)</a>\n\n<b>2. [System Design] Tracking Anthropic-discovered vulnerabilities</b>\nHacker News discussion (358 points, 164 comments). Currently trending on Hacker News with 358 developer upvotes and 164 technical comments.\n<i>Hacker News · ▲ 358 · @panic</i>\n🔗 <a href=\"https://www.vulncheck.com/blog/anthropic-glasswing-november-update\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50447074\">HN Discussion (164)</a>\n\n<b>3. [System Design] Starlink Mini 2</b>\nHacker News discussion (336 points, 340 comments). Currently trending on Hacker News with 336 developer upvotes and 340 technical comments.\n<i>Hacker News · ▲ 336 · @robertjfclarke</i>\n🔗 <a href=\"https://starlink.com/mini-2\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50444129\">HN Discussion (340)</a>\n\n<b>4. [System Design] Six Math Essentials</b>\nHacker News discussion (184 points, 32 comments). Currently trending on Hacker News with 184 developer upvotes and 32 technical comments.\n<i>Hacker News · ▲ 184 · @digital55</i>\n🔗 <a href=\"https://teorth.github.io/tao-web/six-math-essentials.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50446246\">HN Discussion (32)</a>\n\n<b>5. [System Design] Announcing .NET 11</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;learn.microsoft.com&amp;#x2F;en-us&amp;#x2F;dotnet&amp;#x2F;core&amp;#x2F;whats-new&amp;#x2F;dotnet-11&amp;#x2F;runtime&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;learn.microsoft.com&amp;#x2F;en-us&amp;#x2F;dotnet&amp;#x2F;core&amp;#x2F;whats-new&amp;#x2F;dotn...&lt;/a&gt;. Currently trending on Hacker News with 104 developer upvotes and 191 technical comments.\n<i>Hacker News · ▲ 104 · @runesoerensen</i>\n🔗 <a href=\"https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50442225\">HN Discussion (191)</a>\n\n<b>6. [AI/ML] Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini</b>\nA few years ago (three years at most), one of the biggest challenges QA Engineers faced was: how do. Currently trending on DEV.to with 47 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 47 · @m4rri4nne</i>\n🔗 <a href=\"https://dev.to/m4rri4nne/detecting-flaky-tests-and-finding-their-root-causes-with-strands-agents-and-gemini-4kan\">Read Source</a>\n\n<b>7. [AI/ML] Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox</b>\nStatic scanners read npm packages without running them, so they miss the postinstall that only fires at install time. I gave my AI agent one tool that runs the install in a disposable AWS CodeBuild sandbox and catches the curl | bash from the real build log. Currently trending on DEV.to with 5 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 5 · @sarvar_04</i>\n🔗 <a href=\"https://dev.to/aws-builders/stop-trusting-npm-scans-run-untrusted-packages-in-an-isolated-aws-sandbox-cmm\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [AI/ML] Google AI Classroom Part 4: Defeating Proxy Attendance &amp; Lab Keyloggers with WebAuthn Passkeys, Rotating HMAC QRs &amp; GCIP Blocking Functions</b>\nVerifiable classroom attendance and keylogger-proof proctored exam lab sign-in with FIDO2 WebAuthn Passkeys, 15s rotating HMAC QRs, and GCIP blocking hooks. Currently trending on DEV.to with 12 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 12 · @cyruswong</i>\n🔗 <a href=\"https://dev.to/gde/google-ai-classroom-part-4-defeating-proxy-attendance-lab-keyloggers-with-webauthn-passkeys-2gc0\">Read Source</a>\n\n<b>9. [AI/ML] From Attention to 3-Bit Caches: How LLMs Learned to Remember Less (MHA, GQA, MLA, MoE, Quantisation Explained)</b>\nIn 2017, eight researchers published a paper with the cockiest title in computer science: Attention. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 7 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/from-attention-to-3-bit-caches-how-llms-learned-to-remember-less-mha-gqa-mla-moe-quantisation-3obj\">Read Source</a>\n\n<b>10. [AI/ML] Ask More of Your UI</b>\nIn my last post, I wrote about moving Forem’s performance and maintenance work into autonomous loops. Currently trending on DEV.to with 10 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 10 · @ben</i>\n🔗 <a href=\"https://dev.to/dailycontext/ask-more-of-your-ui-2nf7\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-10T22:57:11.851167+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
