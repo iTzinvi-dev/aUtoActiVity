@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-11T13:44:40.793750+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50446520",
+        "source": "Hacker News",
+        "title": "Apple has new Mac app coming to make running local AI models easy",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (350 points, 342 comments). Currently trending on Hacker News with 350 developer upvotes and 342 technical comments.",
+        "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50446520",
+        "author": "linolevan",
+        "score": 350,
+        "comments_count": 342,
+        "published_at": "2026-11-10T21:25:03+00:00"
+      },
+      {
+        "uid": "hn_50449748",
+        "source": "Hacker News",
+        "title": "Protecting SSH Keys with macOS Secure Enclave",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (281 points, 102 comments). Currently trending on Hacker News with 281 developer upvotes and 102 technical comments.",
+        "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50449748",
+        "author": "js2",
+        "score": 281,
+        "comments_count": 102,
+        "published_at": "2026-11-11T04:28:57+00:00"
+      },
+      {
+        "uid": "hn_50448921",
+        "source": "Hacker News",
+        "title": "A great old-timey game-programming hack (2013)",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (211 points, 43 comments). Currently trending on Hacker News with 211 developer upvotes and 43 technical comments.",
+        "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50448921",
+        "author": "palsecam",
+        "score": 211,
+        "comments_count": 43,
+        "published_at": "2026-11-11T01:56:31+00:00"
+      },
+      {
+        "uid": "hn_50452455",
+        "source": "Hacker News",
+        "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (184 points, 73 comments). Currently trending on Hacker News with 184 developer upvotes and 73 technical comments.",
+        "url": "https://pietromiotti.com/latest/maya-site/?maya",
+        "discussion_url": "https://news.ycombinator.com/item?id=50452455",
+        "author": "eyvindn",
+        "score": 184,
+        "comments_count": 73,
+        "published_at": "2026-11-11T12:05:22+00:00"
+      },
+      {
+        "uid": "hn_50450007",
+        "source": "Hacker News",
+        "title": "Greg Kurtzer's Ginux is now a userspace kernel",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (92 points, 50 comments). Currently trending on Hacker News with 92 developer upvotes and 50 technical comments.",
+        "url": "https://github.com/gmkurtzer/ginux",
+        "discussion_url": "https://news.ycombinator.com/item?id=50450007",
+        "author": "d3Xt3r",
+        "score": 92,
+        "comments_count": 50,
+        "published_at": "2026-11-11T05:25:54+00:00"
+      },
+      {
+        "uid": "devto_5015589",
+        "source": "DEV.to",
+        "title": "We Keep Hearing About AI Productivity. The QA Group Chat Told a Different Story.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "An anonymous poll, a debate about multimodal testing, and some uncomfortable questions about who. Currently trending on DEV.to with 61 developer upvotes and 25 technical comments.",
+        "url": "https://dev.to/xulingfeng/we-keep-hearing-about-ai-productivity-the-qa-group-chat-told-a-different-story-2nma",
+        "discussion_url": "https://dev.to/xulingfeng/we-keep-hearing-about-ai-productivity-the-qa-group-chat-told-a-different-story-2nma",
+        "author": "xulingfeng",
+        "score": 61,
+        "comments_count": 25,
+        "published_at": "2026-11-11T08:35:15Z"
+      },
+      {
+        "uid": "devto_5016771",
+        "source": "DEV.to",
+        "title": "AI can write code, but the magic of a first project is unmatched! 🗽",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Namaste dev community! 👋 Today, I’m sharing a very special project of mine. It's a web page. Currently trending on DEV.to with 47 developer upvotes and 7 technical comments.",
+        "url": "https://dev.to/necoz/ai-can-write-code-but-the-magic-of-a-first-project-is-unmatched-30c4",
+        "discussion_url": "https://dev.to/necoz/ai-can-write-code-but-the-magic-of-a-first-project-is-unmatched-30c4",
+        "author": "star123",
+        "score": 47,
+        "comments_count": 7,
+        "published_at": "2026-11-11T12:18:29Z"
+      },
+      {
+        "uid": "devto_5015013",
+        "source": "DEV.to",
+        "title": "Part 5: The Control That Protected an Empty Bucket",
+        "category_tag": "[AI/ML]",
+        "takeaway": "This is Part 5 of a series building an HL7 v2 to FHIR R4 interoperability service in public. The. Currently trending on DEV.to with 15 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/ndcodes/part-5-the-control-that-protected-an-empty-bucket-e1j",
+        "discussion_url": "https://dev.to/ndcodes/part-5-the-control-that-protected-an-empty-bucket-e1j",
+        "author": "ndcodes",
+        "score": 15,
+        "comments_count": 0,
+        "published_at": "2026-11-11T06:32:19Z"
+      },
+      {
+        "uid": "devto_5013885",
+        "source": "DEV.to",
+        "title": "A Small Laptop Is a Full Build Kit: Bootstrapping with a Chromebook, Claude, and GitHub",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A small laptop is a full build kit. Here's how far mine went. TL;DR: A reader suggested I publish. Currently trending on DEV.to with 9 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/earlgreyhot1701d/a-small-laptop-is-a-full-build-kit-bootstrapping-with-a-chromebook-claude-and-github-4j16",
+        "discussion_url": "https://dev.to/earlgreyhot1701d/a-small-laptop-is-a-full-build-kit-bootstrapping-with-a-chromebook-claude-and-github-4j16",
+        "author": "earlgreyhot1701d",
+        "score": 9,
+        "comments_count": 3,
+        "published_at": "2026-11-11T02:41:57Z"
+      },
+      {
+        "uid": "devto_5011732",
+        "source": "DEV.to",
+        "title": "Blazor Native: HTML and CSS Without a Browser",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Almost 14 years ago, I had an idea: what if you could build a cross-platform desktop UI with HTML and. Currently trending on DEV.to with 4 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/florianrappl/blazor-native-html-and-css-without-a-browser-340o",
+        "discussion_url": "https://dev.to/florianrappl/blazor-native-html-and-css-without-a-browser-340o",
+        "author": "florianrappl",
+        "score": 4,
+        "comments_count": 0,
+        "published_at": "2026-11-10T15:45:27Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        124,
+        125,
+        126,
+        127
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [AI/ML] Apple has new Mac app coming to make running local AI models easy</b>\nHacker News discussion (350 points, 342 comments). Currently trending on Hacker News with 350 developer upvotes and 342 technical comments.\n<i>Hacker News · ▲ 350 · @linolevan</i>\n🔗 <a href=\"https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50446520\">HN Discussion (342)</a>\n\n<b>2. [System Design] Protecting SSH Keys with macOS Secure Enclave</b>\nHacker News discussion (281 points, 102 comments). Currently trending on Hacker News with 281 developer upvotes and 102 technical comments.\n<i>Hacker News · ▲ 281 · @js2</i>\n🔗 <a href=\"https://gatezh.com/posts/macos-secure-enclave-ssh-keys/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50449748\">HN Discussion (102)</a>\n\n<b>3. [Security] A great old-timey game-programming hack (2013)</b>\nHacker News discussion (211 points, 43 comments). Currently trending on Hacker News with 211 developer upvotes and 43 technical comments.\n<i>Hacker News · ▲ 211 · @palsecam</i>\n🔗 <a href=\"https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50448921\">HN Discussion (43)</a>\n\n<b>4. [AI/ML] Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h</b>\nHacker News discussion (184 points, 73 comments). Currently trending on Hacker News with 184 developer upvotes and 73 technical comments.\n<i>Hacker News · ▲ 184 · @eyvindn</i>\n🔗 <a href=\"https://pietromiotti.com/latest/maya-site/?maya\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50452455\">HN Discussion (73)</a>\n\n<b>5. [Systems] Greg Kurtzer&#x27;s Ginux is now a userspace kernel</b>\nHacker News discussion (92 points, 50 comments). Currently trending on Hacker News with 92 developer upvotes and 50 technical comments.\n<i>Hacker News · ▲ 92 · @d3Xt3r</i>\n🔗 <a href=\"https://github.com/gmkurtzer/ginux\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50450007\">HN Discussion (50)</a>\n\n<b>6. [AI/ML] We Keep Hearing About AI Productivity. The QA Group Chat Told a Different Story.</b>\nAn anonymous poll, a debate about multimodal testing, and some uncomfortable questions about who. Currently trending on DEV.to with 61 developer upvotes and 25 technical comments.\n<i>DEV.to · ▲ 61 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/xulingfeng/we-keep-hearing-about-ai-productivity-the-qa-group-chat-told-a-different-story-2nma\">Read Source</a>\n\n<b>7. [AI/ML] AI can write code, but the magic of a first project is unmatched! 🗽</b>\nNamaste dev community! 👋 Today, I’m sharing a very special project of mine. It&#x27;s a web page. Currently trending on DEV.to with 47 developer upvotes and 7 technical comments.\n<i>DEV.to · ▲ 47 · @star123</i>\n🔗 <a href=\"https://dev.to/necoz/ai-can-write-code-but-the-magic-of-a-first-project-is-unmatched-30c4\">Read Source</a>\n\n<b>8. [AI/ML] Part 5: The Control That Protected an Empty Bucket</b>\nThis is Part 5 of a series building an HL7 v2 to FHIR R4 interoperability service in public. The. Currently trending on DEV.to with 15 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 15 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/part-5-the-control-that-protected-an-empty-bucket-e1j\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] A Small Laptop Is a Full Build Kit: Bootstrapping with a Chromebook, Claude, and GitHub</b>\nA small laptop is a full build kit. Here&#x27;s how far mine went. TL;DR: A reader suggested I publish. Currently trending on DEV.to with 9 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 9 · @earlgreyhot1701d</i>\n🔗 <a href=\"https://dev.to/earlgreyhot1701d/a-small-laptop-is-a-full-build-kit-bootstrapping-with-a-chromebook-claude-and-github-4j16\">Read Source</a>\n\n<b>10. [Web Dev] Blazor Native: HTML and CSS Without a Browser</b>\nAlmost 14 years ago, I had an idea: what if you could build a cross-platform desktop UI with HTML and. Currently trending on DEV.to with 4 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 4 · @florianrappl</i>\n🔗 <a href=\"https://dev.to/florianrappl/blazor-native-html-and-css-without-a-browser-340o\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-11T05:11:35.466159+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
