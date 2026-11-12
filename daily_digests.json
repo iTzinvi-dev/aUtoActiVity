@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-12T00:12:10.920068+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50450488",
+        "source": "Hacker News",
+        "title": "Tim Peters has died",
+        "category_tag": "[System Design]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw</a>. Currently trending on Hacker News with 801 developer upvotes and 83 technical comments.",
+        "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+        "discussion_url": "https://news.ycombinator.com/item?id=50450488",
+        "author": "ayhanfuat",
+        "score": 801,
+        "comments_count": 83,
+        "published_at": "2026-11-11T07:03:17+00:00"
+      },
+      {
+        "uid": "hn_50456631",
+        "source": "Hacker News",
+        "title": "AWS emulator",
+        "category_tag": "[AI/ML]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agents-built-aws-emulator\" rel=\"nofollow\">https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agent...</a><p><a href=\"https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&. Currently trending on Hacker News with 605 developer upvotes and 205 technical comments.",
+        "url": "https://github.com/aws/aws-emulator",
+        "discussion_url": "https://news.ycombinator.com/item?id=50456631",
+        "author": "super_linear",
+        "score": 605,
+        "comments_count": 205,
+        "published_at": "2026-11-11T18:21:38+00:00"
+      },
+      {
+        "uid": "hn_50455394",
+        "source": "Hacker News",
+        "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (389 points, 190 comments). Currently trending on Hacker News with 389 developer upvotes and 190 technical comments.",
+        "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50455394",
+        "author": "mbac32768",
+        "score": 389,
+        "comments_count": 190,
+        "published_at": "2026-11-11T16:38:44+00:00"
+      },
+      {
+        "uid": "hn_50458900",
+        "source": "Hacker News",
+        "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (288 points, 268 comments). Currently trending on Hacker News with 288 developer upvotes and 268 technical comments.",
+        "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50458900",
+        "author": "herpderperator",
+        "score": 288,
+        "comments_count": 268,
+        "published_at": "2026-11-11T21:24:35+00:00"
+      },
+      {
+        "uid": "hn_50456791",
+        "source": "Hacker News",
+        "title": "Gemini Decisions API",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Hacker News discussion (225 points, 74 comments). Currently trending on Hacker News with 225 developer upvotes and 74 technical comments.",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50456791",
+        "author": "iamdelirium",
+        "score": 225,
+        "comments_count": 74,
+        "published_at": "2026-11-11T18:32:42+00:00"
+      },
+      {
+        "uid": "devto_5015985",
+        "source": "DEV.to",
+        "title": "One Year on DEV.to, 109 Articles Later",
+        "category_tag": "[Open Source]",
+        "takeaway": "On November 11, 2025, I registered my DEV.to account. When I checked my dashboard this morning, I was. Currently trending on DEV.to with 43 developer upvotes and 31 technical comments.",
+        "url": "https://dev.to/dannwaneri/one-year-on-devto-109-articles-later-p31",
+        "discussion_url": "https://dev.to/dannwaneri/one-year-on-devto-109-articles-later-p31",
+        "author": "dannwaneri",
+        "score": 43,
+        "comments_count": 31,
+        "published_at": "2026-11-11T13:00:00Z"
+      },
+      {
+        "uid": "devto_4999208",
+        "source": "DEV.to",
+        "title": "Meet type-tune! 🦀 Give Your TypeScript Types a Better Home! 😸",
+        "category_tag": "[Systems]",
+        "takeaway": "Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer who is actually allergic to crabs! 🙀🦀 Today, I have. Currently trending on DEV.to with 34 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/necoz/meet-type-tune-give-your-typescript-types-a-better-home-1p6l",
+        "discussion_url": "https://dev.to/necoz/meet-type-tune-give-your-typescript-types-a-better-home-1p6l",
+        "author": "nyaomaru",
+        "score": 34,
+        "comments_count": 3,
+        "published_at": "2026-11-11T17:19:22Z"
+      },
+      {
+        "uid": "devto_5015421",
+        "source": "DEV.to",
+        "title": "Google AI Classroom Part 9: Gamified \"Bingo\" Active Presence Verification & Zero-Trust Proctored Exam Mode on Google Cloud",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Interactive Classroom Bingo comprehension checks and zero-trust proctored exam lockdown with forensic .docx dossiers on Google Cloud. Currently trending on DEV.to with 15 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/gde/google-ai-classroom-part-9-gamified-bingo-active-presence-verification-zero-trust-proctored-52dg",
+        "discussion_url": "https://dev.to/gde/google-ai-classroom-part-9-gamified-bingo-active-presence-verification-zero-trust-proctored-52dg",
+        "author": "cyruswong",
+        "score": 15,
+        "comments_count": 1,
+        "published_at": "2026-11-11T07:49:09Z"
+      },
+      {
+        "uid": "devto_4828432",
+        "source": "DEV.to",
+        "title": "You're Spawning Goroutines Wrong: The Visual Architecture Guide That Fixes Go Concurrency Forever",
+        "category_tag": "[System Design]",
+        "takeaway": "A visual, 10-minute deep dive into Go runtime architecture. Learn how the GMP scheduler coordinates work-stealing, how 2KB contiguous stacks grow and shrink, how the internal hchan ring buffer performs zero-copy channel transfers, and how to stop silent goroutine leaks in production. Currently trending on DEV.to with 12 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/smtahosin/youre-spawning-goroutines-wrong-the-visual-architecture-guide-that-fixes-go-concurrency-forever-1he0",
+        "discussion_url": "https://dev.to/smtahosin/youre-spawning-goroutines-wrong-the-visual-architecture-guide-that-fixes-go-concurrency-forever-1he0",
+        "author": "smtahosin",
+        "score": 12,
+        "comments_count": 0,
+        "published_at": "2026-11-11T13:55:45Z"
+      },
+      {
+        "uid": "devto_5012097",
+        "source": "DEV.to",
+        "title": "The Fastest LLM Call Is The One You Never Make",
+        "category_tag": "[AI/ML]",
+        "takeaway": "At Glean, we tested a model that does not write text. It only makes decisions. In our tests, it. Currently trending on DEV.to with 8 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/dailycontext/the-fastest-llm-call-is-the-one-you-never-make-34lo",
+        "discussion_url": "https://dev.to/dailycontext/the-fastest-llm-call-is-the-one-you-never-make-34lo",
+        "author": "chinmay_goyal_glean",
+        "score": 8,
+        "comments_count": 1,
+        "published_at": "2026-11-11T01:37:24Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        128,
+        129,
+        130,
+        131
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Tim Peters has died</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.reddit.com&amp;#x2F;r&amp;#x2F;Python&amp;#x2F;s&amp;#x2F;2Cm5dBcvQw&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.reddit.com&amp;#x2F;r&amp;#x2F;Python&amp;#x2F;s&amp;#x2F;2Cm5dBcvQw&lt;/a&gt;. Currently trending on Hacker News with 801 developer upvotes and 83 technical comments.\n<i>Hacker News · ▲ 801 · @ayhanfuat</i>\n🔗 <a href=\"https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50450488\">HN Discussion (83)</a>\n\n<b>2. [AI/ML] AWS emulator</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.aboutamazon.com&amp;#x2F;news&amp;#x2F;aws&amp;#x2F;how-autonomous-ai-agents-built-aws-emulator&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.aboutamazon.com&amp;#x2F;news&amp;#x2F;aws&amp;#x2F;how-autonomous-ai-agent...&lt;/a&gt;&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.allthingsdistributed.com&amp;#x2F;2026&amp;#x2F;11&amp;. Currently trending on Hacker News with 605 developer upvotes and 205 technical comments.\n<i>Hacker News · ▲ 605 · @super_linear</i>\n🔗 <a href=\"https://github.com/aws/aws-emulator\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50456631\">HN Discussion (205)</a>\n\n<b>3. [System Design] A false smoke alarm almost drowned Jane Street&#x27;s only NYC datacenter</b>\nHacker News discussion (389 points, 190 comments). Currently trending on Hacker News with 389 developer upvotes and 190 technical comments.\n<i>Hacker News · ▲ 389 · @mbac32768</i>\n🔗 <a href=\"https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50455394\">HN Discussion (190)</a>\n\n<b>4. [AI/ML] United Airlines bans AI agents from booking flights on behalf of travelers</b>\nHacker News discussion (288 points, 268 comments). Currently trending on Hacker News with 288 developer upvotes and 268 technical comments.\n<i>Hacker News · ▲ 288 · @herpderperator</i>\n🔗 <a href=\"https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50458900\">HN Discussion (268)</a>\n\n<b>5. [Web Dev] Gemini Decisions API</b>\nHacker News discussion (225 points, 74 comments). Currently trending on Hacker News with 225 developer upvotes and 74 technical comments.\n<i>Hacker News · ▲ 225 · @iamdelirium</i>\n🔗 <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50456791\">HN Discussion (74)</a>\n\n<b>6. [Open Source] One Year on DEV.to, 109 Articles Later</b>\nOn November 11, 2025, I registered my DEV.to account. When I checked my dashboard this morning, I was. Currently trending on DEV.to with 43 developer upvotes and 31 technical comments.\n<i>DEV.to · ▲ 43 · @dannwaneri</i>\n🔗 <a href=\"https://dev.to/dannwaneri/one-year-on-devto-109-articles-later-p31\">Read Source</a>\n\n<b>7. [Systems] Meet type-tune! 🦀 Give Your TypeScript Types a Better Home! 😸</b>\nHoi hoi! 👋 I&#x27;m @nyaomaru, a frontend engineer who is actually allergic to crabs! 🙀🦀 Today, I have. Currently trending on DEV.to with 34 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 34 · @nyaomaru</i>\n🔗 <a href=\"https://dev.to/necoz/meet-type-tune-give-your-typescript-types-a-better-home-1p6l\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [AI/ML] Google AI Classroom Part 9: Gamified &quot;Bingo&quot; Active Presence Verification &amp; Zero-Trust Proctored Exam Mode on Google Cloud</b>\nInteractive Classroom Bingo comprehension checks and zero-trust proctored exam lockdown with forensic .docx dossiers on Google Cloud. Currently trending on DEV.to with 15 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 15 · @cyruswong</i>\n🔗 <a href=\"https://dev.to/gde/google-ai-classroom-part-9-gamified-bingo-active-presence-verification-zero-trust-proctored-52dg\">Read Source</a>\n\n<b>9. [System Design] You&#x27;re Spawning Goroutines Wrong: The Visual Architecture Guide That Fixes Go Concurrency Forever</b>\nA visual, 10-minute deep dive into Go runtime architecture. Learn how the GMP scheduler coordinates work-stealing, how 2KB contiguous stacks grow and shrink, how the internal hchan ring buffer performs zero-copy channel transfers, and how to stop silent goroutine leaks in production. Currently trending on DEV.to with 12 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 12 · @smtahosin</i>\n🔗 <a href=\"https://dev.to/smtahosin/youre-spawning-goroutines-wrong-the-visual-architecture-guide-that-fixes-go-concurrency-forever-1he0\">Read Source</a>\n\n<b>10. [AI/ML] The Fastest LLM Call Is The One You Never Make</b>\nAt Glean, we tested a model that does not write text. It only makes decisions. In our tests, it. Currently trending on DEV.to with 8 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 8 · @chinmay_goyal_glean</i>\n🔗 <a href=\"https://dev.to/dailycontext/the-fastest-llm-call-is-the-one-you-never-make-34lo\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-11T13:44:40.793750+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
