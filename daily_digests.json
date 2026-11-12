@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-12T14:48:34.418920+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50467087",
+        "source": "Hacker News",
+        "title": "NVIDIA Announces CEO Transition",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (651 points, 474 comments). Currently trending on Hacker News with 651 developer upvotes and 474 technical comments.",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+        "discussion_url": "https://news.ycombinator.com/item?id=50467087",
+        "author": "lldb",
+        "score": 651,
+        "comments_count": 474,
+        "published_at": "2026-11-12T13:52:29+00:00"
+      },
+      {
+        "uid": "hn_50438261",
+        "source": "Hacker News",
+        "title": "Jane Street: Socratic Tutor",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (466 points, 103 comments). Currently trending on Hacker News with 466 developer upvotes and 103 technical comments.",
+        "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+        "discussion_url": "https://news.ycombinator.com/item?id=50438261",
+        "author": "tosh",
+        "score": 466,
+        "comments_count": 103,
+        "published_at": "2026-11-10T10:18:22+00:00"
+      },
+      {
+        "uid": "hn_50425017",
+        "source": "Hacker News",
+        "title": "A live tree of systemd jobs on the boot console",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (215 points, 83 comments). Currently trending on Hacker News with 215 developer upvotes and 83 technical comments.",
+        "url": "https://codeberg.org/wvhulle/bootvine",
+        "discussion_url": "https://news.ycombinator.com/item?id=50425017",
+        "author": "orhunp_",
+        "score": 215,
+        "comments_count": 83,
+        "published_at": "2026-11-09T13:02:44+00:00"
+      },
+      {
+        "uid": "hn_50465352",
+        "source": "Hacker News",
+        "title": "Why Writing Correct Software Is Hard",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (189 points, 77 comments). Currently trending on Hacker News with 189 developer upvotes and 77 technical comments.",
+        "url": "https://pron.github.io/posts/correctness-and-complexity",
+        "discussion_url": "https://news.ycombinator.com/item?id=50465352",
+        "author": "AriFordsham",
+        "score": 189,
+        "comments_count": 77,
+        "published_at": "2026-11-12T10:28:26+00:00"
+      },
+      {
+        "uid": "hn_50467132",
+        "source": "Hacker News",
+        "title": "Jensen Huang resigns as Nvidia CEO immediately",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (178 points, 61 comments). Currently trending on Hacker News with 178 developer upvotes and 61 technical comments.",
+        "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50467132",
+        "author": "ksec",
+        "score": 178,
+        "comments_count": 61,
+        "published_at": "2026-11-12T13:56:11+00:00"
+      },
+      {
+        "uid": "devto_5018815",
+        "source": "DEV.to",
+        "title": "MCP Is Dead Simple. And That's Exactly the Problem",
+        "category_tag": "[AI/ML]",
+        "takeaway": "What exactly is MCP? Is it some mysterious technology that requires secret knowledge to implement?. Currently trending on DEV.to with 54 developer upvotes and 29 technical comments.",
+        "url": "https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811",
+        "discussion_url": "https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811",
+        "author": "sylwia-lask",
+        "score": 54,
+        "comments_count": 29,
+        "published_at": "2026-11-12T08:14:36Z"
+      },
+      {
+        "uid": "devto_4978580",
+        "source": "DEV.to",
+        "title": "AI Code Is Unmaintainable? So Is Ours.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "If you’ve been in the software industry for any length of time, you’ve probably heard people talking. Currently trending on DEV.to with 29 developer upvotes and 18 technical comments.",
+        "url": "https://dev.to/dannwaneri/ai-code-is-unmaintainable-so-is-ours-3mek",
+        "discussion_url": "https://dev.to/dannwaneri/ai-code-is-unmaintainable-so-is-ours-3mek",
+        "author": "dannwaneri",
+        "score": 29,
+        "comments_count": 18,
+        "published_at": "2026-11-11T15:59:00Z"
+      },
+      {
+        "uid": "devto_5022229",
+        "source": "DEV.to",
+        "title": "A 10 years old developer who has become a DEV.to Trusted Member! 😱",
+        "category_tag": "[System Design]",
+        "takeaway": "I still can't believe it! I just noticed the Trusted Member badge on my DEV.to profile, and I'm. Currently trending on DEV.to with 51 developer upvotes and 27 technical comments.",
+        "url": "https://dev.to/necoz/a-10-years-old-developer-who-has-become-a-devto-trusted-member-49c8",
+        "discussion_url": "https://dev.to/necoz/a-10-years-old-developer-who-has-become-a-devto-trusted-member-49c8",
+        "author": "star123",
+        "score": 51,
+        "comments_count": 27,
+        "published_at": "2026-11-12T11:18:53Z"
+      },
+      {
+        "uid": "devto_5012112",
+        "source": "DEV.to",
+        "title": "Your Agent Needs a Schema, Not a Better Prompt",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The failure nobody demos The agent demo always works. The customer asks for a refund, the. Currently trending on DEV.to with 11 developer upvotes and 6 technical comments.",
+        "url": "https://dev.to/dailycontext/your-agent-needs-a-schema-not-a-better-prompt-53bm",
+        "discussion_url": "https://dev.to/dailycontext/your-agent-needs-a-schema-not-a-better-prompt-53bm",
+        "author": "frank_coyle_969c2658e185c",
+        "score": 11,
+        "comments_count": 6,
+        "published_at": "2026-11-11T20:51:14Z"
+      },
+      {
+        "uid": "devto_5017895",
+        "source": "DEV.to",
+        "title": "8 a.m. Thoughts: Word Press, Security, and Legacy 💭🤔",
+        "category_tag": "[Security]",
+        "takeaway": "Word Press was released in the fantastic world of 2003, before 5G, wifi-7, and meta glasses. I have. Currently trending on DEV.to with 29 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/annavi11arrea1/8-am-thoughts-word-press-security-and-legacy-mn5",
+        "discussion_url": "https://dev.to/annavi11arrea1/8-am-thoughts-word-press-security-and-legacy-mn5",
+        "author": "annavi11arrea1",
+        "score": 29,
+        "comments_count": 10,
+        "published_at": "2026-11-11T15:47:53Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        132,
+        133,
+        134,
+        135
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] NVIDIA Announces CEO Transition</b>\nHacker News discussion (651 points, 474 comments). Currently trending on Hacker News with 651 developer upvotes and 474 technical comments.\n<i>Hacker News · ▲ 651 · @lldb</i>\n🔗 <a href=\"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50467087\">HN Discussion (474)</a>\n\n<b>2. [System Design] Jane Street: Socratic Tutor</b>\nHacker News discussion (466 points, 103 comments). Currently trending on Hacker News with 466 developer upvotes and 103 technical comments.\n<i>Hacker News · ▲ 466 · @tosh</i>\n🔗 <a href=\"https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50438261\">HN Discussion (103)</a>\n\n<b>3. [System Design] A live tree of systemd jobs on the boot console</b>\nHacker News discussion (215 points, 83 comments). Currently trending on Hacker News with 215 developer upvotes and 83 technical comments.\n<i>Hacker News · ▲ 215 · @orhunp_</i>\n🔗 <a href=\"https://codeberg.org/wvhulle/bootvine\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50425017\">HN Discussion (83)</a>\n\n<b>4. [System Design] Why Writing Correct Software Is Hard</b>\nHacker News discussion (189 points, 77 comments). Currently trending on Hacker News with 189 developer upvotes and 77 technical comments.\n<i>Hacker News · ▲ 189 · @AriFordsham</i>\n🔗 <a href=\"https://pron.github.io/posts/correctness-and-complexity\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50465352\">HN Discussion (77)</a>\n\n<b>5. [System Design] Jensen Huang resigns as Nvidia CEO immediately</b>\nHacker News discussion (178 points, 61 comments). Currently trending on Hacker News with 178 developer upvotes and 61 technical comments.\n<i>Hacker News · ▲ 178 · @ksec</i>\n🔗 <a href=\"https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50467132\">HN Discussion (61)</a>\n\n<b>6. [AI/ML] MCP Is Dead Simple. And That&#x27;s Exactly the Problem</b>\nWhat exactly is MCP? Is it some mysterious technology that requires secret knowledge to implement?. Currently trending on DEV.to with 54 developer upvotes and 29 technical comments.\n<i>DEV.to · ▲ 54 · @sylwia-lask</i>\n🔗 <a href=\"https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811\">Read Source</a>\n\n<b>7. [AI/ML] AI Code Is Unmaintainable? So Is Ours.</b>\nIf you’ve been in the software industry for any length of time, you’ve probably heard people talking. Currently trending on DEV.to with 29 developer upvotes and 18 technical comments.\n<i>DEV.to · ▲ 29 · @dannwaneri</i>\n🔗 <a href=\"https://dev.to/dannwaneri/ai-code-is-unmaintainable-so-is-ours-3mek\">Read Source</a>\n\n<b>8. [System Design] A 10 years old developer who has become a DEV.to Trusted Member! 😱</b>\nI still can&#x27;t believe it! I just noticed the Trusted Member badge on my DEV.to profile, and I&#x27;m. Currently trending on DEV.to with 51 developer upvotes and 27 technical comments.\n<i>DEV.to · ▲ 51 · @star123</i>\n🔗 <a href=\"https://dev.to/necoz/a-10-years-old-developer-who-has-become-a-devto-trusted-member-49c8\">Read Source</a>\n\n<b>9. [AI/ML] Your Agent Needs a Schema, Not a Better Prompt</b>\nThe failure nobody demos The agent demo always works. The customer asks for a refund, the. Currently trending on DEV.to with 11 developer upvotes and 6 technical comments.\n<i>DEV.to · ▲ 11 · @frank_coyle_969c2658e185c</i>\n🔗 <a href=\"https://dev.to/dailycontext/your-agent-needs-a-schema-not-a-better-prompt-53bm\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>10. [Security] 8 a.m. Thoughts: Word Press, Security, and Legacy 💭🤔</b>\nWord Press was released in the fantastic world of 2003, before 5G, wifi-7, and meta glasses. I have. Currently trending on DEV.to with 29 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 29 · @annavi11arrea1</i>\n🔗 <a href=\"https://dev.to/annavi11arrea1/8-am-thoughts-word-press-security-and-legacy-mn5\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-12T00:12:10.920068+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
