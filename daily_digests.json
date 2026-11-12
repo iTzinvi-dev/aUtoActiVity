@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-12T23:18:41.243483+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50471731",
+        "source": "Hacker News",
+        "title": "Service degradation on Microsoft 365",
+        "category_tag": "[System Design]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affects-users-worldwide&#x2F;107381050\" rel=\"nofollow\">https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2026-11-13&#x2F;microsoft-outage-affe...</a><p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;sysadm. Currently trending on Hacker News with 387 developer upvotes and 374 technical comments.",
+        "url": "https://status.cloud.microsoft/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50471731",
+        "author": "dkpk",
+        "score": 387,
+        "comments_count": 374,
+        "published_at": "2026-11-12T18:20:48+00:00"
+      },
+      {
+        "uid": "hn_50472038",
+        "source": "Hacker News",
+        "title": "Rust 1.100",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (282 points, 134 comments). Currently trending on Hacker News with 282 developer upvotes and 134 technical comments.",
+        "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50472038",
+        "author": "mbStavola",
+        "score": 282,
+        "comments_count": 134,
+        "published_at": "2026-11-12T18:39:05+00:00"
+      },
+      {
+        "uid": "hn_50468888",
+        "source": "Hacker News",
+        "title": "I'm making LLMs work on small and old devices",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (257 points, 86 comments). Currently trending on Hacker News with 257 developer upvotes and 86 technical comments.",
+        "url": "https://github.com/hyperionaidev/smolmaxxing/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50468888",
+        "author": "mrashad74",
+        "score": 257,
+        "comments_count": 86,
+        "published_at": "2026-11-12T15:23:10+00:00"
+      },
+      {
+        "uid": "hn_50470488",
+        "source": "Hacker News",
+        "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (255 points, 105 comments). Currently trending on Hacker News with 255 developer upvotes and 105 technical comments.",
+        "url": "https://github.com/simpsoka/zigzag",
+        "discussion_url": "https://news.ycombinator.com/item?id=50470488",
+        "author": "simpsoka",
+        "score": 255,
+        "comments_count": 105,
+        "published_at": "2026-11-12T17:02:42+00:00"
+      },
+      {
+        "uid": "hn_50467618",
+        "source": "Hacker News",
+        "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (230 points, 78 comments). Currently trending on Hacker News with 230 developer upvotes and 78 technical comments.",
+        "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+        "discussion_url": "https://news.ycombinator.com/item?id=50467618",
+        "author": "klaussilveira",
+        "score": 230,
+        "comments_count": 78,
+        "published_at": "2026-11-12T14:18:49+00:00"
+      },
+      {
+        "uid": "devto_5024286",
+        "source": "DEV.to",
+        "title": "Long Live Rails",
+        "category_tag": "[AI/ML]",
+        "takeaway": "When DHH took the stage at Rails World 2026 and talked openly about going \"pencils down\" on. Currently trending on DEV.to with 82 developer upvotes and 11 technical comments.",
+        "url": "https://dev.to/ben/long-live-rails-3p21",
+        "discussion_url": "https://dev.to/ben/long-live-rails-3p21",
+        "author": "ben",
+        "score": 82,
+        "comments_count": 11,
+        "published_at": "2026-11-12T15:30:50Z"
+      },
+      {
+        "uid": "devto_5019341",
+        "source": "DEV.to",
+        "title": "Can you merge at agent speed?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Major League Hacking and Entire are teaming up for a year of hackathons, DEV Challenges, and a new. Currently trending on DEV.to with 27 developer upvotes and 1 technical comments.",
+        "url": "https://blog.mlh.com/can-you-merge-at-agent-speed-4m67",
+        "discussion_url": "https://blog.mlh.com/can-you-merge-at-agent-speed-4m67",
+        "author": "mlhacks",
+        "score": 27,
+        "comments_count": 1,
+        "published_at": "2026-11-12T17:40:59Z"
+      },
+      {
+        "uid": "devto_5020733",
+        "source": "DEV.to",
+        "title": "Ultimate AI Roast! 😂😹",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I asked my favorite AI to Roast me. Thanks @trickell for this idea. You need to try this with your. Currently trending on DEV.to with 46 developer upvotes and 12 technical comments.",
+        "url": "https://dev.to/annavi11arrea1/ultimate-ai-roast-168b",
+        "discussion_url": "https://dev.to/annavi11arrea1/ultimate-ai-roast-168b",
+        "author": "annavi11arrea1",
+        "score": 46,
+        "comments_count": 12,
+        "published_at": "2026-11-12T04:55:27Z"
+      },
+      {
+        "uid": "devto_5017672",
+        "source": "DEV.to",
+        "title": "Your MCP Servers Are Silently Draining Your Context Window: The Hidden Cost of Tool-Heavy AI Agents",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Why attaching dozens of Model Context Protocol (MCP) tools degrades LLM reasoning, inflates API bills, and how small, focused TypeScript micro-tools fix the problem. Currently trending on DEV.to with 32 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/necoz/your-mcp-servers-are-silently-draining-your-context-window-the-hidden-cost-of-tool-heavy-ai-agents-fkl",
+        "discussion_url": "https://dev.to/necoz/your-mcp-servers-are-silently-draining-your-context-window-the-hidden-cost-of-tool-heavy-ai-agents-fkl",
+        "author": "johnnylemonny",
+        "score": 32,
+        "comments_count": 9,
+        "published_at": "2026-11-12T16:30:00Z"
+      },
+      {
+        "uid": "devto_4911275",
+        "source": "DEV.to",
+        "title": "AI is getting better. Here is my plan to stay ahead.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "AI is getting better every day. As a software engineer, this is a topic that is often top of mind,. Currently trending on DEV.to with 23 developer upvotes and 7 technical comments.",
+        "url": "https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822",
+        "discussion_url": "https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822",
+        "author": "javz",
+        "score": 23,
+        "comments_count": 7,
+        "published_at": "2026-11-12T15:35:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        136,
+        137,
+        138,
+        139
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Service degradation on Microsoft 365</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.abc.net.au&amp;#x2F;news&amp;#x2F;2026-11-13&amp;#x2F;microsoft-outage-affects-users-worldwide&amp;#x2F;107381050&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.abc.net.au&amp;#x2F;news&amp;#x2F;2026-11-13&amp;#x2F;microsoft-outage-affe...&lt;/a&gt;&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.reddit.com&amp;#x2F;r&amp;#x2F;sysadm. Currently trending on Hacker News with 387 developer upvotes and 374 technical comments.\n<i>Hacker News · ▲ 387 · @dkpk</i>\n🔗 <a href=\"https://status.cloud.microsoft/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50471731\">HN Discussion (374)</a>\n\n<b>2. [Systems] Rust 1.100</b>\nHacker News discussion (282 points, 134 comments). Currently trending on Hacker News with 282 developer upvotes and 134 technical comments.\n<i>Hacker News · ▲ 282 · @mbStavola</i>\n🔗 <a href=\"https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50472038\">HN Discussion (134)</a>\n\n<b>3. [System Design] I&#x27;m making LLMs work on small and old devices</b>\nHacker News discussion (257 points, 86 comments). Currently trending on Hacker News with 257 developer upvotes and 86 technical comments.\n<i>Hacker News · ▲ 257 · @mrashad74</i>\n🔗 <a href=\"https://github.com/hyperionaidev/smolmaxxing/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50468888\">HN Discussion (86)</a>\n\n<b>4. [System Design] Show HN: My $300 embroidery machine needed a subscription, so I built my own app</b>\nHacker News discussion (255 points, 105 comments). Currently trending on Hacker News with 255 developer upvotes and 105 technical comments.\n<i>Hacker News · ▲ 255 · @simpsoka</i>\n🔗 <a href=\"https://github.com/simpsoka/zigzag\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50470488\">HN Discussion (105)</a>\n\n<b>5. [System Design] Abandoned Quake 4 expansion finished by modders and now playable</b>\nHacker News discussion (230 points, 78 comments). Currently trending on Hacker News with 230 developer upvotes and 78 technical comments.\n<i>Hacker News · ▲ 230 · @klaussilveira</i>\n🔗 <a href=\"https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50467618\">HN Discussion (78)</a>\n\n<b>6. [AI/ML] Long Live Rails</b>\nWhen DHH took the stage at Rails World 2026 and talked openly about going &quot;pencils down&quot; on. Currently trending on DEV.to with 82 developer upvotes and 11 technical comments.\n<i>DEV.to · ▲ 82 · @ben</i>\n🔗 <a href=\"https://dev.to/ben/long-live-rails-3p21\">Read Source</a>\n\n<b>7. [AI/ML] Can you merge at agent speed?</b>\nMajor League Hacking and Entire are teaming up for a year of hackathons, DEV Challenges, and a new. Currently trending on DEV.to with 27 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 27 · @mlhacks</i>\n🔗 <a href=\"https://blog.mlh.com/can-you-merge-at-agent-speed-4m67\">Read Source</a>\n\n<b>8. [AI/ML] Ultimate AI Roast! 😂😹</b>\nI asked my favorite AI to Roast me. Thanks @trickell for this idea. You need to try this with your. Currently trending on DEV.to with 46 developer upvotes and 12 technical comments.\n<i>DEV.to · ▲ 46 · @annavi11arrea1</i>\n🔗 <a href=\"https://dev.to/annavi11arrea1/ultimate-ai-roast-168b\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Your MCP Servers Are Silently Draining Your Context Window: The Hidden Cost of Tool-Heavy AI Agents</b>\nWhy attaching dozens of Model Context Protocol (MCP) tools degrades LLM reasoning, inflates API bills, and how small, focused TypeScript micro-tools fix the problem. Currently trending on DEV.to with 32 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 32 · @johnnylemonny</i>\n🔗 <a href=\"https://dev.to/necoz/your-mcp-servers-are-silently-draining-your-context-window-the-hidden-cost-of-tool-heavy-ai-agents-fkl\">Read Source</a>\n\n<b>10. [AI/ML] AI is getting better. Here is my plan to stay ahead.</b>\nAI is getting better every day. As a software engineer, this is a topic that is often top of mind,. Currently trending on DEV.to with 23 developer upvotes and 7 technical comments.\n<i>DEV.to · ▲ 23 · @javz</i>\n🔗 <a href=\"https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-12T14:48:34.418920+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
