@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-13T05:37:24.068407+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50472260",
+        "source": "Hacker News",
+        "title": "Gemini 4 Hydrogen and Orchestrator",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (357 points, 96 comments). Currently trending on Hacker News with 357 developer upvotes and 96 technical comments.",
+        "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50472260",
+        "author": "jonbaer",
+        "score": 357,
+        "comments_count": 96,
+        "published_at": "2026-11-12T18:52:01+00:00"
+      },
+      {
+        "uid": "hn_50477231",
+        "source": "Hacker News",
+        "title": "Nvidia employees petition to bring back Jensen Huang",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (298 points, 226 comments). Currently trending on Hacker News with 298 developer upvotes and 226 technical comments.",
+        "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50477231",
+        "author": "lavendermon",
+        "score": 298,
+        "comments_count": 226,
+        "published_at": "2026-11-13T02:16:24+00:00"
+      },
+      {
+        "uid": "hn_50472490",
+        "source": "Hacker News",
+        "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (244 points, 109 comments). Currently trending on Hacker News with 244 developer upvotes and 109 technical comments.",
+        "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50472490",
+        "author": "cybermango",
+        "score": 244,
+        "comments_count": 109,
+        "published_at": "2026-11-12T19:05:33+00:00"
+      },
+      {
+        "uid": "hn_50473190",
+        "source": "Hacker News",
+        "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+        "category_tag": "[System Design]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;www.forbes.com&#x2F;sites&#x2F;alisondurkee&#x2F;2026&#x2F;11&#x2F;12&#x2F;jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.forbes.com&#x2F;sites&#x2F;alisondurkee&#x2F;2026&#x2F;11&#x2F;12&#x2F;jensen-. Currently trending on Hacker News with 184 developer upvotes and 216 technical comments.",
+        "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50473190",
+        "author": "jbredeche",
+        "score": 184,
+        "comments_count": 216,
+        "published_at": "2026-11-12T19:51:33+00:00"
+      },
+      {
+        "uid": "hn_50474361",
+        "source": "Hacker News",
+        "title": "Foundation Models framework",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (172 points, 25 comments). Currently trending on Hacker News with 172 developer upvotes and 25 technical comments.",
+        "url": "https://developer.apple.com/foundation-models-framework/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50474361",
+        "author": "kermatt",
+        "score": 172,
+        "comments_count": 25,
+        "published_at": "2026-11-12T21:13:26+00:00"
+      },
+      {
+        "uid": "devto_5020863",
+        "source": "DEV.to",
+        "title": "ClickHouse 26.10's string filter during scan cuts a selective LIKE query's memory 25-fold",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "I benchmarked ClickHouse 26.10's new apply_string_filters_during_scan setting against 26.9: a selective LIKE query's peak memory dropped from 37.6MB to 1.5MB, but a plain WHERE equality got none of it until I rewrote it as PREWHERE. Currently trending on DEV.to with 13 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/clickhouse-2610s-string-filter-during-scan-cuts-a-selective-like-querys-memory-25-fold-228j",
+        "discussion_url": "https://dev.to/alexgeorgiev17/clickhouse-2610s-string-filter-during-scan-cuts-a-selective-like-querys-memory-25-fold-228j",
+        "author": "alexgeorgiev17",
+        "score": 13,
+        "comments_count": 1,
+        "published_at": "2026-11-12T11:00:00Z"
+      },
+      {
+        "uid": "devto_5020391",
+        "source": "DEV.to",
+        "title": "What Changes With the A2UI 1.0 Release",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The same currency agent built on A2UI 0.9 and on A2UI 1.0: what changed in the protocol, how an answer reaches the screen now, and why the model writes 21 tokens for a rate card that took 223 on 0.9. Currently trending on DEV.to with 14 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/gde/what-changes-with-the-a2ui-10-release-31eo",
+        "discussion_url": "https://dev.to/gde/what-changes-with-the-a2ui-10-release-31eo",
+        "author": "xbill",
+        "score": 14,
+        "comments_count": 2,
+        "published_at": "2026-11-12T16:05:47Z"
+      },
+      {
+        "uid": "devto_5025923",
+        "source": "DEV.to",
+        "title": "AWS Extended Support: what it costs and how to find everything you're about to pay for",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Disclosure: I build Expiry Radar, a tool that tracks dates like these. Nothing below needs it: the. Currently trending on DEV.to with 4 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/alexandr_kalashnikov/aws-extended-support-what-it-costs-and-how-to-find-everything-youre-about-to-pay-for-6i",
+        "discussion_url": "https://dev.to/alexandr_kalashnikov/aws-extended-support-what-it-costs-and-how-to-find-everything-youre-about-to-pay-for-6i",
+        "author": "alexandr_kalashnikov",
+        "score": 4,
+        "comments_count": 0,
+        "published_at": "2026-11-12T22:39:21Z"
+      },
+      {
+        "uid": "devto_5006975",
+        "source": "DEV.to",
+        "title": "Enterprise SSO for B2B SaaS: How to Prepare Before Your First Big Customer Asks",
+        "category_tag": "[Security]",
+        "takeaway": "Enterprise SSO for B2B SaaS often becomes a requirement as your product attracts larger customers. A. Currently trending on DEV.to with 33 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/hadil/enterprise-sso-for-b2b-saas-how-to-prepare-before-your-first-big-customer-asks-50p6",
+        "discussion_url": "https://dev.to/hadil/enterprise-sso-for-b2b-saas-how-to-prepare-before-your-first-big-customer-asks-50p6",
+        "author": "hadil",
+        "score": 33,
+        "comments_count": 2,
+        "published_at": "2026-11-12T09:16:54Z"
+      },
+      {
+        "uid": "devto_5005200",
+        "source": "DEV.to",
+        "title": "A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)",
+        "category_tag": "[AI/ML]",
+        "takeaway": "So, why should I bring this up again? Because Qoder (Alibaba’s AI IDE) free promo has officially. Currently trending on DEV.to with 37 developer upvotes and 56 technical comments.",
+        "url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb",
+        "discussion_url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb",
+        "author": "effessdev",
+        "score": 37,
+        "comments_count": 56,
+        "published_at": "2026-11-12T14:00:15Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        140,
+        141,
+        142,
+        143
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Gemini 4 Hydrogen and Orchestrator</b>\nHacker News discussion (357 points, 96 comments). Currently trending on Hacker News with 357 developer upvotes and 96 technical comments.\n<i>Hacker News · ▲ 357 · @jonbaer</i>\n🔗 <a href=\"https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50472260\">HN Discussion (96)</a>\n\n<b>2. [System Design] Nvidia employees petition to bring back Jensen Huang</b>\nHacker News discussion (298 points, 226 comments). Currently trending on Hacker News with 298 developer upvotes and 226 technical comments.\n<i>Hacker News · ▲ 298 · @lavendermon</i>\n🔗 <a href=\"https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50477231\">HN Discussion (226)</a>\n\n<b>3. [System Design] Dwarf planet candidate appears which takes roughly 280 years to orbit our sun</b>\nHacker News discussion (244 points, 109 comments). Currently trending on Hacker News with 244 developer upvotes and 109 technical comments.\n<i>Hacker News · ▲ 244 · @cybermango</i>\n🔗 <a href=\"https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50472490\">HN Discussion (109)</a>\n\n<b>4. [System Design] Former Nvidia CEO Huang had a relationship with a second employee, sources say</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.forbes.com&amp;#x2F;sites&amp;#x2F;alisondurkee&amp;#x2F;2026&amp;#x2F;11&amp;#x2F;12&amp;#x2F;jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.forbes.com&amp;#x2F;sites&amp;#x2F;alisondurkee&amp;#x2F;2026&amp;#x2F;11&amp;#x2F;12&amp;#x2F;jensen-. Currently trending on Hacker News with 184 developer upvotes and 216 technical comments.\n<i>Hacker News · ▲ 184 · @jbredeche</i>\n🔗 <a href=\"https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50473190\">HN Discussion (216)</a>\n\n<b>5. [System Design] Foundation Models framework</b>\nHacker News discussion (172 points, 25 comments). Currently trending on Hacker News with 172 developer upvotes and 25 technical comments.\n<i>Hacker News · ▲ 172 · @kermatt</i>\n🔗 <a href=\"https://developer.apple.com/foundation-models-framework/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50474361\">HN Discussion (25)</a>\n\n<b>6. [Cloud/DevOps] ClickHouse 26.10&#x27;s string filter during scan cuts a selective LIKE query&#x27;s memory 25-fold</b>\nI benchmarked ClickHouse 26.10&#x27;s new apply_string_filters_during_scan setting against 26.9: a selective LIKE query&#x27;s peak memory dropped from 37.6MB to 1.5MB, but a plain WHERE equality got none of it until I rewrote it as PREWHERE. Currently trending on DEV.to with 13 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 13 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/clickhouse-2610s-string-filter-during-scan-cuts-a-selective-like-querys-memory-25-fold-228j\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>7. [AI/ML] What Changes With the A2UI 1.0 Release</b>\nThe same currency agent built on A2UI 0.9 and on A2UI 1.0: what changed in the protocol, how an answer reaches the screen now, and why the model writes 21 tokens for a rate card that took 223 on 0.9. Currently trending on DEV.to with 14 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 14 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/what-changes-with-the-a2ui-10-release-31eo\">Read Source</a>\n\n<b>8. [Cloud/DevOps] AWS Extended Support: what it costs and how to find everything you&#x27;re about to pay for</b>\nDisclosure: I build Expiry Radar, a tool that tracks dates like these. Nothing below needs it: the. Currently trending on DEV.to with 4 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 4 · @alexandr_kalashnikov</i>\n🔗 <a href=\"https://dev.to/alexandr_kalashnikov/aws-extended-support-what-it-costs-and-how-to-find-everything-youre-about-to-pay-for-6i\">Read Source</a>\n\n<b>9. [Security] Enterprise SSO for B2B SaaS: How to Prepare Before Your First Big Customer Asks</b>\nEnterprise SSO for B2B SaaS often becomes a requirement as your product attracts larger customers. A. Currently trending on DEV.to with 33 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 33 · @hadil</i>\n🔗 <a href=\"https://dev.to/hadil/enterprise-sso-for-b2b-saas-how-to-prepare-before-your-first-big-customer-asks-50p6\">Read Source</a>\n\n<b>10. [AI/ML] A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)</b>\nSo, why should I bring this up again? Because Qoder (Alibaba’s AI IDE) free promo has officially. Currently trending on DEV.to with 37 developer upvotes and 56 technical comments.\n<i>DEV.to · ▲ 37 · @effessdev</i>\n🔗 <a href=\"https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-12T23:18:41.243483+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
