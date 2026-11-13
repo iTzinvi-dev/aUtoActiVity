@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-13T14:07:47.927512+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50481187",
+        "source": "Hacker News",
+        "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (324 points, 281 comments). Currently trending on Hacker News with 324 developer upvotes and 281 technical comments.",
+        "url": "https://status.claude.com/incidents/nn11wk485zfn",
+        "discussion_url": "https://news.ycombinator.com/item?id=50481187",
+        "author": "__vivek",
+        "score": 324,
+        "comments_count": 281,
+        "published_at": "2026-11-13T10:18:13+00:00"
+      },
+      {
+        "uid": "hn_50475713",
+        "source": "Hacker News",
+        "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (290 points, 85 comments). Currently trending on Hacker News with 290 developer upvotes and 85 technical comments.",
+        "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+        "discussion_url": "https://news.ycombinator.com/item?id=50475713",
+        "author": "sroussey",
+        "score": 290,
+        "comments_count": 85,
+        "published_at": "2026-11-12T23:06:17+00:00"
+      },
+      {
+        "uid": "hn_50478515",
+        "source": "Hacker News",
+        "title": "IceWM",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (265 points, 133 comments). Currently trending on Hacker News with 265 developer upvotes and 133 technical comments.",
+        "url": "https://ice-wm.org/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50478515",
+        "author": "inatreecrown2",
+        "score": 265,
+        "comments_count": 133,
+        "published_at": "2026-11-13T04:54:53+00:00"
+      },
+      {
+        "uid": "hn_50477649",
+        "source": "Hacker News",
+        "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Hacker News discussion (172 points, 100 comments). Currently trending on Hacker News with 172 developer upvotes and 100 technical comments.",
+        "url": "https://brave.com/blog/search-api-agentic-payments/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50477649",
+        "author": "sjdh76",
+        "score": 172,
+        "comments_count": 100,
+        "published_at": "2026-11-13T03:08:08+00:00"
+      },
+      {
+        "uid": "hn_50482379",
+        "source": "Hacker News",
+        "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (166 points, 105 comments). Currently trending on Hacker News with 166 developer upvotes and 105 technical comments.",
+        "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+        "discussion_url": "https://news.ycombinator.com/item?id=50482379",
+        "author": "voxleone",
+        "score": 166,
+        "comments_count": 105,
+        "published_at": "2026-11-13T12:10:24+00:00"
+      },
+      {
+        "uid": "devto_4943100",
+        "source": "DEV.to",
+        "title": "What was your win this week??",
+        "category_tag": "[System Design]",
+        "takeaway": "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small. Currently trending on DEV.to with 12 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/devteam/what-was-your-win-this-week-4j49",
+        "discussion_url": "https://dev.to/devteam/what-was-your-win-this-week-4j49",
+        "author": "jess",
+        "score": 12,
+        "comments_count": 1,
+        "published_at": "2026-11-13T14:00:00Z"
+      },
+      {
+        "uid": "devto_5025136",
+        "source": "DEV.to",
+        "title": "I turned my GitHub profile into a Doctor Doom vs Avengers fight",
+        "category_tag": "[Open Source]",
+        "takeaway": "My GitHub profile used to look like every other profile on the internet. My name in giant bold. Currently trending on DEV.to with 11 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/amananandrai/i-turned-my-github-profile-into-a-doctor-doom-vs-avengers-fight-2b10",
+        "discussion_url": "https://dev.to/amananandrai/i-turned-my-github-profile-into-a-doctor-doom-vs-avengers-fight-2b10",
+        "author": "amananandrai",
+        "score": 11,
+        "comments_count": 2,
+        "published_at": "2026-11-12T19:12:11Z"
+      },
+      {
+        "uid": "devto_5029900",
+        "source": "DEV.to",
+        "title": "🛸 Necoz: The UFO Kingdom Python Loops 🐱",
+        "category_tag": "[System Design]",
+        "takeaway": "Chapter 1: A Mysterious UFO Appears It was an ordinary evening. I was sitting peacefully,. Currently trending on DEV.to with 37 developer upvotes and 7 technical comments.",
+        "url": "https://dev.to/necoz/necoz-the-ufo-kingdom-python-loops-hd1",
+        "discussion_url": "https://dev.to/necoz/necoz-the-ufo-kingdom-python-loops-hd1",
+        "author": "star123",
+        "score": 37,
+        "comments_count": 7,
+        "published_at": "2026-11-13T12:55:05Z"
+      },
+      {
+        "uid": "devto_5026042",
+        "source": "DEV.to",
+        "title": "Four Applications and One Ask. Guess Which One Scared Me.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Waitlisted once. Applied again anyway. TL;DR: In one day I sent four applications: three AI. Currently trending on DEV.to with 22 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/earlgreyhot1701d/four-applications-and-one-ask-guess-which-one-scared-me-2ia3",
+        "discussion_url": "https://dev.to/earlgreyhot1701d/four-applications-and-one-ask-guess-which-one-scared-me-2ia3",
+        "author": "earlgreyhot1701d",
+        "score": 22,
+        "comments_count": 10,
+        "published_at": "2026-11-12T23:13:28Z"
+      },
+      {
+        "uid": "devto_5029079",
+        "source": "DEV.to",
+        "title": "How Open-Source LLMs Differ: Comparing 130+ Model Architectures",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A few weeks ago I wrote about LLM Explained, a free, open-source course of 43 interactive pages that. Currently trending on DEV.to with 5 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/amananandrai/how-open-source-llms-differ-comparing-130-model-architectures-3b9d",
+        "discussion_url": "https://dev.to/amananandrai/how-open-source-llms-differ-comparing-130-model-architectures-3b9d",
+        "author": "amananandrai",
+        "score": 5,
+        "comments_count": 0,
+        "published_at": "2026-11-13T10:38:47Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        144,
+        145,
+        146,
+        147
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [AI/ML] Elevated errors on claude.ai, Claude Code, and platform.claude.com</b>\nHacker News discussion (324 points, 281 comments). Currently trending on Hacker News with 324 developer upvotes and 281 technical comments.\n<i>Hacker News · ▲ 324 · @__vivek</i>\n🔗 <a href=\"https://status.claude.com/incidents/nn11wk485zfn\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50481187\">HN Discussion (281)</a>\n\n<b>2. [AI/ML] Edge0-145B: Frontier AI Capabilities on Your Own Computer</b>\nHacker News discussion (290 points, 85 comments). Currently trending on Hacker News with 290 developer upvotes and 85 technical comments.\n<i>Hacker News · ▲ 290 · @sroussey</i>\n🔗 <a href=\"https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50475713\">HN Discussion (85)</a>\n\n<b>3. [System Design] IceWM</b>\nHacker News discussion (265 points, 133 comments). Currently trending on Hacker News with 265 developer upvotes and 133 technical comments.\n<i>Hacker News · ▲ 265 · @inatreecrown2</i>\n🔗 <a href=\"https://ice-wm.org/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50478515\">HN Discussion (133)</a>\n\n<b>4. [Web Dev] Brave Search API now accepts agentic payments via the x402 protocol</b>\nHacker News discussion (172 points, 100 comments). Currently trending on Hacker News with 172 developer upvotes and 100 technical comments.\n<i>Hacker News · ▲ 172 · @sjdh76</i>\n🔗 <a href=\"https://brave.com/blog/search-api-agentic-payments/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50477649\">HN Discussion (100)</a>\n\n<b>5. [System Design] Doomsday: Friday, 13 November, A.D. 2026 (1960)</b>\nHacker News discussion (166 points, 105 comments). Currently trending on Hacker News with 166 developer upvotes and 105 technical comments.\n<i>Hacker News · ▲ 166 · @voxleone</i>\n🔗 <a href=\"https://www.science.org/doi/10.1126/science.132.3436.1291\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50482379\">HN Discussion (105)</a>\n\n<b>6. [System Design] What was your win this week??</b>\n👋👋👋👋 Looking back on your week -- what was something you&#x27;re proud of? All wins count -- big or small. Currently trending on DEV.to with 12 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 12 · @jess</i>\n🔗 <a href=\"https://dev.to/devteam/what-was-your-win-this-week-4j49\">Read Source</a>\n\n<b>7. [Open Source] I turned my GitHub profile into a Doctor Doom vs Avengers fight</b>\nMy GitHub profile used to look like every other profile on the internet. My name in giant bold. Currently trending on DEV.to with 11 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 11 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/i-turned-my-github-profile-into-a-doctor-doom-vs-avengers-fight-2b10\">Read Source</a>\n\n<b>8. [System Design] 🛸 Necoz: The UFO Kingdom Python Loops 🐱</b>\nChapter 1: A Mysterious UFO Appears It was an ordinary evening. I was sitting peacefully,. Currently trending on DEV.to with 37 developer upvotes and 7 technical comments.\n<i>DEV.to · ▲ 37 · @star123</i>\n🔗 <a href=\"https://dev.to/necoz/necoz-the-ufo-kingdom-python-loops-hd1\">Read Source</a>\n\n<b>9. [AI/ML] Four Applications and One Ask. Guess Which One Scared Me.</b>\nWaitlisted once. Applied again anyway. TL;DR: In one day I sent four applications: three AI. Currently trending on DEV.to with 22 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 22 · @earlgreyhot1701d</i>\n🔗 <a href=\"https://dev.to/earlgreyhot1701d/four-applications-and-one-ask-guess-which-one-scared-me-2ia3\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>10. [AI/ML] How Open-Source LLMs Differ: Comparing 130+ Model Architectures</b>\nA few weeks ago I wrote about LLM Explained, a free, open-source course of 43 interactive pages that. Currently trending on DEV.to with 5 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 5 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/how-open-source-llms-differ-comparing-130-model-architectures-3b9d\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-13T05:37:24.068407+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
