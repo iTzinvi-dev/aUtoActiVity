@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-13T23:21:34.374632+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50489641",
+        "source": "Hacker News",
+        "title": "FAA Issues National Ground Stop",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (965 points, 571 comments). Currently trending on Hacker News with 965 developer upvotes and 571 technical comments.",
+        "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
+        "discussion_url": "https://news.ycombinator.com/item?id=50489641",
+        "author": "zulln",
+        "score": 965,
+        "comments_count": 571,
+        "published_at": "2026-11-13T21:05:53+00:00"
+      },
+      {
+        "uid": "hn_50474959",
+        "source": "Hacker News",
+        "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Hacker News discussion (643 points, 190 comments). Currently trending on Hacker News with 643 developer upvotes and 190 technical comments.",
+        "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50474959",
+        "author": "scottjg",
+        "score": 643,
+        "comments_count": 190,
+        "published_at": "2026-11-12T22:03:09+00:00"
+      },
+      {
+        "uid": "hn_50487864",
+        "source": "Hacker News",
+        "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (257 points, 136 comments). Currently trending on Hacker News with 257 developer upvotes and 136 technical comments.",
+        "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+        "discussion_url": "https://news.ycombinator.com/item?id=50487864",
+        "author": "crescit_eundo",
+        "score": 257,
+        "comments_count": 136,
+        "published_at": "2026-11-13T18:40:44+00:00"
+      },
+      {
+        "uid": "hn_50487185",
+        "source": "Hacker News",
+        "title": "After 600 experiments, here's what I discovered about JEPA world models",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (194 points, 32 comments). Currently trending on Hacker News with 194 developer upvotes and 32 technical comments.",
+        "url": "https://haddyalchaer.com/jepa",
+        "discussion_url": "https://news.ycombinator.com/item?id=50487185",
+        "author": "halcdev",
+        "score": 194,
+        "comments_count": 32,
+        "published_at": "2026-11-13T17:55:28+00:00"
+      },
+      {
+        "uid": "hn_50488325",
+        "source": "Hacker News",
+        "title": "FM-1 Workbench",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (148 points, 90 comments). Currently trending on Hacker News with 148 developer upvotes and 90 technical comments.",
+        "url": "https://open.m-vave.com/fm1-workbench",
+        "discussion_url": "https://news.ycombinator.com/item?id=50488325",
+        "author": "simonebrunozzi",
+        "score": 148,
+        "comments_count": 90,
+        "published_at": "2026-11-13T19:14:02+00:00"
+      },
+      {
+        "uid": "devto_5025610",
+        "source": "DEV.to",
+        "title": "Congrats to the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine Winners!",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The results are in for the final week of our Hacktoberfest DEV Challenges! For Ghost in the Machine,. Currently trending on DEV.to with 59 developer upvotes and 27 technical comments.",
+        "url": "https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-week-4-ghost-in-the-machine-winners-nok",
+        "discussion_url": "https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-week-4-ghost-in-the-machine-winners-nok",
+        "author": "heyitsjem",
+        "score": 59,
+        "comments_count": 27,
+        "published_at": "2026-11-13T15:56:26Z"
+      },
+      {
+        "uid": "devto_5031577",
+        "source": "DEV.to",
+        "title": "Dev Opportunity Radar #25: $120K+ Atlassian Hackathon, MLH Fellowship, and INSEAD AI Founder Sprint",
+        "category_tag": "[AI/ML]",
+        "takeaway": "TL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share. Currently trending on DEV.to with 47 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/devengers/dev-opportunity-radar-25-120k-atlassian-hackathon-mlh-fellowship-and-insead-ai-founder-sprint-m96",
+        "discussion_url": "https://dev.to/devengers/dev-opportunity-radar-25-120k-atlassian-hackathon-mlh-fellowship-and-insead-ai-founder-sprint-m96",
+        "author": "hemapriya_kanagala",
+        "score": 47,
+        "comments_count": 3,
+        "published_at": "2026-11-13T18:28:11Z"
+      },
+      {
+        "uid": "devto_5019892",
+        "source": "DEV.to",
+        "title": "Six Serving Engines on Four Accelerators: Gemma 4 E2B on an RTX 3050, a T4, an L4 and a TPU v5e",
+        "category_tag": "[System Design]",
+        "takeaway": "The same Gemma 4 E2B, prompts, load sweep and GSM8K and BFCL questions through the same serving engines on an 8 GB RTX 3050, a Tesla T4, an NVIDIA L4 and one TPU v5e chip. Answers hold on every chip; vLLM with its drafter leads on all three GPUs, and SGLang-JAX leads on the TPU. Currently trending on DEV.to with 14 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/gde/six-serving-engines-on-four-accelerators-gemma-4-e2b-on-an-rtx-3050-a-t4-an-l4-and-a-tpu-v5e-1a0e",
+        "discussion_url": "https://dev.to/gde/six-serving-engines-on-four-accelerators-gemma-4-e2b-on-an-rtx-3050-a-t4-an-l4-and-a-tpu-v5e-1a0e",
+        "author": "xbill",
+        "score": 14,
+        "comments_count": 1,
+        "published_at": "2026-11-13T13:52:45Z"
+      },
+      {
+        "uid": "devto_5017532",
+        "source": "DEV.to",
+        "title": "remove.bg Is Shutting Down — Here's a Free, No-Upload Alternative",
+        "category_tag": "[AI/ML]",
+        "takeaway": "On December 1, 2026 at 9:00 AM CET, remove.bg — the site that turned \"one-click background removal\". Currently trending on DEV.to with 40 developer upvotes and 33 technical comments.",
+        "url": "https://dev.to/akhourianmolkumar/removebg-is-shutting-down-heres-a-free-no-upload-alternative-4ebo",
+        "discussion_url": "https://dev.to/akhourianmolkumar/removebg-is-shutting-down-heres-a-free-no-upload-alternative-4ebo",
+        "author": "akhourianmolkumar",
+        "score": 40,
+        "comments_count": 33,
+        "published_at": "2026-11-13T11:05:50Z"
+      },
+      {
+        "uid": "devto_5029108",
+        "source": "DEV.to",
+        "title": "Git 2.56's history drop command replays commits 40 to 77 times faster than rebase",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "I measured git history drop against the classic worktree-and-rebase way of removing a commit: 1.4s vs 0.03s at 20 descendants, 26.5s vs 0.36s at 400. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/git-256s-history-drop-command-replays-commits-40-to-77-times-faster-than-rebase-45jm",
+        "discussion_url": "https://dev.to/alexgeorgiev17/git-256s-history-drop-command-replays-commits-40-to-77-times-faster-than-rebase-45jm",
+        "author": "alexgeorgiev17",
+        "score": 13,
+        "comments_count": 0,
+        "published_at": "2026-11-13T11:00:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        148,
+        149,
+        150,
+        151
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] FAA Issues National Ground Stop</b>\nHacker News discussion (965 points, 571 comments). Currently trending on Hacker News with 965 developer upvotes and 571 technical comments.\n<i>Hacker News · ▲ 965 · @zulln</i>\n🔗 <a href=\"https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&amp;advn=111\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50489641\">HN Discussion (571)</a>\n\n<b>2. [Cloud/DevOps] Reverse engineering my Coway air purifier to ditch the cloud</b>\nHacker News discussion (643 points, 190 comments). Currently trending on Hacker News with 643 developer upvotes and 190 technical comments.\n<i>Hacker News · ▲ 643 · @scottjg</i>\n🔗 <a href=\"https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50474959\">HN Discussion (190)</a>\n\n<b>3. [System Design] $11.4M in Nvidia hardware vanishes during shipment from CA to TX</b>\nHacker News discussion (257 points, 136 comments). Currently trending on Hacker News with 257 developer upvotes and 136 technical comments.\n<i>Hacker News · ▲ 257 · @crescit_eundo</i>\n🔗 <a href=\"https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50487864\">HN Discussion (136)</a>\n\n<b>4. [System Design] After 600 experiments, here&#x27;s what I discovered about JEPA world models</b>\nHacker News discussion (194 points, 32 comments). Currently trending on Hacker News with 194 developer upvotes and 32 technical comments.\n<i>Hacker News · ▲ 194 · @halcdev</i>\n🔗 <a href=\"https://haddyalchaer.com/jepa\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50487185\">HN Discussion (32)</a>\n\n<b>5. [System Design] FM-1 Workbench</b>\nHacker News discussion (148 points, 90 comments). Currently trending on Hacker News with 148 developer upvotes and 90 technical comments.\n<i>Hacker News · ▲ 148 · @simonebrunozzi</i>\n🔗 <a href=\"https://open.m-vave.com/fm1-workbench\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50488325\">HN Discussion (90)</a>\n\n<b>6. [AI/ML] Congrats to the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine Winners!</b>\nThe results are in for the final week of our Hacktoberfest DEV Challenges! For Ghost in the Machine,. Currently trending on DEV.to with 59 developer upvotes and 27 technical comments.\n<i>DEV.to · ▲ 59 · @heyitsjem</i>\n🔗 <a href=\"https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-week-4-ghost-in-the-machine-winners-nok\">Read Source</a>\n\n<b>7. [AI/ML] Dev Opportunity Radar #25: $120K+ Atlassian Hackathon, MLH Fellowship, and INSEAD AI Founder Sprint</b>\nTL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share. Currently trending on DEV.to with 47 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 47 · @hemapriya_kanagala</i>\n🔗 <a href=\"https://dev.to/devengers/dev-opportunity-radar-25-120k-atlassian-hackathon-mlh-fellowship-and-insead-ai-founder-sprint-m96\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [System Design] Six Serving Engines on Four Accelerators: Gemma 4 E2B on an RTX 3050, a T4, an L4 and a TPU v5e</b>\nThe same Gemma 4 E2B, prompts, load sweep and GSM8K and BFCL questions through the same serving engines on an 8 GB RTX 3050, a Tesla T4, an NVIDIA L4 and one TPU v5e chip. Answers hold on every chip; vLLM with its drafter leads on all three GPUs, and SGLang-JAX leads on the TPU. Currently trending on DEV.to with 14 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 14 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/six-serving-engines-on-four-accelerators-gemma-4-e2b-on-an-rtx-3050-a-t4-an-l4-and-a-tpu-v5e-1a0e\">Read Source</a>\n\n<b>9. [AI/ML] remove.bg Is Shutting Down — Here&#x27;s a Free, No-Upload Alternative</b>\nOn December 1, 2026 at 9:00 AM CET, remove.bg — the site that turned &quot;one-click background removal&quot;. Currently trending on DEV.to with 40 developer upvotes and 33 technical comments.\n<i>DEV.to · ▲ 40 · @akhourianmolkumar</i>\n🔗 <a href=\"https://dev.to/akhourianmolkumar/removebg-is-shutting-down-heres-a-free-no-upload-alternative-4ebo\">Read Source</a>\n\n<b>10. [Cloud/DevOps] Git 2.56&#x27;s history drop command replays commits 40 to 77 times faster than rebase</b>\nI measured git history drop against the classic worktree-and-rebase way of removing a commit: 1.4s vs 0.03s at 20 descendants, 26.5s vs 0.36s at 400. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 13 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/git-256s-history-drop-command-replays-commits-40-to-77-times-faster-than-rebase-45jm\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-13T14:07:47.927512+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
