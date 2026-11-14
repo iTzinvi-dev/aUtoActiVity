@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-14T22:05:16.209762+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50499017",
+        "source": "Hacker News",
+        "title": "Lovable apps expose passport details and more than 200K private messages",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (492 points, 180 comments). Currently trending on Hacker News with 492 developer upvotes and 180 technical comments.",
+        "url": "https://www.crissyfield.de/research/lovable-en/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50499017",
+        "author": "armcat",
+        "score": 492,
+        "comments_count": 180,
+        "published_at": "2026-11-14T17:43:10+00:00"
+      },
+      {
+        "uid": "hn_50440709",
+        "source": "Hacker News",
+        "title": "Why get an expensive Pi when I have an old phone?",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (467 points, 267 comments). Currently trending on Hacker News with 467 developer upvotes and 267 technical comments.",
+        "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50440709",
+        "author": "casi",
+        "score": 467,
+        "comments_count": 267,
+        "published_at": "2026-11-10T14:16:05+00:00"
+      },
+      {
+        "uid": "hn_50496976",
+        "source": "Hacker News",
+        "title": "KDE: The documentary [video]",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (321 points, 70 comments). Currently trending on Hacker News with 321 developer upvotes and 70 technical comments.",
+        "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+        "discussion_url": "https://news.ycombinator.com/item?id=50496976",
+        "author": "mrkn1",
+        "score": 321,
+        "comments_count": 70,
+        "published_at": "2026-11-14T13:43:28+00:00"
+      },
+      {
+        "uid": "hn_50500963",
+        "source": "Hacker News",
+        "title": "SpaceX Catches the Starship to end Flight 15",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (220 points, 118 comments). Currently trending on Hacker News with 220 developer upvotes and 118 technical comments.",
+        "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+        "discussion_url": "https://news.ycombinator.com/item?id=50500963",
+        "author": "ls612",
+        "score": 220,
+        "comments_count": 118,
+        "published_at": "2026-11-14T21:22:24+00:00"
+      },
+      {
+        "uid": "hn_50497892",
+        "source": "Hacker News",
+        "title": "PyPI's redesigned project pages with clearer security signals are now live",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (173 points, 78 comments). Currently trending on Hacker News with 173 developer upvotes and 78 technical comments.",
+        "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50497892",
+        "author": "rbanffy",
+        "score": 173,
+        "comments_count": 78,
+        "published_at": "2026-11-14T15:40:52+00:00"
+      },
+      {
+        "uid": "devto_5036931",
+        "source": "DEV.to",
+        "title": "Avengers: Doomsday is 5 weeks away, so I built hexagon README badges. What are you building?",
+        "category_tag": "[System Design]",
+        "takeaway": "Marvel fans of DEV, show me your Doomsday-hype side projects. Mine is a tiny Vercel service that makes glowing, Avengers-themed hexagon badges. Currently trending on DEV.to with 5 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/amananandrai/avengers-doomsday-is-5-weeks-away-so-i-built-hexagon-readme-badges-what-are-you-building-32d6",
+        "discussion_url": "https://dev.to/amananandrai/avengers-doomsday-is-5-weeks-away-so-i-built-hexagon-readme-badges-what-are-you-building-32d6",
+        "author": "amananandrai",
+        "score": 5,
+        "comments_count": 0,
+        "published_at": "2026-11-14T17:14:52Z"
+      },
+      {
+        "uid": "devto_5035810",
+        "source": "DEV.to",
+        "title": "nginx 1.31's json_set directive rejects a bad webhook payload about 13 times faster than forwarding it",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "I measured nginx 1.31's new native JSON parser against a Python backend doing the same validation: roughly 13x faster per-request rejection at low concurrency, half a backend's request count removed outright in a 50/50 mix, and no measurable overhead when nothing gets rejected at all. Currently trending on DEV.to with 8 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/nginx-131s-jsonset-directive-rejects-a-bad-webhook-payload-about-13-times-faster-than-forwarding-3b00",
+        "discussion_url": "https://dev.to/alexgeorgiev17/nginx-131s-jsonset-directive-rejects-a-bad-webhook-payload-about-13-times-faster-than-forwarding-3b00",
+        "author": "alexgeorgiev17",
+        "score": 8,
+        "comments_count": 1,
+        "published_at": "2026-11-14T12:48:45Z"
+      },
+      {
+        "uid": "devto_5032543",
+        "source": "DEV.to",
+        "title": "Blocking an AI agent's shortcuts with tools: what verifying code comments taught me about steering and MCP",
+        "category_tag": "[AI/ML]",
+        "takeaway": "AI agents now review code and write tests as a matter of routine. They do not read only the code. Currently trending on DEV.to with 9 developer upvotes and 6 technical comments.",
+        "url": "https://dev.to/aws-builders/blocking-an-ai-agents-shortcuts-with-tools-what-verifying-code-comments-taught-me-about-steering-i90",
+        "discussion_url": "https://dev.to/aws-builders/blocking-an-ai-agents-shortcuts-with-tools-what-verifying-code-comments-taught-me-about-steering-i90",
+        "author": "ikenyal",
+        "score": 9,
+        "comments_count": 6,
+        "published_at": "2026-11-14T00:25:16Z"
+      },
+      {
+        "uid": "devto_5020957",
+        "source": "DEV.to",
+        "title": "Granny Is Watching: A Reactive Horror Experience Using SmartPectra",
+        "category_tag": "[System Design]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built I made a. Currently trending on DEV.to with 5 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/ansellmaximilian/granny-is-watching-a-reactive-horror-experience-using-smartpectra-54b7",
+        "discussion_url": "https://dev.to/ansellmaximilian/granny-is-watching-a-reactive-horror-experience-using-smartpectra-54b7",
+        "author": "ansellmaximilian",
+        "score": 5,
+        "comments_count": 0,
+        "published_at": "2026-11-14T14:10:02Z"
+      },
+      {
+        "uid": "devto_5036533",
+        "source": "DEV.to",
+        "title": "Dash: An Endless Runner That Races Through Your City",
+        "category_tag": "[System Design]",
+        "takeaway": "Dash is a full-stack endless runner template in Java: levels that turn from 2D into 3D mid-run, runs built from real streets on a map, cheat-proof leaderboards, live races with voice chat, a level editor and an admin console. Generate it from the Ini. Currently trending on DEV.to with 1 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/codenameone/dash-an-endless-runner-that-races-through-your-city-57o7",
+        "discussion_url": "https://dev.to/codenameone/dash-an-endless-runner-that-races-through-your-city-57o7",
+        "author": "codenameone",
+        "score": 1,
+        "comments_count": 0,
+        "published_at": "2026-11-14T15:29:35Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        160,
+        161,
+        162,
+        163
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Lovable apps expose passport details and more than 200K private messages</b>\nHacker News discussion (492 points, 180 comments). Currently trending on Hacker News with 492 developer upvotes and 180 technical comments.\n<i>Hacker News · ▲ 492 · @armcat</i>\n🔗 <a href=\"https://www.crissyfield.de/research/lovable-en/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50499017\">HN Discussion (180)</a>\n\n<b>2. [System Design] Why get an expensive Pi when I have an old phone?</b>\nHacker News discussion (467 points, 267 comments). Currently trending on Hacker News with 467 developer upvotes and 267 technical comments.\n<i>Hacker News · ▲ 467 · @casi</i>\n🔗 <a href=\"https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50440709\">HN Discussion (267)</a>\n\n<b>3. [System Design] KDE: The documentary [video]</b>\nHacker News discussion (321 points, 70 comments). Currently trending on Hacker News with 321 developer upvotes and 70 technical comments.\n<i>Hacker News · ▲ 321 · @mrkn1</i>\n🔗 <a href=\"https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50496976\">HN Discussion (70)</a>\n\n<b>4. [System Design] SpaceX Catches the Starship to end Flight 15</b>\nHacker News discussion (220 points, 118 comments). Currently trending on Hacker News with 220 developer upvotes and 118 technical comments.\n<i>Hacker News · ▲ 220 · @ls612</i>\n🔗 <a href=\"https://x.com/i/broadcasts/2brajgZlOKRMka\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50500963\">HN Discussion (118)</a>\n\n<b>5. [Security] PyPI&#x27;s redesigned project pages with clearer security signals are now live</b>\nHacker News discussion (173 points, 78 comments). Currently trending on Hacker News with 173 developer upvotes and 78 technical comments.\n<i>Hacker News · ▲ 173 · @rbanffy</i>\n🔗 <a href=\"https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50497892\">HN Discussion (78)</a>\n\n<b>6. [System Design] Avengers: Doomsday is 5 weeks away, so I built hexagon README badges. What are you building?</b>\nMarvel fans of DEV, show me your Doomsday-hype side projects. Mine is a tiny Vercel service that makes glowing, Avengers-themed hexagon badges. Currently trending on DEV.to with 5 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 5 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/avengers-doomsday-is-5-weeks-away-so-i-built-hexagon-readme-badges-what-are-you-building-32d6\">Read Source</a>\n\n<b>7. [Cloud/DevOps] nginx 1.31&#x27;s json_set directive rejects a bad webhook payload about 13 times faster than forwarding it</b>\nI measured nginx 1.31&#x27;s new native JSON parser against a Python backend doing the same validation: roughly 13x faster per-request rejection at low concurrency, half a backend&#x27;s request count removed outright in a 50/50 mix, and no measurable overhead when nothing gets rejected at all. Currently trending on DEV.to with 8 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 8 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/nginx-131s-jsonset-directive-rejects-a-bad-webhook-payload-about-13-times-faster-than-forwarding-3b00\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [AI/ML] Blocking an AI agent&#x27;s shortcuts with tools: what verifying code comments taught me about steering and MCP</b>\nAI agents now review code and write tests as a matter of routine. They do not read only the code. Currently trending on DEV.to with 9 developer upvotes and 6 technical comments.\n<i>DEV.to · ▲ 9 · @ikenyal</i>\n🔗 <a href=\"https://dev.to/aws-builders/blocking-an-ai-agents-shortcuts-with-tools-what-verifying-code-comments-taught-me-about-steering-i90\">Read Source</a>\n\n<b>9. [System Design] Granny Is Watching: A Reactive Horror Experience Using SmartPectra</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I Built I made a. Currently trending on DEV.to with 5 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 5 · @ansellmaximilian</i>\n🔗 <a href=\"https://dev.to/ansellmaximilian/granny-is-watching-a-reactive-horror-experience-using-smartpectra-54b7\">Read Source</a>\n\n<b>10. [System Design] Dash: An Endless Runner That Races Through Your City</b>\nDash is a full-stack endless runner template in Java: levels that turn from 2D into 3D mid-run, runs built from real streets on a map, cheat-proof leaderboards, live races with voice chat, a level editor and an admin console. Generate it from the Ini. Currently trending on DEV.to with 1 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 1 · @codenameone</i>\n🔗 <a href=\"https://dev.to/codenameone/dash-an-endless-runner-that-races-through-your-city-57o7\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-14T13:08:37.865150+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
