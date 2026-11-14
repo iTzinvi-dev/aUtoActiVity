@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-14T05:27:06.653432+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50490593",
+        "source": "Hacker News",
+        "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (242 points, 55 comments). Currently trending on Hacker News with 242 developer upvotes and 55 technical comments.",
+        "url": "https://orcasairband.com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50490593",
+        "author": "mmaunder",
+        "score": 242,
+        "comments_count": 55,
+        "published_at": "2026-11-13T22:04:24+00:00"
+      },
+      {
+        "uid": "hn_50484658",
+        "source": "Hacker News",
+        "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (185 points, 182 comments). Currently trending on Hacker News with 185 developer upvotes and 182 technical comments.",
+        "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+        "discussion_url": "https://news.ycombinator.com/item?id=50484658",
+        "author": "helloplanets",
+        "score": 185,
+        "comments_count": 182,
+        "published_at": "2026-11-13T15:08:44+00:00"
+      },
+      {
+        "uid": "hn_50493251",
+        "source": "Hacker News",
+        "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (175 points, 102 comments). Currently trending on Hacker News with 175 developer upvotes and 102 technical comments.",
+        "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+        "discussion_url": "https://news.ycombinator.com/item?id=50493251",
+        "author": "speckx",
+        "score": 175,
+        "comments_count": 102,
+        "published_at": "2026-11-14T02:52:59+00:00"
+      },
+      {
+        "uid": "hn_50488470",
+        "source": "Hacker News",
+        "title": "Found: A protein that drives ageing without unleashing inflammation",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (164 points, 24 comments). Currently trending on Hacker News with 164 developer upvotes and 24 technical comments.",
+        "url": "https://www.nature.com/articles/d41586-026-03638-3",
+        "discussion_url": "https://news.ycombinator.com/item?id=50488470",
+        "author": "gumby",
+        "score": 164,
+        "comments_count": 24,
+        "published_at": "2026-11-13T19:25:21+00:00"
+      },
+      {
+        "uid": "hn_50491423",
+        "source": "Hacker News",
+        "title": "Terminal borders that don't cost a cell",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (163 points, 77 comments). Currently trending on Hacker News with 163 developer upvotes and 77 technical comments.",
+        "url": "https://www.joshka.net/cell-borders/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50491423",
+        "author": "vinhnx",
+        "score": 163,
+        "comments_count": 77,
+        "published_at": "2026-11-13T23:06:40+00:00"
+      },
+      {
+        "uid": "devto_5031100",
+        "source": "DEV.to",
+        "title": "Scope WebMCP Tools to the Open React Workflow",
+        "category_tag": "[Web Dev]",
+        "takeaway": "On the Events list, the browser discovered zero WebMCP tools. Opening an event draft exposed four. Currently trending on DEV.to with 18 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/gde/scope-webmcp-tools-to-the-open-react-workflow-262o",
+        "discussion_url": "https://dev.to/gde/scope-webmcp-tools-to-the-open-react-workflow-262o",
+        "author": "raju_dandigam",
+        "score": 18,
+        "comments_count": 3,
+        "published_at": "2026-11-13T17:15:20Z"
+      },
+      {
+        "uid": "devto_5031066",
+        "source": "DEV.to",
+        "title": "Can't Beat Free: Gemma 4 31B on AMD Token Lab, with a Local Chat Page and an ADK Agent",
+        "category_tag": "[AI/ML]",
+        "takeaway": "AMD Token Lab is a free OpenAI-compatible API on AMD GPUs that comes with the AMD AI Developer Program. How to sign up, a local chat page that keeps the key off the browser, a terminal client, and a small ADK agent that calls Gemma 4 31B through it. Currently trending on DEV.to with 19 developer upvotes and 12 technical comments.",
+        "url": "https://dev.to/gde/cant-beat-free-gemma-4-31b-on-amd-token-lab-with-a-local-chat-page-and-an-adk-agent-c5b",
+        "discussion_url": "https://dev.to/gde/cant-beat-free-gemma-4-31b-on-amd-token-lab-with-a-local-chat-page-and-an-adk-agent-c5b",
+        "author": "xbill",
+        "score": 19,
+        "comments_count": 12,
+        "published_at": "2026-11-13T16:49:06Z"
+      },
+      {
+        "uid": "devto_5032399",
+        "source": "DEV.to",
+        "title": "Benchmarking the Gemini Decisions API",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The Gemini Decisions API scores a fixed set of answers in one pass and returns probabilities. An ADK triage agent built on it, a 48-ticket benchmark against Gemini 3.8 Flash, Gemini 4 Hydrogen, Gemini 3.5 Flash-Lite and Gemma 4 E2B, and a test of 1 to 100 questions in one request. Currently trending on DEV.to with 5 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/gde/benchmarking-the-gemini-decisions-api-l31",
+        "discussion_url": "https://dev.to/gde/benchmarking-the-gemini-decisions-api-l31",
+        "author": "xbill",
+        "score": 5,
+        "comments_count": 3,
+        "published_at": "2026-11-13T23:45:04Z"
+      },
+      {
+        "uid": "devto_5029352",
+        "source": "DEV.to",
+        "title": "iPhone + Linux = pain. So I built Rollcopy 🦀📸",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "A free, open-source Linux app that copies iPhone photos and videos over USB, converting HEIC to JPG and MOV to MP4. No iTunes, no cloud, no account. Currently trending on DEV.to with 6 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/ankurk91/iphone-linux-pain-so-i-built-rollcopy-56nl",
+        "discussion_url": "https://dev.to/ankurk91/iphone-linux-pain-so-i-built-rollcopy-56nl",
+        "author": "ankurk91",
+        "score": 6,
+        "comments_count": 1,
+        "published_at": "2026-11-13T11:26:35Z"
+      },
+      {
+        "uid": "devto_5031327",
+        "source": "DEV.to",
+        "title": "One Month After the Hackathon: Why My 4-Service App Stopped Working (and What @mansio Caught in the Verifiers)",
+        "category_tag": "[AI/ML]",
+        "takeaway": "What breaks a month after a hackathon, and what a fellow DEV writer caught in the verifiers. TL;DR:. Currently trending on DEV.to with 23 developer upvotes and 11 technical comments.",
+        "url": "https://dev.to/earlgreyhot1701d/one-month-after-the-hackathon-why-my-4-service-app-stopped-working-and-what-mansio-caught-in-the-3i8h",
+        "discussion_url": "https://dev.to/earlgreyhot1701d/one-month-after-the-hackathon-why-my-4-service-app-stopped-working-and-what-mansio-caught-in-the-3i8h",
+        "author": "earlgreyhot1701d",
+        "score": 23,
+        "comments_count": 11,
+        "published_at": "2026-11-13T17:48:25Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        152,
+        153,
+        154,
+        155
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Live airband on all frequencies from KORS. Victoria, CA also ground stopped</b>\nHacker News discussion (242 points, 55 comments). Currently trending on Hacker News with 242 developer upvotes and 55 technical comments.\n<i>Hacker News · ▲ 242 · @mmaunder</i>\n🔗 <a href=\"https://orcasairband.com/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50490593\">HN Discussion (55)</a>\n\n<b>2. [AI/ML] Jonathan Blow – If AI solved coding, why is my software still the same? [video]</b>\nHacker News discussion (185 points, 182 comments). Currently trending on Hacker News with 185 developer upvotes and 182 technical comments.\n<i>Hacker News · ▲ 185 · @helloplanets</i>\n🔗 <a href=\"https://www.youtube.com/watch?v=IRK8h67ol7Q\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50484658\">HN Discussion (182)</a>\n\n<b>3. [AI/ML] Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs</b>\nHacker News discussion (175 points, 102 comments). Currently trending on Hacker News with 175 developer upvotes and 102 technical comments.\n<i>Hacker News · ▲ 175 · @speckx</i>\n🔗 <a href=\"https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50493251\">HN Discussion (102)</a>\n\n<b>4. [System Design] Found: A protein that drives ageing without unleashing inflammation</b>\nHacker News discussion (164 points, 24 comments). Currently trending on Hacker News with 164 developer upvotes and 24 technical comments.\n<i>Hacker News · ▲ 164 · @gumby</i>\n🔗 <a href=\"https://www.nature.com/articles/d41586-026-03638-3\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50488470\">HN Discussion (24)</a>\n\n<b>5. [System Design] Terminal borders that don&#x27;t cost a cell</b>\nHacker News discussion (163 points, 77 comments). Currently trending on Hacker News with 163 developer upvotes and 77 technical comments.\n<i>Hacker News · ▲ 163 · @vinhnx</i>\n🔗 <a href=\"https://www.joshka.net/cell-borders/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50491423\">HN Discussion (77)</a>\n\n<b>6. [Web Dev] Scope WebMCP Tools to the Open React Workflow</b>\nOn the Events list, the browser discovered zero WebMCP tools. Opening an event draft exposed four. Currently trending on DEV.to with 18 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 18 · @raju_dandigam</i>\n🔗 <a href=\"https://dev.to/gde/scope-webmcp-tools-to-the-open-react-workflow-262o\">Read Source</a>\n\n<b>7. [AI/ML] Can&#x27;t Beat Free: Gemma 4 31B on AMD Token Lab, with a Local Chat Page and an ADK Agent</b>\nAMD Token Lab is a free OpenAI-compatible API on AMD GPUs that comes with the AMD AI Developer Program. How to sign up, a local chat page that keeps the key off the browser, a terminal client, and a small ADK agent that calls Gemma 4 31B through it. Currently trending on DEV.to with 19 developer upvotes and 12 technical comments.\n<i>DEV.to · ▲ 19 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/cant-beat-free-gemma-4-31b-on-amd-token-lab-with-a-local-chat-page-and-an-adk-agent-c5b\">Read Source</a>\n\n<b>8. [AI/ML] Benchmarking the Gemini Decisions API</b>\nThe Gemini Decisions API scores a fixed set of answers in one pass and returns probabilities. An ADK triage agent built on it, a 48-ticket benchmark against Gemini 3.8 Flash, Gemini 4 Hydrogen, Gemini 3.5 Flash-Lite and Gemma 4 E2B, and a test of 1 to 100 questions in one request. Currently trending on DEV.to with 5 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 5 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/benchmarking-the-gemini-decisions-api-l31\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Cloud/DevOps] iPhone + Linux = pain. So I built Rollcopy 🦀📸</b>\nA free, open-source Linux app that copies iPhone photos and videos over USB, converting HEIC to JPG and MOV to MP4. No iTunes, no cloud, no account. Currently trending on DEV.to with 6 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 6 · @ankurk91</i>\n🔗 <a href=\"https://dev.to/ankurk91/iphone-linux-pain-so-i-built-rollcopy-56nl\">Read Source</a>\n\n<b>10. [AI/ML] One Month After the Hackathon: Why My 4-Service App Stopped Working (and What @mansio Caught in the Verifiers)</b>\nWhat breaks a month after a hackathon, and what a fellow DEV writer caught in the verifiers. TL;DR:. Currently trending on DEV.to with 23 developer upvotes and 11 technical comments.\n<i>DEV.to · ▲ 23 · @earlgreyhot1701d</i>\n🔗 <a href=\"https://dev.to/earlgreyhot1701d/one-month-after-the-hackathon-why-my-4-service-app-stopped-working-and-what-mansio-caught-in-the-3i8h\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-13T23:21:34.374632+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
