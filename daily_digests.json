@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-14T13:08:37.865150+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50493062",
+        "source": "Hacker News",
+        "title": "Ggml v1.0.0",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (308 points, 48 comments). Currently trending on Hacker News with 308 developer upvotes and 48 technical comments.",
+        "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+        "discussion_url": "https://news.ycombinator.com/item?id=50493062",
+        "author": "cobychapple",
+        "score": 308,
+        "comments_count": 48,
+        "published_at": "2026-11-14T02:28:29+00:00"
+      },
+      {
+        "uid": "hn_50493904",
+        "source": "Hacker News",
+        "title": "Monkey Island: all 13 versions side by side",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (228 points, 73 comments). Currently trending on Hacker News with 228 developer upvotes and 73 technical comments.",
+        "url": "https://monkeyisland.pages.dev/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50493904",
+        "author": "maximilianburke",
+        "score": 228,
+        "comments_count": 73,
+        "published_at": "2026-11-14T04:23:30+00:00"
+      },
+      {
+        "uid": "hn_50491980",
+        "source": "Hacker News",
+        "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (180 points, 51 comments). Currently trending on Hacker News with 180 developer upvotes and 51 technical comments.",
+        "url": "https://unsloth.ai/docs/models/qwen3.8",
+        "discussion_url": "https://news.ycombinator.com/item?id=50491980",
+        "author": "Retro_Dev",
+        "score": 180,
+        "comments_count": 51,
+        "published_at": "2026-11-14T00:06:04+00:00"
+      },
+      {
+        "uid": "hn_50491830",
+        "source": "Hacker News",
+        "title": "What happened to 3Com?",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (166 points, 89 comments). Currently trending on Hacker News with 166 developer upvotes and 89 technical comments.",
+        "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50491830",
+        "author": "gvieri",
+        "score": 166,
+        "comments_count": 89,
+        "published_at": "2026-11-13T23:48:59+00:00"
+      },
+      {
+        "uid": "hn_50491545",
+        "source": "Hacker News",
+        "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (166 points, 23 comments). Currently trending on Hacker News with 166 developer upvotes and 23 technical comments.",
+        "url": "https://grounds.top/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50491545",
+        "author": "gvsi",
+        "score": 166,
+        "comments_count": 23,
+        "published_at": "2026-11-13T23:17:39+00:00"
+      },
+      {
+        "uid": "devto_5030043",
+        "source": "DEV.to",
+        "title": "Build an Offline AI Study App with Local Models (Liquid AI LFM3-1.7B)",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I ran Liquid AI's LFM3-1.7B in the browser with WebGPU and built Grading Buddy, an offline study app that answers only from notes I've checked. Currently trending on DEV.to with 6 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/debs_obrien/build-an-offline-ai-study-app-with-local-models-liquid-ai-lfm3-17b-1lio",
+        "discussion_url": "https://dev.to/debs_obrien/build-an-offline-ai-study-app-with-local-models-liquid-ai-lfm3-17b-1lio",
+        "author": "debs_obrien",
+        "score": 6,
+        "comments_count": 2,
+        "published_at": "2026-11-13T13:02:11Z"
+      },
+      {
+        "uid": "devto_5032808",
+        "source": "DEV.to",
+        "title": "Biology's Best Algorithms Aren't Just for Scientists Anymore",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Ant colonies find short paths without a map, and a slime mold once grew a network about as efficient. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/copyleftdev/biologys-best-algorithms-arent-just-for-scientists-anymore-50al",
+        "discussion_url": "https://dev.to/copyleftdev/biologys-best-algorithms-arent-just-for-scientists-anymore-50al",
+        "author": "copyleftdev",
+        "score": 7,
+        "comments_count": 0,
+        "published_at": "2026-11-14T01:55:18Z"
+      },
+      {
+        "uid": "devto_5034047",
+        "source": "DEV.to",
+        "title": "Devcon 8 Mumbai: Four Days at Ethereum's Biggest Builder Gathering",
+        "category_tag": "[System Design]",
+        "takeaway": "A little late in sharing this, but I wanted to capture all the details as best as I can. I spent 3–6. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/yashksaini/devcon-8-mumbai-four-days-at-ethereums-biggest-builder-gathering-3jn",
+        "discussion_url": "https://dev.to/yashksaini/devcon-8-mumbai-four-days-at-ethereums-biggest-builder-gathering-3jn",
+        "author": "yashksaini",
+        "score": 7,
+        "comments_count": 0,
+        "published_at": "2026-11-14T06:59:34Z"
+      },
+      {
+        "uid": "devto_5031929",
+        "source": "DEV.to",
+        "title": "Anyone need a Linux sandbox with its own public IPv6?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I run a small ISP and have been building isolated Linux sandboxes (Firecracker microVMs) mainly for. Currently trending on DEV.to with 3 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/petrj/anyone-need-a-linux-sandbox-with-its-own-public-ipv6-13a2",
+        "discussion_url": "https://dev.to/petrj/anyone-need-a-linux-sandbox-with-its-own-public-ipv6-13a2",
+        "author": "petrj",
+        "score": 3,
+        "comments_count": 3,
+        "published_at": "2026-11-13T20:33:38Z"
+      },
+      {
+        "uid": "devto_5034104",
+        "source": "DEV.to",
+        "title": "Snapshotting a DigitalOcean Droplet while it's running",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "DigitalOcean lets you snapshot a Droplet while it's running, and its docs are careful about it. They. Currently trending on DEV.to with 8 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/remdore/snapshotting-a-digitalocean-droplet-while-its-running-4m3c",
+        "discussion_url": "https://dev.to/remdore/snapshotting-a-digitalocean-droplet-while-its-running-4m3c",
+        "author": "remdore",
+        "score": 8,
+        "comments_count": 0,
+        "published_at": "2026-11-14T07:10:41Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        156,
+        157,
+        158,
+        159
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Ggml v1.0.0</b>\nHacker News discussion (308 points, 48 comments). Currently trending on Hacker News with 308 developer upvotes and 48 technical comments.\n<i>Hacker News · ▲ 308 · @cobychapple</i>\n🔗 <a href=\"https://github.com/ggml-org/ggml/releases/tag/v1.0.0\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50493062\">HN Discussion (48)</a>\n\n<b>2. [System Design] Monkey Island: all 13 versions side by side</b>\nHacker News discussion (228 points, 73 comments). Currently trending on Hacker News with 228 developer upvotes and 73 technical comments.\n<i>Hacker News · ▲ 228 · @maximilianburke</i>\n🔗 <a href=\"https://monkeyisland.pages.dev/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50493904\">HN Discussion (73)</a>\n\n<b>3. [System Design] Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update</b>\nHacker News discussion (180 points, 51 comments). Currently trending on Hacker News with 180 developer upvotes and 51 technical comments.\n<i>Hacker News · ▲ 180 · @Retro_Dev</i>\n🔗 <a href=\"https://unsloth.ai/docs/models/qwen3.8\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50491980\">HN Discussion (51)</a>\n\n<b>4. [System Design] What happened to 3Com?</b>\nHacker News discussion (166 points, 89 comments). Currently trending on Hacker News with 166 developer upvotes and 89 technical comments.\n<i>Hacker News · ▲ 166 · @gvieri</i>\n🔗 <a href=\"https://dfarq.homeip.net/what-happened-to-3com/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50491830\">HN Discussion (89)</a>\n\n<b>5. [System Design] Show HN: Live map of U.S. flights during tonight&#x27;s FAA nationwide ground stop</b>\nHacker News discussion (166 points, 23 comments). Currently trending on Hacker News with 166 developer upvotes and 23 technical comments.\n<i>Hacker News · ▲ 166 · @gvsi</i>\n🔗 <a href=\"https://grounds.top/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50491545\">HN Discussion (23)</a>\n\n<b>6. [AI/ML] Build an Offline AI Study App with Local Models (Liquid AI LFM3-1.7B)</b>\nI ran Liquid AI&#x27;s LFM3-1.7B in the browser with WebGPU and built Grading Buddy, an offline study app that answers only from notes I&#x27;ve checked. Currently trending on DEV.to with 6 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 6 · @debs_obrien</i>\n🔗 <a href=\"https://dev.to/debs_obrien/build-an-offline-ai-study-app-with-local-models-liquid-ai-lfm3-17b-1lio\">Read Source</a>\n\n<b>7. [AI/ML] Biology&#x27;s Best Algorithms Aren&#x27;t Just for Scientists Anymore</b>\nAnt colonies find short paths without a map, and a slime mold once grew a network about as efficient. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 7 · @copyleftdev</i>\n🔗 <a href=\"https://dev.to/copyleftdev/biologys-best-algorithms-arent-just-for-scientists-anymore-50al\">Read Source</a>\n\n<b>8. [System Design] Devcon 8 Mumbai: Four Days at Ethereum&#x27;s Biggest Builder Gathering</b>\nA little late in sharing this, but I wanted to capture all the details as best as I can. I spent 3–6. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 7 · @yashksaini</i>\n🔗 <a href=\"https://dev.to/yashksaini/devcon-8-mumbai-four-days-at-ethereums-biggest-builder-gathering-3jn\">Read Source</a>\n\n<b>9. [AI/ML] Anyone need a Linux sandbox with its own public IPv6?</b>\nI run a small ISP and have been building isolated Linux sandboxes (Firecracker microVMs) mainly for. Currently trending on DEV.to with 3 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 3 · @petrj</i>\n🔗 <a href=\"https://dev.to/petrj/anyone-need-a-linux-sandbox-with-its-own-public-ipv6-13a2\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>10. [Cloud/DevOps] Snapshotting a DigitalOcean Droplet while it&#x27;s running</b>\nDigitalOcean lets you snapshot a Droplet while it&#x27;s running, and its docs are careful about it. They. Currently trending on DEV.to with 8 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 8 · @remdore</i>\n🔗 <a href=\"https://dev.to/remdore/snapshotting-a-digitalocean-droplet-while-its-running-4m3c\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-14T05:27:06.653432+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
