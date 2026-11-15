@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-15T05:24:58.617360+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50501631",
+        "source": "Hacker News",
+        "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (364 points, 187 comments). Currently trending on Hacker News with 364 developer upvotes and 187 technical comments.",
+        "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50501631",
+        "author": "madihaa",
+        "score": 364,
+        "comments_count": 187,
+        "published_at": "2026-11-14T22:26:30+00:00"
+      },
+      {
+        "uid": "hn_50499038",
+        "source": "Hacker News",
+        "title": "A family tree of software job titles",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (256 points, 125 comments). Currently trending on Hacker News with 256 developer upvotes and 125 technical comments.",
+        "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50499038",
+        "author": "umerf",
+        "score": 256,
+        "comments_count": 125,
+        "published_at": "2026-11-14T17:45:19+00:00"
+      },
+      {
+        "uid": "hn_50501594",
+        "source": "Hacker News",
+        "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (156 points, 62 comments). Currently trending on Hacker News with 156 developer upvotes and 62 technical comments.",
+        "url": "https://retrocomputing.stackexchange.com/questions/17957",
+        "discussion_url": "https://news.ycombinator.com/item?id=50501594",
+        "author": "Skyfall106",
+        "score": 156,
+        "comments_count": 62,
+        "published_at": "2026-11-14T22:22:49+00:00"
+      },
+      {
+        "uid": "hn_50503255",
+        "source": "Hacker News",
+        "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (144 points, 30 comments). Currently trending on Hacker News with 144 developer upvotes and 30 technical comments.",
+        "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+        "discussion_url": "https://news.ycombinator.com/item?id=50503255",
+        "author": "nobody9999",
+        "score": 144,
+        "comments_count": 30,
+        "published_at": "2026-11-15T02:00:54+00:00"
+      },
+      {
+        "uid": "hn_50483431",
+        "source": "Hacker News",
+        "title": "500 Lines or Less A 3D Modeller",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (32 points, 3 comments). Currently trending on Hacker News with 32 developer upvotes and 3 technical comments.",
+        "url": "https://aosabook.org/en/500L/a-3d-modeller.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50483431",
+        "author": "myth_drannon",
+        "score": 32,
+        "comments_count": 3,
+        "published_at": "2026-11-13T13:47:42+00:00"
+      },
+      {
+        "uid": "devto_5036392",
+        "source": "DEV.to",
+        "title": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Autonomous coding agents, local developer tools, and edge robotics are bottlenecked by the. Currently trending on DEV.to with 9 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l",
+        "discussion_url": "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l",
+        "author": "paramveer_singh_53163a04c",
+        "score": 9,
+        "comments_count": 3,
+        "published_at": "2026-11-14T14:55:59Z"
+      },
+      {
+        "uid": "devto_5038062",
+        "source": "DEV.to",
+        "title": "One Tool Call Instead of Four Pages: Adding WebMCP to My Site",
+        "category_tag": "[AI/ML]",
+        "takeaway": "AI agents that open debbie.codes in a browser can now use tools on the page to find my videos, posts, podcasts and courses, instead of reading whole pages and guessing. Currently trending on DEV.to with 3 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/debs_obrien/one-tool-call-instead-of-four-pages-adding-webmcp-to-my-site-29g7",
+        "discussion_url": "https://dev.to/debs_obrien/one-tool-call-instead-of-four-pages-adding-webmcp-to-my-site-29g7",
+        "author": "debs_obrien",
+        "score": 3,
+        "comments_count": 1,
+        "published_at": "2026-11-14T21:44:09Z"
+      },
+      {
+        "uid": "devto_5039203",
+        "source": "DEV.to",
+        "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A 1969 Mission Control console for kids. Built in one day for NASA Space Apps 2026. TL;DR: For NASA. Currently trending on DEV.to with 3 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
+        "discussion_url": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
+        "author": "earlgreyhot1701d",
+        "score": 3,
+        "comments_count": 0,
+        "published_at": "2026-11-15T04:00:28Z"
+      },
+      {
+        "uid": "devto_5038913",
+        "source": "DEV.to",
+        "title": "Zombies, a Gunship and a Judgment Model: What Could Go Wrong?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "That's Jev, a judgment model, commanding an AC-130-style gunship over a zombie-infested downtown Los. Currently trending on DEV.to with 2 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/copyleftdev/zombies-a-gunship-and-a-judgment-model-what-could-go-wrong-2k95",
+        "discussion_url": "https://dev.to/copyleftdev/zombies-a-gunship-and-a-judgment-model-what-could-go-wrong-2k95",
+        "author": "copyleftdev",
+        "score": 2,
+        "comments_count": 0,
+        "published_at": "2026-11-15T02:17:57Z"
+      },
+      {
+        "uid": "devto_5035745",
+        "source": "DEV.to",
+        "title": "I Replaced $3,000 Eye-Trackers with a Laptop Webcam: Building a Hands-Free Spatial Communicator with SmartSpectra",
+        "category_tag": "[System Design]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built Traditional. Currently trending on DEV.to with 11 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/akul_9512534b6f460d338911/i-replaced-3000-eye-trackers-with-a-laptop-webcam-building-a-hands-free-spatial-communicator-522l",
+        "discussion_url": "https://dev.to/akul_9512534b6f460d338911/i-replaced-3000-eye-trackers-with-a-laptop-webcam-building-a-hands-free-spatial-communicator-522l",
+        "author": "akul_9512534b6f460d338911",
+        "score": 11,
+        "comments_count": 9,
+        "published_at": "2026-11-14T12:38:31Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        164,
+        165,
+        166,
+        167
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Nvidia deliberately kept GPU prices high through circular financing deals</b>\nHacker News discussion (364 points, 187 comments). Currently trending on Hacker News with 364 developer upvotes and 187 technical comments.\n<i>Hacker News · ▲ 364 · @madihaa</i>\n🔗 <a href=\"https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50501631\">HN Discussion (187)</a>\n\n<b>2. [System Design] A family tree of software job titles</b>\nHacker News discussion (256 points, 125 comments). Currently trending on Hacker News with 256 developer upvotes and 125 technical comments.\n<i>Hacker News · ▲ 256 · @umerf</i>\n🔗 <a href=\"https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50499038\">HN Discussion (125)</a>\n\n<b>3. [System Design] How did Woz write the Apple 1 BASIC before building the computer?</b>\nHacker News discussion (156 points, 62 comments). Currently trending on Hacker News with 156 developer upvotes and 62 technical comments.\n<i>Hacker News · ▲ 156 · @Skyfall106</i>\n🔗 <a href=\"https://retrocomputing.stackexchange.com/questions/17957\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50501594\">HN Discussion (62)</a>\n\n<b>4. [System Design] We&#x27;re Asking an Appeals Court to Require a Warrant for ALPR Searches</b>\nHacker News discussion (144 points, 30 comments). Currently trending on Hacker News with 144 developer upvotes and 30 technical comments.\n<i>Hacker News · ▲ 144 · @nobody9999</i>\n🔗 <a href=\"https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50503255\">HN Discussion (30)</a>\n\n<b>5. [System Design] 500 Lines or Less A 3D Modeller</b>\nHacker News discussion (32 points, 3 comments). Currently trending on Hacker News with 32 developer upvotes and 3 technical comments.\n<i>Hacker News · ▲ 32 · @myth_drannon</i>\n🔗 <a href=\"https://aosabook.org/en/500L/a-3d-modeller.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50483431\">HN Discussion (3)</a>\n\n<b>6. [AI/ML] Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust</b>\nAutonomous coding agents, local developer tools, and edge robotics are bottlenecked by the. Currently trending on DEV.to with 9 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 9 · @paramveer_singh_53163a04c</i>\n🔗 <a href=\"https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l\">Read Source</a>\n\n<b>7. [AI/ML] One Tool Call Instead of Four Pages: Adding WebMCP to My Site</b>\nAI agents that open debbie.codes in a browser can now use tools on the page to find my videos, posts, podcasts and courses, instead of reading whole pages and guessing. Currently trending on DEV.to with 3 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 3 · @debs_obrien</i>\n🔗 <a href=\"https://dev.to/debs_obrien/one-tool-call-instead-of-four-pages-adding-webmcp-to-my-site-29g7\">Read Source</a>\n\n<b>8. [AI/ML] Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.</b>\nA 1969 Mission Control console for kids. Built in one day for NASA Space Apps 2026. TL;DR: For NASA. Currently trending on DEV.to with 3 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 3 · @earlgreyhot1701d</i>\n🔗 <a href=\"https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Zombies, a Gunship and a Judgment Model: What Could Go Wrong?</b>\nThat&#x27;s Jev, a judgment model, commanding an AC-130-style gunship over a zombie-infested downtown Los. Currently trending on DEV.to with 2 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 2 · @copyleftdev</i>\n🔗 <a href=\"https://dev.to/copyleftdev/zombies-a-gunship-and-a-judgment-model-what-could-go-wrong-2k95\">Read Source</a>\n\n<b>10. [System Design] I Replaced $3,000 Eye-Trackers with a Laptop Webcam: Building a Hands-Free Spatial Communicator with SmartSpectra</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I Built Traditional. Currently trending on DEV.to with 11 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 11 · @akul_9512534b6f460d338911</i>\n🔗 <a href=\"https://dev.to/akul_9512534b6f460d338911/i-replaced-3000-eye-trackers-with-a-laptop-webcam-building-a-hands-free-spatial-communicator-522l\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-14T22:05:16.209762+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
