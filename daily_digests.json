@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-15T13:38:04.107304+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50502988",
+        "source": "Hacker News",
+        "title": "Court denies motion to dismiss DRAM price fixing case",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (274 points, 102 comments). Currently trending on Hacker News with 274 developer upvotes and 102 technical comments.",
+        "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+        "discussion_url": "https://news.ycombinator.com/item?id=50502988",
+        "author": "ybathaee",
+        "score": 274,
+        "comments_count": 102,
+        "published_at": "2026-11-15T01:18:36+00:00"
+      },
+      {
+        "uid": "hn_50503465",
+        "source": "Hacker News",
+        "title": "My favourite modern NES games",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (130 points, 12 comments). Currently trending on Hacker News with 130 developer upvotes and 12 technical comments.",
+        "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50503465",
+        "author": "jordigh",
+        "score": 130,
+        "comments_count": 12,
+        "published_at": "2026-11-15T02:41:25+00:00"
+      },
+      {
+        "uid": "hn_50505271",
+        "source": "Hacker News",
+        "title": "Why did some Apollo missions carry a grenade launcher?",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (87 points, 54 comments). Currently trending on Hacker News with 87 developer upvotes and 54 technical comments.",
+        "url": "https://space.stackexchange.com/questions/37775",
+        "discussion_url": "https://news.ycombinator.com/item?id=50505271",
+        "author": "Skyfall106",
+        "score": 87,
+        "comments_count": 54,
+        "published_at": "2026-11-15T09:06:43+00:00"
+      },
+      {
+        "uid": "hn_50504277",
+        "source": "Hacker News",
+        "title": "Disk encryption on NetBSD – achieving secrecy",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (58 points, 11 comments). Currently trending on Hacker News with 58 developer upvotes and 11 technical comments.",
+        "url": "https://netbsd.org/~nia/disk-encrypt/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50504277",
+        "author": "jaypatelani",
+        "score": 58,
+        "comments_count": 11,
+        "published_at": "2026-11-15T05:29:54+00:00"
+      },
+      {
+        "uid": "hn_50504718",
+        "source": "Hacker News",
+        "title": "Book list for streetfighting computer scientists",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (53 points, 18 comments). Currently trending on Hacker News with 53 developer upvotes and 18 technical comments.",
+        "url": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
+        "discussion_url": "https://news.ycombinator.com/item?id=50504718",
+        "author": "num42",
+        "score": 53,
+        "comments_count": 18,
+        "published_at": "2026-11-15T07:08:50+00:00"
+      },
+      {
+        "uid": "devto_5036386",
+        "source": "DEV.to",
+        "title": "Cat Mutilation Successful!! 🛸 Welcome New Members!! 🐈🎉",
+        "category_tag": "[Open Source]",
+        "takeaway": "Hoi hoi! 👋 Last week, we launched the Necoz organization here on DEV! . Currently trending on DEV.to with 37 developer upvotes and 11 technical comments.",
+        "url": "https://dev.to/necoz/cat-mutilation-successful-welcome-new-members-4bj4",
+        "discussion_url": "https://dev.to/necoz/cat-mutilation-successful-welcome-new-members-4bj4",
+        "author": "nyaomaru",
+        "score": 37,
+        "comments_count": 11,
+        "published_at": "2026-11-15T10:01:42Z"
+      },
+      {
+        "uid": "devto_5039348",
+        "source": "DEV.to",
+        "title": "Jira said Done. It wasn't, and the bug showed up later. So I made Jira check first.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Picture this. The ticket moved to Done on Friday. The pull request was merged, CI was green, everyone. Currently trending on DEV.to with 35 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
+        "discussion_url": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
+        "author": "wst2002rk",
+        "score": 35,
+        "comments_count": 3,
+        "published_at": "2026-11-15T05:05:40Z"
+      },
+      {
+        "uid": "devto_5039663",
+        "source": "DEV.to",
+        "title": "SHENRON's durability numbers didn't survive review. Here's what did.",
+        "category_tag": "[Security]",
+        "takeaway": "SHENRON used to rank my Sigma rules and six attack scenarios by how brittle they were. Two. Currently trending on DEV.to with 5 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/gnomeman4201/shenrons-durability-numbers-didnt-survive-review-heres-what-did-3p3c",
+        "discussion_url": "https://dev.to/gnomeman4201/shenrons-durability-numbers-didnt-survive-review-heres-what-did-3p3c",
+        "author": "gnomeman4201",
+        "score": 5,
+        "comments_count": 1,
+        "published_at": "2026-11-15T05:39:58Z"
+      },
+      {
+        "uid": "devto_5038118",
+        "source": "DEV.to",
+        "title": "Your AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Your AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print. You. Currently trending on DEV.to with 18 developer upvotes and 6 technical comments.",
+        "url": "https://dev.to/debashish_ghosal/your-ai-coding-agent-wrote-a-600-word-summary-what-it-skipped-is-in-the-fine-print-1h7d",
+        "discussion_url": "https://dev.to/debashish_ghosal/your-ai-coding-agent-wrote-a-600-word-summary-what-it-skipped-is-in-the-fine-print-1h7d",
+        "author": "debashish_ghosal",
+        "score": 18,
+        "comments_count": 6,
+        "published_at": "2026-11-14T21:56:31Z"
+      },
+      {
+        "uid": "devto_5037081",
+        "source": "DEV.to",
+        "title": "I posted 20+ short data videos rendered from code: every video over 25 seconds died, and half the viewers leave by second 3",
+        "category_tag": "[System Design]",
+        "takeaway": "Real TikTok, YouTube Shorts and Instagram numbers from a brand-new account posting short data visualisations: retention curves, the 25-second wall, and how TikTok stops distributing after about 10 hours. With a 20-line script to plot your own curves. Currently trending on DEV.to with 7 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/fast_data_asap/i-posted-20-short-data-videos-rendered-from-code-every-video-over-25-seconds-died-and-half-the-4f84",
+        "discussion_url": "https://dev.to/fast_data_asap/i-posted-20-short-data-videos-rendered-from-code-every-video-over-25-seconds-died-and-half-the-4f84",
+        "author": "fast_data_asap",
+        "score": 7,
+        "comments_count": 2,
+        "published_at": "2026-11-14T17:46:12Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        168,
+        169,
+        170,
+        171
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Court denies motion to dismiss DRAM price fixing case</b>\nHacker News discussion (274 points, 102 comments). Currently trending on Hacker News with 274 developer upvotes and 102 technical comments.\n<i>Hacker News · ▲ 274 · @ybathaee</i>\n🔗 <a href=\"https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50502988\">HN Discussion (102)</a>\n\n<b>2. [System Design] My favourite modern NES games</b>\nHacker News discussion (130 points, 12 comments). Currently trending on Hacker News with 130 developer upvotes and 12 technical comments.\n<i>Hacker News · ▲ 130 · @jordigh</i>\n🔗 <a href=\"https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50503465\">HN Discussion (12)</a>\n\n<b>3. [System Design] Why did some Apollo missions carry a grenade launcher?</b>\nHacker News discussion (87 points, 54 comments). Currently trending on Hacker News with 87 developer upvotes and 54 technical comments.\n<i>Hacker News · ▲ 87 · @Skyfall106</i>\n🔗 <a href=\"https://space.stackexchange.com/questions/37775\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50505271\">HN Discussion (54)</a>\n\n<b>4. [Security] Disk encryption on NetBSD – achieving secrecy</b>\nHacker News discussion (58 points, 11 comments). Currently trending on Hacker News with 58 developer upvotes and 11 technical comments.\n<i>Hacker News · ▲ 58 · @jaypatelani</i>\n🔗 <a href=\"https://netbsd.org/~nia/disk-encrypt/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50504277\">HN Discussion (11)</a>\n\n<b>5. [System Design] Book list for streetfighting computer scientists</b>\nHacker News discussion (53 points, 18 comments). Currently trending on Hacker News with 53 developer upvotes and 18 technical comments.\n<i>Hacker News · ▲ 53 · @num42</i>\n🔗 <a href=\"https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50504718\">HN Discussion (18)</a>\n\n<b>6. [Open Source] Cat Mutilation Successful!! 🛸 Welcome New Members!! 🐈🎉</b>\nHoi hoi! 👋 Last week, we launched the Necoz organization here on DEV! . Currently trending on DEV.to with 37 developer upvotes and 11 technical comments.\n<i>DEV.to · ▲ 37 · @nyaomaru</i>\n🔗 <a href=\"https://dev.to/necoz/cat-mutilation-successful-welcome-new-members-4bj4\">Read Source</a>\n\n<b>7. [AI/ML] Jira said Done. It wasn&#x27;t, and the bug showed up later. So I made Jira check first.</b>\nPicture this. The ticket moved to Done on Friday. The pull request was merged, CI was green, everyone. Currently trending on DEV.to with 35 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 35 · @wst2002rk</i>\n🔗 <a href=\"https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed\">Read Source</a>\n\n<b>8. [Security] SHENRON&#x27;s durability numbers didn&#x27;t survive review. Here&#x27;s what did.</b>\nSHENRON used to rank my Sigma rules and six attack scenarios by how brittle they were. Two. Currently trending on DEV.to with 5 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 5 · @gnomeman4201</i>\n🔗 <a href=\"https://dev.to/gnomeman4201/shenrons-durability-numbers-didnt-survive-review-heres-what-did-3p3c\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Your AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print.</b>\nYour AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print. You. Currently trending on DEV.to with 18 developer upvotes and 6 technical comments.\n<i>DEV.to · ▲ 18 · @debashish_ghosal</i>\n🔗 <a href=\"https://dev.to/debashish_ghosal/your-ai-coding-agent-wrote-a-600-word-summary-what-it-skipped-is-in-the-fine-print-1h7d\">Read Source</a>\n\n<b>10. [System Design] I posted 20+ short data videos rendered from code: every video over 25 seconds died, and half the viewers leave by second 3</b>\nReal TikTok, YouTube Shorts and Instagram numbers from a brand-new account posting short data visualisations: retention curves, the 25-second wall, and how TikTok stops distributing after about 10 hours. With a 20-line script to plot your own curves. Currently trending on DEV.to with 7 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 7 · @fast_data_asap</i>\n🔗 <a href=\"https://dev.to/fast_data_asap/i-posted-20-short-data-videos-rendered-from-code-every-video-over-25-seconds-died-and-half-the-4f84\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-15T05:24:58.617360+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
