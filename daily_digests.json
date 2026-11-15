@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-15T22:35:28.621513+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50506719",
+        "source": "Hacker News",
+        "title": "The MacBook Pro's OLED PWM problem",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (372 points, 200 comments). Currently trending on Hacker News with 372 developer upvotes and 200 technical comments.",
+        "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50506719",
+        "author": "MacAnorak",
+        "score": 372,
+        "comments_count": 200,
+        "published_at": "2026-11-15T13:15:22+00:00"
+      },
+      {
+        "uid": "hn_50463399",
+        "source": "Hacker News",
+        "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (272 points, 140 comments). Currently trending on Hacker News with 272 developer upvotes and 140 technical comments.",
+        "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+        "discussion_url": "https://news.ycombinator.com/item?id=50463399",
+        "author": "envoked",
+        "score": 272,
+        "comments_count": 140,
+        "published_at": "2026-11-12T05:29:24+00:00"
+      },
+      {
+        "uid": "hn_50509308",
+        "source": "Hacker News",
+        "title": "A short explainer on how El Niño works [video]",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (123 points, 38 comments). Currently trending on Hacker News with 123 developer upvotes and 38 technical comments.",
+        "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+        "discussion_url": "https://news.ycombinator.com/item?id=50509308",
+        "author": "nharada",
+        "score": 123,
+        "comments_count": 38,
+        "published_at": "2026-11-15T18:23:21+00:00"
+      },
+      {
+        "uid": "hn_50509023",
+        "source": "Hacker News",
+        "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (111 points, 85 comments). Currently trending on Hacker News with 111 developer upvotes and 85 technical comments.",
+        "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50509023",
+        "author": "gumby",
+        "score": 111,
+        "comments_count": 85,
+        "published_at": "2026-11-15T17:53:31+00:00"
+      },
+      {
+        "uid": "hn_50509837",
+        "source": "Hacker News",
+        "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (59 points, 12 comments). Currently trending on Hacker News with 59 developer upvotes and 12 technical comments.",
+        "url": "https://bruceroettgers.eu/blog/protomaps/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50509837",
+        "author": "bcye",
+        "score": 59,
+        "comments_count": 12,
+        "published_at": "2026-11-15T19:26:22+00:00"
+      },
+      {
+        "uid": "devto_5042083",
+        "source": "DEV.to",
+        "title": "🐱 The Great Cat Party on necoz Planet! 🚀Python variable",
+        "category_tag": "[System Design]",
+        "takeaway": "Far away in the galaxy, there was a beautiful planet called necoz. 🌌 One day, the King of necoz. Currently trending on DEV.to with 49 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/necoz/the-great-cat-party-on-necoz-planet-python-variable-1cgf",
+        "discussion_url": "https://dev.to/necoz/the-great-cat-party-on-necoz-planet-python-variable-1cgf",
+        "author": "star123",
+        "score": 49,
+        "comments_count": 9,
+        "published_at": "2026-11-15T14:49:57Z"
+      },
+      {
+        "uid": "devto_5042582",
+        "source": "DEV.to",
+        "title": "🐾 DEV Pet Corner #6: Show Us Your Pets!",
+        "category_tag": "[Open Source]",
+        "takeaway": "TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break. Currently trending on DEV.to with 33 developer upvotes and 8 technical comments.",
+        "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-6-show-us-your-pets-2gd3",
+        "discussion_url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-6-show-us-your-pets-2gd3",
+        "author": "hemapriya_kanagala",
+        "score": 33,
+        "comments_count": 8,
+        "published_at": "2026-11-15T16:29:10Z"
+      },
+      {
+        "uid": "devto_5041802",
+        "source": "DEV.to",
+        "title": "Day 83: Two Files and Four Parts",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Day 83 of DevOps, Day 33 of Azure. Both tasks today were made of parts that are each correct on their. Currently trending on DEV.to with 14 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/ndcodes/day-83-two-files-and-four-parts-40hc",
+        "discussion_url": "https://dev.to/ndcodes/day-83-two-files-and-four-parts-40hc",
+        "author": "ndcodes",
+        "score": 14,
+        "comments_count": 0,
+        "published_at": "2026-11-15T13:47:01Z"
+      },
+      {
+        "uid": "devto_5042275",
+        "source": "DEV.to",
+        "title": ".NET 11 Unpacked: Why I'm Recommending STS This Time",
+        "category_tag": "[Systems]",
+        "takeaway": "Table of Contents What to Expect From This Article A Short History of LTS and STS Why. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/georgekobaidze/net-11-unpacked-why-im-recommending-sts-this-time-lnj",
+        "discussion_url": "https://dev.to/georgekobaidze/net-11-unpacked-why-im-recommending-sts-this-time-lnj",
+        "author": "georgekobaidze",
+        "score": 13,
+        "comments_count": 0,
+        "published_at": "2026-11-15T16:16:45Z"
+      },
+      {
+        "uid": "devto_5042896",
+        "source": "DEV.to",
+        "title": "Zombie Sweep: A Daily Serverless Hunt for Unused AWS Resources",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "A Step Functions sweep of every enabled region that runs zombiescan's checks beside Compute Optimizer's idle recommendations, stores findings in DynamoDB and publishes a priced report to S3 and CloudFront. Currently trending on DEV.to with 2 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/aws-builders/zombie-sweep-a-daily-serverless-hunt-for-unused-aws-resources-1ph1",
+        "discussion_url": "https://dev.to/aws-builders/zombie-sweep-a-daily-serverless-hunt-for-unused-aws-resources-1ph1",
+        "author": "xbill",
+        "score": 2,
+        "comments_count": 0,
+        "published_at": "2026-11-15T18:07:56Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        172,
+        173,
+        174,
+        175
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] The MacBook Pro&#x27;s OLED PWM problem</b>\nHacker News discussion (372 points, 200 comments). Currently trending on Hacker News with 372 developer upvotes and 200 technical comments.\n<i>Hacker News · ▲ 372 · @MacAnorak</i>\n🔗 <a href=\"https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50506719\">HN Discussion (200)</a>\n\n<b>2. [System Design] Claude Code and Codex reverse engineered my 1994 Jeep&#x27;s ECU over a $3 Arduino [video]</b>\nHacker News discussion (272 points, 140 comments). Currently trending on Hacker News with 272 developer upvotes and 140 technical comments.\n<i>Hacker News · ▲ 272 · @envoked</i>\n🔗 <a href=\"https://www.youtube.com/watch?v=WPj3aQ-xxpI\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50463399\">HN Discussion (140)</a>\n\n<b>3. [System Design] A short explainer on how El Niño works [video]</b>\nHacker News discussion (123 points, 38 comments). Currently trending on Hacker News with 123 developer upvotes and 38 technical comments.\n<i>Hacker News · ▲ 123 · @nharada</i>\n🔗 <a href=\"https://www.youtube.com/watch?v=7_JF3etiAv8\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50509308\">HN Discussion (38)</a>\n\n<b>4. [System Design] &#x27;Birdbrain&#x27; Is a Misnomer. Crows Make Decisions Faster Than We Can</b>\nHacker News discussion (111 points, 85 comments). Currently trending on Hacker News with 111 developer upvotes and 85 technical comments.\n<i>Hacker News · ▲ 111 · @gumby</i>\n🔗 <a href=\"https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50509023\">HN Discussion (85)</a>\n\n<b>5. [System Design] Protomaps: Self-hosting map tiles has gotten cheap and easy</b>\nHacker News discussion (59 points, 12 comments). Currently trending on Hacker News with 59 developer upvotes and 12 technical comments.\n<i>Hacker News · ▲ 59 · @bcye</i>\n🔗 <a href=\"https://bruceroettgers.eu/blog/protomaps/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50509837\">HN Discussion (12)</a>\n\n<b>6. [System Design] 🐱 The Great Cat Party on necoz Planet! 🚀Python variable</b>\nFar away in the galaxy, there was a beautiful planet called necoz. 🌌 One day, the King of necoz. Currently trending on DEV.to with 49 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 49 · @star123</i>\n🔗 <a href=\"https://dev.to/necoz/the-great-cat-party-on-necoz-planet-python-variable-1cgf\">Read Source</a>\n\n<b>7. [Open Source] 🐾 DEV Pet Corner #6: Show Us Your Pets!</b>\nTL;DR DEV Pet Corner is back for another Sunday! It&#x27;s a weekly series where we take a little break. Currently trending on DEV.to with 33 developer upvotes and 8 technical comments.\n<i>DEV.to · ▲ 33 · @hemapriya_kanagala</i>\n🔗 <a href=\"https://dev.to/hemapriya_kanagala/dev-pet-corner-6-show-us-your-pets-2gd3\">Read Source</a>\n\n<b>8. [Cloud/DevOps] Day 83: Two Files and Four Parts</b>\nDay 83 of DevOps, Day 33 of Azure. Both tasks today were made of parts that are each correct on their. Currently trending on DEV.to with 14 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 14 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/day-83-two-files-and-four-parts-40hc\">Read Source</a>\n\n<b>9. [Systems] .NET 11 Unpacked: Why I&#x27;m Recommending STS This Time</b>\nTable of Contents What to Expect From This Article A Short History of LTS and STS Why. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 13 · @georgekobaidze</i>\n🔗 <a href=\"https://dev.to/georgekobaidze/net-11-unpacked-why-im-recommending-sts-this-time-lnj\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>10. [Cloud/DevOps] Zombie Sweep: A Daily Serverless Hunt for Unused AWS Resources</b>\nA Step Functions sweep of every enabled region that runs zombiescan&#x27;s checks beside Compute Optimizer&#x27;s idle recommendations, stores findings in DynamoDB and publishes a priced report to S3 and CloudFront. Currently trending on DEV.to with 2 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 2 · @xbill</i>\n🔗 <a href=\"https://dev.to/aws-builders/zombie-sweep-a-daily-serverless-hunt-for-unused-aws-resources-1ph1\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-15T13:38:04.107304+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
