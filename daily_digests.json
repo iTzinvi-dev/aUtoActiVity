@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-16T05:23:45.945764+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50513215",
+        "source": "Hacker News",
+        "title": "Qwen4-Max",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (257 points, 87 comments). Currently trending on Hacker News with 257 developer upvotes and 87 technical comments.",
+        "url": "https://qwen.ai/blog?id=qwen4-max",
+        "discussion_url": "https://news.ycombinator.com/item?id=50513215",
+        "author": "ilreb",
+        "score": 257,
+        "comments_count": 87,
+        "published_at": "2026-11-16T02:14:44+00:00"
+      },
+      {
+        "uid": "hn_50511395",
+        "source": "Hacker News",
+        "title": "Old Bitly links are being hijacked",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (226 points, 125 comments). Currently trending on Hacker News with 226 developer upvotes and 125 technical comments.",
+        "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50511395",
+        "author": "hspeiser",
+        "score": 226,
+        "comments_count": 125,
+        "published_at": "2026-11-15T22:11:43+00:00"
+      },
+      {
+        "uid": "hn_50509972",
+        "source": "Hacker News",
+        "title": "Handwriting, as a Font",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (191 points, 44 comments). Currently trending on Hacker News with 191 developer upvotes and 44 technical comments.",
+        "url": "https://ductus.sorenblank.com",
+        "discussion_url": "https://news.ycombinator.com/item?id=50509972",
+        "author": "coinfused",
+        "score": 191,
+        "comments_count": 44,
+        "published_at": "2026-11-15T19:42:13+00:00"
+      },
+      {
+        "uid": "hn_50513160",
+        "source": "Hacker News",
+        "title": "Universal XSS in uBlock Origin from website-driven element picker",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (189 points, 49 comments). Currently trending on Hacker News with 189 developer upvotes and 49 technical comments.",
+        "url": "https://iter.ca/post/ubo-uxss/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50513160",
+        "author": "zaik",
+        "score": 189,
+        "comments_count": 49,
+        "published_at": "2026-11-16T02:04:48+00:00"
+      },
+      {
+        "uid": "hn_50512235",
+        "source": "Hacker News",
+        "title": "What's Next for Nvidia?",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (157 points, 195 comments). Currently trending on Hacker News with 157 developer upvotes and 195 technical comments.",
+        "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50512235",
+        "author": "zdw",
+        "score": 157,
+        "comments_count": 195,
+        "published_at": "2026-11-15T23:55:55+00:00"
+      },
+      {
+        "uid": "devto_5041118",
+        "source": "DEV.to",
+        "title": "Antigravity Research Kit: 8 Scientific Skills, Stdio MCP Server & Pure-SVG Comic Studio",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Reading, auditing, and explaining dense machine learning or engineering papers shouldn't stop at a. Currently trending on DEV.to with 0 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/how-i-built-an-8-skill-research-engineering-plugin-stdio-mcp-server-vector-comic-studio-for-lfb",
+        "discussion_url": "https://dev.to/gde/how-i-built-an-8-skill-research-engineering-plugin-stdio-mcp-server-vector-comic-studio-for-lfb",
+        "author": "robinamirbahar",
+        "score": 0,
+        "comments_count": 0,
+        "published_at": "2026-11-15T11:20:10Z"
+      },
+      {
+        "uid": "devto_5042404",
+        "source": "DEV.to",
+        "title": "The Vibe Coding Kernel-pocalypse Is Here, and It Is a Good Thing",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A step by step guide to mainline Linux kernel development with a coding agent in a closed loop: the kernel's own AGENTS.md, a few markdown runbooks, a build and install script, and the boot and system logs fed back to the agent after every change. The same loop runs on an Intel laptop, two Windows-on-ARM laptops and a Pixel 3a. Currently trending on DEV.to with 9 developer upvotes and 8 technical comments.",
+        "url": "https://dev.to/xbill/the-vibe-coding-kernel-pocalypse-is-here-and-it-is-a-good-thing-3d83",
+        "discussion_url": "https://dev.to/xbill/the-vibe-coding-kernel-pocalypse-is-here-and-it-is-a-good-thing-3d83",
+        "author": "xbill",
+        "score": 9,
+        "comments_count": 8,
+        "published_at": "2026-11-15T15:44:53Z"
+      },
+      {
+        "uid": "devto_5043219",
+        "source": "DEV.to",
+        "title": "Correcting \"897 Fake Followers\": What My Own Follower Data Actually Shows",
+        "category_tag": "[Security]",
+        "takeaway": "TL;DR Three central claims in my May 2026 post \"Found 897 Fake Followers on DEV.to\" do not. Currently trending on DEV.to with 4 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/gnomeman4201/correcting-897-fake-followers-what-my-own-follower-data-actually-shows-f1p",
+        "discussion_url": "https://dev.to/gnomeman4201/correcting-897-fake-followers-what-my-own-follower-data-actually-shows-f1p",
+        "author": "gnomeman4201",
+        "score": 4,
+        "comments_count": 3,
+        "published_at": "2026-11-15T19:55:01Z"
+      },
+      {
+        "uid": "devto_5035228",
+        "source": "DEV.to",
+        "title": "Are You a CSS Developer or a CSS Expert? 9 Tests I Failed Styling a 12,400-Line Photo Editor",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Most developers can make a button blue, centre a div and copy a flexbox cheat sheet. CSS experts. Currently trending on DEV.to with 39 developer upvotes and 75 technical comments.",
+        "url": "https://dev.to/akhourianmolkumar/are-you-a-css-developer-or-a-css-expert-9-tests-i-failed-styling-a-12400-line-photo-editor-161p",
+        "discussion_url": "https://dev.to/akhourianmolkumar/are-you-a-css-developer-or-a-css-expert-9-tests-i-failed-styling-a-12400-line-photo-editor-161p",
+        "author": "akhourianmolkumar",
+        "score": 39,
+        "comments_count": 75,
+        "published_at": "2026-11-15T06:01:51Z"
+      },
+      {
+        "uid": "devto_5031079",
+        "source": "DEV.to",
+        "title": "Recover a WebMCP Update After Its Response Disappears",
+        "category_tag": "[System Design]",
+        "takeaway": "The browser showed JFK. The database already contained BOS. That was the state of a synthetic trip. Currently trending on DEV.to with 6 developer upvotes and 7 technical comments.",
+        "url": "https://dev.to/gde/recover-a-webmcp-update-after-its-response-disappears-2hp",
+        "discussion_url": "https://dev.to/gde/recover-a-webmcp-update-after-its-response-disappears-2hp",
+        "author": "raju_dandigam",
+        "score": 6,
+        "comments_count": 7,
+        "published_at": "2026-11-15T15:05:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        176,
+        177,
+        178,
+        179
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Qwen4-Max</b>\nHacker News discussion (257 points, 87 comments). Currently trending on Hacker News with 257 developer upvotes and 87 technical comments.\n<i>Hacker News · ▲ 257 · @ilreb</i>\n🔗 <a href=\"https://qwen.ai/blog?id=qwen4-max\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50513215\">HN Discussion (87)</a>\n\n<b>2. [System Design] Old Bitly links are being hijacked</b>\nHacker News discussion (226 points, 125 comments). Currently trending on Hacker News with 226 developer upvotes and 125 technical comments.\n<i>Hacker News · ▲ 226 · @hspeiser</i>\n🔗 <a href=\"https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50511395\">HN Discussion (125)</a>\n\n<b>3. [System Design] Handwriting, as a Font</b>\nHacker News discussion (191 points, 44 comments). Currently trending on Hacker News with 191 developer upvotes and 44 technical comments.\n<i>Hacker News · ▲ 191 · @coinfused</i>\n🔗 <a href=\"https://ductus.sorenblank.com\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50509972\">HN Discussion (44)</a>\n\n<b>4. [System Design] Universal XSS in uBlock Origin from website-driven element picker</b>\nHacker News discussion (189 points, 49 comments). Currently trending on Hacker News with 189 developer upvotes and 49 technical comments.\n<i>Hacker News · ▲ 189 · @zaik</i>\n🔗 <a href=\"https://iter.ca/post/ubo-uxss/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50513160\">HN Discussion (49)</a>\n\n<b>5. [System Design] What&#x27;s Next for Nvidia?</b>\nHacker News discussion (157 points, 195 comments). Currently trending on Hacker News with 157 developer upvotes and 195 technical comments.\n<i>Hacker News · ▲ 157 · @zdw</i>\n🔗 <a href=\"https://steveblank.com/2026/11/15/whats-next-for-nvidia/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50512235\">HN Discussion (195)</a>\n\n<b>6. [AI/ML] Antigravity Research Kit: 8 Scientific Skills, Stdio MCP Server &amp; Pure-SVG Comic Studio</b>\nReading, auditing, and explaining dense machine learning or engineering papers shouldn&#x27;t stop at a. Currently trending on DEV.to with 0 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 0 · @robinamirbahar</i>\n🔗 <a href=\"https://dev.to/gde/how-i-built-an-8-skill-research-engineering-plugin-stdio-mcp-server-vector-comic-studio-for-lfb\">Read Source</a>\n\n<b>7. [AI/ML] The Vibe Coding Kernel-pocalypse Is Here, and It Is a Good Thing</b>\nA step by step guide to mainline Linux kernel development with a coding agent in a closed loop: the kernel&#x27;s own AGENTS.md, a few markdown runbooks, a build and install script, and the boot and system logs fed back to the agent after every change. The same loop runs on an Intel laptop, two Windows-on-ARM laptops and a Pixel 3a. Currently trending on DEV.to with 9 developer upvotes and 8 technical comments.\n<i>DEV.to · ▲ 9 · @xbill</i>\n🔗 <a href=\"https://dev.to/xbill/the-vibe-coding-kernel-pocalypse-is-here-and-it-is-a-good-thing-3d83\">Read Source</a>\n\n<b>8. [Security] Correcting &quot;897 Fake Followers&quot;: What My Own Follower Data Actually Shows</b>\nTL;DR Three central claims in my May 2026 post &quot;Found 897 Fake Followers on DEV.to&quot; do not. Currently trending on DEV.to with 4 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 4 · @gnomeman4201</i>\n🔗 <a href=\"https://dev.to/gnomeman4201/correcting-897-fake-followers-what-my-own-follower-data-actually-shows-f1p\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Web Dev] Are You a CSS Developer or a CSS Expert? 9 Tests I Failed Styling a 12,400-Line Photo Editor</b>\nMost developers can make a button blue, centre a div and copy a flexbox cheat sheet. CSS experts. Currently trending on DEV.to with 39 developer upvotes and 75 technical comments.\n<i>DEV.to · ▲ 39 · @akhourianmolkumar</i>\n🔗 <a href=\"https://dev.to/akhourianmolkumar/are-you-a-css-developer-or-a-css-expert-9-tests-i-failed-styling-a-12400-line-photo-editor-161p\">Read Source</a>\n\n<b>10. [System Design] Recover a WebMCP Update After Its Response Disappears</b>\nThe browser showed JFK. The database already contained BOS. That was the state of a synthetic trip. Currently trending on DEV.to with 6 developer upvotes and 7 technical comments.\n<i>DEV.to · ▲ 6 · @raju_dandigam</i>\n🔗 <a href=\"https://dev.to/gde/recover-a-webmcp-update-after-its-response-disappears-2hp\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-15T22:35:28.621513+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
