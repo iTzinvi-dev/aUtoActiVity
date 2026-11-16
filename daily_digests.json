@@ -1,5 +1,163 @@
 [
   {
+    "generated_at": "2026-11-16T15:08:20.331924+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50514470",
+        "source": "Hacker News",
+        "title": "How to make almost anything",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (535 points, 98 comments). Currently trending on Hacker News with 535 developer upvotes and 98 technical comments.",
+        "url": "https://pub.cba.mit.edu/863.26/site/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50514470",
+        "author": "o4c",
+        "score": 535,
+        "comments_count": 98,
+        "published_at": "2026-11-16T05:50:37+00:00"
+      },
+      {
+        "uid": "hn_50517602",
+        "source": "Hacker News",
+        "title": "What the fuck is w2rt6byl5nf1opmc-a.com?",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (147 points, 41 comments). Currently trending on Hacker News with 147 developer upvotes and 41 technical comments.",
+        "url": "https://jack.cab/blog/siterate",
+        "discussion_url": "https://news.ycombinator.com/item?id=50517602",
+        "author": "dverlaeckt80",
+        "score": 147,
+        "comments_count": 41,
+        "published_at": "2026-11-16T13:51:38+00:00"
+      },
+      {
+        "uid": "hn_50516473",
+        "source": "Hacker News",
+        "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (123 points, 53 comments). Currently trending on Hacker News with 123 developer upvotes and 53 technical comments.",
+        "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50516473",
+        "author": "sammatilda",
+        "score": 123,
+        "comments_count": 53,
+        "published_at": "2026-11-16T11:39:31+00:00"
+      },
+      {
+        "uid": "hn_50515058",
+        "source": "Hacker News",
+        "title": "“…and the proof is checked in Lean”",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (123 points, 50 comments). Currently trending on Hacker News with 123 developer upvotes and 50 technical comments.",
+        "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50515058",
+        "author": "matt_d",
+        "score": 123,
+        "comments_count": 50,
+        "published_at": "2026-11-16T07:38:19+00:00"
+      },
+      {
+        "uid": "hn_50486745",
+        "source": "Hacker News",
+        "title": "Researchers track whole body movement with just a smartwatch",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (119 points, 35 comments). Currently trending on Hacker News with 119 developer upvotes and 35 technical comments.",
+        "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
+        "discussion_url": "https://news.ycombinator.com/item?id=50486745",
+        "author": "PaulHoule",
+        "score": 119,
+        "comments_count": 35,
+        "published_at": "2026-11-13T17:29:49+00:00"
+      },
+      {
+        "uid": "devto_4846665",
+        "source": "DEV.to",
+        "title": "10 Things Every Coder Has Blamed at Least Once (at Least I Have)",
+        "category_tag": "[System Design]",
+        "takeaway": "Inspired by @sylwia-lask 's post on what to blame, here are 10 things every coder has blamed, or at. Currently trending on DEV.to with 19 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/canro91/10-things-every-coder-has-blamed-at-least-once-at-least-i-have-4ad0",
+        "discussion_url": "https://dev.to/canro91/10-things-every-coder-has-blamed-at-least-once-at-least-i-have-4ad0",
+        "author": "canro91",
+        "score": 19,
+        "comments_count": 5,
+        "published_at": "2026-11-16T05:00:00Z"
+      },
+      {
+        "uid": "devto_5004164",
+        "source": "DEV.to",
+        "title": "AI Avatar v28 (Security Support, Voxel Avatar)🛡️",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Intro AI Avatar is a free app where your VRoid (VRM) avatar cheers you with all its. Currently trending on DEV.to with 19 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
+        "discussion_url": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
+        "author": "webdeveloperhyper",
+        "score": 19,
+        "comments_count": 3,
+        "published_at": "2026-11-16T04:34:39Z"
+      },
+      {
+        "uid": "devto_5048056",
+        "source": "DEV.to",
+        "title": "Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can't Tell Who Won.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "People do not injure themselves without cause; the wound must be real. Mix truth with falsehood, and. Currently trending on DEV.to with 49 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
+        "discussion_url": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
+        "author": "xulingfeng",
+        "score": 49,
+        "comments_count": 4,
+        "published_at": "2026-11-16T13:08:10Z"
+      },
+      {
+        "uid": "devto_5042709",
+        "source": "DEV.to",
+        "title": "Using AI for Anonymity",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Using GenAI to sound like literally anyone but you. Everyone knows the trick. You paste three of. Currently trending on DEV.to with 9 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/aws-heroes/using-ai-for-anonymity-1adb",
+        "discussion_url": "https://dev.to/aws-heroes/using-ai-for-anonymity-1adb",
+        "author": "btarbox",
+        "score": 9,
+        "comments_count": 0,
+        "published_at": "2026-11-15T17:22:07Z"
+      },
+      {
+        "uid": "devto_5028536",
+        "source": "DEV.to",
+        "title": "9 Best Agent Gateways",
+        "category_tag": "[AI/ML]",
+        "takeaway": "AI agents are becoming part of everyday software systems. They call APIs, retrieve information. Currently trending on DEV.to with 40 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/hadil/9-best-agent-gateways-4hia",
+        "discussion_url": "https://dev.to/hadil/9-best-agent-gateways-4hia",
+        "author": "hadil",
+        "score": 40,
+        "comments_count": 4,
+        "published_at": "2026-11-16T09:17:26Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 4,
+      "message_ids": [
+        184,
+        185,
+        186,
+        187
+      ],
+      "reason": null,
+      "recipients_count": 2,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] How to make almost anything</b>\nHacker News discussion (535 points, 98 comments). Currently trending on Hacker News with 535 developer upvotes and 98 technical comments.\n<i>Hacker News · ▲ 535 · @o4c</i>\n🔗 <a href=\"https://pub.cba.mit.edu/863.26/site/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50514470\">HN Discussion (98)</a>\n\n<b>2. [System Design] What the fuck is w2rt6byl5nf1opmc-a.com?</b>\nHacker News discussion (147 points, 41 comments). Currently trending on Hacker News with 147 developer upvotes and 41 technical comments.\n<i>Hacker News · ▲ 147 · @dverlaeckt80</i>\n🔗 <a href=\"https://jack.cab/blog/siterate\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50517602\">HN Discussion (41)</a>\n\n<b>3. [System Design] The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)</b>\nHacker News discussion (123 points, 53 comments). Currently trending on Hacker News with 123 developer upvotes and 53 technical comments.\n<i>Hacker News · ▲ 123 · @sammatilda</i>\n🔗 <a href=\"https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50516473\">HN Discussion (53)</a>\n\n<b>4. [System Design] “…and the proof is checked in Lean”</b>\nHacker News discussion (123 points, 50 comments). Currently trending on Hacker News with 123 developer upvotes and 50 technical comments.\n<i>Hacker News · ▲ 123 · @matt_d</i>\n🔗 <a href=\"https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50515058\">HN Discussion (50)</a>\n\n<b>5. [System Design] Researchers track whole body movement with just a smartwatch</b>\nHacker News discussion (119 points, 35 comments). Currently trending on Hacker News with 119 developer upvotes and 35 technical comments.\n<i>Hacker News · ▲ 119 · @PaulHoule</i>\n🔗 <a href=\"https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50486745\">HN Discussion (35)</a>\n\n<b>6. [System Design] 10 Things Every Coder Has Blamed at Least Once (at Least I Have)</b>\nInspired by @sylwia-lask &#x27;s post on what to blame, here are 10 things every coder has blamed, or at. Currently trending on DEV.to with 19 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 19 · @canro91</i>\n🔗 <a href=\"https://dev.to/canro91/10-things-every-coder-has-blamed-at-least-once-at-least-i-have-4ad0\">Read Source</a>\n\n<b>7. [AI/ML] AI Avatar v28 (Security Support, Voxel Avatar)🛡️</b>\nIntro AI Avatar is a free app where your VRoid (VRM) avatar cheers you with all its. Currently trending on DEV.to with 19 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 19 · @webdeveloperhyper</i>\n🔗 <a href=\"https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i\">Read Source</a>\n\n<b>8. [AI/ML] Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can&#x27;t Tell Who Won.</b>\nPeople do not injure themselves without cause; the wound must be real. Mix truth with falsehood, and. Currently trending on DEV.to with 49 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 49 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8\">Read Source</a>\n\n<b>9. [AI/ML] Using AI for Anonymity</b>\nUsing GenAI to sound like literally anyone but you. Everyone knows the trick. You paste three of. Currently trending on DEV.to with 9 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 9 · @btarbox</i>\n🔗 <a href=\"https://dev.to/aws-heroes/using-ai-for-anonymity-1adb\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>10. [AI/ML] 9 Best Agent Gateways</b>\nAI agents are becoming part of everyday software systems. They call APIs, retrieve information. Currently trending on DEV.to with 40 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 40 · @hadil</i>\n🔗 <a href=\"https://dev.to/hadil/9-best-agent-gateways-4hia\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-16T05:23:45.945764+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
