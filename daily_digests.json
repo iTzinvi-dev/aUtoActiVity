@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-17T15:39:18.252204+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50530163",
+        "source": "Hacker News",
+        "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (565 points, 288 comments). Currently trending on Hacker News with 565 developer upvotes and 288 technical comments.",
+        "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50530163",
+        "author": "donohoe",
+        "score": 565,
+        "comments_count": 288,
+        "published_at": "2026-11-17T11:45:51+00:00"
+      },
+      {
+        "uid": "hn_50511874",
+        "source": "Hacker News",
+        "title": "VisualBasic.World: A gallery of Planet Source Code programs from 1997 to 2012",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (146 points, 53 comments). Currently trending on Hacker News with 146 developer upvotes and 53 technical comments.",
+        "url": "https://visualbasic.world/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50511874",
+        "author": "broast",
+        "score": 146,
+        "comments_count": 53,
+        "published_at": "2026-11-15T23:08:30+00:00"
+      },
+      {
+        "uid": "hn_50532086",
+        "source": "Hacker News",
+        "title": "We don't need more apps. We need better open source",
+        "category_tag": "[Open Source]",
+        "takeaway": "Hacker News discussion (110 points, 49 comments). Currently trending on Hacker News with 110 developer upvotes and 49 technical comments.",
+        "url": "https://jordankrueger.com/blog/better-open-source-not-more-apps/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50532086",
+        "author": "pandemicsoul",
+        "score": 110,
+        "comments_count": 49,
+        "published_at": "2026-11-17T14:45:36+00:00"
+      },
+      {
+        "uid": "hn_50531751",
+        "source": "Hacker News",
+        "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (83 points, 67 comments). Currently trending on Hacker News with 83 developer upvotes and 67 technical comments.",
+        "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+        "discussion_url": "https://news.ycombinator.com/item?id=50531751",
+        "author": "larrysalibra",
+        "score": 83,
+        "comments_count": 67,
+        "published_at": "2026-11-17T14:19:59+00:00"
+      },
+      {
+        "uid": "hn_50470523",
+        "source": "Hacker News",
+        "title": "Rows vs. Columns: How different are they, really?",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (80 points, 29 comments). Currently trending on Hacker News with 80 developer upvotes and 29 technical comments.",
+        "url": "https://spiraldb.com/blog/rows-vs-columns",
+        "discussion_url": "https://news.ycombinator.com/item?id=50470523",
+        "author": "eatonphil",
+        "score": 80,
+        "comments_count": 29,
+        "published_at": "2026-11-12T17:04:41+00:00"
+      },
+      {
+        "uid": "devto_5012297",
+        "source": "DEV.to",
+        "title": "DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀",
+        "category_tag": "[Open Source]",
+        "takeaway": "Welcome to Issue #1 of DEVengers Weekly — our community-run digest spotlighting the developers,. Currently trending on DEV.to with 44 developer upvotes and 14 technical comments.",
+        "url": "https://dev.to/devengers/devengers-weekly-1-the-mcp-reality-check-career-moats-and-25-weeks-on-the-radar-23ec",
+        "discussion_url": "https://dev.to/devengers/devengers-weekly-1-the-mcp-reality-check-career-moats-and-25-weeks-on-the-radar-23ec",
+        "author": "dj29",
+        "score": 44,
+        "comments_count": 14,
+        "published_at": "2026-11-17T14:18:20Z"
+      },
+      {
+        "uid": "devto_5049709",
+        "source": "DEV.to",
+        "title": "Top 7 Featured DEV Posts of the Week",
+        "category_tag": "[System Design]",
+        "takeaway": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the. Currently trending on DEV.to with 43 developer upvotes and 14 technical comments.",
+        "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-5hda",
+        "discussion_url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-5hda",
+        "author": "heyitsjem",
+        "score": 43,
+        "comments_count": 14,
+        "published_at": "2026-11-17T14:00:00Z"
+      },
+      {
+        "uid": "devto_3046780",
+        "source": "DEV.to",
+        "title": "Killed by Acronyms",
+        "category_tag": "[System Design]",
+        "takeaway": "Speaking the same language doesn't mean understanding each other. If English isn't your first. Currently trending on DEV.to with 9 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/felixcoutinho/killed-by-acronyms-33a1",
+        "discussion_url": "https://dev.to/felixcoutinho/killed-by-acronyms-33a1",
+        "author": "felixcoutinho",
+        "score": 9,
+        "comments_count": 1,
+        "published_at": "2026-11-16T16:55:21Z"
+      },
+      {
+        "uid": "devto_5007369",
+        "source": "DEV.to",
+        "title": "My AI agent kept quoting a number I had already corrected. What has yours remembered wrong?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "In August my coding agent kept telling me that one kind of article on this site draws about four. Currently trending on DEV.to with 17 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/heinrichneb/my-ai-agent-kept-quoting-a-number-i-had-already-corrected-what-has-yours-remembered-wrong-34d0",
+        "discussion_url": "https://dev.to/heinrichneb/my-ai-agent-kept-quoting-a-number-i-had-already-corrected-what-has-yours-remembered-wrong-34d0",
+        "author": "heinrichneb",
+        "score": 17,
+        "comments_count": 10,
+        "published_at": "2026-11-16T22:55:58Z"
+      },
+      {
+        "uid": "devto_5015822",
+        "source": "DEV.to",
+        "title": "Could I Still Do This From Scratch?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The thing that every dev I know is quietly worrying about is not AI taking their job. It's losing the. Currently trending on DEV.to with 27 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
+        "discussion_url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
+        "author": "dannwaneri",
+        "score": 27,
+        "comments_count": 5,
+        "published_at": "2026-11-17T11:26:15Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] New Evidence Shows School Phone Bans Are Gradually Improving Test Scores</b>\nHacker News discussion (565 points, 288 comments). Currently trending on Hacker News with 565 developer upvotes and 288 technical comments.\n<i>Hacker News · ▲ 565 · @donohoe</i>\n🔗 <a href=\"https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50530163\">HN Discussion (288)</a>\n\n<b>2. [System Design] VisualBasic.World: A gallery of Planet Source Code programs from 1997 to 2012</b>\nHacker News discussion (146 points, 53 comments). Currently trending on Hacker News with 146 developer upvotes and 53 technical comments.\n<i>Hacker News · ▲ 146 · @broast</i>\n🔗 <a href=\"https://visualbasic.world/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50511874\">HN Discussion (53)</a>\n\n<b>3. [Open Source] We don&#x27;t need more apps. We need better open source</b>\nHacker News discussion (110 points, 49 comments). Currently trending on Hacker News with 110 developer upvotes and 49 technical comments.\n<i>Hacker News · ▲ 110 · @pandemicsoul</i>\n🔗 <a href=\"https://jordankrueger.com/blog/better-open-source-not-more-apps/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50532086\">HN Discussion (49)</a>\n\n<b>4. [AI/ML] Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns</b>\nHacker News discussion (83 points, 67 comments). Currently trending on Hacker News with 83 developer upvotes and 67 technical comments.\n<i>Hacker News · ▲ 83 · @larrysalibra</i>\n🔗 <a href=\"https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50531751\">HN Discussion (67)</a>\n\n<b>5. [System Design] Rows vs. Columns: How different are they, really?</b>\nHacker News discussion (80 points, 29 comments). Currently trending on Hacker News with 80 developer upvotes and 29 technical comments.\n<i>Hacker News · ▲ 80 · @eatonphil</i>\n🔗 <a href=\"https://spiraldb.com/blog/rows-vs-columns\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50470523\">HN Discussion (29)</a>\n\n<b>6. [Open Source] DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀</b>\nWelcome to Issue #1 of DEVengers Weekly — our community-run digest spotlighting the developers,. Currently trending on DEV.to with 44 developer upvotes and 14 technical comments.\n<i>DEV.to · ▲ 44 · @dj29</i>\n🔗 <a href=\"https://dev.to/devengers/devengers-weekly-1-the-mcp-reality-check-career-moats-and-25-weeks-on-the-radar-23ec\">Read Source</a>\n\n<b>7. [System Design] Top 7 Featured DEV Posts of the Week</b>\nWelcome to this week&#x27;s Top 7, where the DEV editorial team handpicks their favorite posts from the. Currently trending on DEV.to with 43 developer upvotes and 14 technical comments.\n<i>DEV.to · ▲ 43 · @heyitsjem</i>\n🔗 <a href=\"https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-5hda\">Read Source</a>\n\n<b>8. [System Design] Killed by Acronyms</b>\nSpeaking the same language doesn&#x27;t mean understanding each other. If English isn&#x27;t your first. Currently trending on DEV.to with 9 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 9 · @felixcoutinho</i>\n🔗 <a href=\"https://dev.to/felixcoutinho/killed-by-acronyms-33a1\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] My AI agent kept quoting a number I had already corrected. What has yours remembered wrong?</b>\nIn August my coding agent kept telling me that one kind of article on this site draws about four. Currently trending on DEV.to with 17 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 17 · @heinrichneb</i>\n🔗 <a href=\"https://dev.to/heinrichneb/my-ai-agent-kept-quoting-a-number-i-had-already-corrected-what-has-yours-remembered-wrong-34d0\">Read Source</a>\n\n<b>10. [AI/ML] Could I Still Do This From Scratch?</b>\nThe thing that every dev I know is quietly worrying about is not AI taking their job. It&#x27;s losing the. Currently trending on DEV.to with 27 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 27 · @dannwaneri</i>\n🔗 <a href=\"https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-17T01:42:54.832575+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
