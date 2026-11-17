@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-17T01:42:54.832575+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50522980",
+        "source": "Hacker News",
+        "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (693 points, 117 comments). Currently trending on Hacker News with 693 developer upvotes and 117 technical comments.",
+        "url": "https://www.cs.cmu.edu/learn/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50522980",
+        "author": "pcompeau",
+        "score": 693,
+        "comments_count": 117,
+        "published_at": "2026-11-16T20:43:36+00:00"
+      },
+      {
+        "uid": "hn_50523601",
+        "source": "Hacker News",
+        "title": "BugMeNot has closed",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (313 points, 159 comments). Currently trending on Hacker News with 313 developer upvotes and 159 technical comments.",
+        "url": "https://www.bugmenot.com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50523601",
+        "author": "lode",
+        "score": 313,
+        "comments_count": 159,
+        "published_at": "2026-11-16T21:32:17+00:00"
+      },
+      {
+        "uid": "hn_50519744",
+        "source": "Hacker News",
+        "title": "Jiff 1.0: A datetime library for Rust",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (308 points, 74 comments). Currently trending on Hacker News with 308 developer upvotes and 74 technical comments.",
+        "url": "https://burntsushi.net/jiff/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50519744",
+        "author": "burntsushi",
+        "score": 308,
+        "comments_count": 74,
+        "published_at": "2026-11-16T16:53:39+00:00"
+      },
+      {
+        "uid": "hn_50519354",
+        "source": "Hacker News",
+        "title": "Frame – 31.5\" color ePaper display",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (293 points, 205 comments). Currently trending on Hacker News with 293 developer upvotes and 205 technical comments.",
+        "url": "https://trmnl.com/blog/introducing-frame",
+        "discussion_url": "https://news.ycombinator.com/item?id=50519354",
+        "author": "geerlingguy",
+        "score": 293,
+        "comments_count": 205,
+        "published_at": "2026-11-16T16:23:22+00:00"
+      },
+      {
+        "uid": "hn_50524736",
+        "source": "Hacker News",
+        "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (216 points, 101 comments). Currently trending on Hacker News with 216 developer upvotes and 101 technical comments.",
+        "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50524736",
+        "author": "cwaffles",
+        "score": 216,
+        "comments_count": 101,
+        "published_at": "2026-11-16T22:58:20+00:00"
+      },
+      {
+        "uid": "devto_5048780",
+        "source": "DEV.to",
+        "title": "What does DEV stand for?",
+        "category_tag": "[Open Source]",
+        "takeaway": "This post was inspired by @mellen months ago when they made a post on MLH: What does MLH. Currently trending on DEV.to with 93 developer upvotes and 47 technical comments.",
+        "url": "https://dev.to/devengers/what-does-dev-stand-for-2kg9",
+        "discussion_url": "https://dev.to/devengers/what-does-dev-stand-for-2kg9",
+        "author": "francistrdev",
+        "score": 93,
+        "comments_count": 47,
+        "published_at": "2026-11-16T14:55:10Z"
+      },
+      {
+        "uid": "devto_4828639",
+        "source": "DEV.to",
+        "title": "Your 100% Lighthouse A11y Score Is a Lie: The Visual Architecture Guide to the Browser Accessibility Tree",
+        "category_tag": "[System Design]",
+        "takeaway": "A visual, 10-minute deep dive into web accessibility architecture. Learn how browsers construct the Accessibility Tree from the DOM, why custom ARIA divs create more errors than native HTML, how CSS visibility properties alter screen reader output, and how to build leak-free accessible focus traps. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/smtahosin/your-100-lighthouse-a11y-score-is-a-lie-the-visual-architecture-guide-to-the-browser-50l7",
+        "discussion_url": "https://dev.to/smtahosin/your-100-lighthouse-a11y-score-is-a-lie-the-visual-architecture-guide-to-the-browser-50l7",
+        "author": "smtahosin",
+        "score": 7,
+        "comments_count": 0,
+        "published_at": "2026-11-16T20:20:19Z"
+      },
+      {
+        "uid": "devto_5043905",
+        "source": "DEV.to",
+        "title": "High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Seven models on the 15 problems of AIME 2025 I at their lowest and highest thinking settings, under a hard budget. The top setting cost 2.6 to 4.8 times as much on every paid model; Hydrogen, Carbon and Argon solved all 15 at either setting, and no score change was large enough to rule out chance on 15 problems. Currently trending on DEV.to with 20 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091",
+        "discussion_url": "https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091",
+        "author": "xbill",
+        "score": 20,
+        "comments_count": 3,
+        "published_at": "2026-11-16T17:56:57Z"
+      },
+      {
+        "uid": "devto_5048939",
+        "source": "DEV.to",
+        "title": "What are your goals for the week? #205",
+        "category_tag": "[System Design]",
+        "takeaway": "I have an eye doctor appointment Tuesday. If my eyes are dilated, I can't use the the computer for. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/jarvisscript/what-are-your-goals-for-the-week-205-22pg",
+        "discussion_url": "https://dev.to/jarvisscript/what-are-your-goals-for-the-week-205-22pg",
+        "author": "jarvisscript",
+        "score": 7,
+        "comments_count": 0,
+        "published_at": "2026-11-16T15:16:18Z"
+      },
+      {
+        "uid": "devto_5049539",
+        "source": "DEV.to",
+        "title": "PitchPulse — Rehearsing Recovery for High-Pressure Speaking (Powered by Presage SmartSpectra)",
+        "category_tag": "[Web Dev]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I. Currently trending on DEV.to with 36 developer upvotes and 8 technical comments.",
+        "url": "https://dev.to/dj29/pitchpulse-rehearsing-recovery-for-high-pressure-speaking-powered-by-presage-smartspectra-3387",
+        "discussion_url": "https://dev.to/dj29/pitchpulse-rehearsing-recovery-for-high-pressure-speaking-powered-by-presage-smartspectra-3387",
+        "author": "dj29",
+        "score": 36,
+        "comments_count": 8,
+        "published_at": "2026-11-16T17:08:47Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Carnegie Mellon is putting computer science courses on YouTube for free</b>\nHacker News discussion (693 points, 117 comments). Currently trending on Hacker News with 693 developer upvotes and 117 technical comments.\n<i>Hacker News · ▲ 693 · @pcompeau</i>\n🔗 <a href=\"https://www.cs.cmu.edu/learn/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50522980\">HN Discussion (117)</a>\n\n<b>2. [System Design] BugMeNot has closed</b>\nHacker News discussion (313 points, 159 comments). Currently trending on Hacker News with 313 developer upvotes and 159 technical comments.\n<i>Hacker News · ▲ 313 · @lode</i>\n🔗 <a href=\"https://www.bugmenot.com/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50523601\">HN Discussion (159)</a>\n\n<b>3. [Systems] Jiff 1.0: A datetime library for Rust</b>\nHacker News discussion (308 points, 74 comments). Currently trending on Hacker News with 308 developer upvotes and 74 technical comments.\n<i>Hacker News · ▲ 308 · @burntsushi</i>\n🔗 <a href=\"https://burntsushi.net/jiff/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50519744\">HN Discussion (74)</a>\n\n<b>4. [System Design] Frame – 31.5&quot; color ePaper display</b>\nHacker News discussion (293 points, 205 comments). Currently trending on Hacker News with 293 developer upvotes and 205 technical comments.\n<i>Hacker News · ▲ 293 · @geerlingguy</i>\n🔗 <a href=\"https://trmnl.com/blog/introducing-frame\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50519354\">HN Discussion (205)</a>\n\n<b>5. [System Design] Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use</b>\nHacker News discussion (216 points, 101 comments). Currently trending on Hacker News with 216 developer upvotes and 101 technical comments.\n<i>Hacker News · ▲ 216 · @cwaffles</i>\n🔗 <a href=\"https://xusheng.dev/posts/windows-coding-agent-telemetry/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50524736\">HN Discussion (101)</a>\n\n<b>6. [Open Source] What does DEV stand for?</b>\nThis post was inspired by @mellen months ago when they made a post on MLH: What does MLH. Currently trending on DEV.to with 93 developer upvotes and 47 technical comments.\n<i>DEV.to · ▲ 93 · @francistrdev</i>\n🔗 <a href=\"https://dev.to/devengers/what-does-dev-stand-for-2kg9\">Read Source</a>\n\n<b>7. [System Design] Your 100% Lighthouse A11y Score Is a Lie: The Visual Architecture Guide to the Browser Accessibility Tree</b>\nA visual, 10-minute deep dive into web accessibility architecture. Learn how browsers construct the Accessibility Tree from the DOM, why custom ARIA divs create more errors than native HTML, how CSS visibility properties alter screen reader output, and how to build leak-free accessible focus traps. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 7 · @smtahosin</i>\n🔗 <a href=\"https://dev.to/smtahosin/your-100-lighthouse-a11y-score-is-a-lie-the-visual-architecture-guide-to-the-browser-50l7\">Read Source</a>\n\n<b>8. [AI/ML] High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First</b>\nSeven models on the 15 problems of AIME 2025 I at their lowest and highest thinking settings, under a hard budget. The top setting cost 2.6 to 4.8 times as much on every paid model; Hydrogen, Carbon and Argon solved all 15 at either setting, and no score change was large enough to rule out chance on 15 problems. Currently trending on DEV.to with 20 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 20 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [System Design] What are your goals for the week? #205</b>\nI have an eye doctor appointment Tuesday. If my eyes are dilated, I can&#x27;t use the the computer for. Currently trending on DEV.to with 7 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 7 · @jarvisscript</i>\n🔗 <a href=\"https://dev.to/jarvisscript/what-are-your-goals-for-the-week-205-22pg\">Read Source</a>\n\n<b>10. [Web Dev] PitchPulse — Rehearsing Recovery for High-Pressure Speaking (Powered by Presage SmartSpectra)</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I. Currently trending on DEV.to with 36 developer upvotes and 8 technical comments.\n<i>DEV.to · ▲ 36 · @dj29</i>\n🔗 <a href=\"https://dev.to/dj29/pitchpulse-rehearsing-recovery-for-high-pressure-speaking-powered-by-presage-smartspectra-3387\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-16T15:08:20.331924+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
