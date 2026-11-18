@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-18T00:42:10.745152+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50535230",
+        "source": "Hacker News",
+        "title": "GPT‑6.2 Astra and Sol",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (1058 points, 667 comments). Currently trending on Hacker News with 1058 developer upvotes and 667 technical comments.",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50535230",
+        "author": "jasondavies",
+        "score": 1058,
+        "comments_count": 667,
+        "published_at": "2026-11-17T17:46:43+00:00"
+      },
+      {
+        "uid": "hn_50538240",
+        "source": "Hacker News",
+        "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (450 points, 116 comments). Currently trending on Hacker News with 450 developer upvotes and 116 technical comments.",
+        "url": "https://calif.io/java4shell/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50538240",
+        "author": "werrett",
+        "score": 450,
+        "comments_count": 116,
+        "published_at": "2026-11-17T21:11:28+00:00"
+      },
+      {
+        "uid": "hn_50532849",
+        "source": "Hacker News",
+        "title": "Highly classified US national security communications network goes down",
+        "category_tag": "[Security]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;technology&#x2F;highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;technology&#x2F;highly-classified-us-nati...</a>. Currently trending on Hacker News with 449 developer upvotes and 531 technical comments.",
+        "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+        "discussion_url": "https://news.ycombinator.com/item?id=50532849",
+        "author": "monkeydust",
+        "score": 449,
+        "comments_count": 531,
+        "published_at": "2026-11-17T15:38:28+00:00"
+      },
+      {
+        "uid": "hn_50534631",
+        "source": "Hacker News",
+        "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (371 points, 179 comments). Currently trending on Hacker News with 371 developer upvotes and 179 technical comments.",
+        "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+        "discussion_url": "https://news.ycombinator.com/item?id=50534631",
+        "author": "louiereederson",
+        "score": 371,
+        "comments_count": 179,
+        "published_at": "2026-11-17T17:12:06+00:00"
+      },
+      {
+        "uid": "hn_50535885",
+        "source": "Hacker News",
+        "title": "MAI Code 2 and Code 2 Flash",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (272 points, 129 comments). Currently trending on Hacker News with 272 developer upvotes and 129 technical comments.",
+        "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50535885",
+        "author": "lemonish97",
+        "score": 272,
+        "comments_count": 129,
+        "published_at": "2026-11-17T18:25:13+00:00"
+      },
+      {
+        "uid": "devto_5054249",
+        "source": "DEV.to",
+        "title": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Last week Google shipped Gemini 4 Hydrogen, and within hours my X timeline was nothing but 3D scenes,. Currently trending on DEV.to with 16 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/amananandrai/i-built-5-interactive-3d-palaces-with-googles-new-gemini-4-hydrogen-in-ai-studio-5g8h",
+        "discussion_url": "https://dev.to/amananandrai/i-built-5-interactive-3d-palaces-with-googles-new-gemini-4-hydrogen-in-ai-studio-5g8h",
+        "author": "amananandrai",
+        "score": 16,
+        "comments_count": 4,
+        "published_at": "2026-11-17T05:41:54Z"
+      },
+      {
+        "uid": "devto_5058432",
+        "source": "DEV.to",
+        "title": "AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "AI agents now open pull requests on their own. I gave Amazon Nova Pro a real GitHub bug, then built a deterministic Python gate that rejects it when it cannot prove the fix. No model grades the model. Currently trending on DEV.to with 19 developer upvotes and 13 technical comments.",
+        "url": "https://dev.to/aws-builders/ai-agents-open-17-million-pull-requests-a-month-i-built-a-gate-that-rejects-the-ones-that-lie-46n7",
+        "discussion_url": "https://dev.to/aws-builders/ai-agents-open-17-million-pull-requests-a-month-i-built-a-gate-that-rejects-the-ones-that-lie-46n7",
+        "author": "sarvar_04",
+        "score": 19,
+        "comments_count": 13,
+        "published_at": "2026-11-17T15:45:44Z"
+      },
+      {
+        "uid": "devto_5056089",
+        "source": "DEV.to",
+        "title": "The Arrogance of Having Outgrown Arrogance",
+        "category_tag": "[System Design]",
+        "takeaway": "A few days ago, I met up with a happily retired principal engineer for a chat. He wasn't a complete. Currently trending on DEV.to with 26 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/adamthedeveloper/the-arrogance-of-having-outgrown-arrogance-1pl1",
+        "discussion_url": "https://dev.to/adamthedeveloper/the-arrogance-of-having-outgrown-arrogance-1pl1",
+        "author": "adamthedeveloper",
+        "score": 26,
+        "comments_count": 1,
+        "published_at": "2026-11-17T09:48:19Z"
+      },
+      {
+        "uid": "devto_5041988",
+        "source": "DEV.to",
+        "title": "Day 85: A Task That Always Changes and Two Halves",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Day 85 of DevOps, Day 35 of Azure. Both tasks today reported a state that is a word rather than a. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/ndcodes/day-85-one-direction-and-two-halves-5cic",
+        "discussion_url": "https://dev.to/ndcodes/day-85-one-direction-and-two-halves-5cic",
+        "author": "ndcodes",
+        "score": 13,
+        "comments_count": 0,
+        "published_at": "2026-11-17T18:00:00Z"
+      },
+      {
+        "uid": "devto_5058784",
+        "source": "DEV.to",
+        "title": "Thinking On or Off? Gemma 4 E2B on an 8 GB RTX 3050",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Gemma 4 E2B on a local RTX 3050 with thinking off and on, two QAT 4-bit builds, with and without a drafter, on all 1,319 GSM8K problems and the 30 problems of AIME 2025. Thinking doubled the time and moved no score beyond chance; the drafter cut the time by 1.55 to 2.04 times and changed no score. Currently trending on DEV.to with 10 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/gde/thinking-on-or-off-gemma-4-e2b-on-an-8-gb-rtx-3050-30e0",
+        "discussion_url": "https://dev.to/gde/thinking-on-or-off-gemma-4-e2b-on-an-8-gb-rtx-3050-30e0",
+        "author": "xbill",
+        "score": 10,
+        "comments_count": 2,
+        "published_at": "2026-11-17T17:13:33Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [AI/ML] GPT‑6.2 Astra and Sol</b>\nHacker News discussion (1058 points, 667 comments). Currently trending on Hacker News with 1058 developer upvotes and 667 technical comments.\n<i>Hacker News · ▲ 1058 · @jasondavies</i>\n🔗 <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50535230\">HN Discussion (667)</a>\n\n<b>2. [System Design] Java4Shell: RCE in OpenJDK when processing Base64</b>\nHacker News discussion (450 points, 116 comments). Currently trending on Hacker News with 450 developer upvotes and 116 technical comments.\n<i>Hacker News · ▲ 450 · @werrett</i>\n🔗 <a href=\"https://calif.io/java4shell/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50538240\">HN Discussion (116)</a>\n\n<b>3. [Security] Highly classified US national security communications network goes down</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.reuters.com&amp;#x2F;technology&amp;#x2F;highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.reuters.com&amp;#x2F;technology&amp;#x2F;highly-classified-us-nati...&lt;/a&gt;. Currently trending on Hacker News with 449 developer upvotes and 531 technical comments.\n<i>Hacker News · ▲ 449 · @monkeydust</i>\n🔗 <a href=\"https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50532849\">HN Discussion (531)</a>\n\n<b>4. [System Design] Nvidia stopped disclosing Singapore sales as revenues hit $104B</b>\nHacker News discussion (371 points, 179 comments). Currently trending on Hacker News with 371 developer upvotes and 179 technical comments.\n<i>Hacker News · ▲ 371 · @louiereederson</i>\n🔗 <a href=\"https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50534631\">HN Discussion (179)</a>\n\n<b>5. [System Design] MAI Code 2 and Code 2 Flash</b>\nHacker News discussion (272 points, 129 comments). Currently trending on Hacker News with 272 developer upvotes and 129 technical comments.\n<i>Hacker News · ▲ 272 · @lemonish97</i>\n🔗 <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50535885\">HN Discussion (129)</a>\n\n<b>6. [AI/ML] Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio</b>\nLast week Google shipped Gemini 4 Hydrogen, and within hours my X timeline was nothing but 3D scenes,. Currently trending on DEV.to with 16 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 16 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/i-built-5-interactive-3d-palaces-with-googles-new-gemini-4-hydrogen-in-ai-studio-5g8h\">Read Source</a>\n\n<b>7. [AI/ML] AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.</b>\nAI agents now open pull requests on their own. I gave Amazon Nova Pro a real GitHub bug, then built a deterministic Python gate that rejects it when it cannot prove the fix. No model grades the model. Currently trending on DEV.to with 19 developer upvotes and 13 technical comments.\n<i>DEV.to · ▲ 19 · @sarvar_04</i>\n🔗 <a href=\"https://dev.to/aws-builders/ai-agents-open-17-million-pull-requests-a-month-i-built-a-gate-that-rejects-the-ones-that-lie-46n7\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [System Design] The Arrogance of Having Outgrown Arrogance</b>\nA few days ago, I met up with a happily retired principal engineer for a chat. He wasn&#x27;t a complete. Currently trending on DEV.to with 26 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 26 · @adamthedeveloper</i>\n🔗 <a href=\"https://dev.to/adamthedeveloper/the-arrogance-of-having-outgrown-arrogance-1pl1\">Read Source</a>\n\n<b>9. [Cloud/DevOps] Day 85: A Task That Always Changes and Two Halves</b>\nDay 85 of DevOps, Day 35 of Azure. Both tasks today reported a state that is a word rather than a. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 13 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/day-85-one-direction-and-two-halves-5cic\">Read Source</a>\n\n<b>10. [AI/ML] Thinking On or Off? Gemma 4 E2B on an 8 GB RTX 3050</b>\nGemma 4 E2B on a local RTX 3050 with thinking off and on, two QAT 4-bit builds, with and without a drafter, on all 1,319 GSM8K problems and the 30 problems of AIME 2025. Thinking doubled the time and moved no score beyond chance; the drafter cut the time by 1.55 to 2.04 times and changed no score. Currently trending on DEV.to with 10 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 10 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/thinking-on-or-off-gemma-4-e2b-on-an-8-gb-rtx-3050-30e0\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-17T15:39:18.252204+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
