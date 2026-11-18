@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-18T15:17:45.415690+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50538994",
+        "source": "Hacker News",
+        "title": "Quad9's withdrawal from France: A canary in the coal mine",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (817 points, 374 comments). Currently trending on Hacker News with 817 developer upvotes and 374 technical comments.",
+        "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50538994",
+        "author": "subset",
+        "score": 817,
+        "comments_count": 374,
+        "published_at": "2026-11-17T22:13:34+00:00"
+      },
+      {
+        "uid": "hn_50540178",
+        "source": "Hacker News",
+        "title": "Google's AI answers reducing search traffic by 40%",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (596 points, 451 comments). Currently trending on Hacker News with 596 developer upvotes and 451 technical comments.",
+        "url": "https://revscope.co/blog/search-seo-geo-2026/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50540178",
+        "author": "slashdev",
+        "score": 596,
+        "comments_count": 451,
+        "published_at": "2026-11-18T00:17:58+00:00"
+      },
+      {
+        "uid": "hn_50540437",
+        "source": "Hacker News",
+        "title": "ID.me terms required for IRS sign-in",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (427 points, 223 comments). Currently trending on Hacker News with 427 developer upvotes and 223 technical comments.",
+        "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+        "discussion_url": "https://news.ycombinator.com/item?id=50540437",
+        "author": "DeepLogin",
+        "score": 427,
+        "comments_count": 223,
+        "published_at": "2026-11-18T00:51:45+00:00"
+      },
+      {
+        "uid": "hn_50545958",
+        "source": "Hacker News",
+        "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (204 points, 45 comments). Currently trending on Hacker News with 204 developer upvotes and 45 technical comments.",
+        "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50545958",
+        "author": "ritzaco",
+        "score": 204,
+        "comments_count": 45,
+        "published_at": "2026-11-18T13:18:02+00:00"
+      },
+      {
+        "uid": "hn_50543989",
+        "source": "Hacker News",
+        "title": "Energy-Based Reasoners: 385x more efficient inference",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (204 points, 29 comments). Currently trending on Hacker News with 204 developer upvotes and 29 technical comments.",
+        "url": "https://energy-based-reasoners.github.io/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50543989",
+        "author": "frenchmajesty",
+        "score": 204,
+        "comments_count": 29,
+        "published_at": "2026-11-18T09:29:32+00:00"
+      },
+      {
+        "uid": "devto_5060452",
+        "source": "DEV.to",
+        "title": "Is Coding with AI Actually Faster and Cheaper?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "How has AI actually changed the way we work? Are coding agents really making us remarkably faster?. Currently trending on DEV.to with 84 developer upvotes and 48 technical comments.",
+        "url": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
+        "discussion_url": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
+        "author": "sylwia-lask",
+        "score": 84,
+        "comments_count": 48,
+        "published_at": "2026-11-18T08:32:45Z"
+      },
+      {
+        "uid": "devto_4825824",
+        "source": "DEV.to",
+        "title": "Rust Doesn't Have a Garbage Collector. It Has Something Stranger.",
+        "category_tag": "[Systems]",
+        "takeaway": "A visual guide to how Rust's compiler proves your memory is safe before your program ever runs. No garbage collector, no manual free(), no runtime cost. Currently trending on DEV.to with 12 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/smtahosin/rust-doesnt-have-a-garbage-collector-it-has-something-stranger-2oan",
+        "discussion_url": "https://dev.to/smtahosin/rust-doesnt-have-a-garbage-collector-it-has-something-stranger-2oan",
+        "author": "smtahosin",
+        "score": 12,
+        "comments_count": 0,
+        "published_at": "2026-11-17T16:53:04Z"
+      },
+      {
+        "uid": "devto_4828114",
+        "source": "DEV.to",
+        "title": "Kubernetes Under the Hood: What Actually Happens When You Run kubectl apply",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "A visual, 10-minute deep dive into Kubernetes control plane internals. Learn how kube-apiserver processes admission webhooks, how etcd maintains Raft quorum, how controllers reconcile state with Informers, how kube-scheduler scores nodes, and what the Kubelet pause container actually does. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/smtahosin/kubernetes-under-the-hood-what-actually-happens-when-you-run-kubectl-apply-5cog",
+        "discussion_url": "https://dev.to/smtahosin/kubernetes-under-the-hood-what-actually-happens-when-you-run-kubectl-apply-5cog",
+        "author": "smtahosin",
+        "score": 13,
+        "comments_count": 0,
+        "published_at": "2026-11-18T13:09:55Z"
+      },
+      {
+        "uid": "devto_5062863",
+        "source": "DEV.to",
+        "title": "One Year on DEV: The People Made the Platform",
+        "category_tag": "[Open Source]",
+        "takeaway": "I recently got a new badge on my DEV profile. It says One Year on DEV 🎂 I joined on 17 November. Currently trending on DEV.to with 79 developer upvotes and 14 technical comments.",
+        "url": "https://dev.to/hanzla/one-year-on-dev-the-people-made-the-platform-hab",
+        "discussion_url": "https://dev.to/hanzla/one-year-on-dev-the-people-made-the-platform-hab",
+        "author": "hanzla",
+        "score": 79,
+        "comments_count": 14,
+        "published_at": "2026-11-18T07:54:09Z"
+      },
+      {
+        "uid": "devto_5062446",
+        "source": "DEV.to",
+        "title": "Part 6: The Walkthrough That Only Worked on My Machine",
+        "category_tag": "[AI/ML]",
+        "takeaway": "This is Part 6 of a series building an HL7 v2-to-FHIR R4 interoperability service in public. The. Currently trending on DEV.to with 19 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/ndcodes/part-6-the-walkthrough-that-only-worked-on-my-machine-15e8",
+        "discussion_url": "https://dev.to/ndcodes/part-6-the-walkthrough-that-only-worked-on-my-machine-15e8",
+        "author": "ndcodes",
+        "score": 19,
+        "comments_count": 2,
+        "published_at": "2026-11-18T06:43:15Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        207,
+        208,
+        209,
+        210,
+        211,
+        212
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Quad9&#x27;s withdrawal from France: A canary in the coal mine</b>\nHacker News discussion (817 points, 374 comments). Currently trending on Hacker News with 817 developer upvotes and 374 technical comments.\n<i>Hacker News · ▲ 817 · @subset</i>\n🔗 <a href=\"https://blog.cloudflare.com/quad9-withdrawal-from-france/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50538994\">HN Discussion (374)</a>\n\n<b>2. [AI/ML] Google&#x27;s AI answers reducing search traffic by 40%</b>\nHacker News discussion (596 points, 451 comments). Currently trending on Hacker News with 596 developer upvotes and 451 technical comments.\n<i>Hacker News · ▲ 596 · @slashdev</i>\n🔗 <a href=\"https://revscope.co/blog/search-seo-geo-2026/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50540178\">HN Discussion (451)</a>\n\n<b>3. [System Design] ID.me terms required for IRS sign-in</b>\nHacker News discussion (427 points, 223 comments). Currently trending on Hacker News with 427 developer upvotes and 223 technical comments.\n<i>Hacker News · ▲ 427 · @DeepLogin</i>\n🔗 <a href=\"https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50540437\">HN Discussion (223)</a>\n\n<b>4. [System Design] Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy</b>\nHacker News discussion (204 points, 45 comments). Currently trending on Hacker News with 204 developer upvotes and 45 technical comments.\n<i>Hacker News · ▲ 204 · @ritzaco</i>\n🔗 <a href=\"https://techstackups.com/articles/quad9-leaves-france-dns-blocking/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50545958\">HN Discussion (45)</a>\n\n<b>5. [AI/ML] Energy-Based Reasoners: 385x more efficient inference</b>\nHacker News discussion (204 points, 29 comments). Currently trending on Hacker News with 204 developer upvotes and 29 technical comments.\n<i>Hacker News · ▲ 204 · @frenchmajesty</i>\n🔗 <a href=\"https://energy-based-reasoners.github.io/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50543989\">HN Discussion (29)</a>\n\n<b>6. [AI/ML] Is Coding with AI Actually Faster and Cheaper?</b>\nHow has AI actually changed the way we work? Are coding agents really making us remarkably faster?. Currently trending on DEV.to with 84 developer upvotes and 48 technical comments.\n<i>DEV.to · ▲ 84 · @sylwia-lask</i>\n🔗 <a href=\"https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810\">Read Source</a>\n\n<b>7. [Systems] Rust Doesn&#x27;t Have a Garbage Collector. It Has Something Stranger.</b>\nA visual guide to how Rust&#x27;s compiler proves your memory is safe before your program ever runs. No garbage collector, no manual free(), no runtime cost. Currently trending on DEV.to with 12 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 12 · @smtahosin</i>\n🔗 <a href=\"https://dev.to/smtahosin/rust-doesnt-have-a-garbage-collector-it-has-something-stranger-2oan\">Read Source</a>\n\n<b>8. [Cloud/DevOps] Kubernetes Under the Hood: What Actually Happens When You Run kubectl apply</b>\nA visual, 10-minute deep dive into Kubernetes control plane internals. Learn how kube-apiserver processes admission webhooks, how etcd maintains Raft quorum, how controllers reconcile state with Informers, how kube-scheduler scores nodes, and what the Kubelet pause container actually does. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 13 · @smtahosin</i>\n🔗 <a href=\"https://dev.to/smtahosin/kubernetes-under-the-hood-what-actually-happens-when-you-run-kubectl-apply-5cog\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Open Source] One Year on DEV: The People Made the Platform</b>\nI recently got a new badge on my DEV profile. It says One Year on DEV 🎂 I joined on 17 November. Currently trending on DEV.to with 79 developer upvotes and 14 technical comments.\n<i>DEV.to · ▲ 79 · @hanzla</i>\n🔗 <a href=\"https://dev.to/hanzla/one-year-on-dev-the-people-made-the-platform-hab\">Read Source</a>\n\n<b>10. [AI/ML] Part 6: The Walkthrough That Only Worked on My Machine</b>\nThis is Part 6 of a series building an HL7 v2-to-FHIR R4 interoperability service in public. The. Currently trending on DEV.to with 19 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 19 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/part-6-the-walkthrough-that-only-worked-on-my-machine-15e8\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-18T00:42:10.745152+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
