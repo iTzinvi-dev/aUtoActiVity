@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-19T20:08:13.703601+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50519231",
+        "source": "Hacker News",
+        "title": "Garage Door Spam",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (601 points, 257 comments). Currently trending on Hacker News with 601 developer upvotes and 257 technical comments.",
+        "url": "https://blog.harrison.page/garage-door-spam/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50519231",
+        "author": "harrisonpage",
+        "score": 601,
+        "comments_count": 257,
+        "published_at": "2026-11-16T16:13:36+00:00"
+      },
+      {
+        "uid": "hn_50562754",
+        "source": "Hacker News",
+        "title": "Anthropic hits $2T in Nasdaq debut",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (471 points, 728 comments). Currently trending on Hacker News with 471 developer upvotes and 728 technical comments.",
+        "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50562754",
+        "author": "wslh",
+        "score": 471,
+        "comments_count": 728,
+        "published_at": "2026-11-19T17:02:40+00:00"
+      },
+      {
+        "uid": "hn_50562113",
+        "source": "Hacker News",
+        "title": "UK government forced to admit it issued Apple a secret encryption order",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (276 points, 133 comments). Currently trending on Hacker News with 276 developer upvotes and 133 technical comments.",
+        "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50562113",
+        "author": "Terretta",
+        "score": 276,
+        "comments_count": 133,
+        "published_at": "2026-11-19T16:21:03+00:00"
+      },
+      {
+        "uid": "hn_50558906",
+        "source": "Hacker News",
+        "title": "Someone reported java4shell bug in September 2026",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (253 points, 69 comments). Currently trending on Hacker News with 253 developer upvotes and 69 technical comments.",
+        "url": "https://github.com/openjdk/jdk/pull/32781",
+        "discussion_url": "https://news.ycombinator.com/item?id=50558906",
+        "author": "notmine1337",
+        "score": 253,
+        "comments_count": 69,
+        "published_at": "2026-11-19T11:47:03+00:00"
+      },
+      {
+        "uid": "hn_50563148",
+        "source": "Hacker News",
+        "title": "Claude solves two open problems in the physics of black holes",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (202 points, 67 comments). Currently trending on Hacker News with 202 developer upvotes and 67 technical comments.",
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+        "discussion_url": "https://news.ycombinator.com/item?id=50563148",
+        "author": "cybermango",
+        "score": 202,
+        "comments_count": 67,
+        "published_at": "2026-11-19T17:30:44+00:00"
+      },
+      {
+        "uid": "devto_5071647",
+        "source": "DEV.to",
+        "title": "My First GitHub Issue & My First Forem (DEV.to) Issue 🚀",
+        "category_tag": "[Open Source]",
+        "takeaway": "Hey everyone! 🎉 I have some exciting news to share! I created my first GitHub Issue and my. Currently trending on DEV.to with 53 developer upvotes and 13 technical comments.",
+        "url": "https://dev.to/necoz/my-first-github-issue-my-first-forem-devto-issue-5eap",
+        "discussion_url": "https://dev.to/necoz/my-first-github-issue-my-first-forem-devto-issue-5eap",
+        "author": "star123",
+        "score": 53,
+        "comments_count": 13,
+        "published_at": "2026-11-19T08:06:29Z"
+      },
+      {
+        "uid": "devto_5069322",
+        "source": "DEV.to",
+        "title": "Serverless Gemma 4: E2B on a Lambda GPU Function, with Google's QAT Weights and Drafter",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Gemma 4 E2B with Google's QAT 4-bit weights and its assistant drafter, served by vLLM inside an AWS Lambda function on an NVIDIA L4. How to build it on the day Lambda gained GPUs, a local chat page, and what the drafter does to speed from 1 to 48 requests at once. Currently trending on DEV.to with 24 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/gde/serverless-gemma-4-e2b-on-a-lambda-gpu-function-with-googles-qat-weights-and-drafter-fh4",
+        "discussion_url": "https://dev.to/gde/serverless-gemma-4-e2b-on-a-lambda-gpu-function-with-googles-qat-weights-and-drafter-fh4",
+        "author": "xbill",
+        "score": 24,
+        "comments_count": 2,
+        "published_at": "2026-11-19T01:06:01Z"
+      },
+      {
+        "uid": "devto_4969427",
+        "source": "DEV.to",
+        "title": "When DDD Is the Wrong Tool for the Job",
+        "category_tag": "[System Design]",
+        "takeaway": "A pure CRUD application scores zero. That's not a critic of domain-driven design talking. It's. Currently trending on DEV.to with 5 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/andriiboyko/when-ddd-is-the-wrong-tool-for-the-job-13g8",
+        "discussion_url": "https://dev.to/andriiboyko/when-ddd-is-the-wrong-tool-for-the-job-13g8",
+        "author": "andriiboyko",
+        "score": 5,
+        "comments_count": 1,
+        "published_at": "2026-11-18T20:59:01Z"
+      },
+      {
+        "uid": "devto_5058147",
+        "source": "DEV.to",
+        "title": "Stop Wrapping Everything in Promise.all: How Unbounded Concurrency Crashes APIs",
+        "category_tag": "[Systems]",
+        "takeaway": "Promise.all fires every async task on the same event-loop tick. Learn why unbounded concurrency causes 429 storms and how to fix it with a bounded worker pool. Currently trending on DEV.to with 17 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/johnnylemonny/stop-wrapping-everything-in-promiseall-how-unbounded-concurrency-crashes-apis-11ol",
+        "discussion_url": "https://dev.to/johnnylemonny/stop-wrapping-everything-in-promiseall-how-unbounded-concurrency-crashes-apis-11ol",
+        "author": "johnnylemonny",
+        "score": 17,
+        "comments_count": 3,
+        "published_at": "2026-11-19T16:30:00Z"
+      },
+      {
+        "uid": "devto_5070481",
+        "source": "DEV.to",
+        "title": "What this week's nginx HTTP/2 CVEs mean for the server I actually run",
+        "category_tag": "[Security]",
+        "takeaway": "I checked Ubuntu 24.04's own nginx package against this week's HTTP/2 RCE advisories: still listed vulnerable with no fix, and the documented mitigation doesn't even parse on it. Disabling HTTP/2 as a stopgap cost 45-70% more time in my own benchmark, up to 4x on a single connection. Currently trending on DEV.to with 12 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/what-this-weeks-nginx-http2-cves-mean-for-the-server-i-actually-run-3nbf",
+        "discussion_url": "https://dev.to/alexgeorgiev17/what-this-weeks-nginx-http2-cves-mean-for-the-server-i-actually-run-3nbf",
+        "author": "alexgeorgiev17",
+        "score": 12,
+        "comments_count": 4,
+        "published_at": "2026-11-19T11:00:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        225,
+        226,
+        227,
+        228,
+        229,
+        230
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Garage Door Spam</b>\nHacker News discussion (601 points, 257 comments). Currently trending on Hacker News with 601 developer upvotes and 257 technical comments.\n<i>Hacker News · ▲ 601 · @harrisonpage</i>\n🔗 <a href=\"https://blog.harrison.page/garage-door-spam/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50519231\">HN Discussion (257)</a>\n\n<b>2. [System Design] Anthropic hits $2T in Nasdaq debut</b>\nHacker News discussion (471 points, 728 comments). Currently trending on Hacker News with 471 developer upvotes and 728 technical comments.\n<i>Hacker News · ▲ 471 · @wslh</i>\n🔗 <a href=\"https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50562754\">HN Discussion (728)</a>\n\n<b>3. [Security] UK government forced to admit it issued Apple a secret encryption order</b>\nHacker News discussion (276 points, 133 comments). Currently trending on Hacker News with 276 developer upvotes and 133 technical comments.\n<i>Hacker News · ▲ 276 · @Terretta</i>\n🔗 <a href=\"https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50562113\">HN Discussion (133)</a>\n\n<b>4. [System Design] Someone reported java4shell bug in September 2026</b>\nHacker News discussion (253 points, 69 comments). Currently trending on Hacker News with 253 developer upvotes and 69 technical comments.\n<i>Hacker News · ▲ 253 · @notmine1337</i>\n🔗 <a href=\"https://github.com/openjdk/jdk/pull/32781\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50558906\">HN Discussion (69)</a>\n\n<b>5. [System Design] Claude solves two open problems in the physics of black holes</b>\nHacker News discussion (202 points, 67 comments). Currently trending on Hacker News with 202 developer upvotes and 67 technical comments.\n<i>Hacker News · ▲ 202 · @cybermango</i>\n🔗 <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50563148\">HN Discussion (67)</a>\n\n<b>6. [Open Source] My First GitHub Issue &amp; My First Forem (DEV.to) Issue 🚀</b>\nHey everyone! 🎉 I have some exciting news to share! I created my first GitHub Issue and my. Currently trending on DEV.to with 53 developer upvotes and 13 technical comments.\n<i>DEV.to · ▲ 53 · @star123</i>\n🔗 <a href=\"https://dev.to/necoz/my-first-github-issue-my-first-forem-devto-issue-5eap\">Read Source</a>\n\n<b>7. [AI/ML] Serverless Gemma 4: E2B on a Lambda GPU Function, with Google&#x27;s QAT Weights and Drafter</b>\nGemma 4 E2B with Google&#x27;s QAT 4-bit weights and its assistant drafter, served by vLLM inside an AWS Lambda function on an NVIDIA L4. How to build it on the day Lambda gained GPUs, a local chat page, and what the drafter does to speed from 1 to 48 requests at once. Currently trending on DEV.to with 24 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 24 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/serverless-gemma-4-e2b-on-a-lambda-gpu-function-with-googles-qat-weights-and-drafter-fh4\">Read Source</a>\n\n<b>8. [System Design] When DDD Is the Wrong Tool for the Job</b>\nA pure CRUD application scores zero. That&#x27;s not a critic of domain-driven design talking. It&#x27;s. Currently trending on DEV.to with 5 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 5 · @andriiboyko</i>\n🔗 <a href=\"https://dev.to/andriiboyko/when-ddd-is-the-wrong-tool-for-the-job-13g8\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Systems] Stop Wrapping Everything in Promise.all: How Unbounded Concurrency Crashes APIs</b>\nPromise.all fires every async task on the same event-loop tick. Learn why unbounded concurrency causes 429 storms and how to fix it with a bounded worker pool. Currently trending on DEV.to with 17 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 17 · @johnnylemonny</i>\n🔗 <a href=\"https://dev.to/johnnylemonny/stop-wrapping-everything-in-promiseall-how-unbounded-concurrency-crashes-apis-11ol\">Read Source</a>\n\n<b>10. [Security] What this week&#x27;s nginx HTTP/2 CVEs mean for the server I actually run</b>\nI checked Ubuntu 24.04&#x27;s own nginx package against this week&#x27;s HTTP/2 RCE advisories: still listed vulnerable with no fix, and the documented mitigation doesn&#x27;t even parse on it. Disabling HTTP/2 as a stopgap cost 45-70% more time in my own benchmark, up to 4x on a single connection. Currently trending on DEV.to with 12 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 12 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/what-this-weeks-nginx-http2-cves-mean-for-the-server-i-actually-run-3nbf\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-19T07:11:16.213559+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
