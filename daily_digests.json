@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-19T07:11:16.213559+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50550415",
+        "source": "Hacker News",
+        "title": "Genie 4 is now available",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (231 points, 156 comments). Currently trending on Hacker News with 231 developer upvotes and 156 technical comments.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50550415",
+        "author": "leumon",
+        "score": 231,
+        "comments_count": 156,
+        "published_at": "2026-11-18T18:49:51+00:00"
+      },
+      {
+        "uid": "hn_50554038",
+        "source": "Hacker News",
+        "title": "Multiple vulnerabilities in Regexp and String case conversion",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (198 points, 63 comments). Currently trending on Hacker News with 198 developer upvotes and 63 technical comments.",
+        "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50554038",
+        "author": "runesoerensen",
+        "score": 198,
+        "comments_count": 63,
+        "published_at": "2026-11-18T23:52:50+00:00"
+      },
+      {
+        "uid": "hn_50551046",
+        "source": "Hacker News",
+        "title": "DaisyRose-27B",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (185 points, 59 comments). Currently trending on Hacker News with 185 developer upvotes and 59 technical comments.",
+        "url": "https://www.radixark.com/blog/daisyrose-27b",
+        "discussion_url": "https://news.ycombinator.com/item?id=50551046",
+        "author": "de_sty",
+        "score": 185,
+        "comments_count": 59,
+        "published_at": "2026-11-18T19:39:16+00:00"
+      },
+      {
+        "uid": "hn_50553225",
+        "source": "Hacker News",
+        "title": "LLM assisted reverse engineering",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (160 points, 39 comments). Currently trending on Hacker News with 160 developer upvotes and 39 technical comments.",
+        "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+        "discussion_url": "https://news.ycombinator.com/item?id=50553225",
+        "author": "ioma8",
+        "score": 160,
+        "comments_count": 39,
+        "published_at": "2026-11-18T22:29:13+00:00"
+      },
+      {
+        "uid": "hn_50553843",
+        "source": "Hacker News",
+        "title": "Anthropic prices initial public offering",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (146 points, 126 comments). Currently trending on Hacker News with 146 developer upvotes and 126 technical comments.",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "discussion_url": "https://news.ycombinator.com/item?id=50553843",
+        "author": "surprisetalk",
+        "score": 146,
+        "comments_count": 126,
+        "published_at": "2026-11-18T23:30:09+00:00"
+      },
+      {
+        "uid": "devto_5069884",
+        "source": "DEV.to",
+        "title": "Stratagems #36: They Finished Their Coffee. The AI Still Has No Answer.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Know When to Walk Away The Thirty-Six Stratagems, Stratagem 36 Open as Usual When. Currently trending on DEV.to with 55 developer upvotes and 17 technical comments.",
+        "url": "https://dev.to/xulingfeng/stratagems-36-they-finished-their-coffee-the-ai-still-has-no-answer-4igh",
+        "discussion_url": "https://dev.to/xulingfeng/stratagems-36-they-finished-their-coffee-the-ai-still-has-no-answer-4igh",
+        "author": "xulingfeng",
+        "score": 55,
+        "comments_count": 17,
+        "published_at": "2026-11-19T03:35:10Z"
+      },
+      {
+        "uid": "devto_5060294",
+        "source": "DEV.to",
+        "title": "The Colab MCP Endpoint From Claude Code: Set It Up, Test It, Run a Notebook on a TPU",
+        "category_tag": "[System Design]",
+        "takeaway": "Google's hosted Colab MCP endpoint, step by step: a token with the colaboratory scope, a quota project, registration in Claude Code with a headers helper, and a Python runner that executes a notebook on a fresh TPU v5e-1 and deletes it. Currently trending on DEV.to with 22 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/gde/the-colab-mcp-endpoint-from-claude-code-set-it-up-test-it-run-a-notebook-on-a-tpu-4ck9",
+        "discussion_url": "https://dev.to/gde/the-colab-mcp-endpoint-from-claude-code-set-it-up-test-it-run-a-notebook-on-a-tpu-4ck9",
+        "author": "xbill",
+        "score": 22,
+        "comments_count": 2,
+        "published_at": "2026-11-18T13:58:57Z"
+      },
+      {
+        "uid": "devto_5042076",
+        "source": "DEV.to",
+        "title": "Day 86: A Per-Host Variable and an Account-Wide Rule",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Day 86 of DevOps, Day 36 of Azure. Both tasks today were about a setting whose scope is not where you. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/ndcodes/day-86-a-per-host-variable-and-an-account-wide-rule-538c",
+        "discussion_url": "https://dev.to/ndcodes/day-86-a-per-host-variable-and-an-account-wide-rule-538c",
+        "author": "ndcodes",
+        "score": 13,
+        "comments_count": 0,
+        "published_at": "2026-11-18T18:00:00Z"
+      },
+      {
+        "uid": "devto_5060293",
+        "source": "DEV.to",
+        "title": "Gemma 4 on a Hosted Colab TPU: The QAT Repack, Served in Two Minutes",
+        "category_tag": "[System Design]",
+        "takeaway": "One notebook loads the Gemma 4 E2B QAT repack onto a Colab v5e-1, serves it behind an OpenAI-compatible endpoint with a chat page, and steps through thinking, sampling, stop sequences, long prompts and a CPU comparison. Currently trending on DEV.to with 19 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/gemma-4-on-a-hosted-colab-tpu-the-qat-repack-served-in-two-minutes-360j",
+        "discussion_url": "https://dev.to/gde/gemma-4-on-a-hosted-colab-tpu-the-qat-repack-served-in-two-minutes-360j",
+        "author": "xbill",
+        "score": 19,
+        "comments_count": 0,
+        "published_at": "2026-11-18T13:58:54Z"
+      },
+      {
+        "uid": "devto_5062324",
+        "source": "DEV.to",
+        "title": "Next.js use cache Reused the Same Cache Entry for Different Files Before 16.4.5",
+        "category_tag": "[Web Dev]",
+        "takeaway": "The Next.js docs tell you that the serializable arguments you pass to a use cache function become. Currently trending on DEV.to with 23 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/shubhradev/nextjs-use-cache-reused-the-same-cache-entry-for-different-files-before-1645-598g",
+        "discussion_url": "https://dev.to/shubhradev/nextjs-use-cache-reused-the-same-cache-entry-for-different-files-before-1645-598g",
+        "author": "shubhradev",
+        "score": 23,
+        "comments_count": 9,
+        "published_at": "2026-11-18T14:38:57Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        219,
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Genie 4 is now available</b>\nHacker News discussion (231 points, 156 comments). Currently trending on Hacker News with 231 developer upvotes and 156 technical comments.\n<i>Hacker News · ▲ 231 · @leumon</i>\n🔗 <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50550415\">HN Discussion (156)</a>\n\n<b>2. [System Design] Multiple vulnerabilities in Regexp and String case conversion</b>\nHacker News discussion (198 points, 63 comments). Currently trending on Hacker News with 198 developer upvotes and 63 technical comments.\n<i>Hacker News · ▲ 198 · @runesoerensen</i>\n🔗 <a href=\"https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50554038\">HN Discussion (63)</a>\n\n<b>3. [System Design] DaisyRose-27B</b>\nHacker News discussion (185 points, 59 comments). Currently trending on Hacker News with 185 developer upvotes and 59 technical comments.\n<i>Hacker News · ▲ 185 · @de_sty</i>\n🔗 <a href=\"https://www.radixark.com/blog/daisyrose-27b\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50551046\">HN Discussion (59)</a>\n\n<b>4. [AI/ML] LLM assisted reverse engineering</b>\nHacker News discussion (160 points, 39 comments). Currently trending on Hacker News with 160 developer upvotes and 39 technical comments.\n<i>Hacker News · ▲ 160 · @ioma8</i>\n🔗 <a href=\"https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50553225\">HN Discussion (39)</a>\n\n<b>5. [System Design] Anthropic prices initial public offering</b>\nHacker News discussion (146 points, 126 comments). Currently trending on Hacker News with 146 developer upvotes and 126 technical comments.\n<i>Hacker News · ▲ 146 · @surprisetalk</i>\n🔗 <a href=\"https://www.anthropic.com/news/anthropic-prices-initial-public-offering\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50553843\">HN Discussion (126)</a>\n\n<b>6. [AI/ML] Stratagems #36: They Finished Their Coffee. The AI Still Has No Answer.</b>\nKnow When to Walk Away The Thirty-Six Stratagems, Stratagem 36 Open as Usual When. Currently trending on DEV.to with 55 developer upvotes and 17 technical comments.\n<i>DEV.to · ▲ 55 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/xulingfeng/stratagems-36-they-finished-their-coffee-the-ai-still-has-no-answer-4igh\">Read Source</a>\n\n<b>7. [System Design] The Colab MCP Endpoint From Claude Code: Set It Up, Test It, Run a Notebook on a TPU</b>\nGoogle&#x27;s hosted Colab MCP endpoint, step by step: a token with the colaboratory scope, a quota project, registration in Claude Code with a headers helper, and a Python runner that executes a notebook on a fresh TPU v5e-1 and deletes it. Currently trending on DEV.to with 22 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 22 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/the-colab-mcp-endpoint-from-claude-code-set-it-up-test-it-run-a-notebook-on-a-tpu-4ck9\">Read Source</a>\n\n<b>8. [Cloud/DevOps] Day 86: A Per-Host Variable and an Account-Wide Rule</b>\nDay 86 of DevOps, Day 36 of Azure. Both tasks today were about a setting whose scope is not where you. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 13 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/day-86-a-per-host-variable-and-an-account-wide-rule-538c\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [System Design] Gemma 4 on a Hosted Colab TPU: The QAT Repack, Served in Two Minutes</b>\nOne notebook loads the Gemma 4 E2B QAT repack onto a Colab v5e-1, serves it behind an OpenAI-compatible endpoint with a chat page, and steps through thinking, sampling, stop sequences, long prompts and a CPU comparison. Currently trending on DEV.to with 19 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 19 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/gemma-4-on-a-hosted-colab-tpu-the-qat-repack-served-in-two-minutes-360j\">Read Source</a>\n\n<b>10. [Web Dev] Next.js use cache Reused the Same Cache Entry for Different Files Before 16.4.5</b>\nThe Next.js docs tell you that the serializable arguments you pass to a use cache function become. Currently trending on DEV.to with 23 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 23 · @shubhradev</i>\n🔗 <a href=\"https://dev.to/shubhradev/nextjs-use-cache-reused-the-same-cache-entry-for-different-files-before-1645-598g\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-18T23:59:45.605113+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
