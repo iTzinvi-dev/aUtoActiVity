@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-20T19:43:44.411491+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50574968",
+        "source": "Hacker News",
+        "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (1903 points, 1279 comments). Currently trending on Hacker News with 1903 developer upvotes and 1279 technical comments.",
+        "url": "https://alpo.ge/remark.pdf",
+        "discussion_url": "https://news.ycombinator.com/item?id=50574968",
+        "author": "iamronaldo",
+        "score": 1903,
+        "comments_count": 1279,
+        "published_at": "2026-11-20T14:16:21+00:00"
+      },
+      {
+        "uid": "hn_50576855",
+        "source": "Hacker News",
+        "title": "I'll never buy Framework hardware again",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (696 points, 448 comments). Currently trending on Hacker News with 696 developer upvotes and 448 technical comments.",
+        "url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50576855",
+        "author": "unchar1",
+        "score": 696,
+        "comments_count": 448,
+        "published_at": "2026-11-20T16:06:30+00:00"
+      },
+      {
+        "uid": "hn_50572503",
+        "source": "Hacker News",
+        "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (536 points, 288 comments). Currently trending on Hacker News with 536 developer upvotes and 288 technical comments.",
+        "url": "https://architectlabs.com/blog/frostbite",
+        "discussion_url": "https://news.ycombinator.com/item?id=50572503",
+        "author": "shioyama",
+        "score": 536,
+        "comments_count": 288,
+        "published_at": "2026-11-20T10:01:41+00:00"
+      },
+      {
+        "uid": "hn_50572355",
+        "source": "Hacker News",
+        "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (522 points, 263 comments). Currently trending on Hacker News with 522 developer upvotes and 263 technical comments.",
+        "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+        "discussion_url": "https://news.ycombinator.com/item?id=50572355",
+        "author": "sammatilda",
+        "score": 522,
+        "comments_count": 263,
+        "published_at": "2026-11-20T09:43:19+00:00"
+      },
+      {
+        "uid": "hn_50579568",
+        "source": "Hacker News",
+        "title": "Hurried Announcement: Alessandro Masullo GRH",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (436 points, 136 comments). Currently trending on Hacker News with 436 developer upvotes and 136 technical comments.",
+        "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50579568",
+        "author": "jasondavies",
+        "score": 436,
+        "comments_count": 136,
+        "published_at": "2026-11-20T18:33:14+00:00"
+      },
+      {
+        "uid": "devto_5056698",
+        "source": "DEV.to",
+        "title": "Tell us your story, and we might read it on the CodeNewbie Podcast 🎙️",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hi! I’m Lauren 👩🏼‍💻, the new host of the CodeNewbie Podcast, and I’d love to hear your. Currently trending on DEV.to with 26 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/codenewbie/tell-us-your-story-and-we-might-read-it-on-the-codenewbie-podcast-2840",
+        "discussion_url": "https://dev.to/codenewbie/tell-us-your-story-and-we-might-read-it-on-the-codenewbie-podcast-2840",
+        "author": "lolocoding",
+        "score": 26,
+        "comments_count": 4,
+        "published_at": "2026-11-20T16:28:49Z"
+      },
+      {
+        "uid": "devto_5074788",
+        "source": "DEV.to",
+        "title": "I can't believe the podcast I learned to code with is back!",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hi friends! 👋 Okay, storytime 🎬 Felt the urge to share this here too, since DEV is where it all. Currently trending on DEV.to with 25 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/codenewbie/i-cant-believe-the-podcast-i-learned-to-code-with-is-back-2gi5",
+        "discussion_url": "https://dev.to/codenewbie/i-cant-believe-the-podcast-i-learned-to-code-with-is-back-2gi5",
+        "author": "lolocoding",
+        "score": 25,
+        "comments_count": 0,
+        "published_at": "2026-11-20T08:55:01Z"
+      },
+      {
+        "uid": "devto_5081870",
+        "source": "DEV.to",
+        "title": "Agentic engineering a smart home energy system with Antigravity and Gemini 4",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Running rooftop solar, a home battery, two electric vehicles (EVs), and dynamic hourly electricity. Currently trending on DEV.to with 18 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/googleai/agentic-engineering-a-smart-home-energy-system-with-antigravity-and-gemini-4-53md",
+        "discussion_url": "https://dev.to/googleai/agentic-engineering-a-smart-home-energy-system-with-antigravity-and-gemini-4-53md",
+        "author": "rsamborski",
+        "score": 18,
+        "comments_count": 0,
+        "published_at": "2026-11-20T12:45:36Z"
+      },
+      {
+        "uid": "devto_5083703",
+        "source": "DEV.to",
+        "title": "Dev Opportunity Radar #26: $85K Claude Corps Fellowship, a16z FDE Fellowship, and Reddit's $35K Game Hackathon",
+        "category_tag": "[Open Source]",
+        "takeaway": "TL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share. Currently trending on DEV.to with 15 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/devengers/dev-opportunity-radar-26-85k-claude-corps-fellowship-a16z-fde-fellowship-and-reddits-35k-2k2",
+        "discussion_url": "https://dev.to/devengers/dev-opportunity-radar-26-85k-claude-corps-fellowship-a16z-fde-fellowship-and-reddits-35k-2k2",
+        "author": "hemapriya_kanagala",
+        "score": 15,
+        "comments_count": 2,
+        "published_at": "2026-11-20T18:28:13Z"
+      },
+      {
+        "uid": "devto_5082373",
+        "source": "DEV.to",
+        "title": "Cozy Bytes 🍺 | Rust::Who Owns the Cat? 🐈🦀",
+        "category_tag": "[System Design]",
+        "takeaway": "Hoi hoi! 😸 Happy Friday! Let's learn a tiny bit of Rust! 😸🍻 No complicated architecture. No giant. Currently trending on DEV.to with 44 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/_yourbrainbuffer_/cozy-bytes-rustwho-owns-the-cat-13ch",
+        "discussion_url": "https://dev.to/_yourbrainbuffer_/cozy-bytes-rustwho-owns-the-cat-13ch",
+        "author": "nyaomaru",
+        "score": 44,
+        "comments_count": 2,
+        "published_at": "2026-11-20T16:21:37Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        237,
+        238,
+        239,
+        240,
+        241,
+        242
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</b>\nHacker News discussion (1903 points, 1279 comments). Currently trending on Hacker News with 1903 developer upvotes and 1279 technical comments.\n<i>Hacker News · ▲ 1903 · @iamronaldo</i>\n🔗 <a href=\"https://alpo.ge/remark.pdf\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50574968\">HN Discussion (1279)</a>\n\n<b>2. [System Design] I&#x27;ll never buy Framework hardware again</b>\nHacker News discussion (696 points, 448 comments). Currently trending on Hacker News with 696 developer upvotes and 448 technical comments.\n<i>Hacker News · ▲ 696 · @unchar1</i>\n🔗 <a href=\"https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50576855\">HN Discussion (448)</a>\n\n<b>3. [AI/ML] Frostbite: A new CPU architecture discovered, designed and verified by AI</b>\nHacker News discussion (536 points, 288 comments). Currently trending on Hacker News with 536 developer upvotes and 288 technical comments.\n<i>Hacker News · ▲ 536 · @shioyama</i>\n🔗 <a href=\"https://architectlabs.com/blog/frostbite\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50572503\">HN Discussion (288)</a>\n\n<b>4. [System Design] If you can&#x27;t explain something in simple terms, you don&#x27;t understand it (2017)</b>\nHacker News discussion (522 points, 263 comments). Currently trending on Hacker News with 522 developer upvotes and 263 technical comments.\n<i>Hacker News · ▲ 522 · @sammatilda</i>\n🔗 <a href=\"https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50572355\">HN Discussion (263)</a>\n\n<b>5. [System Design] Hurried Announcement: Alessandro Masullo GRH</b>\nHacker News discussion (436 points, 136 comments). Currently trending on Hacker News with 436 developer upvotes and 136 technical comments.\n<i>Hacker News · ▲ 436 · @jasondavies</i>\n🔗 <a href=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50579568\">HN Discussion (136)</a>\n\n<b>6. [AI/ML] Tell us your story, and we might read it on the CodeNewbie Podcast 🎙️</b>\nHi! I’m Lauren 👩🏼‍💻, the new host of the CodeNewbie Podcast, and I’d love to hear your. Currently trending on DEV.to with 26 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 26 · @lolocoding</i>\n🔗 <a href=\"https://dev.to/codenewbie/tell-us-your-story-and-we-might-read-it-on-the-codenewbie-podcast-2840\">Read Source</a>\n\n<b>7. [AI/ML] I can&#x27;t believe the podcast I learned to code with is back!</b>\nHi friends! 👋 Okay, storytime 🎬 Felt the urge to share this here too, since DEV is where it all. Currently trending on DEV.to with 25 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 25 · @lolocoding</i>\n🔗 <a href=\"https://dev.to/codenewbie/i-cant-believe-the-podcast-i-learned-to-code-with-is-back-2gi5\">Read Source</a>\n\n<b>8. [AI/ML] Agentic engineering a smart home energy system with Antigravity and Gemini 4</b>\nRunning rooftop solar, a home battery, two electric vehicles (EVs), and dynamic hourly electricity. Currently trending on DEV.to with 18 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 18 · @rsamborski</i>\n🔗 <a href=\"https://dev.to/googleai/agentic-engineering-a-smart-home-energy-system-with-antigravity-and-gemini-4-53md\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Open Source] Dev Opportunity Radar #26: $85K Claude Corps Fellowship, a16z FDE Fellowship, and Reddit&#x27;s $35K Game Hackathon</b>\nTL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share. Currently trending on DEV.to with 15 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 15 · @hemapriya_kanagala</i>\n🔗 <a href=\"https://dev.to/devengers/dev-opportunity-radar-26-85k-claude-corps-fellowship-a16z-fde-fellowship-and-reddits-35k-2k2\">Read Source</a>\n\n<b>10. [System Design] Cozy Bytes 🍺 | Rust::Who Owns the Cat? 🐈🦀</b>\nHoi hoi! 😸 Happy Friday! Let&#x27;s learn a tiny bit of Rust! 😸🍻 No complicated architecture. No giant. Currently trending on DEV.to with 44 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 44 · @nyaomaru</i>\n🔗 <a href=\"https://dev.to/_yourbrainbuffer_/cozy-bytes-rustwho-owns-the-cat-13ch\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-20T06:13:18.896062+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
