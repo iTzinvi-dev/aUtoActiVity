@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-20T06:13:18.896062+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50564159",
+        "source": "Hacker News",
+        "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (245 points, 137 comments). Currently trending on Hacker News with 245 developer upvotes and 137 technical comments.",
+        "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+        "discussion_url": "https://news.ycombinator.com/item?id=50564159",
+        "author": "dev1one1",
+        "score": 245,
+        "comments_count": 137,
+        "published_at": "2026-11-19T18:35:17+00:00"
+      },
+      {
+        "uid": "hn_50528119",
+        "source": "Hacker News",
+        "title": "How to CAD Almost Anything",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (209 points, 62 comments). Currently trending on Hacker News with 209 developer upvotes and 62 technical comments.",
+        "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50528119",
+        "author": "o4c",
+        "score": 209,
+        "comments_count": 62,
+        "published_at": "2026-11-17T06:29:57+00:00"
+      },
+      {
+        "uid": "hn_50569226",
+        "source": "Hacker News",
+        "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (110 points, 58 comments). Currently trending on Hacker News with 110 developer upvotes and 58 technical comments.",
+        "url": "https://github.com/openssl/openssl/pull/33652",
+        "discussion_url": "https://news.ycombinator.com/item?id=50569226",
+        "author": "JacobHenner",
+        "score": 110,
+        "comments_count": 58,
+        "published_at": "2026-11-20T02:01:09+00:00"
+      },
+      {
+        "uid": "hn_50570479",
+        "source": "Hacker News",
+        "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (76 points, 8 comments). Currently trending on Hacker News with 76 developer upvotes and 8 technical comments.",
+        "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+        "discussion_url": "https://news.ycombinator.com/item?id=50570479",
+        "author": "mraniki",
+        "score": 76,
+        "comments_count": 8,
+        "published_at": "2026-11-20T05:21:02+00:00"
+      },
+      {
+        "uid": "hn_50568861",
+        "source": "Hacker News",
+        "title": "Vint Cerf on why TCP/IP was never patented",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (73 points, 17 comments). Currently trending on Hacker News with 73 developer upvotes and 17 technical comments.",
+        "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+        "discussion_url": "https://news.ycombinator.com/item?id=50568861",
+        "author": "emot",
+        "score": 73,
+        "comments_count": 17,
+        "published_at": "2026-11-20T01:06:12+00:00"
+      },
+      {
+        "uid": "devto_5076491",
+        "source": "DEV.to",
+        "title": "What team-wide AI adoption actually takes",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I've tried nearly every way to make AI practical at work: new models, routers, agent frameworks,. Currently trending on DEV.to with 28 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/peter/what-team-wide-ai-adoption-actually-takes-1gbh",
+        "discussion_url": "https://dev.to/peter/what-team-wide-ai-adoption-actually-takes-1gbh",
+        "author": "peter",
+        "score": 28,
+        "comments_count": 2,
+        "published_at": "2026-11-20T00:36:25Z"
+      },
+      {
+        "uid": "devto_5073756",
+        "source": "DEV.to",
+        "title": "Adopt Pre-Existing Docker Containers with Zero Downtime: Reverse-Engineering docker-compose.yml in Gubernator v4.0",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "How Gubernator v4.0 discovers pre-existing Docker containers on production hosts, reverse-engineers clean docker-compose.yml files via docker inspect, and adopts them as managed Stacks with zero downtime. Currently trending on DEV.to with 13 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/gde/adopt-pre-existing-docker-containers-with-zero-downtime-reverse-engineering-docker-composeyml-in-3cic",
+        "discussion_url": "https://dev.to/gde/adopt-pre-existing-docker-containers-with-zero-downtime-reverse-engineering-docker-composeyml-in-3cic",
+        "author": "marioezquerro",
+        "score": 13,
+        "comments_count": 2,
+        "published_at": "2026-11-19T11:44:51Z"
+      },
+      {
+        "uid": "devto_5074893",
+        "source": "DEV.to",
+        "title": "Maintaining open source projects up to date with Renovate and Antigravity",
+        "category_tag": "[Open Source]",
+        "takeaway": "Renovate Renovate is a tool I really appreciate. I wrote a blog post about it and gave a. Currently trending on DEV.to with 16 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/gde/maintaining-open-source-projects-up-to-date-with-renovate-and-antigravity-3haj",
+        "discussion_url": "https://dev.to/gde/maintaining-open-source-projects-up-to-date-with-renovate-and-antigravity-3haj",
+        "author": "jphi_baconnais",
+        "score": 16,
+        "comments_count": 2,
+        "published_at": "2026-11-19T14:31:01Z"
+      },
+      {
+        "uid": "devto_5071051",
+        "source": "DEV.to",
+        "title": "Stop Paying LLM Prices for an if Statement: A Field Guide to Decision Models in Late 2026",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I keep coming back to one small question: why do we ask a model to write a paragraph when all our. Currently trending on DEV.to with 14 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/amananandrai/stop-paying-llm-prices-for-an-if-statement-a-field-guide-to-decision-models-in-late-2026-4d24",
+        "discussion_url": "https://dev.to/amananandrai/stop-paying-llm-prices-for-an-if-statement-a-field-guide-to-decision-models-in-late-2026-4d24",
+        "author": "amananandrai",
+        "score": 14,
+        "comments_count": 9,
+        "published_at": "2026-11-19T07:21:48Z"
+      },
+      {
+        "uid": "devto_5072558",
+        "source": "DEV.to",
+        "title": "Can a plain table hijack an AI agent?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Living repo: every case in this article is in agent-redteam. Currently trending on DEV.to with 15 developer upvotes and 23 technical comments.",
+        "url": "https://dev.to/edbrdi/can-a-plain-table-hijack-an-ai-agent-2pde",
+        "discussion_url": "https://dev.to/edbrdi/can-a-plain-table-hijack-an-ai-agent-2pde",
+        "author": "edbrdi",
+        "score": 15,
+        "comments_count": 23,
+        "published_at": "2026-11-19T09:20:49Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] The 98% Slot Machine: How Paid Advertising Became an Extraction Tax</b>\nHacker News discussion (245 points, 137 comments). Currently trending on Hacker News with 245 developer upvotes and 137 technical comments.\n<i>Hacker News · ▲ 245 · @dev1one1</i>\n🔗 <a href=\"https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50564159\">HN Discussion (137)</a>\n\n<b>2. [System Design] How to CAD Almost Anything</b>\nHacker News discussion (209 points, 62 comments). Currently trending on Hacker News with 209 developer upvotes and 62 technical comments.\n<i>Hacker News · ▲ 209 · @o4c</i>\n🔗 <a href=\"https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50528119\">HN Discussion (62)</a>\n\n<b>3. [Security] OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)</b>\nHacker News discussion (110 points, 58 comments). Currently trending on Hacker News with 110 developer upvotes and 58 technical comments.\n<i>Hacker News · ▲ 110 · @JacobHenner</i>\n🔗 <a href=\"https://github.com/openssl/openssl/pull/33652\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50569226\">HN Discussion (58)</a>\n\n<b>4. [System Design] Google is pushing OEMs against GrapheneOS and bootloader unlocking</b>\nHacker News discussion (76 points, 8 comments). Currently trending on Hacker News with 76 developer upvotes and 8 technical comments.\n<i>Hacker News · ▲ 76 · @mraniki</i>\n🔗 <a href=\"https://grapheneos.social/@GrapheneOS/117645038299496084\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50570479\">HN Discussion (8)</a>\n\n<b>5. [System Design] Vint Cerf on why TCP/IP was never patented</b>\nHacker News discussion (73 points, 17 comments). Currently trending on Hacker News with 73 developer upvotes and 17 technical comments.\n<i>Hacker News · ▲ 73 · @emot</i>\n🔗 <a href=\"https://seremot.com/p/vint-cerf-on-why-tcpip-was-never\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50568861\">HN Discussion (17)</a>\n\n<b>6. [AI/ML] What team-wide AI adoption actually takes</b>\nI&#x27;ve tried nearly every way to make AI practical at work: new models, routers, agent frameworks,. Currently trending on DEV.to with 28 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 28 · @peter</i>\n🔗 <a href=\"https://dev.to/peter/what-team-wide-ai-adoption-actually-takes-1gbh\">Read Source</a>\n\n<b>7. [Cloud/DevOps] Adopt Pre-Existing Docker Containers with Zero Downtime: Reverse-Engineering docker-compose.yml in Gubernator v4.0</b>\nHow Gubernator v4.0 discovers pre-existing Docker containers on production hosts, reverse-engineers clean docker-compose.yml files via docker inspect, and adopts them as managed Stacks with zero downtime. Currently trending on DEV.to with 13 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 13 · @marioezquerro</i>\n🔗 <a href=\"https://dev.to/gde/adopt-pre-existing-docker-containers-with-zero-downtime-reverse-engineering-docker-composeyml-in-3cic\">Read Source</a>\n\n<b>8. [Open Source] Maintaining open source projects up to date with Renovate and Antigravity</b>\nRenovate Renovate is a tool I really appreciate. I wrote a blog post about it and gave a. Currently trending on DEV.to with 16 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 16 · @jphi_baconnais</i>\n🔗 <a href=\"https://dev.to/gde/maintaining-open-source-projects-up-to-date-with-renovate-and-antigravity-3haj\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Stop Paying LLM Prices for an if Statement: A Field Guide to Decision Models in Late 2026</b>\nI keep coming back to one small question: why do we ask a model to write a paragraph when all our. Currently trending on DEV.to with 14 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 14 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/stop-paying-llm-prices-for-an-if-statement-a-field-guide-to-decision-models-in-late-2026-4d24\">Read Source</a>\n\n<b>10. [AI/ML] Can a plain table hijack an AI agent?</b>\nLiving repo: every case in this article is in agent-redteam. Currently trending on DEV.to with 15 developer upvotes and 23 technical comments.\n<i>DEV.to · ▲ 15 · @edbrdi</i>\n🔗 <a href=\"https://dev.to/edbrdi/can-a-plain-table-hijack-an-ai-agent-2pde\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-19T20:08:13.703601+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
