@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-21T18:49:03.403279+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50532613",
+        "source": "Hacker News",
+        "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+        "category_tag": "[Open Source]",
+        "takeaway": "Hacker News discussion (509 points, 164 comments). Currently trending on Hacker News with 509 developer upvotes and 164 technical comments.",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+        "discussion_url": "https://news.ycombinator.com/item?id=50532613",
+        "author": "dvaplima",
+        "score": 509,
+        "comments_count": 164,
+        "published_at": "2026-11-17T15:22:57+00:00"
+      },
+      {
+        "uid": "hn_50589618",
+        "source": "Hacker News",
+        "title": "Lean verification of the Riemann Hypothesis",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (482 points, 383 comments). Currently trending on Hacker News with 482 developer upvotes and 383 technical comments.",
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50589618",
+        "author": "g-b-r",
+        "score": 482,
+        "comments_count": 383,
+        "published_at": "2026-11-21T14:36:45+00:00"
+      },
+      {
+        "uid": "hn_50588982",
+        "source": "Hacker News",
+        "title": "Detonating a pile of lead azide",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (363 points, 227 comments). Currently trending on Hacker News with 363 developer upvotes and 227 technical comments.",
+        "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+        "discussion_url": "https://news.ycombinator.com/item?id=50588982",
+        "author": "beginning_end",
+        "score": 363,
+        "comments_count": 227,
+        "published_at": "2026-11-21T13:23:14+00:00"
+      },
+      {
+        "uid": "hn_50587875",
+        "source": "Hacker News",
+        "title": "My monitor was cutting my download speed by 75%",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (304 points, 156 comments). Currently trending on Hacker News with 304 developer upvotes and 156 technical comments.",
+        "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50587875",
+        "author": "soheilpro",
+        "score": 304,
+        "comments_count": 156,
+        "published_at": "2026-11-21T10:36:32+00:00"
+      },
+      {
+        "uid": "hn_50587208",
+        "source": "Hacker News",
+        "title": "RCE in Gnupg",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (178 points, 57 comments). Currently trending on Hacker News with 178 developer upvotes and 57 technical comments.",
+        "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50587208",
+        "author": "gdgghhhhh",
+        "score": 178,
+        "comments_count": 57,
+        "published_at": "2026-11-21T08:32:58+00:00"
+      },
+      {
+        "uid": "devto_5080715",
+        "source": "DEV.to",
+        "title": "The Chairs Are Back. The Coffee Is On. ☕",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Welcome to The Third Cup. The Renovation Is Done. We're Open Again! Finally, the. Currently trending on DEV.to with 71 developer upvotes and 29 technical comments.",
+        "url": "https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p",
+        "discussion_url": "https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p",
+        "author": "xulingfeng",
+        "score": 71,
+        "comments_count": 29,
+        "published_at": "2026-11-21T11:24:29Z"
+      },
+      {
+        "uid": "devto_5048824",
+        "source": "DEV.to",
+        "title": "Day 89: A Dead Service and a Private Container That Serves",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Day 89 of DevOps, Day 39 of Azure. Both tasks today produced something that reads as broken and is. Currently trending on DEV.to with 18 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/ndcodes/day-89-a-marker-in-the-file-and-a-grant-somewhere-else-1deo",
+        "discussion_url": "https://dev.to/ndcodes/day-89-a-marker-in-the-file-and-a-grant-somewhere-else-1deo",
+        "author": "ndcodes",
+        "score": 18,
+        "comments_count": 0,
+        "published_at": "2026-11-21T09:00:00Z"
+      },
+      {
+        "uid": "devto_5031605",
+        "source": "DEV.to",
+        "title": "Test the npm Package, Not Just the Monorepo",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "A tracing adapter can pass its internal tests while capturing nothing in an installed. Currently trending on DEV.to with 10 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/gde/test-the-npm-package-not-just-the-monorepo-2j1e",
+        "discussion_url": "https://dev.to/gde/test-the-npm-package-not-just-the-monorepo-2j1e",
+        "author": "raju_dandigam",
+        "score": 10,
+        "comments_count": 2,
+        "published_at": "2026-11-21T14:20:00Z"
+      },
+      {
+        "uid": "devto_5082880",
+        "source": "DEV.to",
+        "title": "A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)",
+        "category_tag": "[AI/ML]",
+        "takeaway": "If you've ever pasted ten files into ChatGPT, asked for a fix, then manually copied the result back. Currently trending on DEV.to with 39 developer upvotes and 12 technical comments.",
+        "url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21",
+        "discussion_url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21",
+        "author": "effessdev",
+        "score": 39,
+        "comments_count": 12,
+        "published_at": "2026-11-21T11:49:40Z"
+      },
+      {
+        "uid": "devto_5080407",
+        "source": "DEV.to",
+        "title": "Microsoft Ignite 2026: Every Announcement, Sorted (Models, GitHub Copilot, Azure, Windows & More)",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Microsoft Ignite 2026 ran November 17–20 in San Francisco (and online), and it was a big one. Satya. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/amananandrai/microsoft-ignite-2026-every-announcement-sorted-models-github-copilot-azure-windows-more-4gk4",
+        "discussion_url": "https://dev.to/amananandrai/microsoft-ignite-2026-every-announcement-sorted-models-github-copilot-azure-windows-more-4gk4",
+        "author": "amananandrai",
+        "score": 13,
+        "comments_count": 0,
+        "published_at": "2026-11-20T18:51:23Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        249,
+        250,
+        251,
+        252,
+        253,
+        254
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [Open Source] Brazil&#x27;s tax authority open-sources its tax calculator on GitHub under MIT</b>\nHacker News discussion (509 points, 164 comments). Currently trending on Hacker News with 509 developer upvotes and 164 technical comments.\n<i>Hacker News · ▲ 509 · @dvaplima</i>\n🔗 <a href=\"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50532613\">HN Discussion (164)</a>\n\n<b>2. [System Design] Lean verification of the Riemann Hypothesis</b>\nHacker News discussion (482 points, 383 comments). Currently trending on Hacker News with 482 developer upvotes and 383 technical comments.\n<i>Hacker News · ▲ 482 · @g-b-r</i>\n🔗 <a href=\"https://leanprover-community.github.io/blog/posts/riemann-hypothesis/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50589618\">HN Discussion (383)</a>\n\n<b>3. [System Design] Detonating a pile of lead azide</b>\nHacker News discussion (363 points, 227 comments). Currently trending on Hacker News with 363 developer upvotes and 227 technical comments.\n<i>Hacker News · ▲ 363 · @beginning_end</i>\n🔗 <a href=\"https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50588982\">HN Discussion (227)</a>\n\n<b>4. [System Design] My monitor was cutting my download speed by 75%</b>\nHacker News discussion (304 points, 156 comments). Currently trending on Hacker News with 304 developer upvotes and 156 technical comments.\n<i>Hacker News · ▲ 304 · @soheilpro</i>\n🔗 <a href=\"https://blog.tymscar.com/posts/studiodisplayethernet/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50587875\">HN Discussion (156)</a>\n\n<b>5. [System Design] RCE in Gnupg</b>\nHacker News discussion (178 points, 57 comments). Currently trending on Hacker News with 178 developer upvotes and 57 technical comments.\n<i>Hacker News · ▲ 178 · @gdgghhhhh</i>\n🔗 <a href=\"https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50587208\">HN Discussion (57)</a>\n\n<b>6. [AI/ML] The Chairs Are Back. The Coffee Is On. ☕</b>\nWelcome to The Third Cup. The Renovation Is Done. We&#x27;re Open Again! Finally, the. Currently trending on DEV.to with 71 developer upvotes and 29 technical comments.\n<i>DEV.to · ▲ 71 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p\">Read Source</a>\n\n<b>7. [Cloud/DevOps] Day 89: A Dead Service and a Private Container That Serves</b>\nDay 89 of DevOps, Day 39 of Azure. Both tasks today produced something that reads as broken and is. Currently trending on DEV.to with 18 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 18 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/day-89-a-marker-in-the-file-and-a-grant-somewhere-else-1deo\">Read Source</a>\n\n<b>8. [Cloud/DevOps] Test the npm Package, Not Just the Monorepo</b>\nA tracing adapter can pass its internal tests while capturing nothing in an installed. Currently trending on DEV.to with 10 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 10 · @raju_dandigam</i>\n🔗 <a href=\"https://dev.to/gde/test-the-npm-package-not-just-the-monorepo-2j1e\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)</b>\nIf you&#x27;ve ever pasted ten files into ChatGPT, asked for a fix, then manually copied the result back. Currently trending on DEV.to with 39 developer upvotes and 12 technical comments.\n<i>DEV.to · ▲ 39 · @effessdev</i>\n🔗 <a href=\"https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21\">Read Source</a>\n\n<b>10. [AI/ML] Microsoft Ignite 2026: Every Announcement, Sorted (Models, GitHub Copilot, Azure, Windows &amp; More)</b>\nMicrosoft Ignite 2026 ran November 17–20 in San Francisco (and online), and it was a big one. Satya. Currently trending on DEV.to with 13 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 13 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/microsoft-ignite-2026-every-announcement-sorted-models-github-copilot-azure-windows-more-4gk4\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-21T06:04:09.157946+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
