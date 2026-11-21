@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-21T06:04:09.157946+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50581260",
+        "source": "Hacker News",
+        "title": "Inkling 2 Mini",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (862 points, 157 comments). Currently trending on Hacker News with 862 developer upvotes and 157 technical comments.",
+        "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50581260",
+        "author": "jasondavies",
+        "score": 862,
+        "comments_count": 157,
+        "published_at": "2026-11-20T20:12:19+00:00"
+      },
+      {
+        "uid": "hn_50578358",
+        "source": "Hacker News",
+        "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (395 points, 159 comments). Currently trending on Hacker News with 395 developer upvotes and 159 technical comments.",
+        "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50578358",
+        "author": "archon1410",
+        "score": 395,
+        "comments_count": 159,
+        "published_at": "2026-11-20T17:21:36+00:00"
+      },
+      {
+        "uid": "hn_50577265",
+        "source": "Hacker News",
+        "title": "Language Models Can Rewrite Their Own Weights",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (376 points, 116 comments). Currently trending on Hacker News with 376 developer upvotes and 116 technical comments.",
+        "url": "https://arxiv.org/abs/2611.21885",
+        "discussion_url": "https://news.ycombinator.com/item?id=50577265",
+        "author": "lwhsiao",
+        "score": 376,
+        "comments_count": 116,
+        "published_at": "2026-11-20T16:29:06+00:00"
+      },
+      {
+        "uid": "hn_50579331",
+        "source": "Hacker News",
+        "title": "We promoted developers into architects without informing them",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (367 points, 213 comments). Currently trending on Hacker News with 367 developer upvotes and 213 technical comments.",
+        "url": "https://manidoraisamy.com/developer-to-architect.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50579331",
+        "author": "QueensGambit",
+        "score": 367,
+        "comments_count": 213,
+        "published_at": "2026-11-20T18:17:51+00:00"
+      },
+      {
+        "uid": "hn_50576232",
+        "source": "Hacker News",
+        "title": "Finite-time blow-up for the Navier–Stokes equations",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (273 points, 86 comments). Currently trending on Hacker News with 273 developer upvotes and 86 technical comments.",
+        "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50576232",
+        "author": "trotro",
+        "score": 273,
+        "comments_count": 86,
+        "published_at": "2026-11-20T15:34:31+00:00"
+      },
+      {
+        "uid": "devto_5083961",
+        "source": "DEV.to",
+        "title": "Zombie Sweep on Google Cloud: A Daily Waste Report on AlloyDB Express, With a Database Bill You Can Predict",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Cloud Scheduler, Workflows and Cloud Run sweep a project every day with zombiescan's 20 checks beside Google's idle-resource recommenders, store the findings in AlloyDB Express, and an ADK agent writes a briefing from SQL. The database scales to zero, caps its own storage and has a monthly ceiling you can work out in advance. Currently trending on DEV.to with 13 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/gde/zombie-sweep-on-google-cloud-a-daily-waste-report-on-alloydb-express-with-a-database-bill-you-can-305g",
+        "discussion_url": "https://dev.to/gde/zombie-sweep-on-google-cloud-a-daily-waste-report-on-alloydb-express-with-a-database-bill-you-can-305g",
+        "author": "xbill",
+        "score": 13,
+        "comments_count": 1,
+        "published_at": "2026-11-20T20:01:04Z"
+      },
+      {
+        "uid": "devto_5031602",
+        "source": "DEV.to",
+        "title": "Your Error Survived the Wrapper. Did Its Code Survive the Trace?",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Suppose an instrumented operation throws an error with code: \"ETIMEDOUT\". Your application catches. Currently trending on DEV.to with 27 developer upvotes and 7 technical comments.",
+        "url": "https://dev.to/gde/your-error-survived-the-wrapper-did-its-code-survive-the-trace-17gg",
+        "discussion_url": "https://dev.to/gde/your-error-survived-the-wrapper-did-its-code-survive-the-trace-17gg",
+        "author": "raju_dandigam",
+        "score": 27,
+        "comments_count": 7,
+        "published_at": "2026-11-20T08:00:00Z"
+      },
+      {
+        "uid": "devto_5079032",
+        "source": "DEV.to",
+        "title": "Marking a container unhealthy didn't stop it from taking traffic",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "I broke a container on purpose and watched Docker mark it unhealthy for 35 seconds while nginx kept sending it a third of all traffic. The actual cause: a missing http_500 in proxy_next_upstream. Currently trending on DEV.to with 10 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/marking-a-container-unhealthy-didnt-stop-it-from-taking-traffic-54lf",
+        "discussion_url": "https://dev.to/alexgeorgiev17/marking-a-container-unhealthy-didnt-stop-it-from-taking-traffic-54lf",
+        "author": "alexgeorgiev17",
+        "score": 10,
+        "comments_count": 5,
+        "published_at": "2026-11-20T11:00:00Z"
+      },
+      {
+        "uid": "devto_5083782",
+        "source": "DEV.to",
+        "title": "🐱 The Function Factory of Necoz! ⚙️ | Learning Python Functions 🚀",
+        "category_tag": "[System Design]",
+        "takeaway": "🌟 Chapter 1: A New Mission from King Nyaomaru! Remember my previous adventures on. Currently trending on DEV.to with 29 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/necoz/the-function-factory-of-necoz-learning-python-functions-2ikd",
+        "discussion_url": "https://dev.to/necoz/the-function-factory-of-necoz-learning-python-functions-2ikd",
+        "author": "star123",
+        "score": 29,
+        "comments_count": 3,
+        "published_at": "2026-11-21T04:37:50Z"
+      },
+      {
+        "uid": "devto_5048784",
+        "source": "DEV.to",
+        "title": "Day 88: A Marker in the File and a Disputed Status Code",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Day 88 of DevOps, Day 38 of Azure. Both tasks today put the thing that matters somewhere other than. Currently trending on DEV.to with 15 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/ndcodes/day-88-a-dead-service-and-a-disputed-status-code-48j5",
+        "discussion_url": "https://dev.to/ndcodes/day-88-a-dead-service-and-a-disputed-status-code-48j5",
+        "author": "ndcodes",
+        "score": 15,
+        "comments_count": 0,
+        "published_at": "2026-11-20T18:00:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Inkling 2 Mini</b>\nHacker News discussion (862 points, 157 comments). Currently trending on Hacker News with 862 developer upvotes and 157 technical comments.\n<i>Hacker News · ▲ 862 · @jasondavies</i>\n🔗 <a href=\"https://thinkingmachines.ai/news/inkling-2-mini/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50581260\">HN Discussion (157)</a>\n\n<b>2. [System Design] Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis</b>\nHacker News discussion (395 points, 159 comments). Currently trending on Hacker News with 395 developer upvotes and 159 technical comments.\n<i>Hacker News · ▲ 395 · @archon1410</i>\n🔗 <a href=\"https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50578358\">HN Discussion (159)</a>\n\n<b>3. [System Design] Language Models Can Rewrite Their Own Weights</b>\nHacker News discussion (376 points, 116 comments). Currently trending on Hacker News with 376 developer upvotes and 116 technical comments.\n<i>Hacker News · ▲ 376 · @lwhsiao</i>\n🔗 <a href=\"https://arxiv.org/abs/2611.21885\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50577265\">HN Discussion (116)</a>\n\n<b>4. [System Design] We promoted developers into architects without informing them</b>\nHacker News discussion (367 points, 213 comments). Currently trending on Hacker News with 367 developer upvotes and 213 technical comments.\n<i>Hacker News · ▲ 367 · @QueensGambit</i>\n🔗 <a href=\"https://manidoraisamy.com/developer-to-architect.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50579331\">HN Discussion (213)</a>\n\n<b>5. [System Design] Finite-time blow-up for the Navier–Stokes equations</b>\nHacker News discussion (273 points, 86 comments). Currently trending on Hacker News with 273 developer upvotes and 86 technical comments.\n<i>Hacker News · ▲ 273 · @trotro</i>\n🔗 <a href=\"https://github.com/tristanbuckmaster/navier-stokes/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50576232\">HN Discussion (86)</a>\n\n<b>6. [AI/ML] Zombie Sweep on Google Cloud: A Daily Waste Report on AlloyDB Express, With a Database Bill You Can Predict</b>\nCloud Scheduler, Workflows and Cloud Run sweep a project every day with zombiescan&#x27;s 20 checks beside Google&#x27;s idle-resource recommenders, store the findings in AlloyDB Express, and an ADK agent writes a briefing from SQL. The database scales to zero, caps its own storage and has a monthly ceiling you can work out in advance. Currently trending on DEV.to with 13 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 13 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/zombie-sweep-on-google-cloud-a-daily-waste-report-on-alloydb-express-with-a-database-bill-you-can-305g\">Read Source</a>\n\n<b>7. [Web Dev] Your Error Survived the Wrapper. Did Its Code Survive the Trace?</b>\nSuppose an instrumented operation throws an error with code: &quot;ETIMEDOUT&quot;. Your application catches. Currently trending on DEV.to with 27 developer upvotes and 7 technical comments.\n<i>DEV.to · ▲ 27 · @raju_dandigam</i>\n🔗 <a href=\"https://dev.to/gde/your-error-survived-the-wrapper-did-its-code-survive-the-trace-17gg\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [Cloud/DevOps] Marking a container unhealthy didn&#x27;t stop it from taking traffic</b>\nI broke a container on purpose and watched Docker mark it unhealthy for 35 seconds while nginx kept sending it a third of all traffic. The actual cause: a missing http_500 in proxy_next_upstream. Currently trending on DEV.to with 10 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 10 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/marking-a-container-unhealthy-didnt-stop-it-from-taking-traffic-54lf\">Read Source</a>\n\n<b>9. [System Design] 🐱 The Function Factory of Necoz! ⚙️ | Learning Python Functions 🚀</b>\n🌟 Chapter 1: A New Mission from King Nyaomaru! Remember my previous adventures on. Currently trending on DEV.to with 29 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 29 · @star123</i>\n🔗 <a href=\"https://dev.to/necoz/the-function-factory-of-necoz-learning-python-functions-2ikd\">Read Source</a>\n\n<b>10. [Cloud/DevOps] Day 88: A Marker in the File and a Disputed Status Code</b>\nDay 88 of DevOps, Day 38 of Azure. Both tasks today put the thing that matters somewhere other than. Currently trending on DEV.to with 15 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 15 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/day-88-a-dead-service-and-a-disputed-status-code-48j5\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-20T19:43:44.411491+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
