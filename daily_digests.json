@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-22T14:15:33.457010+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50595554",
+        "source": "Hacker News",
+        "title": "Data Processing Incidents on Inference Providers",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (212 points, 72 comments). Currently trending on Hacker News with 212 developer upvotes and 72 technical comments.",
+        "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50595554",
+        "author": "sdko",
+        "score": 212,
+        "comments_count": 72,
+        "published_at": "2026-11-22T02:14:14+00:00"
+      },
+      {
+        "uid": "hn_50533945",
+        "source": "Hacker News",
+        "title": "A real Linux kernel, compiled to WebAssembly",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (138 points, 46 comments). Currently trending on Hacker News with 138 developer upvotes and 46 technical comments.",
+        "url": "https://github.com/pithings/unkernel",
+        "discussion_url": "https://news.ycombinator.com/item?id=50533945",
+        "author": "DonAtimator",
+        "score": 138,
+        "comments_count": 46,
+        "published_at": "2026-11-17T16:35:46+00:00"
+      },
+      {
+        "uid": "hn_50594132",
+        "source": "Hacker News",
+        "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (133 points, 19 comments). Currently trending on Hacker News with 133 developer upvotes and 19 technical comments.",
+        "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+        "discussion_url": "https://news.ycombinator.com/item?id=50594132",
+        "author": "sebaandrada",
+        "score": 133,
+        "comments_count": 19,
+        "published_at": "2026-11-21T22:09:58+00:00"
+      },
+      {
+        "uid": "hn_50596155",
+        "source": "Hacker News",
+        "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (85 points, 60 comments). Currently trending on Hacker News with 85 developer upvotes and 60 technical comments.",
+        "url": "https://github.com/EL4CTEO/fast-anything",
+        "discussion_url": "https://news.ycombinator.com/item?id=50596155",
+        "author": "BaselAshraf81",
+        "score": 85,
+        "comments_count": 60,
+        "published_at": "2026-11-22T04:10:09+00:00"
+      },
+      {
+        "uid": "hn_50596960",
+        "source": "Hacker News",
+        "title": "Notes on the discrete Fourier transform (DFT)",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (50 points, 5 comments). Currently trending on Hacker News with 50 developer upvotes and 5 technical comments.",
+        "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50596960",
+        "author": "kouosi",
+        "score": 50,
+        "comments_count": 5,
+        "published_at": "2026-11-22T06:52:25+00:00"
+      },
+      {
+        "uid": "devto_5091872",
+        "source": "DEV.to",
+        "title": "The Third Cup: Five Elements, One IT Company",
+        "category_tag": "[System Design]",
+        "takeaway": "A Little Chinese Philosophy Over Coffee An Ordinary Afternoon The afternoon was. Currently trending on DEV.to with 54 developer upvotes and 22 technical comments.",
+        "url": "https://dev.to/thethirdcup/the-third-cup-five-elements-one-it-company-1bca",
+        "discussion_url": "https://dev.to/thethirdcup/the-third-cup-five-elements-one-it-company-1bca",
+        "author": "xulingfeng",
+        "score": 54,
+        "comments_count": 22,
+        "published_at": "2026-11-22T06:17:19Z"
+      },
+      {
+        "uid": "devto_5048876",
+        "source": "DEV.to",
+        "title": "Day 90: A Mask in the Way and a Policy Pointing at Nothing",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Day 90 of DevOps, Day 40 of Azure. Both tasks today were about a permission that exists, reads back. Currently trending on DEV.to with 23 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/ndcodes/day-90-a-mask-in-the-way-and-a-policy-pointing-at-nothing-390o",
+        "discussion_url": "https://dev.to/ndcodes/day-90-a-mask-in-the-way-and-a-policy-pointing-at-nothing-390o",
+        "author": "ndcodes",
+        "score": 23,
+        "comments_count": 9,
+        "published_at": "2026-11-22T09:00:00Z"
+      },
+      {
+        "uid": "devto_5093834",
+        "source": "DEV.to",
+        "title": "I turned my GitHub contribution graph into a Bloomberg-style trading terminal",
+        "category_tag": "[Open Source]",
+        "takeaway": "TL;DR: Your green contribution squares are a heatmap. I wanted a chart. So I built. Currently trending on DEV.to with 30 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
+        "discussion_url": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
+        "author": "hanzla",
+        "score": 30,
+        "comments_count": 4,
+        "published_at": "2026-11-22T13:01:22Z"
+      },
+      {
+        "uid": "devto_5089957",
+        "source": "DEV.to",
+        "title": "Necoz Is Building a New House!! 🛸 All Cats, Follow Me!! 🐈🚀",
+        "category_tag": "[Open Source]",
+        "takeaway": "Hoi hoi! 😸 Last week, we successfully abducted 28 cats! 🛸🐈 But there was one tiny problem WHERE. Currently trending on DEV.to with 33 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n",
+        "discussion_url": "https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n",
+        "author": "nyaomaru",
+        "score": 33,
+        "comments_count": 5,
+        "published_at": "2026-11-22T13:27:10Z"
+      },
+      {
+        "uid": "devto_5092902",
+        "source": "DEV.to",
+        "title": "Glint: type and speak with your eyebrows and your breath",
+        "category_tag": "[Web Dev]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built Glint is an. Currently trending on DEV.to with 16 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/yashksaini/glint-type-and-speak-with-your-eyebrows-and-your-breath-569o",
+        "discussion_url": "https://dev.to/yashksaini/glint-type-and-speak-with-your-eyebrows-and-your-breath-569o",
+        "author": "yashksaini",
+        "score": 16,
+        "comments_count": 3,
+        "published_at": "2026-11-22T09:56:42Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        261,
+        262,
+        263,
+        264,
+        265,
+        266
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [AI/ML] Data Processing Incidents on Inference Providers</b>\nHacker News discussion (212 points, 72 comments). Currently trending on Hacker News with 212 developer upvotes and 72 technical comments.\n<i>Hacker News · ▲ 212 · @sdko</i>\n🔗 <a href=\"https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50595554\">HN Discussion (72)</a>\n\n<b>2. [Systems] A real Linux kernel, compiled to WebAssembly</b>\nHacker News discussion (138 points, 46 comments). Currently trending on Hacker News with 138 developer upvotes and 46 technical comments.\n<i>Hacker News · ▲ 138 · @DonAtimator</i>\n🔗 <a href=\"https://github.com/pithings/unkernel\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50533945\">HN Discussion (46)</a>\n\n<b>3. [System Design] PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors</b>\nHacker News discussion (133 points, 19 comments). Currently trending on Hacker News with 133 developer upvotes and 19 technical comments.\n<i>Hacker News · ▲ 133 · @sebaandrada</i>\n🔗 <a href=\"https://github.com/sebaandrada-cell/PcapAnalyzer\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50594132\">HN Discussion (19)</a>\n\n<b>4. [Systems] Fast-Anything: Don&#x27;t rewrite it in Rust. Rewrite the 5% that&#x27;s slow</b>\nHacker News discussion (85 points, 60 comments). Currently trending on Hacker News with 85 developer upvotes and 60 technical comments.\n<i>Hacker News · ▲ 85 · @BaselAshraf81</i>\n🔗 <a href=\"https://github.com/EL4CTEO/fast-anything\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50596155\">HN Discussion (60)</a>\n\n<b>5. [System Design] Notes on the discrete Fourier transform (DFT)</b>\nHacker News discussion (50 points, 5 comments). Currently trending on Hacker News with 50 developer upvotes and 5 technical comments.\n<i>Hacker News · ▲ 50 · @kouosi</i>\n🔗 <a href=\"https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50596960\">HN Discussion (5)</a>\n\n<b>6. [System Design] The Third Cup: Five Elements, One IT Company</b>\nA Little Chinese Philosophy Over Coffee An Ordinary Afternoon The afternoon was. Currently trending on DEV.to with 54 developer upvotes and 22 technical comments.\n<i>DEV.to · ▲ 54 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/thethirdcup/the-third-cup-five-elements-one-it-company-1bca\">Read Source</a>\n\n<b>7. [Cloud/DevOps] Day 90: A Mask in the Way and a Policy Pointing at Nothing</b>\nDay 90 of DevOps, Day 40 of Azure. Both tasks today were about a permission that exists, reads back. Currently trending on DEV.to with 23 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 23 · @ndcodes</i>\n🔗 <a href=\"https://dev.to/ndcodes/day-90-a-mask-in-the-way-and-a-policy-pointing-at-nothing-390o\">Read Source</a>\n\n<b>8. [Open Source] I turned my GitHub contribution graph into a Bloomberg-style trading terminal</b>\nTL;DR: Your green contribution squares are a heatmap. I wanted a chart. So I built. Currently trending on DEV.to with 30 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 30 · @hanzla</i>\n🔗 <a href=\"https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh\">Read Source</a>\n\n<b>9. [Open Source] Necoz Is Building a New House!! 🛸 All Cats, Follow Me!! 🐈🚀</b>\nHoi hoi! 😸 Last week, we successfully abducted 28 cats! 🛸🐈 But there was one tiny problem WHERE. Currently trending on DEV.to with 33 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 33 · @nyaomaru</i>\n🔗 <a href=\"https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>10. [Web Dev] Glint: type and speak with your eyebrows and your breath</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I Built Glint is an. Currently trending on DEV.to with 16 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 16 · @yashksaini</i>\n🔗 <a href=\"https://dev.to/yashksaini/glint-type-and-speak-with-your-eyebrows-and-your-breath-569o\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-22T05:39:12.841359+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
