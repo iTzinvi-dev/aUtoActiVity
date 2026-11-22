@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-22T05:39:12.841359+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50582069",
+        "source": "Hacker News",
+        "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (827 points, 192 comments). Currently trending on Hacker News with 827 developer upvotes and 192 technical comments.",
+        "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+        "discussion_url": "https://news.ycombinator.com/item?id=50582069",
+        "author": "rafaelc",
+        "score": 827,
+        "comments_count": 192,
+        "published_at": "2026-11-20T21:03:12+00:00"
+      },
+      {
+        "uid": "hn_50591853",
+        "source": "Hacker News",
+        "title": "Inkling-2-Mini in 5.4 GB Memory",
+        "category_tag": "[Systems]",
+        "takeaway": "Hacker News discussion (412 points, 103 comments). Currently trending on Hacker News with 412 developer upvotes and 103 technical comments.",
+        "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+        "discussion_url": "https://news.ycombinator.com/item?id=50591853",
+        "author": "k__",
+        "score": 412,
+        "comments_count": 103,
+        "published_at": "2026-11-21T18:02:19+00:00"
+      },
+      {
+        "uid": "hn_50583028",
+        "source": "Hacker News",
+        "title": "Getting the mind to steer the body to steer you",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (211 points, 67 comments). Currently trending on Hacker News with 211 developer upvotes and 67 technical comments.",
+        "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+        "discussion_url": "https://news.ycombinator.com/item?id=50583028",
+        "author": "jger15",
+        "score": 211,
+        "comments_count": 67,
+        "published_at": "2026-11-20T22:11:05+00:00"
+      },
+      {
+        "uid": "hn_50596133",
+        "source": "Hacker News",
+        "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (150 points, 75 comments). Currently trending on Hacker News with 150 developer upvotes and 75 technical comments.",
+        "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50596133",
+        "author": "zdw",
+        "score": 150,
+        "comments_count": 75,
+        "published_at": "2026-11-22T04:04:56+00:00"
+      },
+      {
+        "uid": "hn_50594911",
+        "source": "Hacker News",
+        "title": "Sandwich Simulator",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (122 points, 49 comments). Currently trending on Hacker News with 122 developer upvotes and 49 technical comments.",
+        "url": "https://stulle.app/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50594911",
+        "author": "subdomain",
+        "score": 122,
+        "comments_count": 49,
+        "published_at": "2026-11-22T00:07:59+00:00"
+      },
+      {
+        "uid": "devto_5036802",
+        "source": "DEV.to",
+        "title": "Dead Keys: I Brought Back the Typing Games. Kiro Did the Heavy Lifting.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The keys you miss become the lesson. TL;DR: Dead Keys is my entry for the Kiroween 2026 hackathon,. Currently trending on DEV.to with 20 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/earlgreyhot1701d/dead-keys-i-brought-back-the-typing-games-kiro-did-the-heavy-lifting-5gc2",
+        "discussion_url": "https://dev.to/earlgreyhot1701d/dead-keys-i-brought-back-the-typing-games-kiro-did-the-heavy-lifting-5gc2",
+        "author": "earlgreyhot1701d",
+        "score": 20,
+        "comments_count": 5,
+        "published_at": "2026-11-21T18:23:38Z"
+      },
+      {
+        "uid": "devto_5088783",
+        "source": "DEV.to",
+        "title": "Monuments of India, Part 3: Sixteen Statues Sculpted from Photographs, a Rebuilt Mysore Palace and More",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Sixteen statues sculpted from photographs, finer animals, ships and traffic, about thirty new architectural parts, a rebuilt Mysore Palace and an 800k triangle budget for 101 Indian monuments built in three.js. Currently trending on DEV.to with 9 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/amananandrai/monuments-of-india-part-3-sixteen-statues-sculpted-from-photographs-a-rebuilt-mysore-palace-and-3bm",
+        "discussion_url": "https://dev.to/amananandrai/monuments-of-india-part-3-sixteen-statues-sculpted-from-photographs-a-rebuilt-mysore-palace-and-3bm",
+        "author": "amananandrai",
+        "score": 9,
+        "comments_count": 1,
+        "published_at": "2026-11-21T17:48:26Z"
+      },
+      {
+        "uid": "devto_5086069",
+        "source": "DEV.to",
+        "title": "What survived when I moved a small Compose app into Swarm mode",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "I moved a two-service Compose app into Docker Swarm mode on one machine and measured what the move actually changes: a config file Swarm half-rejects, a scaling command that looks fine but isn't, and a restart guarantee Compose never gave me. Currently trending on DEV.to with 8 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/what-survived-when-i-moved-a-small-compose-app-into-swarm-mode-5ee0",
+        "discussion_url": "https://dev.to/alexgeorgiev17/what-survived-when-i-moved-a-small-compose-app-into-swarm-mode-5ee0",
+        "author": "alexgeorgiev17",
+        "score": 8,
+        "comments_count": 2,
+        "published_at": "2026-11-21T11:00:00Z"
+      },
+      {
+        "uid": "devto_5089729",
+        "source": "DEV.to",
+        "title": "cueback: What If Tutorials Waited for You?",
+        "category_tag": "[System Design]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built You're. Currently trending on DEV.to with 6 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec",
+        "discussion_url": "https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec",
+        "author": "arjuncodess",
+        "score": 6,
+        "comments_count": 0,
+        "published_at": "2026-11-21T18:08:05Z"
+      },
+      {
+        "uid": "devto_5086739",
+        "source": "DEV.to",
+        "title": "AfterBurn Timer🔥 - SmartSpectra SDK Project",
+        "category_tag": "[System Design]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built I built. Currently trending on DEV.to with 17 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/biomathcode/afterburn-timer-smartspectra-sdk-project-ioa",
+        "discussion_url": "https://dev.to/biomathcode/afterburn-timer-smartspectra-sdk-project-ioa",
+        "author": "biomathcode",
+        "score": 17,
+        "comments_count": 1,
+        "published_at": "2026-11-21T07:59:31Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Pill to treat pancreatic cancer hailed as &#x27;biggest breakthrough in decades&#x27;</b>\nHacker News discussion (827 points, 192 comments). Currently trending on Hacker News with 827 developer upvotes and 192 technical comments.\n<i>Hacker News · ▲ 827 · @rafaelc</i>\n🔗 <a href=\"https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50582069\">HN Discussion (192)</a>\n\n<b>2. [Systems] Inkling-2-Mini in 5.4 GB Memory</b>\nHacker News discussion (412 points, 103 comments). Currently trending on Hacker News with 412 developer upvotes and 103 technical comments.\n<i>Hacker News · ▲ 412 · @k__</i>\n🔗 <a href=\"https://github.com/ShinMegamiBoson/lookatmyquant\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50591853\">HN Discussion (103)</a>\n\n<b>3. [System Design] Getting the mind to steer the body to steer you</b>\nHacker News discussion (211 points, 67 comments). Currently trending on Hacker News with 211 developer upvotes and 67 technical comments.\n<i>Hacker News · ▲ 211 · @jger15</i>\n🔗 <a href=\"https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50583028\">HN Discussion (67)</a>\n\n<b>4. [System Design] Toyota, Nissan, and Honda to Standardize Parts to Lower Costs</b>\nHacker News discussion (150 points, 75 comments). Currently trending on Hacker News with 150 developer upvotes and 75 technical comments.\n<i>Hacker News · ▲ 150 · @zdw</i>\n🔗 <a href=\"https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50596133\">HN Discussion (75)</a>\n\n<b>5. [System Design] Sandwich Simulator</b>\nHacker News discussion (122 points, 49 comments). Currently trending on Hacker News with 122 developer upvotes and 49 technical comments.\n<i>Hacker News · ▲ 122 · @subdomain</i>\n🔗 <a href=\"https://stulle.app/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50594911\">HN Discussion (49)</a>\n\n<b>6. [AI/ML] Dead Keys: I Brought Back the Typing Games. Kiro Did the Heavy Lifting.</b>\nThe keys you miss become the lesson. TL;DR: Dead Keys is my entry for the Kiroween 2026 hackathon,. Currently trending on DEV.to with 20 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 20 · @earlgreyhot1701d</i>\n🔗 <a href=\"https://dev.to/earlgreyhot1701d/dead-keys-i-brought-back-the-typing-games-kiro-did-the-heavy-lifting-5gc2\">Read Source</a>\n\n<b>7. [Web Dev] Monuments of India, Part 3: Sixteen Statues Sculpted from Photographs, a Rebuilt Mysore Palace and More</b>\nSixteen statues sculpted from photographs, finer animals, ships and traffic, about thirty new architectural parts, a rebuilt Mysore Palace and an 800k triangle budget for 101 Indian monuments built in three.js. Currently trending on DEV.to with 9 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 9 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/monuments-of-india-part-3-sixteen-statues-sculpted-from-photographs-a-rebuilt-mysore-palace-and-3bm\">Read Source</a>\n\n<b>8. [Cloud/DevOps] What survived when I moved a small Compose app into Swarm mode</b>\nI moved a two-service Compose app into Docker Swarm mode on one machine and measured what the move actually changes: a config file Swarm half-rejects, a scaling command that looks fine but isn&#x27;t, and a restart guarantee Compose never gave me. Currently trending on DEV.to with 8 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 8 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/what-survived-when-i-moved-a-small-compose-app-into-swarm-mode-5ee0\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [System Design] cueback: What If Tutorials Waited for You?</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I Built You&#x27;re. Currently trending on DEV.to with 6 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 6 · @arjuncodess</i>\n🔗 <a href=\"https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec\">Read Source</a>\n\n<b>10. [System Design] AfterBurn Timer🔥 - SmartSpectra SDK Project</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I Built I built. Currently trending on DEV.to with 17 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 17 · @biomathcode</i>\n🔗 <a href=\"https://dev.to/biomathcode/afterburn-timer-smartspectra-sdk-project-ioa\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-21T18:49:03.403279+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
