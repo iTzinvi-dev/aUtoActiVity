@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-22T23:22:30.856735+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50601525",
+        "source": "Hacker News",
+        "title": "Perplexity and Intelligence",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (434 points, 296 comments). Currently trending on Hacker News with 434 developer upvotes and 296 technical comments.",
+        "url": "https://openai.com/index/perplexity-and-intelligence/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50601525",
+        "author": "acossta",
+        "score": 434,
+        "comments_count": 296,
+        "published_at": "2026-11-22T17:06:27+00:00"
+      },
+      {
+        "uid": "hn_50602843",
+        "source": "Hacker News",
+        "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (273 points, 111 comments). Currently trending on Hacker News with 273 developer upvotes and 111 technical comments.",
+        "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+        "discussion_url": "https://news.ycombinator.com/item?id=50602843",
+        "author": "gaws",
+        "score": 273,
+        "comments_count": 111,
+        "published_at": "2026-11-22T19:10:34+00:00"
+      },
+      {
+        "uid": "hn_50603845",
+        "source": "Hacker News",
+        "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (104 points, 31 comments). Currently trending on Hacker News with 104 developer upvotes and 31 technical comments.",
+        "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+        "discussion_url": "https://news.ycombinator.com/item?id=50603845",
+        "author": "Retell15",
+        "score": 104,
+        "comments_count": 31,
+        "published_at": "2026-11-22T21:01:16+00:00"
+      },
+      {
+        "uid": "hn_50603589",
+        "source": "Hacker News",
+        "title": "A miniature San Francisco with live buses, planes and boats",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (87 points, 35 comments). Currently trending on Hacker News with 87 developer upvotes and 35 technical comments.",
+        "url": "https://smallsf.com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50603589",
+        "author": "dutilh",
+        "score": 87,
+        "comments_count": 35,
+        "published_at": "2026-11-22T20:33:23+00:00"
+      },
+      {
+        "uid": "hn_50603465",
+        "source": "Hacker News",
+        "title": "Nyx, the Oldest Internet Service Provider",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (69 points, 8 comments). Currently trending on Hacker News with 69 developer upvotes and 8 technical comments.",
+        "url": "https://nyx.net/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50603465",
+        "author": "o_-_o",
+        "score": 69,
+        "comments_count": 8,
+        "published_at": "2026-11-22T20:15:59+00:00"
+      },
+      {
+        "uid": "devto_5091929",
+        "source": "DEV.to",
+        "title": "I Made My RAG Safer. It Got Worse Under Load",
+        "category_tag": "[AI/ML]",
+        "takeaway": "RAG isn't dead, but unverified RAG should be. Here's what checking every sentence actually cost me on. Currently trending on DEV.to with 29 developer upvotes and 29 technical comments.",
+        "url": "https://dev.to/ayush_singh_9b0d83152be5b/i-made-my-rag-safer-it-got-worse-under-load-3olm",
+        "discussion_url": "https://dev.to/ayush_singh_9b0d83152be5b/i-made-my-rag-safer-it-got-worse-under-load-3olm",
+        "author": "ayush_singh_9b0d83152be5b",
+        "score": 29,
+        "comments_count": 29,
+        "published_at": "2026-11-22T05:23:14Z"
+      },
+      {
+        "uid": "devto_5094226",
+        "source": "DEV.to",
+        "title": "Monuments of India, Part 4: 100 New Monuments, from Harappan Dholavira to the Chenab Rail Bridge",
+        "category_tag": "[Web Dev]",
+        "takeaway": "In Part 3 the work was about depth: sixteen statues sculpted again from photographs, a rebuilt Mysore. Currently trending on DEV.to with 5 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/amananandrai/monuments-of-india-part-4-100-new-monuments-from-harappan-dholavira-to-the-chenab-rail-bridge-3n6p",
+        "discussion_url": "https://dev.to/amananandrai/monuments-of-india-part-4-100-new-monuments-from-harappan-dholavira-to-the-chenab-rail-bridge-3n6p",
+        "author": "amananandrai",
+        "score": 5,
+        "comments_count": 2,
+        "published_at": "2026-11-22T14:59:28Z"
+      },
+      {
+        "uid": "devto_5093874",
+        "source": "DEV.to",
+        "title": "Peek: a horror game where your MacBook lid is your eyelids",
+        "category_tag": "[System Design]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built Peek is a. Currently trending on DEV.to with 30 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/kakeroth/peek-a-horror-game-where-your-macbook-lid-is-your-eyelids-3hdp",
+        "discussion_url": "https://dev.to/kakeroth/peek-a-horror-game-where-your-macbook-lid-is-your-eyelids-3hdp",
+        "author": "kakeroth",
+        "score": 30,
+        "comments_count": 1,
+        "published_at": "2026-11-22T13:19:00Z"
+      },
+      {
+        "uid": "devto_5092033",
+        "source": "DEV.to",
+        "title": "How long it actually takes a GPGME fix to reach Ubuntu",
+        "category_tag": "[Security]",
+        "takeaway": "Debian shipped a fix for this week's GPGME double-free (CVE-2026-129975) the same day it was disclosed. Two days on, Ubuntu 24.04 still hasn't. Currently trending on DEV.to with 8 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/how-long-it-actually-takes-a-gpgme-fix-to-reach-ubuntu-30go",
+        "discussion_url": "https://dev.to/alexgeorgiev17/how-long-it-actually-takes-a-gpgme-fix-to-reach-ubuntu-30go",
+        "author": "alexgeorgiev17",
+        "score": 8,
+        "comments_count": 0,
+        "published_at": "2026-11-22T11:00:00Z"
+      },
+      {
+        "uid": "devto_5094653",
+        "source": "DEV.to",
+        "title": "3Draft: Five Percent — 30 Minutes to Deadline",
+        "category_tag": "[AI/ML]",
+        "takeaway": "This is probably the most improvised demo video I've ever made. I recorded it roughly 30 minutes. Currently trending on DEV.to with 20 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk",
+        "discussion_url": "https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk",
+        "author": "pengeszikra",
+        "score": 20,
+        "comments_count": 4,
+        "published_at": "2026-11-22T15:53:46Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Perplexity and Intelligence</b>\nHacker News discussion (434 points, 296 comments). Currently trending on Hacker News with 434 developer upvotes and 296 technical comments.\n<i>Hacker News · ▲ 434 · @acossta</i>\n🔗 <a href=\"https://openai.com/index/perplexity-and-intelligence/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50601525\">HN Discussion (296)</a>\n\n<b>2. [System Design] The Birds of GTA 6: A Field Guide to Vice City and Leonida&#x27;s Wildlife</b>\nHacker News discussion (273 points, 111 comments). Currently trending on Hacker News with 273 developer upvotes and 111 technical comments.\n<i>Hacker News · ▲ 273 · @gaws</i>\n🔗 <a href=\"https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50602843\">HN Discussion (111)</a>\n\n<b>3. [AI/ML] A Beginner&#x27;s Guide to Local AI with Inkling, Qwen, and Unsloth</b>\nHacker News discussion (104 points, 31 comments). Currently trending on Hacker News with 104 developer upvotes and 31 technical comments.\n<i>Hacker News · ▲ 104 · @Retell15</i>\n🔗 <a href=\"https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50603845\">HN Discussion (31)</a>\n\n<b>4. [System Design] A miniature San Francisco with live buses, planes and boats</b>\nHacker News discussion (87 points, 35 comments). Currently trending on Hacker News with 87 developer upvotes and 35 technical comments.\n<i>Hacker News · ▲ 87 · @dutilh</i>\n🔗 <a href=\"https://smallsf.com/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50603589\">HN Discussion (35)</a>\n\n<b>5. [System Design] Nyx, the Oldest Internet Service Provider</b>\nHacker News discussion (69 points, 8 comments). Currently trending on Hacker News with 69 developer upvotes and 8 technical comments.\n<i>Hacker News · ▲ 69 · @o_-_o</i>\n🔗 <a href=\"https://nyx.net/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50603465\">HN Discussion (8)</a>\n\n<b>6. [AI/ML] I Made My RAG Safer. It Got Worse Under Load</b>\nRAG isn&#x27;t dead, but unverified RAG should be. Here&#x27;s what checking every sentence actually cost me on. Currently trending on DEV.to with 29 developer upvotes and 29 technical comments.\n<i>DEV.to · ▲ 29 · @ayush_singh_9b0d83152be5b</i>\n🔗 <a href=\"https://dev.to/ayush_singh_9b0d83152be5b/i-made-my-rag-safer-it-got-worse-under-load-3olm\">Read Source</a>\n\n<b>7. [Web Dev] Monuments of India, Part 4: 100 New Monuments, from Harappan Dholavira to the Chenab Rail Bridge</b>\nIn Part 3 the work was about depth: sixteen statues sculpted again from photographs, a rebuilt Mysore. Currently trending on DEV.to with 5 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 5 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/monuments-of-india-part-4-100-new-monuments-from-harappan-dholavira-to-the-chenab-rail-bridge-3n6p\">Read Source</a>\n\n<b>8. [System Design] Peek: a horror game where your MacBook lid is your eyelids</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I Built Peek is a. Currently trending on DEV.to with 30 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 30 · @kakeroth</i>\n🔗 <a href=\"https://dev.to/kakeroth/peek-a-horror-game-where-your-macbook-lid-is-your-eyelids-3hdp\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Security] How long it actually takes a GPGME fix to reach Ubuntu</b>\nDebian shipped a fix for this week&#x27;s GPGME double-free (CVE-2026-129975) the same day it was disclosed. Two days on, Ubuntu 24.04 still hasn&#x27;t. Currently trending on DEV.to with 8 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 8 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/how-long-it-actually-takes-a-gpgme-fix-to-reach-ubuntu-30go\">Read Source</a>\n\n<b>10. [AI/ML] 3Draft: Five Percent — 30 Minutes to Deadline</b>\nThis is probably the most improvised demo video I&#x27;ve ever made. I recorded it roughly 30 minutes. Currently trending on DEV.to with 20 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 20 · @pengeszikra</i>\n🔗 <a href=\"https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-22T14:15:33.457010+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
