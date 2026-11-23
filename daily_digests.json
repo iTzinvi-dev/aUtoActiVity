@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-23T06:23:04.205989+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50606192",
+        "source": "Hacker News",
+        "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (343 points, 53 comments). Currently trending on Hacker News with 343 developer upvotes and 53 technical comments.",
+        "url": "https://spelunkr.tv",
+        "discussion_url": "https://news.ycombinator.com/item?id=50606192",
+        "author": "SockThief",
+        "score": 343,
+        "comments_count": 53,
+        "published_at": "2026-11-23T01:13:51+00:00"
+      },
+      {
+        "uid": "hn_50547698",
+        "source": "Hacker News",
+        "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (176 points, 36 comments). Currently trending on Hacker News with 176 developer upvotes and 36 technical comments.",
+        "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+        "discussion_url": "https://news.ycombinator.com/item?id=50547698",
+        "author": "graemep",
+        "score": 176,
+        "comments_count": 36,
+        "published_at": "2026-11-18T15:43:29+00:00"
+      },
+      {
+        "uid": "hn_50598441",
+        "source": "Hacker News",
+        "title": "Masullo on the Riemann Hypothesis",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (160 points, 77 comments). Currently trending on Hacker News with 160 developer upvotes and 77 technical comments.",
+        "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50598441",
+        "author": "xiaoyu2006",
+        "score": 160,
+        "comments_count": 77,
+        "published_at": "2026-11-22T10:59:56+00:00"
+      },
+      {
+        "uid": "hn_50604988",
+        "source": "Hacker News",
+        "title": "GL.iNet Security Notice 2026-11-20",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (151 points, 71 comments). Currently trending on Hacker News with 151 developer upvotes and 71 technical comments.",
+        "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+        "discussion_url": "https://news.ycombinator.com/item?id=50604988",
+        "author": "gregsadetsky",
+        "score": 151,
+        "comments_count": 71,
+        "published_at": "2026-11-22T23:06:37+00:00"
+      },
+      {
+        "uid": "hn_50603143",
+        "source": "Hacker News",
+        "title": "Assume People Are Not Interested in Your Blog Post",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (136 points, 66 comments). Currently trending on Hacker News with 136 developer upvotes and 66 technical comments.",
+        "url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50603143",
+        "author": "dshacker",
+        "score": 136,
+        "comments_count": 66,
+        "published_at": "2026-11-22T19:41:30+00:00"
+      },
+      {
+        "uid": "devto_5092956",
+        "source": "DEV.to",
+        "title": "C++ STL: WHERE HAVE YOU BEEN ALL MY LIFE? 😭",
+        "category_tag": "[System Design]",
+        "takeaway": "A little college flashback. I used to be VERY much on Python's side. I mean, look at that language. Currently trending on DEV.to with 32 developer upvotes and 11 technical comments.",
+        "url": "https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl",
+        "discussion_url": "https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl",
+        "author": "mestonecold",
+        "score": 32,
+        "comments_count": 11,
+        "published_at": "2026-11-22T09:49:08Z"
+      },
+      {
+        "uid": "devto_5094616",
+        "source": "DEV.to",
+        "title": "Coding agents won't replace you, but they're changing what \"senior\" means",
+        "category_tag": "[AI/ML]",
+        "takeaway": "\"Will AI replace developers?\" is the wrong question. The better one is: which of your skills just got. Currently trending on DEV.to with 8 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/amananandrai/coding-agents-wont-replace-you-but-theyre-changing-what-senior-means-18a4",
+        "discussion_url": "https://dev.to/amananandrai/coding-agents-wont-replace-you-but-theyre-changing-what-senior-means-18a4",
+        "author": "amananandrai",
+        "score": 8,
+        "comments_count": 4,
+        "published_at": "2026-11-22T15:44:24Z"
+      },
+      {
+        "uid": "devto_5088430",
+        "source": "DEV.to",
+        "title": "AFTERIMAGE: a five-scene memory essay you cut by blinking, framed by where you look and how evenly you breathe",
+        "category_tag": "[Systems]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built In In the. Currently trending on DEV.to with 2 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/emarc99/afterimage-a-five-scene-memory-essay-you-cut-by-blinking-framed-by-where-you-look-and-how-evenly-5bjl",
+        "discussion_url": "https://dev.to/emarc99/afterimage-a-five-scene-memory-essay-you-cut-by-blinking-framed-by-where-you-look-and-how-evenly-5bjl",
+        "author": "emarc99",
+        "score": 2,
+        "comments_count": 0,
+        "published_at": "2026-11-22T17:18:57Z"
+      },
+      {
+        "uid": "devto_5088422",
+        "source": "DEV.to",
+        "title": "One Chat, Three Clouds: An A2UI 1.0 Agent Mesh Over A2A on Google Cloud, AWS and Azure",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Three A2UI 1.0 currency agents, one per cloud, joined over A2A behind one AG-UI coordinator. Google ADK and Gemini, Strands and Amazon Nova, Microsoft Agent Framework and Azure OpenAI answer in the same chat, one at a time or all three at once. Currently trending on DEV.to with 9 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/one-chat-three-clouds-an-a2ui-10-agent-mesh-over-a2a-on-google-cloud-aws-and-azure-2j83",
+        "discussion_url": "https://dev.to/gde/one-chat-three-clouds-an-a2ui-10-agent-mesh-over-a2a-on-google-cloud-aws-and-azure-2j83",
+        "author": "xbill",
+        "score": 9,
+        "comments_count": 0,
+        "published_at": "2026-11-22T13:48:59Z"
+      },
+      {
+        "uid": "devto_5093577",
+        "source": "DEV.to",
+        "title": "My Webcam Found a Pulse in a Replay. I Built a Lab to Cross-Examine It.",
+        "category_tag": "[System Design]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge. 32 trials, three frozen rules, and. Currently trending on DEV.to with 8 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/pritam_patra_429a25dedae6/spooflab-what-a-stricter-webcam-presence-rule-cost-live-users-2j1l",
+        "discussion_url": "https://dev.to/pritam_patra_429a25dedae6/spooflab-what-a-stricter-webcam-presence-rule-cost-live-users-2j1l",
+        "author": "pritam_patra_429a25dedae6",
+        "score": 8,
+        "comments_count": 0,
+        "published_at": "2026-11-22T12:11:39Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        273,
+        274,
+        275,
+        276,
+        277,
+        278
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Free alternative TV network built from the Internet Archive&#x27;s forgotten videos</b>\nHacker News discussion (343 points, 53 comments). Currently trending on Hacker News with 343 developer upvotes and 53 technical comments.\n<i>Hacker News · ▲ 343 · @SockThief</i>\n🔗 <a href=\"https://spelunkr.tv\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50606192\">HN Discussion (53)</a>\n\n<b>2. [System Design] Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches</b>\nHacker News discussion (176 points, 36 comments). Currently trending on Hacker News with 176 developer upvotes and 36 technical comments.\n<i>Hacker News · ▲ 176 · @graemep</i>\n🔗 <a href=\"https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50547698\">HN Discussion (36)</a>\n\n<b>3. [System Design] Masullo on the Riemann Hypothesis</b>\nHacker News discussion (160 points, 77 comments). Currently trending on Hacker News with 160 developer upvotes and 77 technical comments.\n<i>Hacker News · ▲ 160 · @xiaoyu2006</i>\n🔗 <a href=\"https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50598441\">HN Discussion (77)</a>\n\n<b>4. [Security] GL.iNet Security Notice 2026-11-20</b>\nHacker News discussion (151 points, 71 comments). Currently trending on Hacker News with 151 developer upvotes and 71 technical comments.\n<i>Hacker News · ▲ 151 · @gregsadetsky</i>\n🔗 <a href=\"https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50604988\">HN Discussion (71)</a>\n\n<b>5. [System Design] Assume People Are Not Interested in Your Blog Post</b>\nHacker News discussion (136 points, 66 comments). Currently trending on Hacker News with 136 developer upvotes and 66 technical comments.\n<i>Hacker News · ▲ 136 · @dshacker</i>\n🔗 <a href=\"https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50603143\">HN Discussion (66)</a>\n\n<b>6. [System Design] C++ STL: WHERE HAVE YOU BEEN ALL MY LIFE? 😭</b>\nA little college flashback. I used to be VERY much on Python&#x27;s side. I mean, look at that language. Currently trending on DEV.to with 32 developer upvotes and 11 technical comments.\n<i>DEV.to · ▲ 32 · @mestonecold</i>\n🔗 <a href=\"https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl\">Read Source</a>\n\n<b>7. [AI/ML] Coding agents won&#x27;t replace you, but they&#x27;re changing what &quot;senior&quot; means</b>\n&quot;Will AI replace developers?&quot; is the wrong question. The better one is: which of your skills just got. Currently trending on DEV.to with 8 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 8 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/coding-agents-wont-replace-you-but-theyre-changing-what-senior-means-18a4\">Read Source</a>\n\n<b>8. [Systems] AFTERIMAGE: a five-scene memory essay you cut by blinking, framed by where you look and how evenly you breathe</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I Built In In the. Currently trending on DEV.to with 2 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 2 · @emarc99</i>\n🔗 <a href=\"https://dev.to/emarc99/afterimage-a-five-scene-memory-essay-you-cut-by-blinking-framed-by-where-you-look-and-how-evenly-5bjl\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] One Chat, Three Clouds: An A2UI 1.0 Agent Mesh Over A2A on Google Cloud, AWS and Azure</b>\nThree A2UI 1.0 currency agents, one per cloud, joined over A2A behind one AG-UI coordinator. Google ADK and Gemini, Strands and Amazon Nova, Microsoft Agent Framework and Azure OpenAI answer in the same chat, one at a time or all three at once. Currently trending on DEV.to with 9 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 9 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/one-chat-three-clouds-an-a2ui-10-agent-mesh-over-a2a-on-google-cloud-aws-and-azure-2j83\">Read Source</a>\n\n<b>10. [System Design] My Webcam Found a Pulse in a Replay. I Built a Lab to Cross-Examine It.</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge. 32 trials, three frozen rules, and. Currently trending on DEV.to with 8 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 8 · @pritam_patra_429a25dedae6</i>\n🔗 <a href=\"https://dev.to/pritam_patra_429a25dedae6/spooflab-what-a-stricter-webcam-presence-rule-cost-live-users-2j1l\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-22T23:22:30.856735+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
