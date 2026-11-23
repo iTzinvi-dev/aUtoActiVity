@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-23T23:32:43.361300+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50611576",
+        "source": "Hacker News",
+        "title": "Nvidia Reinstates Jensen Huang as CEO",
+        "category_tag": "[System Design]",
+        "takeaway": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-j...</a><p><a href=\"https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11. Currently trending on Hacker News with 1889 developer upvotes and 2982 technical comments.",
+        "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50611576",
+        "author": "jaz",
+        "score": 1889,
+        "comments_count": 2982,
+        "published_at": "2026-11-23T14:00:18+00:00"
+      },
+      {
+        "uid": "hn_50614249",
+        "source": "Hacker News",
+        "title": "Ladybird is now in alpha",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (1265 points, 310 comments). Currently trending on Hacker News with 1265 developer upvotes and 310 technical comments.",
+        "url": "https://ladybird.org/posts/alpha/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50614249",
+        "author": "janvdberg",
+        "score": 1265,
+        "comments_count": 310,
+        "published_at": "2026-11-23T16:13:12+00:00"
+      },
+      {
+        "uid": "hn_50609685",
+        "source": "Hacker News",
+        "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (1015 points, 332 comments). Currently trending on Hacker News with 1015 developer upvotes and 332 technical comments.",
+        "url": "https://z.ai/blog/glm-5.4",
+        "discussion_url": "https://news.ycombinator.com/item?id=50609685",
+        "author": "foohis",
+        "score": 1015,
+        "comments_count": 332,
+        "published_at": "2026-11-23T10:06:43+00:00"
+      },
+      {
+        "uid": "hn_50615308",
+        "source": "Hacker News",
+        "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (947 points, 552 comments). Currently trending on Hacker News with 947 developer upvotes and 552 technical comments.",
+        "url": "https://twitter.com/ylecun/status/2124550037912920090",
+        "discussion_url": "https://news.ycombinator.com/item?id=50615308",
+        "author": "MrBuddyCasino",
+        "score": 947,
+        "comments_count": 552,
+        "published_at": "2026-11-23T17:07:26+00:00"
+      },
+      {
+        "uid": "hn_50617499",
+        "source": "Hacker News",
+        "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (754 points, 154 comments). Currently trending on Hacker News with 754 developer upvotes and 154 technical comments.",
+        "url": "https://arm.jonpalmisc.com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50617499",
+        "author": "tech234a",
+        "score": 754,
+        "comments_count": 154,
+        "published_at": "2026-11-23T19:17:55+00:00"
+      },
+      {
+        "uid": "devto_5085299",
+        "source": "DEV.to",
+        "title": "What are you Grateful for this Thanksgiving?",
+        "category_tag": "[Open Source]",
+        "takeaway": "Thanksgiving is almost here (Just days away)..and I have no plans yet. Don't worry, I will think. Currently trending on DEV.to with 90 developer upvotes and 36 technical comments.",
+        "url": "https://dev.to/francistrdev/what-are-you-grateful-for-this-thanksgiving-4570",
+        "discussion_url": "https://dev.to/francistrdev/what-are-you-grateful-for-this-thanksgiving-4570",
+        "author": "francistrdev",
+        "score": 90,
+        "comments_count": 36,
+        "published_at": "2026-11-23T14:42:00Z"
+      },
+      {
+        "uid": "devto_5097388",
+        "source": "DEV.to",
+        "title": "The Third Cup: Change Never Sleeps",
+        "category_tag": "[System Design]",
+        "takeaway": "An Ancient Idea in a Digital World It's 1:30 a.m. The café is still open, although only a few. Currently trending on DEV.to with 94 developer upvotes and 36 technical comments.",
+        "url": "https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf",
+        "discussion_url": "https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf",
+        "author": "xulingfeng",
+        "score": 94,
+        "comments_count": 36,
+        "published_at": "2026-11-23T07:09:21Z"
+      },
+      {
+        "uid": "devto_4828160",
+        "source": "DEV.to",
+        "title": "Netlify Isn't Just a Static CDN: How Atomic Deploys, Edge Isolates, and Content-Addressed Storage Actually Work Under the Hood",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "A visual, 10-minute deep dive into Netlify architecture. Learn how content-addressed trees eliminate cache invalidation, how atomic pointer flips guarantee zero asset drift, why Deno V8 edge isolates start in 5ms, and how the Smart CDN routes requests without central bottlenecks. Currently trending on DEV.to with 9 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/smtahosin/netlify-isnt-just-a-static-cdn-how-atomic-deploys-edge-isolates-and-content-addressed-storage-5136",
+        "discussion_url": "https://dev.to/smtahosin/netlify-isnt-just-a-static-cdn-how-atomic-deploys-edge-isolates-and-content-addressed-storage-5136",
+        "author": "smtahosin",
+        "score": 9,
+        "comments_count": 2,
+        "published_at": "2026-11-23T10:34:02Z"
+      },
+      {
+        "uid": "devto_5091363",
+        "source": "DEV.to",
+        "title": "Wrist vs Camera: Can I Trust a Camera Pulse on My Own Laptop?",
+        "category_tag": "[System Design]",
+        "takeaway": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built My laptop. Currently trending on DEV.to with 25 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/dannwaneri/wrist-vs-camera-can-i-trust-a-camera-pulse-on-my-own-laptop-4g3o",
+        "discussion_url": "https://dev.to/dannwaneri/wrist-vs-camera-can-i-trust-a-camera-pulse-on-my-own-laptop-4g3o",
+        "author": "dannwaneri",
+        "score": 25,
+        "comments_count": 1,
+        "published_at": "2026-11-23T05:00:00Z"
+      },
+      {
+        "uid": "devto_5032798",
+        "source": "DEV.to",
+        "title": "Proofreader vs. Rewriter vs. Prompt API: Test the Task, Not the Demo",
+        "category_tag": "[AI/ML]",
+        "takeaway": "“Make this message better” is not one task. It can mean correcting a spelling mistake, changing the. Currently trending on DEV.to with 22 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/gde/proofreader-vs-rewriter-vs-prompt-api-test-the-task-not-the-demo-pi9",
+        "discussion_url": "https://dev.to/gde/proofreader-vs-rewriter-vs-prompt-api-test-the-task-not-the-demo-pi9",
+        "author": "raju_dandigam",
+        "score": 22,
+        "comments_count": 4,
+        "published_at": "2026-11-23T15:10:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        279,
+        280,
+        281,
+        282,
+        283,
+        284
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Nvidia Reinstates Jensen Huang as CEO</b>\n&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nvidianews.nvidia.com&amp;#x2F;news&amp;#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;nvidianews.nvidia.com&amp;#x2F;news&amp;#x2F;nvidia-board-reinstates-j...&lt;/a&gt;&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.cnbc.com&amp;#x2F;2026&amp;#x2F;11. Currently trending on Hacker News with 1889 developer upvotes and 2982 technical comments.\n<i>Hacker News · ▲ 1889 · @jaz</i>\n🔗 <a href=\"https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50611576\">HN Discussion (2982)</a>\n\n<b>2. [System Design] Ladybird is now in alpha</b>\nHacker News discussion (1265 points, 310 comments). Currently trending on Hacker News with 1265 developer upvotes and 310 technical comments.\n<i>Hacker News · ▲ 1265 · @janvdberg</i>\n🔗 <a href=\"https://ladybird.org/posts/alpha/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50614249\">HN Discussion (310)</a>\n\n<b>3. [AI/ML] GLM-5.4: Toward generalized coding with our first loop transformer</b>\nHacker News discussion (1015 points, 332 comments). Currently trending on Hacker News with 1015 developer upvotes and 332 technical comments.\n<i>Hacker News · ▲ 1015 · @foohis</i>\n🔗 <a href=\"https://z.ai/blog/glm-5.4\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50609685\">HN Discussion (332)</a>\n\n<b>4. [System Design] Dario is hyping the dangers so OSS models are illegal and he stays in control</b>\nHacker News discussion (947 points, 552 comments). Currently trending on Hacker News with 947 developer upvotes and 552 technical comments.\n<i>Hacker News · ▲ 947 · @MrBuddyCasino</i>\n🔗 <a href=\"https://twitter.com/ylecun/status/2124550037912920090\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50615308\">HN Discussion (552)</a>\n\n<b>5. [System Design] Per Arm&#x27;s request, this site will be discontinued on 4 December 2026 :(</b>\nHacker News discussion (754 points, 154 comments). Currently trending on Hacker News with 754 developer upvotes and 154 technical comments.\n<i>Hacker News · ▲ 754 · @tech234a</i>\n🔗 <a href=\"https://arm.jonpalmisc.com/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50617499\">HN Discussion (154)</a>\n\n<b>6. [Open Source] What are you Grateful for this Thanksgiving?</b>\nThanksgiving is almost here (Just days away)..and I have no plans yet. Don&#x27;t worry, I will think. Currently trending on DEV.to with 90 developer upvotes and 36 technical comments.\n<i>DEV.to · ▲ 90 · @francistrdev</i>\n🔗 <a href=\"https://dev.to/francistrdev/what-are-you-grateful-for-this-thanksgiving-4570\">Read Source</a>\n\n<b>7. [System Design] The Third Cup: Change Never Sleeps</b>\nAn Ancient Idea in a Digital World It&#x27;s 1:30 a.m. The café is still open, although only a few. Currently trending on DEV.to with 94 developer upvotes and 36 technical comments.\n<i>DEV.to · ▲ 94 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [Cloud/DevOps] Netlify Isn&#x27;t Just a Static CDN: How Atomic Deploys, Edge Isolates, and Content-Addressed Storage Actually Work Under the Hood</b>\nA visual, 10-minute deep dive into Netlify architecture. Learn how content-addressed trees eliminate cache invalidation, how atomic pointer flips guarantee zero asset drift, why Deno V8 edge isolates start in 5ms, and how the Smart CDN routes requests without central bottlenecks. Currently trending on DEV.to with 9 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 9 · @smtahosin</i>\n🔗 <a href=\"https://dev.to/smtahosin/netlify-isnt-just-a-static-cdn-how-atomic-deploys-edge-isolates-and-content-addressed-storage-5136\">Read Source</a>\n\n<b>9. [System Design] Wrist vs Camera: Can I Trust a Camera Pulse on My Own Laptop?</b>\nThis is a submission for the Presage SmartSpectra SDK Challenge What I Built My laptop. Currently trending on DEV.to with 25 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 25 · @dannwaneri</i>\n🔗 <a href=\"https://dev.to/dannwaneri/wrist-vs-camera-can-i-trust-a-camera-pulse-on-my-own-laptop-4g3o\">Read Source</a>\n\n<b>10. [AI/ML] Proofreader vs. Rewriter vs. Prompt API: Test the Task, Not the Demo</b>\n“Make this message better” is not one task. It can mean correcting a spelling mistake, changing the. Currently trending on DEV.to with 22 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 22 · @raju_dandigam</i>\n🔗 <a href=\"https://dev.to/gde/proofreader-vs-rewriter-vs-prompt-api-test-the-task-not-the-demo-pi9\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-23T06:23:04.205989+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
