@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-24T22:02:04.391207+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50624497",
+        "source": "Hacker News",
+        "title": "2035 came early",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (914 points, 344 comments). Currently trending on Hacker News with 914 developer upvotes and 344 technical comments.",
+        "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+        "discussion_url": "https://news.ycombinator.com/item?id=50624497",
+        "author": "setheron",
+        "score": 914,
+        "comments_count": 344,
+        "published_at": "2026-11-24T06:30:33+00:00"
+      },
+      {
+        "uid": "hn_50598555",
+        "source": "Hacker News",
+        "title": "The Spray Bottle",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (275 points, 80 comments). Currently trending on Hacker News with 275 developer upvotes and 80 technical comments.",
+        "url": "https://mechanical-pencil.com/products/spray-bottle",
+        "discussion_url": "https://news.ycombinator.com/item?id=50598555",
+        "author": "vinhnx",
+        "score": 275,
+        "comments_count": 80,
+        "published_at": "2026-11-22T11:16:30+00:00"
+      },
+      {
+        "uid": "hn_50630594",
+        "source": "Hacker News",
+        "title": "Active intrusion campaign against Check Point security management servers",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (232 points, 95 comments). Currently trending on Hacker News with 232 developer upvotes and 95 technical comments.",
+        "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+        "discussion_url": "https://news.ycombinator.com/item?id=50630594",
+        "author": "louiereederson",
+        "score": 232,
+        "comments_count": 95,
+        "published_at": "2026-11-24T16:32:17+00:00"
+      },
+      {
+        "uid": "hn_50630462",
+        "source": "Hacker News",
+        "title": "Jetty Pro",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (228 points, 90 comments). Currently trending on Hacker News with 228 developer upvotes and 90 technical comments.",
+        "url": "http://hypercritical.co/2026/11/23/jetty-pro",
+        "discussion_url": "https://news.ycombinator.com/item?id=50630462",
+        "author": "zdw",
+        "score": 228,
+        "comments_count": 90,
+        "published_at": "2026-11-24T16:23:02+00:00"
+      },
+      {
+        "uid": "hn_50633922",
+        "source": "Hacker News",
+        "title": "Ternary Bonsai 2.5 27B",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (167 points, 54 comments). Currently trending on Hacker News with 167 developer upvotes and 54 technical comments.",
+        "url": "https://prismml.com/news/bonsai-2-5-27b",
+        "discussion_url": "https://news.ycombinator.com/item?id=50633922",
+        "author": "b0m",
+        "score": 167,
+        "comments_count": 54,
+        "published_at": "2026-11-24T20:08:03+00:00"
+      },
+      {
+        "uid": "devto_5100086",
+        "source": "DEV.to",
+        "title": "The Third Cup: After Everything Has a Name",
+        "category_tag": "[System Design]",
+        "takeaway": "Names didn't create the world. They connected us to it. It was three in the afternoon. The café. Currently trending on DEV.to with 71 developer upvotes and 29 technical comments.",
+        "url": "https://dev.to/thethirdcup/the-third-cup-after-everything-has-a-name-2b14",
+        "discussion_url": "https://dev.to/thethirdcup/the-third-cup-after-everything-has-a-name-2b14",
+        "author": "xulingfeng",
+        "score": 71,
+        "comments_count": 29,
+        "published_at": "2026-11-24T07:31:20Z"
+      },
+      {
+        "uid": "devto_5103474",
+        "source": "DEV.to",
+        "title": "Why Your AI Release Notes Hallucinate: The \"Why vs What\" Problem in Git History",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Passing raw git diffs to LLMs produces plausible but hallucinated changelogs. Here is why extracting the real \"why\" requires linked issues and counterfactual evals. Currently trending on DEV.to with 28 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0",
+        "discussion_url": "https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0",
+        "author": "johnnylemonny",
+        "score": 28,
+        "comments_count": 2,
+        "published_at": "2026-11-24T16:30:00Z"
+      },
+      {
+        "uid": "devto_4828484",
+        "source": "DEV.to",
+        "title": "Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition Forever",
+        "category_tag": "[System Design]",
+        "takeaway": "A visual, 10-minute deep dive into modern Android runtime architecture. Learn how the Compose Compiler SlotTable gap buffer works, why unstable types cause silent recomposition cascades, how to stop background Flow battery drain, and how to survive Android process death. Currently trending on DEV.to with 13 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/smtahosin/why-your-android-app-drops-frames-the-jetpack-compose-architecture-guide-that-fixes-recomposition-3oh3",
+        "discussion_url": "https://dev.to/smtahosin/why-your-android-app-drops-frames-the-jetpack-compose-architecture-guide-that-fixes-recomposition-3oh3",
+        "author": "smtahosin",
+        "score": 13,
+        "comments_count": 2,
+        "published_at": "2026-11-24T07:55:43Z"
+      },
+      {
+        "uid": "devto_5106419",
+        "source": "DEV.to",
+        "title": "String Type In C",
+        "category_tag": "[AI/ML]",
+        "takeaway": "If we go and search for \"string type in C\" on internet or ask AI, we get a line saying \"C has no. Currently trending on DEV.to with 41 developer upvotes and 6 technical comments.",
+        "url": "https://dev.to/necoz/string-type-in-c-3aep",
+        "discussion_url": "https://dev.to/necoz/string-type-in-c-3aep",
+        "author": "csm18",
+        "score": 41,
+        "comments_count": 6,
+        "published_at": "2026-11-24T12:02:45Z"
+      },
+      {
+        "uid": "devto_5109914",
+        "source": "DEV.to",
+        "title": "I Let Claude Code Create My AWS Account",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Every time I've helped someone start on AWS, the same thing happens. They're keen, they have an idea,. Currently trending on DEV.to with 7 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/aws/i-let-claude-code-create-my-aws-account-12gb",
+        "discussion_url": "https://dev.to/aws/i-let-claude-code-create-my-aws-account-12gb",
+        "author": "rohini_gaonkar",
+        "score": 7,
+        "comments_count": 1,
+        "published_at": "2026-11-24T17:33:19Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        291,
+        292,
+        293,
+        294,
+        295,
+        296
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] 2035 came early</b>\nHacker News discussion (914 points, 344 comments). Currently trending on Hacker News with 914 developer upvotes and 344 technical comments.\n<i>Hacker News · ▲ 914 · @setheron</i>\n🔗 <a href=\"https://fzakaria.com/2026/11/23/2035-came-early\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50624497\">HN Discussion (344)</a>\n\n<b>2. [System Design] The Spray Bottle</b>\nHacker News discussion (275 points, 80 comments). Currently trending on Hacker News with 275 developer upvotes and 80 technical comments.\n<i>Hacker News · ▲ 275 · @vinhnx</i>\n🔗 <a href=\"https://mechanical-pencil.com/products/spray-bottle\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50598555\">HN Discussion (80)</a>\n\n<b>3. [Security] Active intrusion campaign against Check Point security management servers</b>\nHacker News discussion (232 points, 95 comments). Currently trending on Hacker News with 232 developer upvotes and 95 technical comments.\n<i>Hacker News · ▲ 232 · @louiereederson</i>\n🔗 <a href=\"https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50630594\">HN Discussion (95)</a>\n\n<b>4. [System Design] Jetty Pro</b>\nHacker News discussion (228 points, 90 comments). Currently trending on Hacker News with 228 developer upvotes and 90 technical comments.\n<i>Hacker News · ▲ 228 · @zdw</i>\n🔗 <a href=\"http://hypercritical.co/2026/11/23/jetty-pro\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50630462\">HN Discussion (90)</a>\n\n<b>5. [System Design] Ternary Bonsai 2.5 27B</b>\nHacker News discussion (167 points, 54 comments). Currently trending on Hacker News with 167 developer upvotes and 54 technical comments.\n<i>Hacker News · ▲ 167 · @b0m</i>\n🔗 <a href=\"https://prismml.com/news/bonsai-2-5-27b\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50633922\">HN Discussion (54)</a>\n\n<b>6. [System Design] The Third Cup: After Everything Has a Name</b>\nNames didn&#x27;t create the world. They connected us to it. It was three in the afternoon. The café. Currently trending on DEV.to with 71 developer upvotes and 29 technical comments.\n<i>DEV.to · ▲ 71 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/thethirdcup/the-third-cup-after-everything-has-a-name-2b14\">Read Source</a>\n\n<b>7. [AI/ML] Why Your AI Release Notes Hallucinate: The &quot;Why vs What&quot; Problem in Git History</b>\nPassing raw git diffs to LLMs produces plausible but hallucinated changelogs. Here is why extracting the real &quot;why&quot; requires linked issues and counterfactual evals. Currently trending on DEV.to with 28 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 28 · @johnnylemonny</i>\n🔗 <a href=\"https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0\">Read Source</a>\n\n<b>8. [System Design] Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition Forever</b>\nA visual, 10-minute deep dive into modern Android runtime architecture. Learn how the Compose Compiler SlotTable gap buffer works, why unstable types cause silent recomposition cascades, how to stop background Flow battery drain, and how to survive Android process death. Currently trending on DEV.to with 13 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 13 · @smtahosin</i>\n🔗 <a href=\"https://dev.to/smtahosin/why-your-android-app-drops-frames-the-jetpack-compose-architecture-guide-that-fixes-recomposition-3oh3\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] String Type In C</b>\nIf we go and search for &quot;string type in C&quot; on internet or ask AI, we get a line saying &quot;C has no. Currently trending on DEV.to with 41 developer upvotes and 6 technical comments.\n<i>DEV.to · ▲ 41 · @csm18</i>\n🔗 <a href=\"https://dev.to/necoz/string-type-in-c-3aep\">Read Source</a>\n\n<b>10. [AI/ML] I Let Claude Code Create My AWS Account</b>\nEvery time I&#x27;ve helped someone start on AWS, the same thing happens. They&#x27;re keen, they have an idea,. Currently trending on DEV.to with 7 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 7 · @rohini_gaonkar</i>\n🔗 <a href=\"https://dev.to/aws/i-let-claude-code-create-my-aws-account-12gb\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-24T08:55:04.577668+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
