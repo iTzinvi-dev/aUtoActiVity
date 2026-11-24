@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-24T08:55:04.577668+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50620349",
+        "source": "Hacker News",
+        "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (435 points, 226 comments). Currently trending on Hacker News with 435 developer upvotes and 226 technical comments.",
+        "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50620349",
+        "author": "shaunpud",
+        "score": 435,
+        "comments_count": 226,
+        "published_at": "2026-11-23T22:32:29+00:00"
+      },
+      {
+        "uid": "hn_50622774",
+        "source": "Hacker News",
+        "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (308 points, 87 comments). Currently trending on Hacker News with 308 developer upvotes and 87 technical comments.",
+        "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+        "discussion_url": "https://news.ycombinator.com/item?id=50622774",
+        "author": "DeepLogin",
+        "score": 308,
+        "comments_count": 87,
+        "published_at": "2026-11-24T02:27:02+00:00"
+      },
+      {
+        "uid": "hn_50619103",
+        "source": "Hacker News",
+        "title": "GPUI is getting its own repository",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (244 points, 96 comments). Currently trending on Hacker News with 244 developer upvotes and 96 technical comments.",
+        "url": "https://github.com/zed-industries/gpui",
+        "discussion_url": "https://news.ycombinator.com/item?id=50619103",
+        "author": "EvilGoose",
+        "score": 244,
+        "comments_count": 96,
+        "published_at": "2026-11-23T20:52:54+00:00"
+      },
+      {
+        "uid": "hn_50604710",
+        "source": "Hacker News",
+        "title": "Modernizing iperf/iperf3 and introducing fireperf",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (90 points, 8 comments). Currently trending on Hacker News with 90 developer upvotes and 8 technical comments.",
+        "url": "https://blog.daniel-baumann.ch/posts/20261122-1.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50604710",
+        "author": "edward",
+        "score": 90,
+        "comments_count": 8,
+        "published_at": "2026-11-22T22:37:51+00:00"
+      },
+      {
+        "uid": "hn_50623515",
+        "source": "Hacker News",
+        "title": "Drone Maps of Salvage Yards",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (74 points, 27 comments). Currently trending on Hacker News with 74 developer upvotes and 27 technical comments.",
+        "url": "https://salvageyarddrone.wordpress.com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50623515",
+        "author": "uptrails",
+        "score": 74,
+        "comments_count": 27,
+        "published_at": "2026-11-24T04:00:28+00:00"
+      },
+      {
+        "uid": "devto_5098053",
+        "source": "DEV.to",
+        "title": "C# 15 Unpacked: Practical Use Cases for Unions with Real Examples",
+        "category_tag": "[Open Source]",
+        "takeaway": "All the code in this series is available on GitHub. Clone it, run it, and try breaking it yourself. Currently trending on DEV.to with 34 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32",
+        "discussion_url": "https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32",
+        "author": "georgekobaidze",
+        "score": 34,
+        "comments_count": 10,
+        "published_at": "2026-11-23T13:24:24Z"
+      },
+      {
+        "uid": "devto_4969507",
+        "source": "DEV.to",
+        "title": "Rent the Job. Own the Life.",
+        "category_tag": "[System Design]",
+        "takeaway": "I own a house. I've also rented a lot of apartments. I treated them very differently. In my. Currently trending on DEV.to with 7 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/aws-heroes/rent-the-job-own-the-life-12g3",
+        "discussion_url": "https://dev.to/aws-heroes/rent-the-job-own-the-life-12g3",
+        "author": "btarbox",
+        "score": 7,
+        "comments_count": 2,
+        "published_at": "2026-11-23T16:57:26Z"
+      },
+      {
+        "uid": "devto_5099751",
+        "source": "DEV.to",
+        "title": "🎨 NECOZ Art Class: The Day 35 Cats Painted a Portrait of the King 👑 | How Pixels Work",
+        "category_tag": "[System Design]",
+        "takeaway": "It was 9 AM at NECOZ School. 🏫 Art Class had just begun when King Nyaomaru walked in wearing his. Currently trending on DEV.to with 57 developer upvotes and 14 technical comments.",
+        "url": "https://dev.to/necoz/necoz-art-class-the-day-35-cats-painted-a-portrait-of-the-king-how-pixels-work-10en",
+        "discussion_url": "https://dev.to/necoz/necoz-art-class-the-day-35-cats-painted-a-portrait-of-the-king-how-pixels-work-10en",
+        "author": "akhourianmolkumar",
+        "score": 57,
+        "comments_count": 14,
+        "published_at": "2026-11-23T10:57:06Z"
+      },
+      {
+        "uid": "devto_5102818",
+        "source": "DEV.to",
+        "title": "Why millions of agents don't need millions of VMs on Agent Substrate",
+        "category_tag": "[AI/ML]",
+        "takeaway": "How stateful agent harnesses run, suspend, and wake in under a second on Agent Substrate 1.0, from one VM to millions of actors. Currently trending on DEV.to with 5 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/googlecloud/why-millions-of-agents-dont-need-millions-of-vms-on-agent-substrate-2ech",
+        "discussion_url": "https://dev.to/googlecloud/why-millions-of-agents-dont-need-millions-of-vms-on-agent-substrate-2ech",
+        "author": "eliasecchi",
+        "score": 5,
+        "comments_count": 2,
+        "published_at": "2026-11-23T19:48:10Z"
+      },
+      {
+        "uid": "devto_5101484",
+        "source": "DEV.to",
+        "title": "Blobasaur and the 4th Cross way: how Zerodha's ~35-person tech team keeps shipping open source",
+        "category_tag": "[System Design]",
+        "takeaway": "TL;DR: Zerodha just open-sourced Blobasaur, a sharded blob server written in Rust. It speaks the. Currently trending on DEV.to with 6 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/amananandrai/blobasaur-and-the-4th-cross-way-how-zerodhas-35-person-tech-team-keeps-shipping-open-source-39o9",
+        "discussion_url": "https://dev.to/amananandrai/blobasaur-and-the-4th-cross-way-how-zerodhas-35-person-tech-team-keeps-shipping-open-source-39o9",
+        "author": "amananandrai",
+        "score": 6,
+        "comments_count": 1,
+        "published_at": "2026-11-23T18:43:37Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        285,
+        286,
+        287,
+        288,
+        289,
+        290
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Stalwart is now a drop-in replacement for Microsoft Exchange</b>\nHacker News discussion (435 points, 226 comments). Currently trending on Hacker News with 435 developer upvotes and 226 technical comments.\n<i>Hacker News · ▲ 435 · @shaunpud</i>\n🔗 <a href=\"https://stalw.art/blog/microsoft-exchange-replacement/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50620349\">HN Discussion (226)</a>\n\n<b>2. [System Design] New York Bans Subscription and Post-Purchase Fees on Cars</b>\nHacker News discussion (308 points, 87 comments). Currently trending on Hacker News with 308 developer upvotes and 87 technical comments.\n<i>Hacker News · ▲ 308 · @DeepLogin</i>\n🔗 <a href=\"https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50622774\">HN Discussion (87)</a>\n\n<b>3. [System Design] GPUI is getting its own repository</b>\nHacker News discussion (244 points, 96 comments). Currently trending on Hacker News with 244 developer upvotes and 96 technical comments.\n<i>Hacker News · ▲ 244 · @EvilGoose</i>\n🔗 <a href=\"https://github.com/zed-industries/gpui\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50619103\">HN Discussion (96)</a>\n\n<b>4. [System Design] Modernizing iperf/iperf3 and introducing fireperf</b>\nHacker News discussion (90 points, 8 comments). Currently trending on Hacker News with 90 developer upvotes and 8 technical comments.\n<i>Hacker News · ▲ 90 · @edward</i>\n🔗 <a href=\"https://blog.daniel-baumann.ch/posts/20261122-1.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50604710\">HN Discussion (8)</a>\n\n<b>5. [System Design] Drone Maps of Salvage Yards</b>\nHacker News discussion (74 points, 27 comments). Currently trending on Hacker News with 74 developer upvotes and 27 technical comments.\n<i>Hacker News · ▲ 74 · @uptrails</i>\n🔗 <a href=\"https://salvageyarddrone.wordpress.com/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50623515\">HN Discussion (27)</a>\n\n<b>6. [Open Source] C# 15 Unpacked: Practical Use Cases for Unions with Real Examples</b>\nAll the code in this series is available on GitHub. Clone it, run it, and try breaking it yourself. Currently trending on DEV.to with 34 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 34 · @georgekobaidze</i>\n🔗 <a href=\"https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32\">Read Source</a>\n\n<b>7. [System Design] Rent the Job. Own the Life.</b>\nI own a house. I&#x27;ve also rented a lot of apartments. I treated them very differently. In my. Currently trending on DEV.to with 7 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 7 · @btarbox</i>\n🔗 <a href=\"https://dev.to/aws-heroes/rent-the-job-own-the-life-12g3\">Read Source</a>\n\n<b>8. [System Design] 🎨 NECOZ Art Class: The Day 35 Cats Painted a Portrait of the King 👑 | How Pixels Work</b>\nIt was 9 AM at NECOZ School. 🏫 Art Class had just begun when King Nyaomaru walked in wearing his. Currently trending on DEV.to with 57 developer upvotes and 14 technical comments.\n<i>DEV.to · ▲ 57 · @akhourianmolkumar</i>\n🔗 <a href=\"https://dev.to/necoz/necoz-art-class-the-day-35-cats-painted-a-portrait-of-the-king-how-pixels-work-10en\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Why millions of agents don&#x27;t need millions of VMs on Agent Substrate</b>\nHow stateful agent harnesses run, suspend, and wake in under a second on Agent Substrate 1.0, from one VM to millions of actors. Currently trending on DEV.to with 5 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 5 · @eliasecchi</i>\n🔗 <a href=\"https://dev.to/googlecloud/why-millions-of-agents-dont-need-millions-of-vms-on-agent-substrate-2ech\">Read Source</a>\n\n<b>10. [System Design] Blobasaur and the 4th Cross way: how Zerodha&#x27;s ~35-person tech team keeps shipping open source</b>\nTL;DR: Zerodha just open-sourced Blobasaur, a sharded blob server written in Rust. It speaks the. Currently trending on DEV.to with 6 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 6 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/blobasaur-and-the-4th-cross-way-how-zerodhas-35-person-tech-team-keeps-shipping-open-source-39o9\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-23T23:32:43.361300+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
