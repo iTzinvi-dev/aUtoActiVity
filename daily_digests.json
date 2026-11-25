@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-25T21:16:28.016544+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50644817",
+        "source": "Hacker News",
+        "title": "1Password Security Incident",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (755 points, 315 comments). Currently trending on Hacker News with 755 developer upvotes and 315 technical comments.",
+        "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+        "discussion_url": "https://news.ycombinator.com/item?id=50644817",
+        "author": "lxhrstn",
+        "score": 755,
+        "comments_count": 315,
+        "published_at": "2026-11-25T17:18:26+00:00"
+      },
+      {
+        "uid": "hn_50646108",
+        "source": "Hacker News",
+        "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+        "category_tag": "[System Design]",
+        "takeaway": "See also <i>The matrix multiplication exponent is nine fourths [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50637220</a>. Currently trending on Hacker News with 438 developer upvotes and 300 technical comments.",
+        "url": "https://scottaaronson.blog/?p=10379",
+        "discussion_url": "https://news.ycombinator.com/item?id=50646108",
+        "author": "Kotlopou",
+        "score": 438,
+        "comments_count": 300,
+        "published_at": "2026-11-25T19:11:27+00:00"
+      },
+      {
+        "uid": "hn_50642086",
+        "source": "Hacker News",
+        "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (392 points, 302 comments). Currently trending on Hacker News with 392 developer upvotes and 302 technical comments.",
+        "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+        "discussion_url": "https://news.ycombinator.com/item?id=50642086",
+        "author": "rgwohlbold",
+        "score": 392,
+        "comments_count": 302,
+        "published_at": "2026-11-25T13:33:07+00:00"
+      },
+      {
+        "uid": "hn_50643129",
+        "source": "Hacker News",
+        "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (375 points, 93 comments). Currently trending on Hacker News with 375 developer upvotes and 93 technical comments.",
+        "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+        "discussion_url": "https://news.ycombinator.com/item?id=50643129",
+        "author": "gumby",
+        "score": 375,
+        "comments_count": 93,
+        "published_at": "2026-11-25T15:14:32+00:00"
+      },
+      {
+        "uid": "hn_50641171",
+        "source": "Hacker News",
+        "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (291 points, 163 comments). Currently trending on Hacker News with 291 developer upvotes and 163 technical comments.",
+        "url": "https://github.com/xoxorwr/pw-loudness-eq",
+        "discussion_url": "https://news.ycombinator.com/item?id=50641171",
+        "author": "ThrowNotAway",
+        "score": 291,
+        "comments_count": 163,
+        "published_at": "2026-11-25T11:34:25+00:00"
+      },
+      {
+        "uid": "devto_5111464",
+        "source": "DEV.to",
+        "title": "The Price You Pay for Passion",
+        "category_tag": "[System Design]",
+        "takeaway": "Over the past three weeks, I've written three rather demanding articles. I still want to push a. Currently trending on DEV.to with 86 developer upvotes and 48 technical comments.",
+        "url": "https://dev.to/thethirdcup/the-price-you-pay-for-passion-3h5l",
+        "discussion_url": "https://dev.to/thethirdcup/the-price-you-pay-for-passion-3h5l",
+        "author": "sylwia-lask",
+        "score": 86,
+        "comments_count": 48,
+        "published_at": "2026-11-25T08:29:06Z"
+      },
+      {
+        "uid": "devto_4222221",
+        "source": "DEV.to",
+        "title": "The mental toll of working in tech",
+        "category_tag": "[System Design]",
+        "takeaway": "Hi folks! 👋 It's been a while since I last wrote here. As some of you may remember, some time ago I. Currently trending on DEV.to with 48 developer upvotes and 14 technical comments.",
+        "url": "https://dev.to/klaudiagrz/the-mental-toll-of-working-in-tech-2m6k",
+        "discussion_url": "https://dev.to/klaudiagrz/the-mental-toll-of-working-in-tech-2m6k",
+        "author": "klaudiagrz",
+        "score": 48,
+        "comments_count": 14,
+        "published_at": "2026-11-25T14:05:36Z"
+      },
+      {
+        "uid": "devto_5112564",
+        "source": "DEV.to",
+        "title": "The Third Cup: You Don't Have to Fly That High",
+        "category_tag": "[System Design]",
+        "takeaway": "A Little Room to Breathe I was polishing a few coffee cups behind the counter when the bell above. Currently trending on DEV.to with 80 developer upvotes and 37 technical comments.",
+        "url": "https://dev.to/thethirdcup/the-third-cup-you-dont-have-to-fly-that-high-3ehd",
+        "discussion_url": "https://dev.to/thethirdcup/the-third-cup-you-dont-have-to-fly-that-high-3ehd",
+        "author": "xulingfeng",
+        "score": 80,
+        "comments_count": 37,
+        "published_at": "2026-11-25T06:41:32Z"
+      },
+      {
+        "uid": "devto_5115486",
+        "source": "DEV.to",
+        "title": "Home Office Nightmare",
+        "category_tag": "[System Design]",
+        "takeaway": "I Constantly Try to Survive Reality Maybe that's why I built an entire universe, including a. Currently trending on DEV.to with 44 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/thethirdcup/home-office-nightmare-2ja0",
+        "discussion_url": "https://dev.to/thethirdcup/home-office-nightmare-2ja0",
+        "author": "pengeszikra",
+        "score": 44,
+        "comments_count": 10,
+        "published_at": "2026-11-25T13:47:19Z"
+      },
+      {
+        "uid": "devto_5114865",
+        "source": "DEV.to",
+        "title": "Stop AI Agents Acting on Bluffs? A Strands Decider 2B Tool Gate Test",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I tested Strands Decider 2B as an AI agent tool gate on 16 refund cases against Nova Pro as a judge: accuracy, thresholds, injection, latency, cost. Currently trending on DEV.to with 17 developer upvotes and 10 technical comments.",
+        "url": "https://dev.to/aws-builders/stop-ai-agents-acting-on-bluffs-a-strands-decider-2b-tool-gate-test-5004",
+        "discussion_url": "https://dev.to/aws-builders/stop-ai-agents-acting-on-bluffs-a-strands-decider-2b-tool-gate-test-5004",
+        "author": "sarvar_04",
+        "score": 17,
+        "comments_count": 10,
+        "published_at": "2026-11-25T13:14:24Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        303,
+        304,
+        305,
+        306,
+        307,
+        308
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [Security] 1Password Security Incident</b>\nHacker News discussion (755 points, 315 comments). Currently trending on Hacker News with 755 developer upvotes and 315 technical comments.\n<i>Hacker News · ▲ 755 · @lxhrstn</i>\n🔗 <a href=\"https://1password.com/blog/update-on-nov-2026-security-incident\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50644817\">HN Discussion (315)</a>\n\n<b>2. [System Design] Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening</b>\nSee also &lt;i&gt;The matrix multiplication exponent is nine fourths [pdf]&lt;/i&gt; - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50637220&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50637220&lt;/a&gt;. Currently trending on Hacker News with 438 developer upvotes and 300 technical comments.\n<i>Hacker News · ▲ 438 · @Kotlopou</i>\n🔗 <a href=\"https://scottaaronson.blog/?p=10379\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50646108\">HN Discussion (300)</a>\n\n<b>3. [System Design] Google releases Cogentic papers on integer factorization, discrete logs and more</b>\nHacker News discussion (392 points, 302 comments). Currently trending on Hacker News with 392 developer upvotes and 302 technical comments.\n<i>Hacker News · ▲ 392 · @rgwohlbold</i>\n🔗 <a href=\"https://github.com/google-research/google-research/tree/master/cogentic_research_papers\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50642086\">HN Discussion (302)</a>\n\n<b>4. [System Design] A few questions for the guy who went snorkeling in a Home Depot retention pond</b>\nHacker News discussion (375 points, 93 comments). Currently trending on Hacker News with 375 developer upvotes and 93 technical comments.\n<i>Hacker News · ▲ 375 · @gumby</i>\n🔗 <a href=\"https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50643129\">HN Discussion (93)</a>\n\n<b>5. [System Design] Windows Loudness Equalization, reverse-engineered and ported to PipeWire</b>\nHacker News discussion (291 points, 163 comments). Currently trending on Hacker News with 291 developer upvotes and 163 technical comments.\n<i>Hacker News · ▲ 291 · @ThrowNotAway</i>\n🔗 <a href=\"https://github.com/xoxorwr/pw-loudness-eq\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50641171\">HN Discussion (163)</a>\n\n<b>6. [System Design] The Price You Pay for Passion</b>\nOver the past three weeks, I&#x27;ve written three rather demanding articles. I still want to push a. Currently trending on DEV.to with 86 developer upvotes and 48 technical comments.\n<i>DEV.to · ▲ 86 · @sylwia-lask</i>\n🔗 <a href=\"https://dev.to/thethirdcup/the-price-you-pay-for-passion-3h5l\">Read Source</a>\n\n<b>7. [System Design] The mental toll of working in tech</b>\nHi folks! 👋 It&#x27;s been a while since I last wrote here. As some of you may remember, some time ago I. Currently trending on DEV.to with 48 developer upvotes and 14 technical comments.\n<i>DEV.to · ▲ 48 · @klaudiagrz</i>\n🔗 <a href=\"https://dev.to/klaudiagrz/the-mental-toll-of-working-in-tech-2m6k\">Read Source</a>\n\n<b>8. [System Design] The Third Cup: You Don&#x27;t Have to Fly That High</b>\nA Little Room to Breathe I was polishing a few coffee cups behind the counter when the bell above. Currently trending on DEV.to with 80 developer upvotes and 37 technical comments.\n<i>DEV.to · ▲ 80 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/thethirdcup/the-third-cup-you-dont-have-to-fly-that-high-3ehd\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [System Design] Home Office Nightmare</b>\nI Constantly Try to Survive Reality Maybe that&#x27;s why I built an entire universe, including a. Currently trending on DEV.to with 44 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 44 · @pengeszikra</i>\n🔗 <a href=\"https://dev.to/thethirdcup/home-office-nightmare-2ja0\">Read Source</a>\n\n<b>10. [AI/ML] Stop AI Agents Acting on Bluffs? A Strands Decider 2B Tool Gate Test</b>\nI tested Strands Decider 2B as an AI agent tool gate on 16 refund cases against Nova Pro as a judge: accuracy, thresholds, injection, latency, cost. Currently trending on DEV.to with 17 developer upvotes and 10 technical comments.\n<i>DEV.to · ▲ 17 · @sarvar_04</i>\n🔗 <a href=\"https://dev.to/aws-builders/stop-ai-agents-acting-on-bluffs-a-strands-decider-2b-tool-gate-test-5004\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-25T07:31:31.403766+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
