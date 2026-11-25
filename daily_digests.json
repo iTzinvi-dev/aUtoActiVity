@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-25T07:31:31.403766+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50637220",
+        "source": "Hacker News",
+        "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (494 points, 243 comments). Currently trending on Hacker News with 494 developer upvotes and 243 technical comments.",
+        "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+        "discussion_url": "https://news.ycombinator.com/item?id=50637220",
+        "author": "E-Reverance",
+        "score": 494,
+        "comments_count": 243,
+        "published_at": "2026-11-25T01:19:26+00:00"
+      },
+      {
+        "uid": "hn_50634658",
+        "source": "Hacker News",
+        "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (243 points, 73 comments). Currently trending on Hacker News with 243 developer upvotes and 73 technical comments.",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50634658",
+        "author": "acossta",
+        "score": 243,
+        "comments_count": 73,
+        "published_at": "2026-11-24T21:02:22+00:00"
+      },
+      {
+        "uid": "hn_50638032",
+        "source": "Hacker News",
+        "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (234 points, 22 comments). Currently trending on Hacker News with 234 developer upvotes and 22 technical comments.",
+        "url": "https://buttons.joshwcomeau.com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50638032",
+        "author": "gaurang_tandon",
+        "score": 234,
+        "comments_count": 22,
+        "published_at": "2026-11-25T03:23:07+00:00"
+      },
+      {
+        "uid": "hn_50637056",
+        "source": "Hacker News",
+        "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (196 points, 33 comments). Currently trending on Hacker News with 196 developer upvotes and 33 technical comments.",
+        "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50637056",
+        "author": "smusamashah",
+        "score": 196,
+        "comments_count": 33,
+        "published_at": "2026-11-25T00:54:49+00:00"
+      },
+      {
+        "uid": "hn_50637686",
+        "source": "Hacker News",
+        "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (171 points, 63 comments). Currently trending on Hacker News with 171 developer upvotes and 63 technical comments.",
+        "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+        "discussion_url": "https://news.ycombinator.com/item?id=50637686",
+        "author": "gmays",
+        "score": 171,
+        "comments_count": 63,
+        "published_at": "2026-11-25T02:34:21+00:00"
+      },
+      {
+        "uid": "devto_5107894",
+        "source": "DEV.to",
+        "title": "A Year of Hacking: a Cloudinary Hackathon Retrospective",
+        "category_tag": "[Cloud/DevOps]",
+        "takeaway": "Early in 2026, I made a discovery. Hackathons, which used to be excruciating from a sponsor. Currently trending on DEV.to with 11 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/cloudinary/a-year-of-hacking-a-cloudinary-hackathon-retrospective-3odm",
+        "discussion_url": "https://dev.to/cloudinary/a-year-of-hacking-a-cloudinary-hackathon-retrospective-3odm",
+        "author": "jenlooper",
+        "score": 11,
+        "comments_count": 1,
+        "published_at": "2026-11-24T19:11:53Z"
+      },
+      {
+        "uid": "devto_5105045",
+        "source": "DEV.to",
+        "title": "Tuesday music",
+        "category_tag": "[System Design]",
+        "takeaway": "Wait a minute! Did all the music disappear from DEV? Where are the songs and playlists? I think it's. Currently trending on DEV.to with 50 developer upvotes and 20 technical comments.",
+        "url": "https://dev.to/necoz/tuesday-music-c52",
+        "discussion_url": "https://dev.to/necoz/tuesday-music-c52",
+        "author": "star123",
+        "score": 50,
+        "comments_count": 20,
+        "published_at": "2026-11-24T11:27:12Z"
+      },
+      {
+        "uid": "devto_5112821",
+        "source": "DEV.to",
+        "title": "Lazy Senior Dev Mode Made My App Smaller. Was It Better?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Raise your hand if you've been curious about Ponytail. 🙋 Same spec, same model, same prompt. One. Currently trending on DEV.to with 27 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/necoz/lazy-senior-dev-mode-made-my-app-smaller-was-it-better-90i",
+        "discussion_url": "https://dev.to/necoz/lazy-senior-dev-mode-made-my-app-smaller-was-it-better-90i",
+        "author": "earlgreyhot1701d",
+        "score": 27,
+        "comments_count": 1,
+        "published_at": "2026-11-25T04:03:43Z"
+      },
+      {
+        "uid": "devto_5110573",
+        "source": "DEV.to",
+        "title": "Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A step by step guide to the generally available Google Workspace CLI: one-line install, command discovery across nine Workspace services, incremental OAuth sign-in, JSON output, and the agent skill it ships for Claude Code and other agents. Currently trending on DEV.to with 9 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/install-and-use-the-google-workspace-cli-gwscli-on-linux-from-curl-to-agent-skills-12dm",
+        "discussion_url": "https://dev.to/gde/install-and-use-the-google-workspace-cli-gwscli-on-linux-from-curl-to-agent-skills-12dm",
+        "author": "xbill",
+        "score": 9,
+        "comments_count": 0,
+        "published_at": "2026-11-24T19:41:14Z"
+      },
+      {
+        "uid": "devto_5059381",
+        "source": "DEV.to",
+        "title": "One Script, Four Documents",
+        "category_tag": "[AI/ML]",
+        "takeaway": "The rules were already knowable, so I didn't put a model in the pipeline. A video course may begin. Currently trending on DEV.to with 13 developer upvotes and 4 technical comments.",
+        "url": "https://dev.to/kenwalger/one-script-four-documents-2lb",
+        "discussion_url": "https://dev.to/kenwalger/one-script-four-documents-2lb",
+        "author": "kenwalger",
+        "score": 13,
+        "comments_count": 4,
+        "published_at": "2026-11-24T14:03:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        297,
+        298,
+        299,
+        300,
+        301,
+        302
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Matrix Multiplication is Θ(n^2.25) [pdf]</b>\nHacker News discussion (494 points, 243 comments). Currently trending on Hacker News with 494 developer upvotes and 243 technical comments.\n<i>Hacker News · ▲ 494 · @E-Reverance</i>\n🔗 <a href=\"https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50637220\">HN Discussion (243)</a>\n\n<b>2. [AI/ML] GPT-6 models demonstrate intrinsic protein-design capabilities</b>\nHacker News discussion (243 points, 73 comments). Currently trending on Hacker News with 243 developer upvotes and 73 technical comments.\n<i>Hacker News · ▲ 243 · @acossta</i>\n🔗 <a href=\"https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50634658\">HN Discussion (73)</a>\n\n<b>3. [System Design] Button Sounds – collection of professionally-recorded button clicks and presses</b>\nHacker News discussion (234 points, 22 comments). Currently trending on Hacker News with 234 developer upvotes and 22 technical comments.\n<i>Hacker News · ▲ 234 · @gaurang_tandon</i>\n🔗 <a href=\"https://buttons.joshwcomeau.com/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50638032\">HN Discussion (22)</a>\n\n<b>4. [AI/ML] PenGPT: A Generative Transformer for Handwriting and Sketches</b>\nHacker News discussion (196 points, 33 comments). Currently trending on Hacker News with 196 developer upvotes and 33 technical comments.\n<i>Hacker News · ▲ 196 · @smusamashah</i>\n🔗 <a href=\"https://greydanus.github.io/2026/11/12/pengpt/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50637056\">HN Discussion (33)</a>\n\n<b>5. [AI/ML] Models Can Communicate via Inference Servers Despite Being Sandboxed</b>\nHacker News discussion (171 points, 63 comments). Currently trending on Hacker News with 171 developer upvotes and 63 technical comments.\n<i>Hacker News · ▲ 171 · @gmays</i>\n🔗 <a href=\"https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50637686\">HN Discussion (63)</a>\n\n<b>6. [Cloud/DevOps] A Year of Hacking: a Cloudinary Hackathon Retrospective</b>\nEarly in 2026, I made a discovery. Hackathons, which used to be excruciating from a sponsor. Currently trending on DEV.to with 11 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 11 · @jenlooper</i>\n🔗 <a href=\"https://dev.to/cloudinary/a-year-of-hacking-a-cloudinary-hackathon-retrospective-3odm\">Read Source</a>\n\n<b>7. [System Design] Tuesday music</b>\nWait a minute! Did all the music disappear from DEV? Where are the songs and playlists? I think it&#x27;s. Currently trending on DEV.to with 50 developer upvotes and 20 technical comments.\n<i>DEV.to · ▲ 50 · @star123</i>\n🔗 <a href=\"https://dev.to/necoz/tuesday-music-c52\">Read Source</a>\n\n<b>8. [AI/ML] Lazy Senior Dev Mode Made My App Smaller. Was It Better?</b>\nRaise your hand if you&#x27;ve been curious about Ponytail. 🙋 Same spec, same model, same prompt. One. Currently trending on DEV.to with 27 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 27 · @earlgreyhot1701d</i>\n🔗 <a href=\"https://dev.to/necoz/lazy-senior-dev-mode-made-my-app-smaller-was-it-better-90i\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills</b>\nA step by step guide to the generally available Google Workspace CLI: one-line install, command discovery across nine Workspace services, incremental OAuth sign-in, JSON output, and the agent skill it ships for Claude Code and other agents. Currently trending on DEV.to with 9 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 9 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/install-and-use-the-google-workspace-cli-gwscli-on-linux-from-curl-to-agent-skills-12dm\">Read Source</a>\n\n<b>10. [AI/ML] One Script, Four Documents</b>\nThe rules were already knowable, so I didn&#x27;t put a model in the pipeline. A video course may begin. Currently trending on DEV.to with 13 developer upvotes and 4 technical comments.\n<i>DEV.to · ▲ 13 · @kenwalger</i>\n🔗 <a href=\"https://dev.to/kenwalger/one-script-four-documents-2lb\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-24T22:02:04.391207+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
