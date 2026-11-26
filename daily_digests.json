@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-26T07:20:45.544873+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50648050",
+        "source": "Hacker News",
+        "title": "Much shorter version of GRH Lean verification from Anthropic",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (413 points, 207 comments). Currently trending on Hacker News with 413 developer upvotes and 207 technical comments.",
+        "url": "https://github.com/lsernau/grh-lean",
+        "discussion_url": "https://news.ycombinator.com/item?id=50648050",
+        "author": "nb-t",
+        "score": 413,
+        "comments_count": 207,
+        "published_at": "2026-11-25T21:48:10+00:00"
+      },
+      {
+        "uid": "hn_50601280",
+        "source": "Hacker News",
+        "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Back in 2015, when I was still at Google, there was a small group of code-golf enthusiasts spending hours trying to save just one byte on their solutions for weekly code-golf problems. No matter how hard you tried, there always seemed to be another Googler who found a shorter solution. And once a pr. Currently trending on Hacker News with 350 developer upvotes and 92 technical comments.",
+        "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+        "discussion_url": "https://news.ycombinator.com/item?id=50601280",
+        "author": "bjin",
+        "score": 350,
+        "comments_count": 92,
+        "published_at": "2026-11-22T16:44:48+00:00"
+      },
+      {
+        "uid": "hn_50647181",
+        "source": "Hacker News",
+        "title": "Slow Ubuntu security response times",
+        "category_tag": "[Security]",
+        "takeaway": "Hacker News discussion (249 points, 109 comments). Currently trending on Hacker News with 249 developer upvotes and 109 technical comments.",
+        "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+        "discussion_url": "https://news.ycombinator.com/item?id=50647181",
+        "author": "gslin",
+        "score": 249,
+        "comments_count": 109,
+        "published_at": "2026-11-25T20:38:00+00:00"
+      },
+      {
+        "uid": "hn_50649864",
+        "source": "Hacker News",
+        "title": "Tell HN: Lots of Ask HNs again",
+        "category_tag": "[System Design]",
+        "takeaway": "There have been questions about why the &#x2F;ask page (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;ask\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;ask</a>) was running dry of Ask HNs - e.g.:<p><i>Ask HN: Why is Ask HN only showing me 14 posts?</i> - <a href=\"https:&#x2F;&#x2F;news.ycombin. Currently trending on Hacker News with 230 developer upvotes and 85 technical comments.",
+        "url": "https://news.ycombinator.com/item?id=50649864",
+        "discussion_url": "https://news.ycombinator.com/item?id=50649864",
+        "author": "dang",
+        "score": 230,
+        "comments_count": 85,
+        "published_at": "2026-11-26T00:43:34+00:00"
+      },
+      {
+        "uid": "hn_50651117",
+        "source": "Hacker News",
+        "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (156 points, 84 comments). Currently trending on Hacker News with 156 developer upvotes and 84 technical comments.",
+        "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+        "discussion_url": "https://news.ycombinator.com/item?id=50651117",
+        "author": "Herrera",
+        "score": 156,
+        "comments_count": 84,
+        "published_at": "2026-11-26T03:36:58+00:00"
+      },
+      {
+        "uid": "devto_5117518",
+        "source": "DEV.to",
+        "title": "I Built My First Multi-Agent System on AWS, and It Was Easier Than I Expected",
+        "category_tag": "[AI/ML]",
+        "takeaway": "TL;DR I recently completed the final project of Udacity's Future AWS Agent Engineer Nanodegree. Currently trending on DEV.to with 88 developer upvotes and 38 technical comments.",
+        "url": "https://dev.to/hemapriya_kanagala/i-built-my-first-multi-agent-system-on-aws-and-it-was-easier-than-i-expected-58c2",
+        "discussion_url": "https://dev.to/hemapriya_kanagala/i-built-my-first-multi-agent-system-on-aws-and-it-was-easier-than-i-expected-58c2",
+        "author": "hemapriya_kanagala",
+        "score": 88,
+        "comments_count": 38,
+        "published_at": "2026-11-25T15:26:38Z"
+      },
+      {
+        "uid": "devto_5095297",
+        "source": "DEV.to",
+        "title": "Which OpenAPI Codegen Should You Choose in 2026? 🤔 openapi-typescript vs Hey API vs Orval vs Kubb v5 🔥",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Hoi hoi! I'm @nyaomaru, a frontend engineer who loves TypeScript, OSS, and getting lost in forests. Currently trending on DEV.to with 64 developer upvotes and 17 technical comments.",
+        "url": "https://dev.to/necoz/which-openapi-codegen-should-you-choose-in-2026-openapi-typescript-vs-hey-api-vs-orval-vs-kubb-m8c",
+        "discussion_url": "https://dev.to/necoz/which-openapi-codegen-should-you-choose-in-2026-openapi-typescript-vs-hey-api-vs-orval-vs-kubb-m8c",
+        "author": "nyaomaru",
+        "score": 64,
+        "comments_count": 17,
+        "published_at": "2026-11-25T17:15:25Z"
+      },
+      {
+        "uid": "devto_5116222",
+        "source": "DEV.to",
+        "title": "I Know It's You, But I Can't Prove It",
+        "category_tag": "[Security]",
+        "takeaway": "Imagine you have a list of usernames and passwords. Then a user logs in to your web application. You. Currently trending on DEV.to with 19 developer upvotes and 8 technical comments.",
+        "url": "https://dev.to/codingwithjiro/i-know-its-you-but-i-cant-prove-it-39i2",
+        "discussion_url": "https://dev.to/codingwithjiro/i-know-its-you-but-i-cant-prove-it-39i2",
+        "author": "codingwithjiro",
+        "score": 19,
+        "comments_count": 8,
+        "published_at": "2026-11-25T12:24:08Z"
+      },
+      {
+        "uid": "devto_5118121",
+        "source": "DEV.to",
+        "title": "Are Blogs Still Worth Writing When Agents Do the Reading?",
+        "category_tag": "[Open Source]",
+        "takeaway": "I started writing on DEV in 2020 and stayed active in the community for about three years. Then LLMs. Currently trending on DEV.to with 15 developer upvotes and 19 technical comments.",
+        "url": "https://dev.to/amananandrai/are-blogs-still-worth-writing-when-agents-do-the-reading-4eg0",
+        "discussion_url": "https://dev.to/amananandrai/are-blogs-still-worth-writing-when-agents-do-the-reading-4eg0",
+        "author": "amananandrai",
+        "score": 15,
+        "comments_count": 19,
+        "published_at": "2026-11-25T17:33:38Z"
+      },
+      {
+        "uid": "devto_5119155",
+        "source": "DEV.to",
+        "title": "Can Your Agent Review Your Cloud Architecture?",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A Well-Architected review used to be a multi-day effort when I was a solutions architect. The Agent Toolkit for AWS ships a real Well-Architected skill that reads your code, pulls the live framework from AWS docs, and produces an evidence-backed report. Here's what it does, where it helps, and where it still needs you. Currently trending on DEV.to with 12 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/aws/can-your-agent-review-your-cloud-architecture-4coh",
+        "discussion_url": "https://dev.to/aws/can-your-agent-review-your-cloud-architecture-4coh",
+        "author": "rohini_gaonkar",
+        "score": 12,
+        "comments_count": 2,
+        "published_at": "2026-11-25T20:32:18Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        309,
+        310,
+        311,
+        312,
+        313,
+        314
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Much shorter version of GRH Lean verification from Anthropic</b>\nHacker News discussion (413 points, 207 comments). Currently trending on Hacker News with 413 developer upvotes and 207 technical comments.\n<i>Hacker News · ▲ 413 · @nb-t</i>\n🔗 <a href=\"https://github.com/lsernau/grh-lean\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50648050\">HN Discussion (207)</a>\n\n<b>2. [AI/ML] GPT-6.2 Astra is the first model to beat Googlers&#x27; code golf records</b>\nBack in 2015, when I was still at Google, there was a small group of code-golf enthusiasts spending hours trying to save just one byte on their solutions for weekly code-golf problems. No matter how hard you tried, there always seemed to be another Googler who found a shorter solution. And once a pr. Currently trending on Hacker News with 350 developer upvotes and 92 technical comments.\n<i>Hacker News · ▲ 350 · @bjin</i>\n🔗 <a href=\"https://bjin.github.io/go-codegolf-benchmark/#leaderboard\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50601280\">HN Discussion (92)</a>\n\n<b>3. [Security] Slow Ubuntu security response times</b>\nHacker News discussion (249 points, 109 comments). Currently trending on Hacker News with 249 developer upvotes and 109 technical comments.\n<i>Hacker News · ▲ 249 · @gslin</i>\n🔗 <a href=\"https://www.openwall.com/lists/oss-security/2026/11/25/9\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50647181\">HN Discussion (109)</a>\n\n<b>4. [System Design] Tell HN: Lots of Ask HNs again</b>\nThere have been questions about why the &amp;#x2F;ask page (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;ask&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;ask&lt;/a&gt;) was running dry of Ask HNs - e.g.:&lt;p&gt;&lt;i&gt;Ask HN: Why is Ask HN only showing me 14 posts?&lt;/i&gt; - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombin. Currently trending on Hacker News with 230 developer upvotes and 85 technical comments.\n<i>Hacker News · ▲ 230 · @dang</i>\n🔗 <a href=\"https://news.ycombinator.com/item?id=50649864\">Read Source</a>\n\n<b>5. [AI/ML] OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster</b>\nHacker News discussion (156 points, 84 comments). Currently trending on Hacker News with 156 developer upvotes and 84 technical comments.\n<i>Hacker News · ▲ 156 · @Herrera</i>\n🔗 <a href=\"https://twitter.com/thsottiaux/status/2125784147889393806\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50651117\">HN Discussion (84)</a>\n\n<b>6. [AI/ML] I Built My First Multi-Agent System on AWS, and It Was Easier Than I Expected</b>\nTL;DR I recently completed the final project of Udacity&#x27;s Future AWS Agent Engineer Nanodegree. Currently trending on DEV.to with 88 developer upvotes and 38 technical comments.\n<i>DEV.to · ▲ 88 · @hemapriya_kanagala</i>\n🔗 <a href=\"https://dev.to/hemapriya_kanagala/i-built-my-first-multi-agent-system-on-aws-and-it-was-easier-than-i-expected-58c2\">Read Source</a>\n\n<b>7. [Web Dev] Which OpenAPI Codegen Should You Choose in 2026? 🤔 openapi-typescript vs Hey API vs Orval vs Kubb v5 🔥</b>\nHoi hoi! I&#x27;m @nyaomaru, a frontend engineer who loves TypeScript, OSS, and getting lost in forests. Currently trending on DEV.to with 64 developer upvotes and 17 technical comments.\n<i>DEV.to · ▲ 64 · @nyaomaru</i>\n🔗 <a href=\"https://dev.to/necoz/which-openapi-codegen-should-you-choose-in-2026-openapi-typescript-vs-hey-api-vs-orval-vs-kubb-m8c\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>8. [Security] I Know It&#x27;s You, But I Can&#x27;t Prove It</b>\nImagine you have a list of usernames and passwords. Then a user logs in to your web application. You. Currently trending on DEV.to with 19 developer upvotes and 8 technical comments.\n<i>DEV.to · ▲ 19 · @codingwithjiro</i>\n🔗 <a href=\"https://dev.to/codingwithjiro/i-know-its-you-but-i-cant-prove-it-39i2\">Read Source</a>\n\n<b>9. [Open Source] Are Blogs Still Worth Writing When Agents Do the Reading?</b>\nI started writing on DEV in 2020 and stayed active in the community for about three years. Then LLMs. Currently trending on DEV.to with 15 developer upvotes and 19 technical comments.\n<i>DEV.to · ▲ 15 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/are-blogs-still-worth-writing-when-agents-do-the-reading-4eg0\">Read Source</a>\n\n<b>10. [AI/ML] Can Your Agent Review Your Cloud Architecture?</b>\nA Well-Architected review used to be a multi-day effort when I was a solutions architect. The Agent Toolkit for AWS ships a real Well-Architected skill that reads your code, pulls the live framework from AWS docs, and produces an evidence-backed report. Here&#x27;s what it does, where it helps, and where it still needs you. Currently trending on DEV.to with 12 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 12 · @rohini_gaonkar</i>\n🔗 <a href=\"https://dev.to/aws/can-your-agent-review-your-cloud-architecture-4coh\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-25T21:16:28.016544+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
