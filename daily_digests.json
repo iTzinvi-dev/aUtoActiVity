@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-26T21:04:30.716671+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50653667",
+        "source": "Hacker News",
+        "title": "Intel One Mono font (2023)",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (403 points, 228 comments). Currently trending on Hacker News with 403 developer upvotes and 228 technical comments.",
+        "url": "https://github.com/intel/intel-one-mono",
+        "discussion_url": "https://news.ycombinator.com/item?id=50653667",
+        "author": "saikatsg",
+        "score": 403,
+        "comments_count": 228,
+        "published_at": "2026-11-26T10:11:01+00:00"
+      },
+      {
+        "uid": "hn_50657265",
+        "source": "Hacker News",
+        "title": "AMD Specific Patches for Llama.cpp",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (186 points, 49 comments). Currently trending on Hacker News with 186 developer upvotes and 49 technical comments.",
+        "url": "https://devnull.land/amd-specific-llama-cpp",
+        "discussion_url": "https://news.ycombinator.com/item?id=50657265",
+        "author": "julianlam",
+        "score": 186,
+        "comments_count": 49,
+        "published_at": "2026-11-26T17:11:29+00:00"
+      },
+      {
+        "uid": "hn_50657645",
+        "source": "Hacker News",
+        "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (125 points, 52 comments). Currently trending on Hacker News with 125 developer upvotes and 52 technical comments.",
+        "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50657645",
+        "author": "Bender",
+        "score": 125,
+        "comments_count": 52,
+        "published_at": "2026-11-26T17:47:45+00:00"
+      },
+      {
+        "uid": "hn_50657530",
+        "source": "Hacker News",
+        "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (116 points, 174 comments). Currently trending on Hacker News with 116 developer upvotes and 174 technical comments.",
+        "url": "https://github.com/antonpictures/youtube-punisher",
+        "discussion_url": "https://news.ycombinator.com/item?id=50657530",
+        "author": "iantongeorge",
+        "score": 116,
+        "comments_count": 174,
+        "published_at": "2026-11-26T17:36:47+00:00"
+      },
+      {
+        "uid": "hn_50636931",
+        "source": "Hacker News",
+        "title": "Curiosity Is No Solo Act",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (103 points, 22 comments). Currently trending on Hacker News with 103 developer upvotes and 22 technical comments.",
+        "url": "https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50636931",
+        "author": "Petiver",
+        "score": 103,
+        "comments_count": 22,
+        "published_at": "2026-11-25T00:37:07+00:00"
+      },
+      {
+        "uid": "devto_5108945",
+        "source": "DEV.to",
+        "title": "Nostalgia and the AI Productivity Paradox",
+        "category_tag": "[AI/ML]",
+        "takeaway": "There is something strangely nostalgic about November 2026. GTA VI has finally arrived after 13. Currently trending on DEV.to with 59 developer upvotes and 37 technical comments.",
+        "url": "https://dev.to/gramli/nostalgia-and-the-ai-productivity-paradox-4f33",
+        "discussion_url": "https://dev.to/gramli/nostalgia-and-the-ai-productivity-paradox-4f33",
+        "author": "gramli",
+        "score": 59,
+        "comments_count": 37,
+        "published_at": "2026-11-26T08:03:09Z"
+      },
+      {
+        "uid": "devto_5120802",
+        "source": "DEV.to",
+        "title": "I Built AI Test Automation. Today, I Went Back to Manual Testing.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Today, I manually tested a project. It doesn't sound like anything special. After all, I've been. Currently trending on DEV.to with 83 developer upvotes and 61 technical comments.",
+        "url": "https://dev.to/thethirdcup/i-built-ai-test-automation-today-i-went-back-to-manual-testing-mlh",
+        "discussion_url": "https://dev.to/thethirdcup/i-built-ai-test-automation-today-i-went-back-to-manual-testing-mlh",
+        "author": "xulingfeng",
+        "score": 83,
+        "comments_count": 61,
+        "published_at": "2026-11-26T08:16:05Z"
+      },
+      {
+        "uid": "devto_5095240",
+        "source": "DEV.to",
+        "title": "On reviewing AI-generated code",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I see a lot of posts from developers who insist on reviewing every single line of code that AI agents. Currently trending on DEV.to with 13 developer upvotes and 8 technical comments.",
+        "url": "https://dev.to/nfrankel/on-reviewing-ai-generated-code-3olj",
+        "discussion_url": "https://dev.to/nfrankel/on-reviewing-ai-generated-code-3olj",
+        "author": "nfrankel",
+        "score": 13,
+        "comments_count": 8,
+        "published_at": "2026-11-26T09:02:00Z"
+      },
+      {
+        "uid": "devto_5124143",
+        "source": "DEV.to",
+        "title": "From a feed full of Fable 5.2 demos to a 20-episode Indian epic: how I built \"The Eighteen Days\"",
+        "category_tag": "[AI/ML]",
+        "takeaway": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ You have a right to. Currently trending on DEV.to with 7 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/amananandrai/from-a-feed-full-of-fable-52-demos-to-a-20-episode-indian-epic-how-i-built-the-eighteen-days-14mm",
+        "discussion_url": "https://dev.to/amananandrai/from-a-feed-full-of-fable-52-demos-to-a-20-episode-indian-epic-how-i-built-the-eighteen-days-14mm",
+        "author": "amananandrai",
+        "score": 7,
+        "comments_count": 2,
+        "published_at": "2026-11-26T12:46:19Z"
+      },
+      {
+        "uid": "devto_5113714",
+        "source": "DEV.to",
+        "title": "Why Can't We Just #include \"functions.c\" in \"main.c\"? 🤔",
+        "category_tag": "[System Design]",
+        "takeaway": "Suppose we have two files. functions.c: #include &lt;stdio.h&gt; void greet(void) { . Currently trending on DEV.to with 45 developer upvotes and 18 technical comments.",
+        "url": "https://dev.to/necoz/why-cant-we-just-include-functionsc-in-mainc-1a73",
+        "discussion_url": "https://dev.to/necoz/why-cant-we-just-include-functionsc-in-mainc-1a73",
+        "author": "effessdev",
+        "score": 45,
+        "comments_count": 18,
+        "published_at": "2026-11-26T12:21:47Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        315,
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Intel One Mono font (2023)</b>\nHacker News discussion (403 points, 228 comments). Currently trending on Hacker News with 403 developer upvotes and 228 technical comments.\n<i>Hacker News · ▲ 403 · @saikatsg</i>\n🔗 <a href=\"https://github.com/intel/intel-one-mono\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50653667\">HN Discussion (228)</a>\n\n<b>2. [AI/ML] AMD Specific Patches for Llama.cpp</b>\nHacker News discussion (186 points, 49 comments). Currently trending on Hacker News with 186 developer upvotes and 49 technical comments.\n<i>Hacker News · ▲ 186 · @julianlam</i>\n🔗 <a href=\"https://devnull.land/amd-specific-llama-cpp\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50657265\">HN Discussion (49)</a>\n\n<b>3. [System Design] CTO of &#x27;RansomwareHelp&#x27; Indicted for Wire Fraud</b>\nHacker News discussion (125 points, 52 comments). Currently trending on Hacker News with 125 developer upvotes and 52 technical comments.\n<i>Hacker News · ▲ 125 · @Bender</i>\n🔗 <a href=\"https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50657645\">HN Discussion (52)</a>\n\n<b>4. [System Design] YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays</b>\nHacker News discussion (116 points, 174 comments). Currently trending on Hacker News with 116 developer upvotes and 174 technical comments.\n<i>Hacker News · ▲ 116 · @iantongeorge</i>\n🔗 <a href=\"https://github.com/antonpictures/youtube-punisher\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50657530\">HN Discussion (174)</a>\n\n<b>5. [System Design] Curiosity Is No Solo Act</b>\nHacker News discussion (103 points, 22 comments). Currently trending on Hacker News with 103 developer upvotes and 22 technical comments.\n<i>Hacker News · ▲ 103 · @Petiver</i>\n🔗 <a href=\"https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50636931\">HN Discussion (22)</a>\n\n<b>6. [AI/ML] Nostalgia and the AI Productivity Paradox</b>\nThere is something strangely nostalgic about November 2026. GTA VI has finally arrived after 13. Currently trending on DEV.to with 59 developer upvotes and 37 technical comments.\n<i>DEV.to · ▲ 59 · @gramli</i>\n🔗 <a href=\"https://dev.to/gramli/nostalgia-and-the-ai-productivity-paradox-4f33\">Read Source</a>\n\n<b>7. [AI/ML] I Built AI Test Automation. Today, I Went Back to Manual Testing.</b>\nToday, I manually tested a project. It doesn&#x27;t sound like anything special. After all, I&#x27;ve been. Currently trending on DEV.to with 83 developer upvotes and 61 technical comments.\n<i>DEV.to · ▲ 83 · @xulingfeng</i>\n🔗 <a href=\"https://dev.to/thethirdcup/i-built-ai-test-automation-today-i-went-back-to-manual-testing-mlh\">Read Source</a>\n\n<b>8. [AI/ML] On reviewing AI-generated code</b>\nI see a lot of posts from developers who insist on reviewing every single line of code that AI agents. Currently trending on DEV.to with 13 developer upvotes and 8 technical comments.\n<i>DEV.to · ▲ 13 · @nfrankel</i>\n🔗 <a href=\"https://dev.to/nfrankel/on-reviewing-ai-generated-code-3olj\">Read Source</a>\n\n<b>9. [AI/ML] From a feed full of Fable 5.2 demos to a 20-episode Indian epic: how I built &quot;The Eighteen Days&quot;</b>\nकर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ You have a right to. Currently trending on DEV.to with 7 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 7 · @amananandrai</i>\n🔗 <a href=\"https://dev.to/amananandrai/from-a-feed-full-of-fable-52-demos-to-a-20-episode-indian-epic-how-i-built-the-eighteen-days-14mm\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>10. [System Design] Why Can&#x27;t We Just #include &quot;functions.c&quot; in &quot;main.c&quot;? 🤔</b>\nSuppose we have two files. functions.c: #include &amp;lt;stdio.h&amp;gt; void greet(void) { . Currently trending on DEV.to with 45 developer upvotes and 18 technical comments.\n<i>DEV.to · ▲ 45 · @effessdev</i>\n🔗 <a href=\"https://dev.to/necoz/why-cant-we-just-include-functionsc-in-mainc-1a73\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-26T07:20:45.544873+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
