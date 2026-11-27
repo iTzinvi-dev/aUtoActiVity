@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-27T20:49:14.712743+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50667726",
+        "source": "Hacker News",
+        "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+        "category_tag": "[System Design]",
+        "takeaway": "a ball will fall. trade on where it lands.<p>I made this game! Some technical details:<p>The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. Every drop is deterministic from its starting position, so rounds can be replayed exa. Currently trending on Hacker News with 285 developer upvotes and 87 technical comments.",
+        "url": "https://bouncemarket.minhanhday.com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50667726",
+        "author": "mday404",
+        "score": 285,
+        "comments_count": 87,
+        "published_at": "2026-11-27T15:01:50+00:00"
+      },
+      {
+        "uid": "hn_50668145",
+        "source": "Hacker News",
+        "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (273 points, 155 comments). Currently trending on Hacker News with 273 developer upvotes and 155 technical comments.",
+        "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+        "discussion_url": "https://news.ycombinator.com/item?id=50668145",
+        "author": "scanr",
+        "score": 273,
+        "comments_count": 155,
+        "published_at": "2026-11-27T15:40:31+00:00"
+      },
+      {
+        "uid": "hn_50657392",
+        "source": "Hacker News",
+        "title": "First images of the impact of DART asteroid deflection experiment",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (148 points, 51 comments). Currently trending on Hacker News with 148 developer upvotes and 51 technical comments.",
+        "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50657392",
+        "author": "Bender",
+        "score": 148,
+        "comments_count": 51,
+        "published_at": "2026-11-26T17:24:37+00:00"
+      },
+      {
+        "uid": "hn_50667989",
+        "source": "Hacker News",
+        "title": "False computer-checked proofs",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (130 points, 58 comments). Currently trending on Hacker News with 130 developer upvotes and 58 technical comments.",
+        "url": "https://cr.yp.to/proofs/falseccp.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50667989",
+        "author": "_tk_",
+        "score": 130,
+        "comments_count": 58,
+        "published_at": "2026-11-27T15:26:09+00:00"
+      },
+      {
+        "uid": "hn_50670757",
+        "source": "Hacker News",
+        "title": "Michael Nielsen took down his book on neural nets",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (123 points, 84 comments). Currently trending on Hacker News with 123 developer upvotes and 84 technical comments.",
+        "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+        "discussion_url": "https://news.ycombinator.com/item?id=50670757",
+        "author": "brandonb",
+        "score": 123,
+        "comments_count": 84,
+        "published_at": "2026-11-27T19:31:01+00:00"
+      },
+      {
+        "uid": "devto_4943128",
+        "source": "DEV.to",
+        "title": "What was your win this week!?",
+        "category_tag": "[System Design]",
+        "takeaway": "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small. Currently trending on DEV.to with 65 developer upvotes and 28 technical comments.",
+        "url": "https://dev.to/devteam/what-was-your-win-this-week-h3d",
+        "discussion_url": "https://dev.to/devteam/what-was-your-win-this-week-h3d",
+        "author": "jess",
+        "score": 65,
+        "comments_count": 28,
+        "published_at": "2026-11-27T14:00:00Z"
+      },
+      {
+        "uid": "devto_5134550",
+        "source": "DEV.to",
+        "title": "Dev Opportunity Radar #27: $400K Google AI Competition, Vercel X AI Accelerator, and Fully Funded AI Evaluation Programme",
+        "category_tag": "[AI/ML]",
+        "takeaway": "TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,. Currently trending on DEV.to with 22 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/devengers/dev-opportunity-radar-27-400k-google-ai-competition-vercel-x-ai-accelerator-and-fully-funded-1jl2",
+        "discussion_url": "https://dev.to/devengers/dev-opportunity-radar-27-400k-google-ai-competition-vercel-x-ai-accelerator-and-fully-funded-1jl2",
+        "author": "hemapriya_kanagala",
+        "score": 22,
+        "comments_count": 2,
+        "published_at": "2026-11-27T18:26:45Z"
+      },
+      {
+        "uid": "devto_5132252",
+        "source": "DEV.to",
+        "title": "Writing Is Really Fun, But My Luck Had Other Plans 🐿",
+        "category_tag": "[System Design]",
+        "takeaway": "Last night, after having dinner at around 8 PM, I thought it was time to write a post. I was. Currently trending on DEV.to with 41 developer upvotes and 23 technical comments.",
+        "url": "https://dev.to/thethirdcup/writing-is-really-fun-but-my-luck-had-other-plans-493m",
+        "discussion_url": "https://dev.to/thethirdcup/writing-is-really-fun-but-my-luck-had-other-plans-493m",
+        "author": "star123",
+        "score": 41,
+        "comments_count": 23,
+        "published_at": "2026-11-27T14:19:45Z"
+      },
+      {
+        "uid": "devto_5130559",
+        "source": "DEV.to",
+        "title": "The Best Café in Town Turns People Away. Your System Should Too",
+        "category_tag": "[Web Dev]",
+        "takeaway": "Two cafés, both completely full at 8:15 on a Monday. Both are about to turn away the next person. Currently trending on DEV.to with 28 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/thethirdcup/the-best-cafe-in-town-turns-people-away-your-system-should-too-5ehh",
+        "discussion_url": "https://dev.to/thethirdcup/the-best-cafe-in-town-turns-people-away-your-system-should-too-5ehh",
+        "author": "shubhradev",
+        "score": 28,
+        "comments_count": 9,
+        "published_at": "2026-11-27T14:38:10Z"
+      },
+      {
+        "uid": "devto_5134033",
+        "source": "DEV.to",
+        "title": "Zero Repeat Regressions: The Golden Metric & The Future of Agentic Trust",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Why we don't code by majority vote, opening our 375-ticket empirical ledger (including what broke), Barry Boehm's $1 : $500 : $25,000 token defect curve, the 4-Layer Verification Stack that lets you ship languages you despise, and how four Dart scars caught a live bug in a Python flight recorder. Currently trending on DEV.to with 6 developer upvotes and 6 technical comments.",
+        "url": "https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857",
+        "discussion_url": "https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857",
+        "author": "randalschwartz",
+        "score": 6,
+        "comments_count": 6,
+        "published_at": "2026-11-27T16:31:24Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        327,
+        328,
+        329,
+        330,
+        331,
+        332
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Show HN: bouncemarket – a live prediction market game for a bouncing ball</b>\na ball will fall. trade on where it lands.&lt;p&gt;I made this game! Some technical details:&lt;p&gt;The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. Every drop is deterministic from its starting position, so rounds can be replayed exa. Currently trending on Hacker News with 285 developer upvotes and 87 technical comments.\n<i>Hacker News · ▲ 285 · @mday404</i>\n🔗 <a href=\"https://bouncemarket.minhanhday.com/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50667726\">HN Discussion (87)</a>\n\n<b>2. [System Design] Credit card skimming scripts using WebRTC found on popular shopping sites</b>\nHacker News discussion (273 points, 155 comments). Currently trending on Hacker News with 273 developer upvotes and 155 technical comments.\n<i>Hacker News · ▲ 273 · @scanr</i>\n🔗 <a href=\"https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50668145\">HN Discussion (155)</a>\n\n<b>3. [System Design] First images of the impact of DART asteroid deflection experiment</b>\nHacker News discussion (148 points, 51 comments). Currently trending on Hacker News with 148 developer upvotes and 51 technical comments.\n<i>Hacker News · ▲ 148 · @Bender</i>\n🔗 <a href=\"https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50657392\">HN Discussion (51)</a>\n\n<b>4. [System Design] False computer-checked proofs</b>\nHacker News discussion (130 points, 58 comments). Currently trending on Hacker News with 130 developer upvotes and 58 technical comments.\n<i>Hacker News · ▲ 130 · @_tk_</i>\n🔗 <a href=\"https://cr.yp.to/proofs/falseccp.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50667989\">HN Discussion (58)</a>\n\n<b>5. [AI/ML] Michael Nielsen took down his book on neural nets</b>\nHacker News discussion (123 points, 84 comments). Currently trending on Hacker News with 123 developer upvotes and 84 technical comments.\n<i>Hacker News · ▲ 123 · @brandonb</i>\n🔗 <a href=\"https://twitter.com/michael_nielsen/status/2126359767362748777\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50670757\">HN Discussion (84)</a>\n\n<b>6. [System Design] What was your win this week!?</b>\n👋👋👋👋 Looking back on your week -- what was something you&#x27;re proud of? All wins count -- big or small. Currently trending on DEV.to with 65 developer upvotes and 28 technical comments.\n<i>DEV.to · ▲ 65 · @jess</i>\n🔗 <a href=\"https://dev.to/devteam/what-was-your-win-this-week-h3d\">Read Source</a>\n\n<b>7. [AI/ML] Dev Opportunity Radar #27: $400K Google AI Competition, Vercel X AI Accelerator, and Fully Funded AI Evaluation Programme</b>\nTL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,. Currently trending on DEV.to with 22 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 22 · @hemapriya_kanagala</i>\n🔗 <a href=\"https://dev.to/devengers/dev-opportunity-radar-27-400k-google-ai-competition-vercel-x-ai-accelerator-and-fully-funded-1jl2\">Read Source</a>\n\n<b>8. [System Design] Writing Is Really Fun, But My Luck Had Other Plans 🐿</b>\nLast night, after having dinner at around 8 PM, I thought it was time to write a post. I was. Currently trending on DEV.to with 41 developer upvotes and 23 technical comments.\n<i>DEV.to · ▲ 41 · @star123</i>\n🔗 <a href=\"https://dev.to/thethirdcup/writing-is-really-fun-but-my-luck-had-other-plans-493m\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [Web Dev] The Best Café in Town Turns People Away. Your System Should Too</b>\nTwo cafés, both completely full at 8:15 on a Monday. Both are about to turn away the next person. Currently trending on DEV.to with 28 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 28 · @shubhradev</i>\n🔗 <a href=\"https://dev.to/thethirdcup/the-best-cafe-in-town-turns-people-away-your-system-should-too-5ehh\">Read Source</a>\n\n<b>10. [AI/ML] Zero Repeat Regressions: The Golden Metric &amp; The Future of Agentic Trust</b>\nWhy we don&#x27;t code by majority vote, opening our 375-ticket empirical ledger (including what broke), Barry Boehm&#x27;s $1 : $500 : $25,000 token defect curve, the 4-Layer Verification Stack that lets you ship languages you despise, and how four Dart scars caught a live bug in a Python flight recorder. Currently trending on DEV.to with 6 developer upvotes and 6 technical comments.\n<i>DEV.to · ▲ 6 · @randalschwartz</i>\n🔗 <a href=\"https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-27T07:17:20.382157+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
