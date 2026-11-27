@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-27T07:17:20.382157+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50660180",
+        "source": "Hacker News",
+        "title": "AI made self-hosting fun again",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (565 points, 294 comments). Currently trending on Hacker News with 565 developer upvotes and 294 technical comments.",
+        "url": "https://janlukas.blog/posts/ai-self-hosting",
+        "discussion_url": "https://news.ycombinator.com/item?id=50660180",
+        "author": "jlelse",
+        "score": 565,
+        "comments_count": 294,
+        "published_at": "2026-11-26T21:47:45+00:00"
+      },
+      {
+        "uid": "hn_50659841",
+        "source": "Hacker News",
+        "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (336 points, 77 comments). Currently trending on Hacker News with 336 developer upvotes and 77 technical comments.",
+        "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50659841",
+        "author": "dverlaeckt80",
+        "score": 336,
+        "comments_count": 77,
+        "published_at": "2026-11-26T21:08:05+00:00"
+      },
+      {
+        "uid": "hn_50653477",
+        "source": "Hacker News",
+        "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (316 points, 271 comments). Currently trending on Hacker News with 316 developer upvotes and 271 technical comments.",
+        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50653477",
+        "author": "ritzaco",
+        "score": 316,
+        "comments_count": 271,
+        "published_at": "2026-11-26T09:44:23+00:00"
+      },
+      {
+        "uid": "hn_50661646",
+        "source": "Hacker News",
+        "title": "Hard Drive pricing has gotten bad",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (275 points, 179 comments). Currently trending on Hacker News with 275 developer upvotes and 179 technical comments.",
+        "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50661646",
+        "author": "zdw",
+        "score": 275,
+        "comments_count": 179,
+        "published_at": "2026-11-27T01:13:49+00:00"
+      },
+      {
+        "uid": "hn_50659640",
+        "source": "Hacker News",
+        "title": "Company Culture = Slack Emoji ÷ √Headcount",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (262 points, 117 comments). Currently trending on Hacker News with 262 developer upvotes and 117 technical comments.",
+        "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50659640",
+        "author": "liamg",
+        "score": 262,
+        "comments_count": 117,
+        "published_at": "2026-11-26T20:49:49+00:00"
+      },
+      {
+        "uid": "devto_5097406",
+        "source": "DEV.to",
+        "title": "Your Second Brain Is Just A Digital Hoarding Pile (And How To Fix It)",
+        "category_tag": "[System Design]",
+        "takeaway": "I audited 1,412 saved notes and found I had reopened fewer than 4% of them. Here is why capture-heavy note systems fail and the 4-rule reset I used to fix mine. Currently trending on DEV.to with 14 developer upvotes and 7 technical comments.",
+        "url": "https://dev.to/johnnylemonny/your-second-brain-is-just-a-digital-hoarding-pile-and-how-to-fix-it-3n1o",
+        "discussion_url": "https://dev.to/johnnylemonny/your-second-brain-is-just-a-digital-hoarding-pile-and-how-to-fix-it-3n1o",
+        "author": "johnnylemonny",
+        "score": 14,
+        "comments_count": 7,
+        "published_at": "2026-11-26T16:30:00Z"
+      },
+      {
+        "uid": "devto_5126732",
+        "source": "DEV.to",
+        "title": "Before You Trust the Canary, Plant a Bug",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Part 2 of The Art of the Canary in the Age of AI. Still no new agent results. This one is. Currently trending on DEV.to with 12 developer upvotes and 7 technical comments.",
+        "url": "https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a",
+        "discussion_url": "https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a",
+        "author": "copyleftdev",
+        "score": 12,
+        "comments_count": 7,
+        "published_at": "2026-11-26T18:02:26Z"
+      },
+      {
+        "uid": "devto_5125265",
+        "source": "DEV.to",
+        "title": "Run an LLM and Whisper on the Phone, With No Server Bill",
+        "category_tag": "[AI/ML]",
+        "takeaway": "LlmClient.local runs any instruction-tuned GGUF model on Android and iOS through llama.cpp, with the same chat, streaming, embedding and JSON API as the cloud clients. The whisper cn1lib transcribes speech offline. Both are linked only into apps that. Currently trending on DEV.to with 7 developer upvotes and 2 technical comments.",
+        "url": "https://dev.to/codenameone/run-an-llm-and-whisper-on-the-phone-with-no-server-bill-d2m",
+        "discussion_url": "https://dev.to/codenameone/run-an-llm-and-whisper-on-the-phone-with-no-server-bill-d2m",
+        "author": "codenameone",
+        "score": 7,
+        "comments_count": 2,
+        "published_at": "2026-11-26T14:04:34Z"
+      },
+      {
+        "uid": "devto_5126766",
+        "source": "DEV.to",
+        "title": "Benchmarking Gemma 4 E2B with Long Contexts",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Gemma 4 E2B loses most of a long document: as served on an 8 GB RTX 3050 it found 52 of 80 hidden facts at 16k tokens and 14 at 32k. Thinking on helps and still leaves it short. Keep its documents under 16k tokens, or use the 12B. Currently trending on DEV.to with 10 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/benchmarking-gemma-4-e2b-with-long-contexts-1jb9",
+        "discussion_url": "https://dev.to/gde/benchmarking-gemma-4-e2b-with-long-contexts-1jb9",
+        "author": "xbill",
+        "score": 10,
+        "comments_count": 0,
+        "published_at": "2026-11-26T18:18:41Z"
+      },
+      {
+        "uid": "devto_5118206",
+        "source": "DEV.to",
+        "title": "[Kalamos Devlog] After Open-Sourcing: v0.2 to v0.7 Feature Evolution and Using Multi-Agents to Review External PRs",
+        "category_tag": "[System Design]",
+        "takeaway": "Recap In the previous dev log, I used Herdr with Claude Code as PM and two worktree. Currently trending on DEV.to with 0 developer upvotes and 0 technical comments.",
+        "url": "https://dev.to/gde/kalamos-devlog-after-open-sourcing-feature-evolution-from-v02-to-v07-and-using-multiple-agents-2ef9",
+        "discussion_url": "https://dev.to/gde/kalamos-devlog-after-open-sourcing-feature-evolution-from-v02-to-v07-and-using-multiple-agents-2ef9",
+        "author": "evanlin",
+        "score": 0,
+        "comments_count": 0,
+        "published_at": "2026-11-26T14:47:32Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        321,
+        322,
+        323,
+        324,
+        325,
+        326
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [AI/ML] AI made self-hosting fun again</b>\nHacker News discussion (565 points, 294 comments). Currently trending on Hacker News with 565 developer upvotes and 294 technical comments.\n<i>Hacker News · ▲ 565 · @jlelse</i>\n🔗 <a href=\"https://janlukas.blog/posts/ai-self-hosting\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50660180\">HN Discussion (294)</a>\n\n<b>2. [System Design] Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad</b>\nHacker News discussion (336 points, 77 comments). Currently trending on Hacker News with 336 developer upvotes and 77 technical comments.\n<i>Hacker News · ▲ 336 · @dverlaeckt80</i>\n🔗 <a href=\"https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50659841\">HN Discussion (77)</a>\n\n<b>3. [AI/ML] Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can&#x27;t Send Email</b>\nHacker News discussion (316 points, 271 comments). Currently trending on Hacker News with 316 developer upvotes and 271 technical comments.\n<i>Hacker News · ▲ 316 · @ritzaco</i>\n🔗 <a href=\"https://techstackups.com/articles/google-workspace-ai-agents-mcp/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50653477\">HN Discussion (271)</a>\n\n<b>4. [System Design] Hard Drive pricing has gotten bad</b>\nHacker News discussion (275 points, 179 comments). Currently trending on Hacker News with 275 developer upvotes and 179 technical comments.\n<i>Hacker News · ▲ 275 · @zdw</i>\n🔗 <a href=\"https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50661646\">HN Discussion (179)</a>\n\n<b>5. [System Design] Company Culture = Slack Emoji ÷ √Headcount</b>\nHacker News discussion (262 points, 117 comments). Currently trending on Hacker News with 262 developer upvotes and 117 technical comments.\n<i>Hacker News · ▲ 262 · @liamg</i>\n🔗 <a href=\"https://lia.mg/posts/measuring-company-culture-with-slack-emoji/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50659640\">HN Discussion (117)</a>\n\n<b>6. [System Design] Your Second Brain Is Just A Digital Hoarding Pile (And How To Fix It)</b>\nI audited 1,412 saved notes and found I had reopened fewer than 4% of them. Here is why capture-heavy note systems fail and the 4-rule reset I used to fix mine. Currently trending on DEV.to with 14 developer upvotes and 7 technical comments.\n<i>DEV.to · ▲ 14 · @johnnylemonny</i>\n🔗 <a href=\"https://dev.to/johnnylemonny/your-second-brain-is-just-a-digital-hoarding-pile-and-how-to-fix-it-3n1o\">Read Source</a>\n\n<b>7. [AI/ML] Before You Trust the Canary, Plant a Bug</b>\nPart 2 of The Art of the Canary in the Age of AI. Still no new agent results. This one is. Currently trending on DEV.to with 12 developer upvotes and 7 technical comments.\n<i>DEV.to · ▲ 12 · @copyleftdev</i>\n🔗 <a href=\"https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a\">Read Source</a>\n\n<b>8. [AI/ML] Run an LLM and Whisper on the Phone, With No Server Bill</b>\nLlmClient.local runs any instruction-tuned GGUF model on Android and iOS through llama.cpp, with the same chat, streaming, embedding and JSON API as the cloud clients. The whisper cn1lib transcribes speech offline. Both are linked only into apps that. Currently trending on DEV.to with 7 developer upvotes and 2 technical comments.\n<i>DEV.to · ▲ 7 · @codenameone</i>\n🔗 <a href=\"https://dev.to/codenameone/run-an-llm-and-whisper-on-the-phone-with-no-server-bill-d2m\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [AI/ML] Benchmarking Gemma 4 E2B with Long Contexts</b>\nGemma 4 E2B loses most of a long document: as served on an 8 GB RTX 3050 it found 52 of 80 hidden facts at 16k tokens and 14 at 32k. Thinking on helps and still leaves it short. Keep its documents under 16k tokens, or use the 12B. Currently trending on DEV.to with 10 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 10 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/benchmarking-gemma-4-e2b-with-long-contexts-1jb9\">Read Source</a>\n\n<b>10. [System Design] [Kalamos Devlog] After Open-Sourcing: v0.2 to v0.7 Feature Evolution and Using Multi-Agents to Review External PRs</b>\nRecap In the previous dev log, I used Herdr with Claude Code as PM and two worktree. Currently trending on DEV.to with 0 developer upvotes and 0 technical comments.\n<i>DEV.to · ▲ 0 · @evanlin</i>\n🔗 <a href=\"https://dev.to/gde/kalamos-devlog-after-open-sourcing-feature-evolution-from-v02-to-v07-and-using-multiple-agents-2ef9\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-26T21:04:30.716671+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
