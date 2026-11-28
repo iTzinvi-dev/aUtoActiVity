@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-28T19:40:26.420050+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50676723",
+        "source": "Hacker News",
+        "title": "Audible removes download option for purchased audiobooks",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (726 points, 303 comments). Currently trending on Hacker News with 726 developer upvotes and 303 technical comments.",
+        "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
+        "discussion_url": "https://news.ycombinator.com/item?id=50676723",
+        "author": "DeepLogin",
+        "score": 726,
+        "comments_count": 303,
+        "published_at": "2026-11-28T11:51:27+00:00"
+      },
+      {
+        "uid": "hn_50676390",
+        "source": "Hacker News",
+        "title": "Claude Code sabotage: preliminary benchmarking",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (720 points, 242 comments). Currently trending on Hacker News with 720 developer upvotes and 242 technical comments.",
+        "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50676390",
+        "author": "abedelez",
+        "score": 720,
+        "comments_count": 242,
+        "published_at": "2026-11-28T10:37:40+00:00"
+      },
+      {
+        "uid": "hn_50678901",
+        "source": "Hacker News",
+        "title": "Silently degrading the model's capabilities IS sabotage",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (287 points, 105 comments). Currently trending on Hacker News with 287 developer upvotes and 105 technical comments.",
+        "url": "https://twitter.com/TimSweeneyEpic/status/2126682647862862063",
+        "discussion_url": "https://news.ycombinator.com/item?id=50678901",
+        "author": "tosh",
+        "score": 287,
+        "comments_count": 105,
+        "published_at": "2026-11-28T15:55:54+00:00"
+      },
+      {
+        "uid": "hn_50680168",
+        "source": "Hacker News",
+        "title": "Donald Knuth suspends error bounties due to an influx of AI-generated reports",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (239 points, 40 comments). Currently trending on Hacker News with 239 developer upvotes and 40 technical comments.",
+        "url": "https://cs.stanford.edu/~knuth/moratorium.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50680168",
+        "author": "floitsch",
+        "score": 239,
+        "comments_count": 40,
+        "published_at": "2026-11-28T17:53:02+00:00"
+      },
+      {
+        "uid": "hn_50676752",
+        "source": "Hacker News",
+        "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (192 points, 58 comments). Currently trending on Hacker News with 192 developer upvotes and 58 technical comments.",
+        "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50676752",
+        "author": "homarp",
+        "score": 192,
+        "comments_count": 58,
+        "published_at": "2026-11-28T11:57:04+00:00"
+      },
+      {
+        "uid": "devto_5136909",
+        "source": "DEV.to",
+        "title": "I Opened My Diary to Solve His Problem. He Didn't Expect What He Saw.",
+        "category_tag": "[System Design]",
+        "takeaway": "\"We write to taste life twice, in the moment and in retrospect.\" — Anaïs Nin I was wondering. Currently trending on DEV.to with 50 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/thethirdcup/i-opened-my-diary-to-solve-his-problem-he-didnt-expect-what-he-saw-4ici",
+        "discussion_url": "https://dev.to/thethirdcup/i-opened-my-diary-to-solve-his-problem-he-didnt-expect-what-he-saw-4ici",
+        "author": "pjdeveloper896",
+        "score": 50,
+        "comments_count": 5,
+        "published_at": "2026-11-28T05:28:31Z"
+      },
+      {
+        "uid": "devto_5137763",
+        "source": "DEV.to",
+        "title": "30 minutes, they said 😅",
+        "category_tag": "[Open Source]",
+        "takeaway": "The DEV newsletter landed in my inbox. Top 7 posts, news, the usual. And then, at the bottom, the. Currently trending on DEV.to with 39 developer upvotes and 12 technical comments.",
+        "url": "https://dev.to/necoz/30-minutes-they-said-1h0h",
+        "discussion_url": "https://dev.to/necoz/30-minutes-they-said-1h0h",
+        "author": "antonioprosperi2svg",
+        "score": 39,
+        "comments_count": 12,
+        "published_at": "2026-11-28T08:27:17Z"
+      },
+      {
+        "uid": "devto_5137621",
+        "source": "DEV.to",
+        "title": "One Developer, Five Roles",
+        "category_tag": "[System Design]",
+        "takeaway": "I finished a feature last week. It worked. I felt good. Then a small voice said, \"Did you check it. Currently trending on DEV.to with 39 developer upvotes and 9 technical comments.",
+        "url": "https://dev.to/thethirdcup/one-developer-five-roles-43id",
+        "discussion_url": "https://dev.to/thethirdcup/one-developer-five-roles-43id",
+        "author": "hanzla",
+        "score": 39,
+        "comments_count": 9,
+        "published_at": "2026-11-28T07:56:39Z"
+      },
+      {
+        "uid": "devto_5135744",
+        "source": "DEV.to",
+        "title": "Two Sisters Tinctures, Now in Motion: An AI Ad Made with Migoo",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Spike the story first. Spend the credits on the shots. TL;DR: I entered the B.E.L.L.E x Migoo AI. Currently trending on DEV.to with 25 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/earlgreyhot1701d/two-sisters-tinctures-now-in-motion-an-ai-ad-made-with-migoo-3lo7",
+        "discussion_url": "https://dev.to/earlgreyhot1701d/two-sisters-tinctures-now-in-motion-an-ai-ad-made-with-migoo-3lo7",
+        "author": "earlgreyhot1701d",
+        "score": 25,
+        "comments_count": 3,
+        "published_at": "2026-11-28T00:23:15Z"
+      },
+      {
+        "uid": "devto_5137547",
+        "source": "DEV.to",
+        "title": "What If Every AI Model Was a Pokémon? I Built It.",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Every week, there's a new AI model. GPT, Claude, Gemini, DeepSeek... and then comes Pro, Flash,. Currently trending on DEV.to with 23 developer upvotes and 5 technical comments.",
+        "url": "https://dev.to/ihssmaheel/what-if-every-ai-model-was-a-pokemon-i-built-it-48fl",
+        "discussion_url": "https://dev.to/ihssmaheel/what-if-every-ai-model-was-a-pokemon-i-built-it-48fl",
+        "author": "ihssmaheel",
+        "score": 23,
+        "comments_count": 5,
+        "published_at": "2026-11-28T10:30:51Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        339,
+        340,
+        341,
+        342,
+        343,
+        344
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [System Design] Audible removes download option for purchased audiobooks</b>\nHacker News discussion (726 points, 303 comments). Currently trending on Hacker News with 726 developer upvotes and 303 technical comments.\n<i>Hacker News · ▲ 726 · @DeepLogin</i>\n🔗 <a href=\"https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50676723\">HN Discussion (303)</a>\n\n<b>2. [System Design] Claude Code sabotage: preliminary benchmarking</b>\nHacker News discussion (720 points, 242 comments). Currently trending on Hacker News with 720 developer upvotes and 242 technical comments.\n<i>Hacker News · ▲ 720 · @abedelez</i>\n🔗 <a href=\"https://xinyadu.github.io/blog/claude-code-sabotage.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50676390\">HN Discussion (242)</a>\n\n<b>3. [AI/ML] Silently degrading the model&#x27;s capabilities IS sabotage</b>\nHacker News discussion (287 points, 105 comments). Currently trending on Hacker News with 287 developer upvotes and 105 technical comments.\n<i>Hacker News · ▲ 287 · @tosh</i>\n🔗 <a href=\"https://twitter.com/TimSweeneyEpic/status/2126682647862862063\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50678901\">HN Discussion (105)</a>\n\n<b>4. [AI/ML] Donald Knuth suspends error bounties due to an influx of AI-generated reports</b>\nHacker News discussion (239 points, 40 comments). Currently trending on Hacker News with 239 developer upvotes and 40 technical comments.\n<i>Hacker News · ▲ 239 · @floitsch</i>\n🔗 <a href=\"https://cs.stanford.edu/~knuth/moratorium.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50680168\">HN Discussion (40)</a>\n\n<b>5. [AI/ML] GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims</b>\nHacker News discussion (192 points, 58 comments). Currently trending on Hacker News with 192 developer upvotes and 58 technical comments.\n<i>Hacker News · ▲ 192 · @homarp</i>\n🔗 <a href=\"https://malspark.com/blog/malicious-gguf-models-hugging-face/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50676752\">HN Discussion (58)</a>\n\n<b>6. [System Design] I Opened My Diary to Solve His Problem. He Didn&#x27;t Expect What He Saw.</b>\n&quot;We write to taste life twice, in the moment and in retrospect.&quot; — Anaïs Nin I was wondering. Currently trending on DEV.to with 50 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 50 · @pjdeveloper896</i>\n🔗 <a href=\"https://dev.to/thethirdcup/i-opened-my-diary-to-solve-his-problem-he-didnt-expect-what-he-saw-4ici\">Read Source</a>\n\n<b>7. [Open Source] 30 minutes, they said 😅</b>\nThe DEV newsletter landed in my inbox. Top 7 posts, news, the usual. And then, at the bottom, the. Currently trending on DEV.to with 39 developer upvotes and 12 technical comments.\n<i>DEV.to · ▲ 39 · @antonioprosperi2svg</i>\n🔗 <a href=\"https://dev.to/necoz/30-minutes-they-said-1h0h\">Read Source</a>\n\n<b>8. [System Design] One Developer, Five Roles</b>\nI finished a feature last week. It worked. I felt good. Then a small voice said, &quot;Did you check it. Currently trending on DEV.to with 39 developer upvotes and 9 technical comments.\n<i>DEV.to · ▲ 39 · @hanzla</i>\n🔗 <a href=\"https://dev.to/thethirdcup/one-developer-five-roles-43id\">Read Source</a>\n\n<b>9. [AI/ML] Two Sisters Tinctures, Now in Motion: An AI Ad Made with Migoo</b>\nSpike the story first. Spend the credits on the shots. TL;DR: I entered the B.E.L.L.E x Migoo AI. Currently trending on DEV.to with 25 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 25 · @earlgreyhot1701d</i>\n🔗 <a href=\"https://dev.to/earlgreyhot1701d/two-sisters-tinctures-now-in-motion-an-ai-ad-made-with-migoo-3lo7\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>10. [AI/ML] What If Every AI Model Was a Pokémon? I Built It.</b>\nEvery week, there&#x27;s a new AI model. GPT, Claude, Gemini, DeepSeek... and then comes Pro, Flash,. Currently trending on DEV.to with 23 developer upvotes and 5 technical comments.\n<i>DEV.to · ▲ 23 · @ihssmaheel</i>\n🔗 <a href=\"https://dev.to/ihssmaheel/what-if-every-ai-model-was-a-pokemon-i-built-it-48fl\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-28T06:50:07.407923+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
