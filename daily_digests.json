@@ -1,5 +1,166 @@
 [
   {
+    "generated_at": "2026-11-28T06:50:07.407923+00:00",
+    "output_language": "English",
+    "model_used": "llama-3.3-70b-versatile",
+    "editorial_headline": "Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.",
+    "items": [
+      {
+        "uid": "hn_50643158",
+        "source": "Hacker News",
+        "title": "GPT 6.2 Astra Solves a Historical Mystery",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (403 points, 255 comments). Currently trending on Hacker News with 403 developer upvotes and 255 technical comments.",
+        "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+        "discussion_url": "https://news.ycombinator.com/item?id=50643158",
+        "author": "dr_red_dog",
+        "score": 403,
+        "comments_count": 255,
+        "published_at": "2026-11-25T15:16:53+00:00"
+      },
+      {
+        "uid": "hn_50672565",
+        "source": "Hacker News",
+        "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Hacker News discussion (294 points, 114 comments). Currently trending on Hacker News with 294 developer upvotes and 114 technical comments.",
+        "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+        "discussion_url": "https://news.ycombinator.com/item?id=50672565",
+        "author": "ComputedCamp995",
+        "score": 294,
+        "comments_count": 114,
+        "published_at": "2026-11-27T23:06:29+00:00"
+      },
+      {
+        "uid": "hn_50669765",
+        "source": "Hacker News",
+        "title": "Convex skills send the user's app idea to a remote server without telling them",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (274 points, 88 comments). Currently trending on Hacker News with 274 developer upvotes and 88 technical comments.",
+        "url": "https://github.com/convex/convex-backend-skill/issues/64",
+        "discussion_url": "https://news.ycombinator.com/item?id=50669765",
+        "author": "MickyTheMouse",
+        "score": 274,
+        "comments_count": 88,
+        "published_at": "2026-11-27T18:02:45+00:00"
+      },
+      {
+        "uid": "hn_50657346",
+        "source": "Hacker News",
+        "title": "The Balatro Timeline",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (244 points, 56 comments). Currently trending on Hacker News with 244 developer upvotes and 56 technical comments.",
+        "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+        "discussion_url": "https://news.ycombinator.com/item?id=50657346",
+        "author": "sheepscreek",
+        "score": 244,
+        "comments_count": 56,
+        "published_at": "2026-11-26T17:20:27+00:00"
+      },
+      {
+        "uid": "hn_50662313",
+        "source": "Hacker News",
+        "title": "Citroën Hydraulic System",
+        "category_tag": "[System Design]",
+        "takeaway": "Hacker News discussion (168 points, 53 comments). Currently trending on Hacker News with 168 developer upvotes and 53 technical comments.",
+        "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=50662313",
+        "author": "o4c",
+        "score": 168,
+        "comments_count": 53,
+        "published_at": "2026-11-27T03:10:19+00:00"
+      },
+      {
+        "uid": "devto_5131295",
+        "source": "DEV.to",
+        "title": "How I built my own OS",
+        "category_tag": "[AI/ML]",
+        "takeaway": "I run my own operating system now. Not a fork with a new wallpaper and a different logo in the. Currently trending on DEV.to with 32 developer upvotes and 12 technical comments.",
+        "url": "https://dev.to/cloudwerx/how-i-built-my-own-os-942",
+        "discussion_url": "https://dev.to/cloudwerx/how-i-built-my-own-os-942",
+        "author": "cloudwerx",
+        "score": 32,
+        "comments_count": 12,
+        "published_at": "2026-11-27T09:12:07Z"
+      },
+      {
+        "uid": "devto_5133876",
+        "source": "DEV.to",
+        "title": "Thinking on Constrained Deployments: Gemma E4B on 4GB 1650",
+        "category_tag": "[AI/ML]",
+        "takeaway": "Gemma 4 E4B fits a 4 GB laptop card and answers like an 8 GB desktop card in 15 of 16 settings, at 1.59 times the time. The drafter nearly doubles its speed; thinking doubles its time. Currently trending on DEV.to with 8 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/gde/thinking-on-constrained-deployments-gemma-e4b-on-4gb-1650-2cc6",
+        "discussion_url": "https://dev.to/gde/thinking-on-constrained-deployments-gemma-e4b-on-4gb-1650-2cc6",
+        "author": "xbill",
+        "score": 8,
+        "comments_count": 3,
+        "published_at": "2026-11-27T16:16:35Z"
+      },
+      {
+        "uid": "devto_5134809",
+        "source": "DEV.to",
+        "title": "Porting an ADK Research and Judge Loop to Strands on Bedrock AgentCore, With A2A 1.x",
+        "category_tag": "[AI/ML]",
+        "takeaway": "A three-agent researcher, judge and course builder moved from Google ADK to Strands Agents on Amazon Bedrock: Nova Web Grounding for search, a Strands graph for the loop, AgentCore Runtime for the agents, ECS Express Mode for the web app, and A2A 1.x from an unmerged Strands pull request. Currently trending on DEV.to with 13 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/aws-builders/porting-an-adk-research-and-judge-loop-to-strands-on-bedrock-agentcore-with-a2a-1x-209j",
+        "discussion_url": "https://dev.to/aws-builders/porting-an-adk-research-and-judge-loop-to-strands-on-bedrock-agentcore-with-a2a-1x-209j",
+        "author": "xbill",
+        "score": 13,
+        "comments_count": 1,
+        "published_at": "2026-11-27T21:03:32Z"
+      },
+      {
+        "uid": "devto_5132160",
+        "source": "DEV.to",
+        "title": "Introducing a Website That Absolutely Nobody Asked For",
+        "category_tag": "[System Design]",
+        "takeaway": "I accidentally built a late-night television station for phishing websites. Somewhere between. Currently trending on DEV.to with 11 developer upvotes and 3 technical comments.",
+        "url": "https://dev.to/gnomeman4201/introducing-a-website-that-absolutely-nobody-asked-for-3bng",
+        "discussion_url": "https://dev.to/gnomeman4201/introducing-a-website-that-absolutely-nobody-asked-for-3bng",
+        "author": "gnomeman4201",
+        "score": 11,
+        "comments_count": 3,
+        "published_at": "2026-11-27T11:07:00Z"
+      },
+      {
+        "uid": "devto_5129961",
+        "source": "DEV.to",
+        "title": "Chasing down why Ansible stalled on a fresh Ubuntu 26.04 box",
+        "category_tag": "[Security]",
+        "takeaway": "Ansible's become hung for about 12-13 seconds against Ubuntu 26.04's new sudo-rs. I measured which Ansible versions actually fix it, which don't, and which workaround holds up. Currently trending on DEV.to with 12 developer upvotes and 1 technical comments.",
+        "url": "https://dev.to/alexgeorgiev17/chasing-down-why-ansible-stalled-on-a-fresh-ubuntu-2604-box-5678",
+        "discussion_url": "https://dev.to/alexgeorgiev17/chasing-down-why-ansible-stalled-on-a-fresh-ubuntu-2604-box-5678",
+        "author": "alexgeorgiev17",
+        "score": 12,
+        "comments_count": 1,
+        "published_at": "2026-11-27T11:00:00Z"
+      }
+    ],
+    "telegram_delivery": {
+      "delivered": true,
+      "chunks_sent": 6,
+      "message_ids": [
+        333,
+        334,
+        335,
+        336,
+        337,
+        338
+      ],
+      "reason": null,
+      "recipients_count": 3,
+      "delivered_chat_ids": [
+        "7175508208",
+        "6921365227",
+        "7047992911"
+      ]
+    },
+    "formatted_messages": [
+      "🌐 <b>Global Developer Pulse &amp; Tech Digest</b>\n<i>Language: English · 6h Automated Pulse</i>\n\n💡 Curated 6-hour pulse of 10 high-signal engineering stories across Hacker News and DEV.to.\n────────────────────────\n\n<b>1. [AI/ML] GPT 6.2 Astra Solves a Historical Mystery</b>\nHacker News discussion (403 points, 255 comments). Currently trending on Hacker News with 403 developer upvotes and 255 technical comments.\n<i>Hacker News · ▲ 403 · @dr_red_dog</i>\n🔗 <a href=\"https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50643158\">HN Discussion (255)</a>\n\n<b>2. [AI/ML] Google&#x27;s DeepCrossAttention achieves comparable model quality up to 3x faster</b>\nHacker News discussion (294 points, 114 comments). Currently trending on Hacker News with 294 developer upvotes and 114 technical comments.\n<i>Hacker News · ▲ 294 · @ComputedCamp995</i>\n🔗 <a href=\"https://research.google/blog/supercharging-transformer-residual-connections/\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50672565\">HN Discussion (114)</a>\n\n<b>3. [System Design] Convex skills send the user&#x27;s app idea to a remote server without telling them</b>\nHacker News discussion (274 points, 88 comments). Currently trending on Hacker News with 274 developer upvotes and 88 technical comments.\n<i>Hacker News · ▲ 274 · @MickyTheMouse</i>\n🔗 <a href=\"https://github.com/convex/convex-backend-skill/issues/64\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50669765\">HN Discussion (88)</a>\n\n<b>4. [System Design] The Balatro Timeline</b>\nHacker News discussion (244 points, 56 comments). Currently trending on Hacker News with 244 developer upvotes and 56 technical comments.\n<i>Hacker News · ▲ 244 · @sheepscreek</i>\n🔗 <a href=\"https://localthunk.com/blog/balatro-timeline-3aarh\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50657346\">HN Discussion (56)</a>\n\n<b>5. [System Design] Citroën Hydraulic System</b>\nHacker News discussion (168 points, 53 comments). Currently trending on Hacker News with 168 developer upvotes and 53 technical comments.\n<i>Hacker News · ▲ 168 · @o4c</i>\n🔗 <a href=\"https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html\">Read Source</a> · <a href=\"https://news.ycombinator.com/item?id=50662313\">HN Discussion (53)</a>\n\n<b>6. [AI/ML] How I built my own OS</b>\nI run my own operating system now. Not a fork with a new wallpaper and a different logo in the. Currently trending on DEV.to with 32 developer upvotes and 12 technical comments.\n<i>DEV.to · ▲ 32 · @cloudwerx</i>\n🔗 <a href=\"https://dev.to/cloudwerx/how-i-built-my-own-os-942\">Read Source</a>\n\n<b>7. [AI/ML] Thinking on Constrained Deployments: Gemma E4B on 4GB 1650</b>\nGemma 4 E4B fits a 4 GB laptop card and answers like an 8 GB desktop card in 15 of 16 settings, at 1.59 times the time. The drafter nearly doubles its speed; thinking doubles its time. Currently trending on DEV.to with 8 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 8 · @xbill</i>\n🔗 <a href=\"https://dev.to/gde/thinking-on-constrained-deployments-gemma-e4b-on-4gb-1650-2cc6\">Read Source</a>\n\n<b>8. [AI/ML] Porting an ADK Research and Judge Loop to Strands on Bedrock AgentCore, With A2A 1.x</b>\nA three-agent researcher, judge and course builder moved from Google ADK to Strands Agents on Amazon Bedrock: Nova Web Grounding for search, a Strands graph for the loop, AgentCore Runtime for the agents, ECS Express Mode for the web app, and A2A 1.x from an unmerged Strands pull request. Currently trending on DEV.to with 13 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 13 · @xbill</i>\n🔗 <a href=\"https://dev.to/aws-builders/porting-an-adk-research-and-judge-loop-to-strands-on-bedrock-agentcore-with-a2a-1x-209j\">Read Source</a>",
+      "🌐 <b>Global Developer Pulse (Part 2)</b>\n────────────────────────\n\n<b>9. [System Design] Introducing a Website That Absolutely Nobody Asked For</b>\nI accidentally built a late-night television station for phishing websites. Somewhere between. Currently trending on DEV.to with 11 developer upvotes and 3 technical comments.\n<i>DEV.to · ▲ 11 · @gnomeman4201</i>\n🔗 <a href=\"https://dev.to/gnomeman4201/introducing-a-website-that-absolutely-nobody-asked-for-3bng\">Read Source</a>\n\n<b>10. [Security] Chasing down why Ansible stalled on a fresh Ubuntu 26.04 box</b>\nAnsible&#x27;s become hung for about 12-13 seconds against Ubuntu 26.04&#x27;s new sudo-rs. I measured which Ansible versions actually fix it, which don&#x27;t, and which workaround holds up. Currently trending on DEV.to with 12 developer upvotes and 1 technical comments.\n<i>DEV.to · ▲ 12 · @alexgeorgiev17</i>\n🔗 <a href=\"https://dev.to/alexgeorgiev17/chasing-down-why-ansible-stalled-on-a-fresh-ubuntu-2604-box-5678\">Read Source</a>"
+    ]
+  },
+  {
     "generated_at": "2026-11-27T20:49:14.712743+00:00",
     "output_language": "English",
     "model_used": "llama-3.3-70b-versatile",
